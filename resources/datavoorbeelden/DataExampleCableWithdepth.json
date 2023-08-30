@@ -1,0 +1,168 @@
+{
+    "@context": "",
+    "@graph": [
+        {
+            "@id": "http://mir.agiv.be/data/IMKL/v2.3/ElectricityCable/interstroom-be:002",
+            "@type": "ElectricityCable",
+            "UtilityLinkSet.inNetwork": [
+                "http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/interstroom-be:001"
+            ],
+            "UtilityLinkSet.link": [
+                "http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:002",
+                "http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:003"
+            ],
+            "UtilityNetworkElement.currentStatus": "http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected",
+            "UtilityNetworkElement.validFrom": "",
+            "UtilityNetworkElement.verticalPosition": "https://example.com/concept/verticalpositionvalue/underground",
+            "UtilityLinkSet.utilityDeliveryType": "http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeExtendedValue/distribution",
+            "Cable.nominalVoltage": {
+                "@type": "Measure",
+                "Measure.value": 220,
+                "Measure.uom": {
+                    "@type": "UnitOfMeasure",
+                    "UnitOfMeasure.uomIdentifier": "V"
+                }
+            },
+            "Cable.operatingVoltage": {
+                "@type": "Measure",
+                "Measure.value": 220,
+                "Measure.uom": {
+                    "@type": "UnitOfMeasure",
+                    "UnitOfMeasure.uomIdentifier": "V"
+                }
+            },
+            "Cable.subthema": "http://mir.agiv.be/cl/IMKL/v2/ElectricitySubThemaValue/elektriciteitTransport",
+            "UtilityLinkSet.risk": "https://example.com/concept/risktype/risk",
+            "UtilityLinkSet.visibility": "https://example.com/concept/visibilitytypevaluetype/notVisibleAboveGround",
+            "UtilityLinkSet.appearance": [
+                {
+                    "@type": "Appearance",
+                    "Appearance.colour": "https://example.com/concept/colour/grey"
+                }
+            ],
+            "UtilityNetworkElement.verticalPosition": {
+                "@type": "Depth",
+                "VerticalPoisition.location": {
+                    "@type": "point",
+                    "Geometrie.gml": {
+                        "@value": "<gml:Point gml:id=\"ID_339edaf2-3262-4e21-ac3e-d472c15e682d\" srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/31370\"><gml:coordinates>199658.651962638 198842.201676652</gml:coordinates><gml:Point>",
+                        "@type": "geosparql:gmlliteral"
+                    }
+                },
+                "VertikalePositie.verticalPosition": {
+                    "@type": "DirectPosition",
+                    "DirectPosition.gml": {
+                        "@value": "<gml:pos srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/5710\">21.65<gml:pos>",
+                        "@type": "geosparql:gmlliteral"
+                    },
+                    "DirectPosition.survey": {
+                        "@type": "Survey",
+                        "Survey.method": "",
+                        "Survey.date": {
+                            "@type": "time:Instant",
+                            "time:inXSDDateTime": {
+                                "@type": "xml-schema:dateTime",
+                                "@value": "2001-12-17T09:30:47Z"
+                            }
+                        },
+                        "Survey.accuracy": {
+                            "@type": "PositionalAccuracy",
+                            "DQ_Element.result": {
+                                "@type": "QuantitativeResult",
+                                "DQ_QuantitativeResult.value": 30,
+                                "DQ_QuantitativeResult.valueUnit": {
+                                    "@type": "qudt-schema:Unit",
+                                    "@id": "https://qudt.org/vocab/unit/CM"
+                                }
+                            }
+                        }
+                    }
+                },
+                "VerticalPosition.referenceSurface": {
+                    "@type": "referenceSurface",
+                    "ReferenceSurface.type": "https://example.com/concept/referencesurfacetype/surfacelevel",
+                    "ReferenceSurface.verticalPosition": {
+                        "@type": "DirectPosition",
+                        "DirectPosition.gml": {
+                            "@value": "<gml:pos srsName=\"http:\\//www.opengis.net/def/crs/EPSG/0/5710\">22.02<gml:pos>",
+                            "@type": "geosparql:gmlliteral"
+                        }
+                    },
+                    "DirectPosition.survey": {
+                        "@type": "Opmeting",
+                        "Survey.method": "",
+                        "Survey.date": {
+                            "@type": "time:Instant",
+                            "time:inXSDDateTime": {
+                                "@type": "xml-schema:dateTime",
+                                "@value": "2001-12-17T09:30:47Z"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@id": "http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:002",
+            "@type": "UtilityLink",
+            "UtilityLink.inNetwork": [
+                "http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/interstroom-be:001"
+            ],
+            "UtilityLink.centrelineGeometry": {
+                "@type": "Curve",
+                "Geometry.gml": {
+                    "@value": "<gml:LineString gml:id=\"ID_7fdbc52d-18e3-4df6-8b40-5221d339dc31\" srsName=\"http:\\//spatialreference.org/ref/epsg/31370/\" srsDimension=\"2\"><gml:posList>103519.132 192183.796 103578.729 192162.261</gml:posList></gml:LineString>",
+                    "@type": "geosparql:gmlliteral"
+                },
+                "Geometry.survey": {
+                    "@type": "Opmeting",
+                    "Survey.method": "",
+                    "Survey.accuracy": {
+                        "@type": "PositionalAccuracy",
+                        "DQ_Element.result": {
+                            "@type": "DQ_KwantitatiefResultaat",
+                            "DQ_QuantitativeResult.value": 30,
+                            "DQ_QuantitativeResult.waardeEenheid": {
+                                "@type": "qudt-schema:Unit",
+                                "@id": "https://qudt.org/vocab/unit/CM"
+                            }
+                        }
+                    }
+                }
+            },
+            "UtilityNetworkElement.currentStatus": "http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional",
+            "UtilityNetworkElement.verticalPosition": "https://example.com/concept/underground"
+        },
+        {
+            "@id": "http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/interstroom-be:002",
+            "@type": "UtilityLink",
+            "UtilityLink.inNetwork": [
+                "http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/interstroom-be:002"
+            ],
+            "UtilityLink.centrelineGeometry": {
+                "@type": "Curve",
+                "Geometry.gml": {
+                    "@value": "<gml:LineString gml:id=\"ID_969dd2e9-b401-4dac-a6fa-5ba424cfe3ea\" srsName=\"http:\\//spatialreference.org/ref/epsg/31370/\" srsDimension=\"2\"><gml:posList>103578.729 192162.261 103769.539 192092.397</gml:posList></gml:LineString>",
+                    "@type": "geosparql:gmlliteral"
+                },
+                "Geometry.survey": {
+                    "@type": "Survey",
+                    "Survey.method": "",
+                    "Survey.accuracy": {
+                        "@type": "PositionalAccuracy",
+                        "DQ_Element.result": {
+                            "@type": "DQ_QuantiativeResult",
+                            "DQ_QuantitativeResult.value": 30,
+                            "DQ_QuantiativeResult.valueUnit": {
+                                "@type": "qudt-schema:Unit",
+                                "@id": "https://qudt.org/vocab/unit/CM"
+                            }
+                        }
+                    }
+                }
+            },
+            "UtilityNetworkElement.currentStatus": "http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional",
+            "UtilityNetworkElement.verticalPosition": "https://example.com/concept/underground"
+        }
+    ]
+}
