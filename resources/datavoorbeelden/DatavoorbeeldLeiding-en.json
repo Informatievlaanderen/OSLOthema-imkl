@@ -1,0 +1,138 @@
+{
+	"@context": [],
+	"@graph": [
+		{
+			"@id": "http://mir.agiv.be/data/IMKL/v2.3/OilGasChemicalsPipe/Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0",
+			"@type": "OilGasChemicalPipe",
+			"UtilityNetworkElement.identifier": {
+				"@type": "Identifier",
+				"Identifier.identifier": {
+					"@value": "Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0",
+					"@type": "https://example.com/concept/identificatortype/inspireid"
+				}
+			},
+			"UtilityLinkSet.inNetwork": [
+				"http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/Ex-Eandis:MD"
+			],
+			"UtilityLinkSet.link": [
+				"http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0UTILITYLINK"
+			],
+			"UtilityNetworkElement.currentStatus": "http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional",
+			"UtilityNetworkElement.validFrom": "",
+			"UtilityNetworkElement.verticalPosition": "https://example.com/verticalpositionvalue/underground",
+			"UtilityLinkSet.utilityDeliveryType": "http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeExtendedValue/distribution",
+			"Pipe.pipeDiameter": {
+				"@type": "Length",
+				"Measure.value": 200,
+				"Length.uom": {
+					"@type": "UomLength",
+					"UnitOfMeasure.uomIdentifier": "mm"
+				}
+			},
+			"Pipe.pipePressure": {
+				"@type": "Measure",
+				"Measure.value": -1,
+				"Measure.uom": {
+					"@type": "UnitOfMeasure",
+					"UnitOfMeasure.uomIdentifier": "bar"
+				}
+			},
+			"OilGasChemicalPipe.oilGasChemicalProductType": "http://mir.agiv.be/cl/IMKL/v2/OilGasChemicalsProductTypeIMKLValue/naturalGas",
+			"Pipe.subtheme": "http://mir.agiv.be/cl/IMKL/v2/OilGasChemicalsSubThemaValue/aardgasDistributieMiddenDruk",
+			"UtilityLinkSet.risk": "https://example.com/concept/risktypevalue/risk",
+			"UtilityLinkSet.materialtype": "http://mir.agiv.be/cl/IMKL/v2/MaterialTypeValue/polyethyleen",
+			"UtilityLinkSet.technicalSpecification": [
+				{
+					"@value": "PE200",
+					"@language": "en"
+				}
+			],
+			"UtilityNetworkElement.documentation": [
+				"http://mir.agiv.be/data/IMKL/v2.3/ExtraPlan/Ex-Eandis:ExtraPlan_0",
+				"http://mir.agiv.be/data/IMKL/v2.3/ExtraPlan/Ex-Eandis:ExtraPlan_1"
+			]
+		},
+		{
+			"@id": "http://mir.agiv.be/data/INSPIRE-US/v3/UtilityLink/Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0UTILITYLINK",
+			"@type": "UtilityLink",
+			"UtilityNetworkElement.identifier": {
+				"@type": "Identificator",
+				"Identificator.identifier": {
+					"@value": "Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0UTILITYLINK",
+					"@type": "https://example.com/concept/identifiertype/inspireid"
+				}
+			},
+			"UtilityLink.inNetwork": [
+				"http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/Ex-Eandis:MD"
+			],
+			"UtilityLink.centrelineGeometry": {
+				"@type": "Curve",
+				"Geometrie.gml": {
+					"@value": "<gml:LineString gml:id=\"ID_53c678b1-9736-4d26-9d88-54cb9111881e-0\" srsName=\"http:\\//spatialreference.org/ref/epsg/31370/\" srsDimension=\"2\"><gml:posList>106095.4962 181815.159 106095.7039 181814.4843 106098.9674 181803.383 106099.221121676 181802.452179456 106099.448448817 181801.51456336 106099.6492 181800.5709 106099.823213782 181799.621949762 106099.970352924 181798.66846278 106100.0905 181797.7112 106100.1219 181790.4388 106099.9392 181786.9985 106099.5834 181784.4031 106099.4035 181782.5829 106098.908 181779.6296 106094.7795 181764.603 106092.0491 181757.4137 106090.865 181755.3 106085.2573 181746.749 106082.1703 181739.4609 106076.5918 181730.7697 106075.1669 181727.8182 106074.257501799 181725.231463695 106073.518357396 181722.591032792 106072.9526 181719.9081 106072.562626741 181717.194028247 106072.350093098 181714.4603322 106072.3159 181711.7186 106072.460762789 181709.631457667 106072.778966607 181707.563634011 106073.2683 181705.5295 106073.925859435 181703.541876183 106074.746797111 181701.615975307 106075.7254 181699.7652 106076.322461967 181698.793882588 106076.893694481 181697.807153689 106077.4387 181696.8057 106077.957004102 181695.790411057 106078.448351375 181694.761805866 106078.9124 181693.7206 106083.185 181684.859 106088.391843619 181675.658657084 106093.606878331 181666.462954654 106098.8301 181657.2719 106104.061522663 181648.085468522 106109.301124048 181638.903699429 106114.5489 181629.7266</gml:posList></gml:LineString>",
+					"@type": "geosparql:gmlliteral"
+				},
+				"Geometrie.survey": {
+					"@type": "Survey",
+					"Survey.method": "",
+					"Survey.accuracy": {
+						"@type": "PositionalAccuracy",
+						"DQ_Element.result": {
+							"@type": "DQ_QuantitativeResult",
+							"DQ_DQ_QuantitativeResult.value": 100,
+							"DQ_DQ_QuantitativeResultt.valueUnit": {
+								"@type": "qudt-schema:Unit",
+								"@id": "https://qudt.org/vocab/unit/CM"
+							}
+						}
+					}
+				}
+			},
+			"UtilityNetworkElement.currentStatus": "http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional",
+			"UtilityNetworkElement.verticalPosition": "https://example.com/concept/verticalpositionavalue/underground"
+		},
+		{
+			"@id": "http://mir.agiv.be/data/IMKL/v2.3/ExtraPlan/Ex-Eandis:ExtraPlan_0",
+			"@type": "Plan",
+			"Document.description": {
+				"@value": "gestuurdeBoring",
+				"@language": "en"
+			},
+			"Document.refersTo": [
+				"http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/Ex-Eandis:MD",
+				"http://mir.agiv.be/data/IMKL/v2.3/OilGasChemicalsPipe/Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0"
+			],
+			"Document.documentType": "http://mir.agiv.be/cl/IMKL/v2/ExtraPlanTypeValue/gestuurdeBoring",
+			"Document.documentLocation": "mrbk241827-02-gb.tif",
+			"Document.documentMediaType": "http://mir.agiv.be/cl/IMKL/v2/BestandMediaTypeValue/TIFF",
+			"Plan.location": {
+				"@type": "Curve",
+				"Geometrie.gml": {
+					"@value": "<gml:LineString gml:id=\"ID_83257d0e-dcd9-4989-ba43-4e1784e01afd-0\" srsName=\"http:\\//spatialreference.org/ref/epsg/31370/\" srsDimension=\"2\"><gml:posList>106073.1709 181721.0253 106073.1161 181720.7779 106072.7974 181718.9704 106072.5579 181717.1507 106072.3978 181715.3222 106072.3175 181713.4886 106072.3159 181711.7186 106072.395 181710.304 106072.5537 181708.8961 106072.7917 181707.4995 106073.1081 181706.1185 106073.5019 181704.7575 106073.9719 181703.4209 106074.5166 181702.113 106075.1342 181700.8379 106075.7254 181699.7652 106076.6859 181698.1731 106077.577 181696.5412 106078.3971 181694.8725 106078.9124 181693.7206 106083.185 181684.859 106098.3863 181658.0521 106113.6571 181631.2848 106114.1856 181630.3613</gml:posList></gml:LineString>",
+					"@type": "geosparql:gmlliteral"
+				}
+			}
+		},
+		{
+			"@id": "http://mir.agiv.be/data/IMKL/v2.3/ExtraPlan/Ex-Eandis:ExtraPlan_1",
+			"@type": "Plan",
+			"Document.description": {
+				"@value": "gestuurdeBoring",
+				"@language": "en"
+			},
+			"Document.refersTo": [
+				"http://mir.agiv.be/data/IMKL/v2.3/UtilityNetwork/Ex-Eandis:MD",
+				"http://mir.agiv.be/data/IMKL/v2.3/OilGasChemicalsPipe/Ex-Eandis:OilGasChemicalsPipe_MD_30051227_clip0_Besch0"
+			],
+			"Document.documentType": "http://mir.agiv.be/cl/IMKL/v2/ExtraPlanTypeValue/gestuurdeBoring",
+			"Document.documentLocation": "mrbk241827-02-gb.tif",
+			"Document.documentMediaType": "http://mir.agiv.be/cl/IMKL/v2/BestandMediaTypeValue/TIFF",
+			"Plan.location": {
+				"@type": "Curve",
+				"Geometrie.gml": {
+					"@value": "<gml:LineString gml:id=\"ID_4f5c309d-57f9-41f3-9b58-884d8e693b37-0\" srsName=\"http:\\//spatialreference.org/ref/epsg/31370/\" srsDimension=\"2\"><gml:posList>106075.1669 181727.8182 106076.5918 181730.7697 106082.1703 181739.4609 106085.2573 181746.749 106090.865 181755.3 106092.0491 181757.4137 106094.7795 181764.603 106098.908 181779.6296 106099.4035 181782.5829 106099.5834 181784.4031 106099.9392 181786.9985 106100.1219 181790.4388 106100.0905 181797.7112 106099.9888 181798.5349 106099.7267 181800.1668 106099.386 181801.7841 106098.9674 181803.383 106095.7039 181814.4843 106095.6927 181814.5205</gml:posList></gml:LineString>",
+					"@type": "geosparql:gmlliteral"
+				}
+			}
+		}
+	]
+}
