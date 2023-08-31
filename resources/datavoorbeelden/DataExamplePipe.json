@@ -79,7 +79,7 @@
 						"DQ_Element.result": {
 							"@type": "DQ_QuantitativeResult",
 							"DQ_DQ_QuantitativeResult.value": 100,
-							"DQ_DQ_QuantitativeResultt.valueUnit": {
+							"DQ_DQ_QuantitativeResult.valueUnit": {
 								"@type": "qudt-schema:Unit",
 								"@id": "https://qudt.org/vocab/unit/CM"
 							}
@@ -128,7 +128,7 @@
 			"Document.documentMediaType": "http://mir.agiv.be/cl/IMKL/v2/BestandMediaTypeValue/TIFF",
 			"Plan.location": {
 				"@type": "Curve",
-				"Geometry.gml": {
+				"G.gml": {
 					"@value": "<gml:LineString gml:id=\"ID_4f5c309d-57f9-41f3-9b58-884d8e693b37-0\" srsName=\"http:\\//spatialreference.org/ref/epsg/31370/\" srsDimension=\"2\"><gml:posList>106075.1669 181727.8182 106076.5918 181730.7697 106082.1703 181739.4609 106085.2573 181746.749 106090.865 181755.3 106092.0491 181757.4137 106094.7795 181764.603 106098.908 181779.6296 106099.4035 181782.5829 106099.5834 181784.4031 106099.9392 181786.9985 106100.1219 181790.4388 106100.0905 181797.7112 106099.9888 181798.5349 106099.7267 181800.1668 106099.386 181801.7841 106098.9674 181803.383 106095.7039 181814.4843 106095.6927 181814.5205</gml:posList></gml:LineString>",
 					"@type": "geosparql:gmlliteral"
 				}
