@@ -1,4 +1,102 @@
-Voornaam;Naam;Affiliatie;E-mail;Website;MijnKolom;
-AuteurVoornaam;AuteurNaam;AuteurAffiliatie;auteurvoornaam.auteurnaam@auteurdomein;https://auteurwebsiteurl;A;
-EditorVoornaam;EditorNaam;EditorAffiliatie;editorvoornaam.editornaam@editordomein;https://editorwebsiteurl;E;
-MedewerkerVoornaam;MedewerkerNaam;MedewerkerAffiliatie;medewerkervoornaam.medewerkernaam@medewerkerdomein;https://medewerkerwebsiteurl;C;
+﻿ Full Name;First Name;Last Name;Email;Company Name;MijnKolom
+Wesley Princen;Wesley;Princen;wesley.princen@aannemingsbedrijf-princen.be;Aannemingsbedrijf Princen NV;C
+Caroline Claeys;Caroline;Claeys;caroline.claeys@squaregroup.be;ACLAGRO NV;C
+Philip Lameire;Philip;Lameire;philip.lameire@mow.vlaanderen.be;Agentschap Wegen en Verkeer - Afdeling Wegen en Verkeer West-Vlaanderen;C
+Bart Haspeslagh;Bart;Haspeslagh;bart.haspeslagh@iwva.be;Aquaduin / IWVA;C
+Pieter Lootens;Pieter;Lootens;pieter.lootens@aquafin.be;Aquafin nv;C
+Benny Appeltans;Benny;Appeltans;appeltans@gmail.com;Benny Appeltans;C
+Hilde Masschelein;Hilde;Masschelein;hilde.masschelein@bouwunie.be;Bouwunie VZW;C
+Vincent De Cruyenaere;Vincent;De Cruyenaere;vincent.decruyenaere@bouwunie.be;Bouwunie VZW;C
+Johan Van Hulle;Johan;Van Hulle;johan@bvba-vanhulle.be;BVBA-Vanhulle;C
+Ilse Baeck;Ilse;Baeck;IB@canalco.be;Canalco nv;C
+Dirk Joris;Dirk;Joris;dirk.joris@delijn.be;De Lijn;C
+Frank Nauwelaerts;Frank;Nauwelaerts;Frank.Nauwelaerts.ext@delijn.be;De Lijn Centrale Diensten Techniek;C
+Mathias Gullentops;Mathias;Gullentops;mathias.gullentops@vlaamsewaterweg.be;De Vlaamse Waterweg nv;C
+Elise Van Campenhout;Elise;Van Campenhout;elise.vancampenhout@vlaamsewaterweg.be;De Vlaamse Waterweg nv;C
+Reekmans Liesbeth;Reekmans;Liesbeth;liesbeth.reekmans@vlaamsewaterweg.be;De Vlaamse Waterweg nv;C
+Vanlessen David;Vanlessen;David;david.vanlessen@vlaamsewaterweg.be;De Vlaamse Waterweg nv;C
+Jan Mangelschots;Jan;Mangelschots;jan.mangelschots@vlaamsewaterweg.be;De Vlaamse Waterweg nv;C
+Stijn Diependaele;Stijn;Diependaele;stijn.diependaele@dewatergroep.be;De Watergroep;C
+Geert Van den Hende;Geert;Van den Hende;geert.van.den.hende@dewatergroep.be;De Watergroep;C
+De Latthauwer Kim;De Latthauwer;Kim;kim.de.latthauwer@dewatergroep.be;De Watergroep;C
+Goetmaeckers Peter;Goetmaeckers;Peter;peter.goetmaeckers@dewatergroep.be;De Watergroep;C
+Dries Dossche;Dries;Dossche;dries.dossche@dewatergroep.be;De Watergroep;C
+Veerle Van den Bulcke;Veerle;Van den Bulcke;veerle.vandenbulcke@vlaanderen.be;Digitaal Vlaanderen;C
+Wouter De Ryck;Wouter;De Ryck;wouter.deryck@vlaanderen.be;Digitaal Vlaanderen;C
+Liesbeth Rombouts;Liesbeth;Rombouts;Liesbeth.Rombouts@vlaanderen.be;Digitaal Vlaanderen;A
+Marlies Vandesompele;Marlies;Vandesompele;marlies.vandesompele@elia.be;Elia;C
+Philip Verhegge;Philip;Verhegge;Philip.Verhegge@elia.be;Elia;C
+Gert Van Dyck;Gert;Van Dyck;gert.vandyck@fluvius.be;Fluvius;C
+Joost Bruyneel;Joost;Bruyneel;joost.bruyneel@fluvius.be;Fluvius;C
+Jan Mondelaers;Jan;Mondelaers;Jan.mondelaers@fluxys.com;Fluxys Belgium;C
+Vyaene Chris;Vyaene;Chris;christian.vyaene@fluxys.com;Fluxys Belgium;C
+Patricia Bongaerts;Patricia;Bongaerts;patricia.bongaerts@portofantwerpbruges.com;Haven van Antwerpen-Brugge;C
+Luc Van Linden;Luc;Van Linden;luc.vanlinden@hlconsulting.be;HL Consulting;C
+Olivier David;Olivier;David;olivier.david@INFRABEL.BE;Infrabel;C
+Pascal Duyshaver;Pascal;Duyshaver;pascal.duyshaver@infrabel.be;Infrabel;C
+Friedel Vanroy;Friedel;Vanroy;friedel.vanroy@infrabel.be;Infrabel;C
+Philippe Warmoes;Philippe;Warmoes;Philippe.Warmoes@portofantwerpbruges.com;Maatschappij van de Brugse Zeehaven;C
+Gert Huybrechts;Gert;Huybrechts;gert.huybrechts@vcb.be;Nationale Confederatie Van Het Bouwbedrijf;C
+Leen Notelé;Leen;Notelé;marleen.notele@pidpa.be;PIDPA;C
+Borremans Kurt;Borremans;Kurt;kurt.borremans@pidpa.be;PIDPA;C
+Rob Vansteenbrugge;Rob;Vansteenbrugge;rob.vansteenbrugge@proximus.com;Proximus;C
+hilde beeckmans;hilde;beeckmans;hilde.beeckmans@proximus.com;Proximus;C
+Kris Vlaeminck;Kris;Vlaeminck;kris.vlaeminck@proximus.com;Proximus;C
+Geert Bruylandt;Geert;Bruylandt;geert.bruylandt@proximus.com;Proximus;C
+Karel Janssen;Karel;Janssen;karel.janssen@renotec.be;Renotec N.V.;C
+Eric Jabé;Eric;Jabé;teken-bureau-dessin@sibelga.be;Sibelga;C
+Tim De Saveur;Tim;De Saveur;tim.desaveur@sibelga.be;Sibelga;C
+Eric Jabé;Eric;Jabé;eric.jabe@sibelga.be;Sibelga;C
+Dirk De Mil;Dirk;De Mil;dirk.demil@squaregroup.be;Square Group;C
+Gitte Van Gompel;Gitte;Van Gompel;gitte.vangompel@antwerpen.be;Stad Antwerpen - Stadsontwikkeling;C
+Nele Lauwers;Nele;Lauwers;nele.lauwers@antwerpen.be;Stad Antwerpen - Stadsontwikkeling;C
+Tom Boi;Tom;Boi;tom.boi@brugge.be;Stad Brugge - Openbaar Domein- Beheer;C
+Noortje Thijs;Noortje;Thijs;tegro@tegro.be;TEGRO bvba;C
+Bas De Haeck;Bas;De Haeck;sebastiaan.de.haeck@telenetgroup.be;Telenet;C
+Katleen Wouters;Katleen;Wouters;katleen.wouters@telenetgroup.be;Telenet;C
+Werner Peeters;Werner;Peeters;werner.peeters@telenetgroup.be;Telenet;C
+Herman Callens;Herman;Callens;herman.callens@vvsg.be;Vereniging van Vlaamse Steden en Gemeenten;C
+Ward Van Hal;Ward;Van Hal;ward.vanhal@vvsg.be;Vereniging van Vlaamse Steden en Gemeenten;C
+Steven Moeyersons;Steven;Moeyersons;steven.moeyersons@antwerpen.be;Verkeerstechniek;C
+stijn leus;stijn;leus;s.leus@vshanab.be;Visser Smit Hanab nv;C
+Iterbeke Eric;Iterbeke;Eric;eric.iterbeke@vivaqua.be;Vivaqua;C
+Patrick Noe;Patrick;Noe;patrick.noe@confederatiebouw.be;Vlaamse Confederatie Bouw;C
+Katleen Miserez;Katleen;Miserez;k.miserez@vmm.be;Vlaamse Milieumaatschappij;C
+De Moor Carl;De Moor;Carl;Carl.DeMoor@water-link.be;Water-Link;C
+Geert Thijs;Geert;Thijs;geert.thijs@vlaanderen.be;Digitaal Vlaanderen;C
+Ilse Pauwelyn;Ilse;Pauwelyn;ilse.pauwelyn@farys.be;FARYS;C
+Adrien Legat;Adrien;Legat;adrien.legat@resa.be;Nethys - Resa;C
+Gontran Soumoy;Gontran;Soumoy;gontran.soumoy@fluxys.com;Fluxys Belgium;C
+Jean-Philippe Cattoor;Jean-Philippe;Cattoor;jean-philippe.cattoor@fluxys.com;Fluxys Belgium;C
+Jan jermei;Jan;jermei;jan.jermei@fluxys.com;Fluxys Belgium;C
+Katia Beringhs;Katia;Beringhs;k.beringhs@vmm.be;Vlaamse Milieumaatschappij;C
+Bernard Vanmoerbeke;Bernard;Vanmoerbeke;bernard.vanmoerbeke@gim.be;G.I.M.;C
+Hervé Sontsa;Hervé;Sontsa;herve.sontsa.ext@proximus.com;Proximus;C
+Werner Poel;Werner;Poel;werner.poel@fluvius.be;Fluvius;C
+Bart De Maeyer;Bart;De Maeyer;bart.demaeyer@pidpa.be;PIDPA;C
+Ivy Van De Kerchove;Ivy;Van De Kerchove;ivy.vandekerchove@vlaanderen.be;Digitaal Vlaanderen;A
+Raf Vanlathem;Raf;Vanlathem;raf.vanlathem@mow.vlaanderen.be;Agentschap Wegen en Verkeer;C
+Michiel Vansteenkiste;Michiel;Vansteenkiste;m.vansteenkiste@vmm.be;Vlaamse Milieumaatschappij;C
+Stefanie De Veirman;Stefanie;De Veirman;stefanie.deveirman@vlaanderen.be;Digitaal Vlaanderen;C
+Nils Callens;Nils;Callens;nils.callens@vlaanderen.be;Digitaal Vlaanderen;C
+Simeon Debeule;Simeon;Debeule;simeon.debeule@fluvius.be;Fluvius;C
+Kurt Decock;Kurt;Decock;kurt.decock@infrabel.be;Infrabel;C
+Frank Engelen;Frank;Engelen;frank.engelen@geosolutions.be;Geo Solutions;C
+Mehmet Inan;Mehmet;Inan;mehmet.inan@nanclouds.com;;C
+Ludwin Poppe;Ludwin;Poppe;ludwin.poppe@farys.be;FARYS;C
+Rob Vangeneugden;Rob;Vangeneugden;rob.vangeneugden@elia.be;Elia;C
+Frédérique Lagae;Frédérique;Lagae;frederique.lagae@sibelga.be;Sibelga;C
+Matthias Holemans;Matthias;Holemans;matthias.holemans@infrabel.be;Infrabel;C
+François Du Mortier;François;Du Mortier;fdumortier@paradigm.brussels;;C
+Claude HANNECART;Claude;HANNECART;channecart@paradigm.brussels;;C
+Mathijs Raats;Mathijs;Raats;mathijs.raats@portofantwerpbruges.com;Haven van Antwerpen-Brugge;C
+Joren Verleyen;Joren;Verleyen;joren.verleyen@pwc.com;PWC Enterprise Advisory;C
+Danny Vanderhaeghen;Danny;Vanderhaeghen;danny.vanderhaeghen@elia.be;Elia;C
+Simon Thirion;Simon;Thirion;simon.thirion@dewatergroep.be;De Watergroep;C
+Bart Boone;Bart;Boone;bart.boone.987@infrabel.be;Infrabel;C
+Bart Tuyteleers;Bart;Tuyteleers;bart.tuyteleers@gim.be;G.I.M.;C
+Inge Lemmens;Inge;Lemmens;inge.lemmens@portofantwerpbruges.com;Haven van Antwerpen-Brugge DI/DA;C
+Jef Liekens;Jef;Liekens;jef.liekens@pwc.com;PWC Enterprise Advisory;E
+Jef Liekens;Jef;Liekens;jef.liekens@vlaanderen.be;Digitaal Vlaanderen;E
+Sofie Bogers;Sofie;Bogers;sofie.bogers@vlaanderen.be;Departement Cultuur, Jeugd en Media;C
+Scott Emond;Scott;Emond;semond@sprb.brussels;;C
