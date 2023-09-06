@@ -1,2 +1,1 @@
-Provide a description for this standardization trajectory. 
-This text will be shown on the OSLO standards registry.
+The OSLO Publication project 'IMKL' should help to cooperate with various stakeholders to semantically model the data flows of cable and pipeline information and standardise the structure of the data.
