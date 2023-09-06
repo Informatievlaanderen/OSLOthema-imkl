@@ -1,14 +1,21 @@
 {
-    "naam": "",
+    "naam": "Applicatieprofiel IMKL",
     "rapport" : "",
     "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
     "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
     "publicatiedatum": "",
-    "type_toepassing": "",
-    "categorie": "",
-    "beschrijving" : "",
-    "specificatiedocument": [],
-    "documentatie": [],
+    "type_toepassing": "Aanbevolen",
+    "categorie": "Applicatieprofiel",
+    "beschrijving" : "ap-imkl.md",
+    "specificatiedocument": [
+        {
+            "naam": "OSLO-IMKL",
+            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/imkl" 
+        }
+    ],
+    "documentatie": [
+        
+    ],
     "charter": [],
     "verslagen": [],
     "presentaties": [],
