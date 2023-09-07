@@ -4,7 +4,7 @@
     "type": "ap",
     "eap": "IMKL-LD.eap",
     "diagram": "IMKL-LD",
-    "template": "imkl-ld.j2",
+    "template": "imkl-ap.j2",
     "title": "OSLO IMKL (Applicatieprofiel)",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
     "publication-date": "2023-09-06",
