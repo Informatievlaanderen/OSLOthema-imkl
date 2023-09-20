@@ -1,9 +1,20 @@
-{% extends "voc2.j2" %}
+{% extends "voc2_en.j2" %}
 
-{% block summary %}
-<p>Vul hier een samenvatting van mijn vocabularium in.</p>
+{% block introduction %}
+<p>
+This document describes a  <strong>vocabularium</strong>, for this case <strong>{{ metadata.title }}</strong>.
+A vocabularium is a collection of reusable terms (classes and properties), whose meaning is given by a label and a definition. There are additional formal agreements available for the terms defined in this domain.
+The additional formal agreements can be found in external sources for external terms.
+</p>
 {% endblock %}
 
-{% block status %}
-<p>(Verwijder dit blok om een geautomatiseerde standaardparagraaf te laten verschijnen.)</p>
+{% block license %}
+<p>
+<spanrel="dct:type"property="dct:title"href="http://purl.org/dc/dcmitype/Text"xmlns:dct="http://purl.org/dc/terms/">This specification</span> of <a rel="cc:attributionURL"property="cc:attributionName"href="https://www.vlaanderen.be/digitaal-vlaanderen"xmlns:cc="http://creativecommons.org/ns#">Digitaal Vlaanderen</a> is published under <a href="{{ metadata.license }}"rel="license">"Model license Free Reuse - v1.0"</a>.
+</p>
+{% endblock %}
+
+{% block summary %}
+<p>The vocabulary OSLO-IMKL describes the information model 'Cables and Pipelines' for both underground and overhead elements.</p>
+<p>The model describes the characteristics of these elements, as well as the network they are in and the position of the elements.</p>
 {% endblock %}
