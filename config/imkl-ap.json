@@ -14,5 +14,12 @@
     "site": "site-skeleton/IMKL",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
     "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+    "translation": [
+    {
+      "language":"en",
+      "template":"mijn-applicatieprofiel-ap_en.j2",
+      "title": "imkl-ap",
+      "translationjson":"imkl-ap.json",
+    },
   }
 ]
