@@ -17,7 +17,7 @@
     "translation": [
     {
       "language":"en",
-      "template":"mijn-applicatieprofiel-ap_en.j2",
+      "template":"imkl-ap_en.j2",
       "title": "imkl-ap",
       "translationjson":"imkl-ap.json",
     },
