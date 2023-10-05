@@ -1,25 +1,26 @@
 [
-  {
-    "name": "imkl-ap",
-    "type": "ap",
-    "eap": "IMKL-LD-nl.eap",
-    "diagram": "IMKL-LD",
-    "template": "imkl-ap.j2",
-    "title": "OSLO IMKL (Applicatieprofiel)",
-    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
-    "publication-date": "2023-09-06",
-    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
-    "contributors-file": "stakeholders.csv",
-    "contributors-column": "Rol",
-    "site": "site-skeleton/IMKL",
-    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
-    "translation": [
-    {
-      "language":"en",
-      "template":"imkl-ap.j2",
-      "title": "imkl-ap",
-      "translationjson":"imkl-ap.json",
-    },
-  }
+	{
+		"name": "imkl-ap",
+		"type": "ap",
+		"eap": "IMKL-LD-nl.eap",
+		"diagram": "IMKL-LD",
+		"template": "imkl-ap.j2",
+		"title": "OSLO IMKL (Applicatieprofiel)",
+		"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
+		"publication-date": "2023-09-06",
+		"license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+		"contributors-file": "stakeholders.csv",
+		"contributors-column": "Rol",
+		"site": "site-skeleton/IMKL",
+		"feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
+		"standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+		"translation": [
+			{
+				"language": "en",
+				"template": "imkl-ap.j2",
+				"title": "imkl-ap",
+				"translationjson": "imkl-ap.json"
+			}
+		]
+	}
 ]
