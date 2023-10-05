@@ -1,9 +1,9 @@
-[
+eersmetingen[
 	{
 		"name": "imkl-ap",
 		"type": "ap",
-		"eap": "IMKL-LD-nl.eap",
-		"diagram": "IMKL-LD",
+		"eap": "Verkeersmetingen.eap",
+		"diagram": "OSLO-Verkeersmetingen",
 		"template": "imkl-ap.j2",
 		"title": "OSLO IMKL (Applicatieprofiel)",
 		"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
