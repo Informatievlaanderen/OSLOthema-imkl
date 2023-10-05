@@ -2,7 +2,7 @@
 	{
 		"name": "imkl-ap",
 		"type": "ap",
-		"eap": "IMKL-LD-nl.eap",
+		"eap": "IMKL-LD.eap",
 		"diagram": "IMKL-LD",
 		"template": "imkl-ap.j2",
 		"title": "OSLO IMKL (Applicatieprofiel)",
