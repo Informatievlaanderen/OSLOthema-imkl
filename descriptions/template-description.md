@@ -1,1 +1,1 @@
-The OSLO Publication project 'IMKL' should help to cooperate with various stakeholders to semantically model the data flows of cable and pipeline information and standardise the structure of the data.
+Het OSLO-publicatieproject 'IMKL' moet helpen om samen te werken met verschillende belanghebbenden om de gegevensstromen van kabel- en pijpleidinginformatie semantisch te modelleren en de structuur van de gegevens te standaardiseren.
