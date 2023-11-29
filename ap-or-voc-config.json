@@ -1,28 +1,27 @@
 {
     "naam": "Applicatieprofiel IMKL",
-    "rapport" : "",
+    "rapport": "",
     "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
     "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
     "publicatiedatum": "",
     "type_toepassing": "Aanbevolen",
     "categorie": "Applicatieprofiel",
-    "beschrijving" : "ap-imkl.md",
+    "beschrijving": "imkl-description.md",
     "specificatiedocument": [
         {
             "naam": "OSLO-IMKL",
-            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/imkl" 
+            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/imkl"
         }
     ],
-    "documentatie": [   
-    ],
+    "documentatie": [],
     "charter": [
-         {
+        {
             "naam": "Charter",
             "waarde": "Charter OSLO IMKL.docx"
         }
     ],
     "verslagen": [
-         {
+        {
             "naam": "Verslag business werkgroep - 24 april 2023",
             "waarde": "Verslag Business Workshop IMKL.pdf"
         },
@@ -54,4 +53,4 @@
     "datum_van_aanmelding": "2023-02-17",
     "erkenning_werkgroep_datastandaarden": "TBD",
     "erkenning_stuurgroep": "TBD"
-  }
+}
