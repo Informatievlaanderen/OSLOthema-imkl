@@ -1,18 +1,12 @@
 {% extends "voc2.j2" %}
 
 {% block summary %}
-<p>Dit document beschrijft een <strong>vocabularium</strong>, in dit geval <strong>{{ metadata.title }}</strong>.</p>
-<p>Een vocabularium is een verzameling herbruikbare termen (klassen en eigenschappen), waarvan de betekenis wordt gegeven door een label en een definitie. Er zijn aanvullende formele overeenkomsten beschikbaar voor de termen die in dit domein zijn gedefinieerd.
-De aanvullende formele overeenkomsten zijn te vinden in externe bronnen voor externe termen.</p>
+<p>Het vocabulaire OSLO-IMKL beschrijft het informatiemodel 'Kabels en pijpleidingen' voor zowel ondergrondse als bovengrondse elementen.</p>
+<p>Het model beschrijft de kenmerken van deze elementen, evenals het netwerk waarin ze zich bevinden en de positie van de elementen.</p>
 {% endblock %}
 
 {% block license %}
 <p>
 <spanrel="dct:type"property="dct:title"href="http://purl.org/dc/dcmitype/Text"xmlns:dct="http://purl.org/dc/terms/">This specification</span> of <a rel="cc:attributionURL"property="cc:attributionName"href="https://www.vlaanderen.be/digitaal-vlaanderen"xmlns:cc="http://creativecommons.org/ns#">Digitaal Vlaanderen</a> is published under <a href="{{ metadata.license }}"rel="license">"Model license Free Reuse - v1.0"</a>.
 </p>
-{% endblock %}
-
-{% block summary %}
-<p>Het vocabulaire OSLO-IMKL beschrijft het informatiemodel 'Kabels en pijpleidingen' voor zowel ondergrondse als bovengrondse elementen.</p>
-<p>Het model beschrijft de kenmerken van deze elementen, evenals het netwerk waarin ze zich bevinden en de positie van de elementen.</p>
 {% endblock %}
