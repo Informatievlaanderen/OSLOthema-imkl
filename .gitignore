@@ -4,3 +4,6 @@
 *.xlsm
 *backup*.eap
 *.html
+ea-model-validator-cli-1.2.jar
+report_IMKL-LD.csv
+target/
