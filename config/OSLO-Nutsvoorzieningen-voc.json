@@ -12,6 +12,22 @@
       "contributors-file": "stakeholders.csv",
       "contributors-column": "MijnKolom",
       "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-ldes/issues",
-      "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+      "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+      "translation": [
+        {
+            "language": "en",
+            "template": "OSLO-Nutsvoorzieningen-voc_en.j2",
+            "title": "OSLO Utility Services",
+            "translationjson": "OSLO-Nutsvoorzieningen-voc_en.json",
+            "mergerfile": "OSLO-Nutsvoorzieningen-voc_en_merged.json"
+        },
+        {
+            "language": "nl",
+            "template": "OSLO-Nutsvoorzieningen-voc.j2",
+            "title": "OSLO Nutsvoorzieningen",
+            "translationjson": "OSLO-Nutsvoorzieningen-voc_nl.json",
+            "mergerfile": "OSLO-Nutsvoorzieningen-voc_nl_merged.json"
+        }
+    ]
     }
   ]

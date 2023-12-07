@@ -13,6 +13,22 @@
         "contributors-column": "MijnKolom",
         "site": "site-skeleton/nutsvoorzieningen-ap",
         "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
-        "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+        "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+        "translation": [
+            {
+                "language": "en",
+                "template": "OSLO-Nutsvoorzieningen-ap_en.j2",
+                "title": "OSLO Utility Services (Application profile)",
+                "translationjson": "OSLO-Nutsvoorzieningen-ap_en.json",
+                "mergerfile": "OSLO-Nutsvoorzieningen-ap_en_merged.json"
+            },
+            {
+                "language": "nl",
+                "template": "OSLO-Nutsvoorzieningen-ap.j2",
+                "title": "OSLO Nutsvoorzieningen (Applicatieprofiel)",
+                "translationjson": "OSLO-Nutsvoorzieningen-ap_nl.json",
+                "mergerfile": "OSLO-Nutsvoorzieningen-ap_nl_merged.json"
+            }
+        ]
     }
 ]
