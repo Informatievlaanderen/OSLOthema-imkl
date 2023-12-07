@@ -18,15 +18,15 @@
             "language": "en",
             "template": "OSLO-Nutsvoorzieningen-voc_en.j2",
             "title": "OSLO Utility Services",
-            "translationjson": "OSLO-Nutsvoorzieningen-voc_en.json",
-            "mergerfile": "OSLO-Nutsvoorzieningen-voc_en_merged.json"
+            "translationjson": "nutsvoorzieningen_en.json",
+            "mergefile": "nutsvoorzieningen_en_merged.json"
         },
         {
             "language": "nl",
             "template": "OSLO-Nutsvoorzieningen-voc.j2",
             "title": "OSLO Nutsvoorzieningen",
-            "translationjson": "OSLO-Nutsvoorzieningen-voc_nl.json",
-            "mergerfile": "OSLO-Nutsvoorzieningen-voc_nl_merged.json"
+            "translationjson": "nutsvoorieningen_nl.json",
+            "mergefile": "nutsvoorieningen_nl_merged.json"
         }
     ]
     }
