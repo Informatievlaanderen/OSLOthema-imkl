@@ -853,9 +853,9 @@
     },
     {
       "name": "pijp",
-      "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
+      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
       "definition": {
-        "nl": "Pijpen kunnen meerdere pijpen bevatten.",
+        "nl": "TO DO",
         "en": "Enter your translation here"
       },
       "label": {
@@ -865,9 +865,9 @@
     },
     {
       "name": "pijp",
-      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
+      "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
       "definition": {
-        "nl": "TO DO",
+        "nl": "Pijpen kunnen meerdere pijpen bevatten.",
         "en": "Enter your translation here"
       },
       "label": {
@@ -1189,9 +1189,9 @@
     },
     {
       "name": "kabel",
-      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
+      "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
       "definition": {
-        "nl": "TO DO",
+        "nl": "Kabels kunnen andere kabels bevatten.",
         "en": "Enter your translation here"
       },
       "label": {
@@ -1201,9 +1201,9 @@
     },
     {
       "name": "kabel",
-      "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
+      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
       "definition": {
-        "nl": "Kabels kunnen andere kabels bevatten.",
+        "nl": "TO DO",
         "en": "Enter your translation here"
       },
       "label": {
@@ -1345,7 +1345,7 @@
     },
     {
       "name": "geheel",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "definition": {
         "nl": "Verzameling van annotatie delen.",
         "en": "Enter your translation here"
@@ -1457,7 +1457,7 @@
     },
     {
       "name": "deel",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "definition": {
         "nl": "Een onderdeel van een annotatie in een groter geheel.",
         "en": "Enter your translation here"

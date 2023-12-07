@@ -3557,8 +3557,8 @@
   "contributors-column": "MijnKolom",
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
-  "documentcommit": "b607ebd8c5ded92feed121394ed212625bf87af7",
-  "dummy": "016",
+  "documentcommit": "a5d8613799aba8d64b4b3fe257ae71f08ddf5ceb",
+  "dummy": "018",
   "eap": "IMKL-LD-nl.eap",
   "editors": [],
   "externalproperties": [
@@ -17988,6 +17988,141 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijp",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
+      "ap-definition-nl": {
+        "nl": "TO DO"
+      },
+      "ap-label-nl": {
+        "nl": "pijp"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "TO DO"
+      },
+      "domain": [
+        {
+          "EA-Name": "Pijp",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "ap-label-en",
+            "note": "Pipe|r=pipes|'Pipe",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "Pipe|r=pipes|'Pipe",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-nl",
+            "note": "pijp",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "pijp",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Pijp",
+        "EA-Domain-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
+        "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
+        "EA-Name": "pijp",
+        "EA-Package": "",
+        "EA-Range": "Pijp",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
+          "EA-Name": "Pijp",
+          "EA-Package": "IMKL-LD",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+        },
+        "RawTags": [
+          {
+            "key": "ap-label-en",
+            "note": "Pipe|r=pipes|'Pipe",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "Pipe|r=pipes|'Pipe",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-nl",
+            "note": "pijp",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-nl",
+            "note": "pijp",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TO DO"
+        },
+        "ap-label-nl": {
+          "nl": "pijp"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "TO DO"
+        },
+        "derived": "false",
+        "destRole": "pijp",
+        "label": {
+          "nl": "pijp"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "pijp"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "pijp",
+      "range": [
+        {
+          "EA-GUID": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
+          "EA-Name": "Pijp",
+          "EA-Package": "IMKL-LD",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijp",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
       "ap-definition-nl": {
         "nl": "Pijpen kunnen meerdere pijpen bevatten."
@@ -18114,141 +18249,6 @@
         "ap-usageNote-nl": "",
         "definition": {
           "nl": "Pijpen kunnen meerdere pijpen bevatten."
-        },
-        "derived": "false",
-        "destRole": "pijp",
-        "label": {
-          "nl": "pijp"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "pijp"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "pijp",
-      "range": [
-        {
-          "EA-GUID": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
-          "EA-Name": "Pijp",
-          "EA-Package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#pijp",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
-      "ap-definition-nl": {
-        "nl": "TO DO"
-      },
-      "ap-label-nl": {
-        "nl": "pijp"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "TO DO"
-      },
-      "domain": [
-        {
-          "EA-Name": "Pijp",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "ap-label-en",
-            "note": "Pipe|r=pipes|'Pipe",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "Pipe|r=pipes|'Pipe",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-nl",
-            "note": "pijp",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-nl",
-            "note": "pijp",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Pijp",
-        "EA-Domain-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
-        "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
-        "EA-Name": "pijp",
-        "EA-Package": "",
-        "EA-Range": "Pijp",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
-          "EA-Name": "Pijp",
-          "EA-Package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
-        },
-        "RawTags": [
-          {
-            "key": "ap-label-en",
-            "note": "Pipe|r=pipes|'Pipe",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "Pipe|r=pipes|'Pipe",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-nl",
-            "note": "pijp",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-nl",
-            "note": "pijp",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TO DO"
-        },
-        "ap-label-nl": {
-          "nl": "pijp"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "TO DO"
         },
         "derived": "false",
         "destRole": "pijp",
@@ -21068,141 +21068,6 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
-      "ap-definition-nl": {
-        "nl": "TO DO"
-      },
-      "ap-label-nl": {
-        "nl": "kabel"
-      },
-      "codelist": [],
-      "definition": {
-        "nl": "TO DO"
-      },
-      "domain": [
-        {
-          "EA-Name": "Pijp",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
-        }
-      ],
-      "extra": {
-        "DestRoleTags": [
-          {
-            "key": "label-nl",
-            "note": "kabel",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-nl",
-            "note": "kabel",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "Pipe|r=cables|'Cable",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "Pipe|r=cables|'Cable",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          }
-        ],
-        "EA-Domain": "Pijp",
-        "EA-Domain-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
-        "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
-        "EA-Name": "kabel",
-        "EA-Package": "",
-        "EA-Range": "Kabel",
-        "EA-Type": "connector",
-        "RangeData": {
-          "EA-GUID": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
-          "EA-Name": "Kabel",
-          "EA-Package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
-        },
-        "RawTags": [
-          {
-            "key": "label-nl",
-            "note": "kabel",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-nl",
-            "note": "kabel",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "Pipe|r=cables|'Cable",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "Pipe|r=cables|'Cable",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "TO DO",
-            "value": "NOTE"
-          }
-        ],
-        "Scope": "FULL_DEFINITON",
-        "ap-codelist": "",
-        "ap-definition-nl": {
-          "nl": "TO DO"
-        },
-        "ap-label-nl": {
-          "nl": "kabel"
-        },
-        "ap-usageNote-nl": "",
-        "definition": {
-          "nl": "TO DO"
-        },
-        "derived": "false",
-        "destRole": "kabel",
-        "label": {
-          "nl": "kabel"
-        },
-        "sourceRole": "null",
-        "usage": ""
-      },
-      "generalization": [],
-      "inpackage": "ACTIVE_PACKAGE",
-      "label": {
-        "nl": "kabel"
-      },
-      "maxCardinality": "*",
-      "minCardinality": "0",
-      "name": "kabel",
-      "range": [
-        {
-          "EA-GUID": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
-          "EA-Name": "Kabel",
-          "EA-Package": "IMKL-LD",
-          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
-        }
-      ]
-    },
-    {
-      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabel",
-      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
       "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
       "ap-definition-nl": {
         "nl": "Kabels kunnen andere kabels bevatten."
@@ -21329,6 +21194,141 @@
         "ap-usageNote-nl": "",
         "definition": {
           "nl": "Kabels kunnen andere kabels bevatten."
+        },
+        "derived": "false",
+        "destRole": "kabel",
+        "label": {
+          "nl": "kabel"
+        },
+        "sourceRole": "null",
+        "usage": ""
+      },
+      "generalization": [],
+      "inpackage": "ACTIVE_PACKAGE",
+      "label": {
+        "nl": "kabel"
+      },
+      "maxCardinality": "*",
+      "minCardinality": "0",
+      "name": "kabel",
+      "range": [
+        {
+          "EA-GUID": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
+          "EA-Name": "Kabel",
+          "EA-Package": "IMKL-LD",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#kabel",
+      "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
+      "ap-definition-nl": {
+        "nl": "TO DO"
+      },
+      "ap-label-nl": {
+        "nl": "kabel"
+      },
+      "codelist": [],
+      "definition": {
+        "nl": "TO DO"
+      },
+      "domain": [
+        {
+          "EA-Name": "Pijp",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Pijp"
+        }
+      ],
+      "extra": {
+        "DestRoleTags": [
+          {
+            "key": "label-nl",
+            "note": "kabel",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-nl",
+            "note": "kabel",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "Pipe|r=cables|'Cable",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "Pipe|r=cables|'Cable",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          }
+        ],
+        "EA-Domain": "Pijp",
+        "EA-Domain-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
+        "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
+        "EA-Name": "kabel",
+        "EA-Package": "",
+        "EA-Range": "Kabel",
+        "EA-Type": "connector",
+        "RangeData": {
+          "EA-GUID": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
+          "EA-Name": "Kabel",
+          "EA-Package": "IMKL-LD",
+          "uri": "https://data.vlaanderen.be/ns/nutsvoorzieningen#Kabel"
+        },
+        "RawTags": [
+          {
+            "key": "label-nl",
+            "note": "kabel",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-nl",
+            "note": "kabel",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "Pipe|r=cables|'Cable",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          },
+          {
+            "key": "label-en",
+            "note": "Pipe|r=cables|'Cable",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "TO DO",
+            "value": "NOTE"
+          }
+        ],
+        "Scope": "FULL_DEFINITON",
+        "ap-codelist": "",
+        "ap-definition-nl": {
+          "nl": "TO DO"
+        },
+        "ap-label-nl": {
+          "nl": "kabel"
+        },
+        "ap-usageNote-nl": "",
+        "definition": {
+          "nl": "TO DO"
         },
         "derived": "false",
         "destRole": "kabel",
@@ -22612,7 +22612,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "ap-definition-nl": {
         "nl": "Verzameling van annotatie delen."
       },
@@ -22632,6 +22632,11 @@
       "extra": {
         "DestRoleTags": [
           {
+            "key": "label-en",
+            "note": "whole",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-nl",
             "note": "geheel",
             "value": "NOTE"
@@ -22647,34 +22652,29 @@
             "value": "NOTE"
           },
           {
-            "key": "definition-en",
-            "note": "Collection of annotation parts.",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-nl",
             "note": "Verzameling van annotatie delen.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "whole",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "whole",
             "value": "NOTE"
           },
           {
             "key": "ap-definition-en",
             "note": "Collection of annotation parts.",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Collection of annotation parts.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "whole",
+            "value": "NOTE"
           }
         ],
         "EA-Domain": "Annotatie",
         "EA-Domain-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
-        "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+        "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
         "EA-Name": "geheel",
         "EA-Package": "",
         "EA-Range": "Annotatie",
@@ -22687,6 +22687,11 @@
         },
         "RawTags": [
           {
+            "key": "label-en",
+            "note": "whole",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-nl",
             "note": "geheel",
             "value": "NOTE"
@@ -22702,28 +22707,23 @@
             "value": "NOTE"
           },
           {
-            "key": "definition-en",
-            "note": "Collection of annotation parts.",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-nl",
             "note": "Verzameling van annotatie delen.",
             "value": "NOTE"
           },
           {
-            "key": "label-en",
-            "note": "whole",
+            "key": "ap-definition-en",
+            "note": "Collection of annotation parts.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Collection of annotation parts.",
             "value": "NOTE"
           },
           {
             "key": "ap-label-en",
             "note": "whole",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "Collection of annotation parts.",
             "value": "NOTE"
           }
         ],
@@ -22744,7 +22744,7 @@
         "label": {
           "nl": "geheel"
         },
-        "sourceRole": "deel",
+        "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
@@ -23670,7 +23670,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "ap-definition-nl": {
         "nl": "Een onderdeel van een annotatie in een groter geheel."
       },
@@ -23679,7 +23679,7 @@
       },
       "codelist": [],
       "definition": {
-        "nl": "[UPDATED] Een onderdeel van een annotatie in een groter geheel."
+        "nl": "Een onderdeel van een annotatie in een groter geheel."
       },
       "domain": [
         {
@@ -23690,28 +23690,13 @@
       "extra": {
         "DestRoleTags": [
           {
-            "key": "ap-label-nl",
-            "note": "deel",
-            "value": "NOTE"
-          },
-          {
             "key": "label-nl",
             "note": "deel",
             "value": "NOTE"
           },
           {
-            "key": "ap-definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "part",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "key": "ap-label-nl",
+            "note": "deel",
             "value": "NOTE"
           },
           {
@@ -23725,14 +23710,29 @@
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-en",
             "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
             "value": "NOTE"
           }
         ],
         "EA-Domain": "Annotatie",
         "EA-Domain-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
-        "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+        "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
         "EA-Name": "deel",
         "EA-Package": "",
         "EA-Range": "Annotatie",
@@ -23745,28 +23745,13 @@
         },
         "RawTags": [
           {
-            "key": "ap-label-nl",
-            "note": "deel",
-            "value": "NOTE"
-          },
-          {
             "key": "label-nl",
             "note": "deel",
             "value": "NOTE"
           },
           {
-            "key": "ap-definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "part",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "key": "ap-label-nl",
+            "note": "deel",
             "value": "NOTE"
           },
           {
@@ -23780,8 +23765,23 @@
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-en",
             "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
             "value": "NOTE"
           }
         ],
@@ -23802,13 +23802,13 @@
         "label": {
           "nl": "deel"
         },
-        "sourceRole": "geheel",
+        "sourceRole": "null",
         "usage": ""
       },
       "generalization": [],
       "inpackage": "ACTIVE_PACKAGE",
       "label": {
-        "nl": "[UPDATED] deel"
+        "nl": "deel"
       },
       "maxCardinality": "*",
       "minCardinality": "0",
@@ -25381,7 +25381,7 @@
   "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
   "template": "OSLO-Nutsvoorzieningen-ap.j2",
   "title": "OSLO Nutsvoorzieningen (Applicatieprofiel)",
-  "toolchaincommit": "dccf0a42793cc3eaf04f0d3e7949e623b2546a7d",
+  "toolchaincommit": "1b87e21d81dc45aa5b8d6212a0c5de92754392db",
   "translation": [
     {
       "language": "en",

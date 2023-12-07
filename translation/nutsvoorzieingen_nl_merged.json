@@ -4070,8 +4070,8 @@
   "contributors-column": "MijnKolom",
   "contributors-file": "stakeholders.csv",
   "diagram": "IMKL-LD",
-  "documentcommit": "b607ebd8c5ded92feed121394ed212625bf87af7",
-  "dummy": "016",
+  "documentcommit": "a5d8613799aba8d64b4b3fe257ae71f08ddf5ceb",
+  "dummy": "018",
   "eap": "IMKL-LD-nl.eap",
   "editors": [],
   "externalproperties": [
@@ -25479,7 +25479,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#geheel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "codelist": [],
       "definition": {
         "nl": "Verzameling van annotatie delen."
@@ -25499,6 +25499,11 @@
       "extra": {
         "DestRoleTags": [
           {
+            "key": "label-en",
+            "note": "whole",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-nl",
             "note": "geheel",
             "value": "NOTE"
@@ -25514,34 +25519,29 @@
             "value": "NOTE"
           },
           {
-            "key": "definition-en",
-            "note": "Collection of annotation parts.",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-nl",
             "note": "Verzameling van annotatie delen.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "whole",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-label-en",
-            "note": "whole",
             "value": "NOTE"
           },
           {
             "key": "ap-definition-en",
             "note": "Collection of annotation parts.",
             "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Collection of annotation parts.",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-label-en",
+            "note": "whole",
+            "value": "NOTE"
           }
         ],
         "EA-Domain": "Annotatie",
         "EA-Domain-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
-        "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+        "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
         "EA-Name": "geheel",
         "EA-Package": "",
         "EA-Range": "Annotatie",
@@ -25554,6 +25554,11 @@
         },
         "RawTags": [
           {
+            "key": "label-en",
+            "note": "whole",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-nl",
             "note": "geheel",
             "value": "NOTE"
@@ -25569,28 +25574,23 @@
             "value": "NOTE"
           },
           {
-            "key": "definition-en",
-            "note": "Collection of annotation parts.",
-            "value": "NOTE"
-          },
-          {
             "key": "definition-nl",
             "note": "Verzameling van annotatie delen.",
             "value": "NOTE"
           },
           {
-            "key": "label-en",
-            "note": "whole",
+            "key": "ap-definition-en",
+            "note": "Collection of annotation parts.",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-en",
+            "note": "Collection of annotation parts.",
             "value": "NOTE"
           },
           {
             "key": "ap-label-en",
             "note": "whole",
-            "value": "NOTE"
-          },
-          {
-            "key": "ap-definition-en",
-            "note": "Collection of annotation parts.",
             "value": "NOTE"
           }
         ],
@@ -25617,7 +25617,7 @@
           "nl": "geheel"
         },
         "sameAs": "",
-        "sourceRole": "deel",
+        "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
         "usage": "",
@@ -26671,7 +26671,7 @@
     {
       "@id": "https://data.vlaanderen.be/ns/nutsvoorzieningen#deel",
       "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "codelist": [],
       "definition": {
         "nl": "Een onderdeel van een annotatie in een groter geheel."
@@ -26691,28 +26691,13 @@
       "extra": {
         "DestRoleTags": [
           {
-            "key": "ap-label-nl",
-            "note": "deel",
-            "value": "NOTE"
-          },
-          {
             "key": "label-nl",
             "note": "deel",
             "value": "NOTE"
           },
           {
-            "key": "ap-definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "part",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "key": "ap-label-nl",
+            "note": "deel",
             "value": "NOTE"
           },
           {
@@ -26726,14 +26711,29 @@
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-en",
             "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
             "value": "NOTE"
           }
         ],
         "EA-Domain": "Annotatie",
         "EA-Domain-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
-        "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+        "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
         "EA-Name": "deel",
         "EA-Package": "",
         "EA-Range": "Annotatie",
@@ -26746,28 +26746,13 @@
         },
         "RawTags": [
           {
-            "key": "ap-label-nl",
-            "note": "deel",
-            "value": "NOTE"
-          },
-          {
             "key": "label-nl",
             "note": "deel",
             "value": "NOTE"
           },
           {
-            "key": "ap-definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
-            "value": "NOTE"
-          },
-          {
-            "key": "label-en",
-            "note": "part",
-            "value": "NOTE"
-          },
-          {
-            "key": "definition-nl",
-            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "key": "ap-label-nl",
+            "note": "deel",
             "value": "NOTE"
           },
           {
@@ -26781,8 +26766,23 @@
             "value": "NOTE"
           },
           {
+            "key": "label-en",
+            "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
+            "value": "NOTE"
+          },
+          {
             "key": "ap-label-en",
             "note": "part",
+            "value": "NOTE"
+          },
+          {
+            "key": "ap-definition-nl",
+            "note": "Een onderdeel van een annotatie in een groter geheel.",
             "value": "NOTE"
           }
         ],
@@ -26809,7 +26809,7 @@
           "nl": "deel"
         },
         "sameAs": "",
-        "sourceRole": "geheel",
+        "sourceRole": "null",
         "subclass": "",
         "subclass1": "",
         "usage": "",
@@ -28604,7 +28604,7 @@
   "title-nl": {
     "nl": "TODO"
   },
-  "toolchaincommit": "dccf0a42793cc3eaf04f0d3e7949e623b2546a7d",
+  "toolchaincommit": "1b87e21d81dc45aa5b8d6212a0c5de92754392db",
   "translation": [
     {
       "language": "en",

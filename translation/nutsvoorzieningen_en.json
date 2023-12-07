@@ -1304,7 +1304,7 @@
     },
     {
       "name": "geheel",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "definition": {
         "nl": "Verzameling van annotatie delen.",
         "en": "Enter your translation here"
@@ -1412,7 +1412,7 @@
     },
     {
       "name": "deel",
-      "EA-Guid": "{A364F494-D5E8-4751-BF11-550B3C6FC3F9}",
+      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "definition": {
         "nl": "Een onderdeel van een annotatie in een groter geheel.",
         "en": "Enter your translation here"
