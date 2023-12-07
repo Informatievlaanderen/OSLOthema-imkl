@@ -25374,7 +25374,7 @@
         ]
       }
     ],
-    "publication-date": "2023-12-07",
+    "publication-date": "2023-12-08",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/KandidaatStandaard",
     "repository": "https://github.com/Informatievlaanderen/OSLOthema-imkl",
     "site": "site-skeleton/nutsvoorzieningen-ap",
@@ -25392,5 +25392,5 @@
       }
     ],
     "type": "ap",
-    "urlref": "/doc/applicatieprofiel/nutsvoorzieningen/kandidaatstandaard/2023-12-01"
+    "urlref": "/doc/applicatieprofiel/nutsvoorzieningen/kandidaatstandaard/2023-12-08"
   }
