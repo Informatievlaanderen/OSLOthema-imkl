@@ -1,16 +1,20 @@
 {
-    "naam": "Vocabularia en Applicatieprofiel IMKL",
+    "naam": "Vocabularium en Applicatieprofiel Nutsvoorzieningen",
     "rapport": "",
     "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
     "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
     "publicatiedatum": "",
     "type_toepassing": "Aanbevolen",
-    "categorie": "Vocabularia & applicatieprofiel",
-    "beschrijving": "imkl-description.md",
+    "categorie": "Vocabularium & applicatieprofiel",
+    "beschrijving": "nutsvoorzieningen-description.md",
     "specificatiedocument": [
         {
-            "naam": "OSLO-IMKL",
-            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/imkl"
+            "naam": "Nutsvoorzieningen Vocabularium",
+            "waarde": "https://data.vlaanderen.be/ns/nutsvoorzieningen"
+        },
+        {
+            "naam": "Nutsvoorzieningen Applicatieprofiel",
+            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/nutsvoorzieningen"
         }
     ],
     "documentatie": [],
@@ -48,7 +52,7 @@
             "waarde": "Presentatie tweede thematische werkgroep - IMKL -  29 juni 2023.pdf"
         }
     ],
-    "functioneel_toepassingsgebied": "Semantische standaard voor informatie over informatiemodel kabels en leidingen",
+    "functioneel_toepassingsgebied": "Semantische standaard voor informatie over nutsvoorzieningen",
     "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse Overheid",
     "datum_van_aanmelding": "2023-02-17",
     "erkenning_werkgroep_datastandaarden": "TBD",
