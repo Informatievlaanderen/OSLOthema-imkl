@@ -77,11 +77,11 @@
       "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "Getal",
-        "en": "Enter your translation here"
+        "en": "Number"
       }
     },
     {
@@ -89,11 +89,11 @@
       "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "Hoogte",
-        "en": "Enter your translation here"
+        "en": "Height"
       }
     },
     {
@@ -101,11 +101,11 @@
       "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
       "definition": {
         "nl": "Een nutsverbinding of verbindingsreeks die wordt gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen.",
-        "en": "Enter your translation here"
+        "en": "A utility link or link sequence used to convey electricity or data from one location to another."
       },
       "label": {
         "nl": "Kabel",
-        "en": "Enter your translation here"
+        "en": "Cable"
       }
     },
     {
@@ -113,11 +113,11 @@
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
         "nl": "Een nutsverbinding of verbindingsreeks die wordt gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie.",
-        "en": "Enter your translation here"
+        "en": "A utility link or link sequence used to protect and guide cable and pipes via an encasing construction."
       },
       "label": {
         "nl": "Kanaal",
-        "en": "Enter your translation here"
+        "en": "Duct"
       }
     },
     {
@@ -125,15 +125,15 @@
       "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "definition": {
         "nl": "Eenvoudig kastobject dat nutsvoorzieningobjecten kan vervoeren die tot één of meerdere nutsvoorzieningnetwerken behoren.",
-        "en": "Enter your translation here"
+        "en": "Simple cabinet object which may carry utility objects belonging to either single or multiple utility networks."
       },
       "label": {
         "nl": "Kastje",
-        "en": "Enter your translation here"
+        "en": "Cabinet"
       },
       "usage": {
         "nl": "Kasten vertegenwoordigen monteerbare knooppuntobjecten die kleinere nutsvoorzieningobjecten en kabels kunnen bevatten.",
-        "en": "Enter your translation here"
+        "en": "Cabinets represent mountable node objects that can contain smaller utility devices and cables."
       }
     },
     {
@@ -141,11 +141,11 @@
       "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "Maataanduiding",
-        "en": "Enter your translation here"
+        "en": "Dimension"
       }
     },
     {
