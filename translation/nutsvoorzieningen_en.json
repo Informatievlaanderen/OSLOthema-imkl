@@ -815,8 +815,7 @@
       "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
       "definition": {
         "nl": "Buitendiameter pijp",
-        "en": "Pipe outer diameter
-"
+        "en": "Pipe outer diameter"
       },
       "label": {
         "nl": "pijpdiameter",
@@ -887,8 +886,8 @@
       "name": "oriëntatie",
       "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
       "definition": {
-        "nl": "Het attribuut oriëntatie beschrijft de hoek die de oriëntatie van de Nutsvoorzieningknoop object bepaalt.",
-        "en": "The attribute "orientation" describes the angle that determines the orientation of the Utility node object."
+        "nl": "Het attribuut oriëntatie beschrijft de hoek die de oriëntatie van de Nutsvoorzieningknoop object bepaalt.",
+        "en": "The attribute orientation describes the angle that determines the orientation of the Utility node object."
       },
       "label": {
         "nl": "oriëntatie",
