@@ -177,11 +177,11 @@
       "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
       "definition": {
         "nl": "Een ruimtelijk punt-object dat gebruikt wordt voor de connectiviteit.",
-        "en": "Enter your translation here"
+        "en": "A spatial point object used for connectivity."
       },
       "label": {
         "nl": "Nutsvoorzieningknoop",
-        "en": "Enter your translation here"
+        "en": "UtilityNode"
       }
     },
     {
@@ -189,15 +189,15 @@
       "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
       "definition": {
         "nl": "Een ruimtelijk puntobject dat gebruikt wordt voor connectiviteit en dat ook andere ruimtelijke objecten kan bevatten (die niet noodzakelijk tot hetzelfde utiliteitsnetwerk behoren).",
-        "en": "Enter your translation here"
+        "en": "A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network)."
       },
       "label": {
         "nl": "Nutsvoorzieningknoopcontainer",
-        "en": "Enter your translation here"
+        "en": "UtilityNodeContainer"
       },
       "usage": {
         "nl": "Knooppunten bevinden zich aan beide uiteinden van de Nutsvoorzieningslink.",
-        "en": "Enter your translation here"
+        "en": ""Nodes are found at either end of the UtilityLink."
       }
     },
     {
@@ -205,11 +205,11 @@
       "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
       "definition": {
         "nl": "Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft van een nutsvoorzieningnetwerk tussen twee punten in het netwerk.",
-        "en": "Enter your translation here"
+        "en": "A linear spatial object that describes the geometry and connectivity of a utility network between two points in the network."
       },
       "label": {
         "nl": "Nutsvoorzieninglink",
-        "en": "Enter your translation here"
+        "en": "UtilityLink"
       }
     },
     {
@@ -217,11 +217,11 @@
       "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
       "definition": {
         "nl": "Een lineair ruimtelijk object, samengesteld uit een geordende verzameling nutsvoorzieningslinken, die een ononderbroken pad in het nutsvoorzieningsnetwerk vertegenwoordigen, zonder enige vertakkingen. Het element heeft een gedefinieerd begin en einde en elke positie op de nutsvoorzieninglinksequentie is identificeerbaar met één enkele parameter.",
-        "en": "Enter your translation here"
+        "en": "A linear spatial object, composed of an ordered collection of utility links, which represents a continuous path in the utility network without any branches. The element has a defined beginning and end and every position on the utility link sequence is identifiable with one single parameter."
       },
       "label": {
         "nl": "Nutsvoorzieninglinksequentie",
-        "en": "Enter your translation here"
+        "en": "UtilityLinkSequence"
       }
     },
     {
@@ -229,11 +229,11 @@
       "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
       "definition": {
         "nl": "Een abstracte utiliteitsnetwerkklasse die gemeenschappelijke eigenschappen groepeert van kabel, pijp en leidingstypes.",
-        "en": "Enter your translation here"
+        "en": "An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
       },
       "label": {
         "nl": "Nutsvoorzieninglinkset",
-        "en": "Enter your translation here"
+        "en": "UtilityLinkSet"
       }
     },
     {
@@ -241,15 +241,15 @@
       "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
       "definition": {
         "nl": "Verzameling van netwerkelementen die tot één type nutsvoorzieningnetwerk behoren.",
-        "en": "Enter your translation here"
+        "en": "Collection of network elements that belong to a single type of utility network."
       },
       "label": {
         "nl": "Nutsvoorzieningnetwerk",
-        "en": "Enter your translation here"
+        "en": "UtilityNetwork"
       },
       "usage": {
         "nl": "In de echte wereld zijn objecten met elkaar verbonden: een optische kabel is verbonden met een multiplexer die op zijn beurt is verbonden met koperen kabels die onze huizen verbinden om kabeltelevisie, telefonie en internettoegang te bieden. Het gebruik van GIS ter ondersteuning van het beheer van netwerkvoorzieningen omvat doorgaans vele soorten functies die mogelijk met elkaar verbonden zijn. Topologie in GIS wordt over het algemeen gedefinieerd als de ruimtelijke relatie tussen verbindende of aangrenzende elementen, en is een essentiële voorwaarde voor veel ruimtelijke operaties, zoals netwerkanalyse. Nutsnetwerken kunnen worden omschreven als een NaN-netwerk (Node-Arc-Node) met behulp van twee geometrische basistypen: punten (ook wel knooppunten genoemd) en polylijnen (ook wel bogen genoemd). NaN-topologieën kunnen gericht of niet-gericht zijn, afhankelijk van het specifieke type netwerk (dwz waternetwerken zijn gericht, terwijl telecommunicatienetwerken dat niet zijn). Een dergelijke topologiestructuur biedt een geautomatiseerde manier om digitaliserings- en bewerkingsfouten af te handelen en geavanceerde ruimtelijke analyses mogelijk te maken, zoals nabijheid, connectiviteit en insluiting. Infrastructuurnetwerken zijn afhankelijk van het generieke netwerkmodel dat in bijlage I is ontwikkeld.",
-        "en": "Enter your translation here"
+        "en": "In the real world, objects are connected to each other: an optical cable is connected to a multiplexer that in turn is connected to copper cables connecting into our homes to provide cable TV, telephony and internet access. Using GIS to support network utility management typically involves many types of features that may have connectivity to each other. Topology in GIS is generally defined as the spatial relationship between connecting or adjacent features, and is an essential prerequisite for many spatial operations such as network analysis. Utility networks can be described as NaN (Node-Arc-Node) network using two basic geometric types: points (aka nodes) and polylines (aka arcs). NaN topologies can be directed or un-directed, depending on specific type of network (i.e. water networks are directed, while telecommunications networks are not). Such topology structure provides an automated way to handle digitising and editing errors, and enable advanced spatial analyses such as adjacency, connectivity and containment. Infrastructure networks rely on Generic network model developed during Annex I."
       }
     },
     {
@@ -257,11 +257,11 @@
       "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
       "definition": {
         "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
+        "en": "A pipe used to transport oil, gas or chemicals from one location to another."
       },
       "label": {
         "nl": "OlieGasChemicaliënPijp",
-        "en": "Enter your translation here"
+        "en": "OilGasChemicalPipe"
       }
     },
     {
@@ -269,11 +269,11 @@
       "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
       "definition": {
         "nl": "Eenvoudig paalobject (mast) dat nutsobjecten kan dragen die behoren tot één of meerdere netwerken van nutsbedrijven.",
-        "en": "Enter your translation here"
+        "en": "Simple pole (mast) object which may carry utility objects belonging to either single or multiple utility networks."
       },
       "label": {
         "nl": "Paal",
-        "en": "Enter your translation here"
+        "en": "Pole"
       }
     },
     {
@@ -281,11 +281,11 @@
       "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "definition": {
         "nl": "Een nutsverbinding of verbindingssequentie voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere.",
-        "en": "Enter your translation here"
+        "en": "A utility link or link sequence for the conveyance of solids, liquids, chemicals or gases from one location to another."
       },
       "label": {
         "nl": "Pijp",
-        "en": "Enter your translation here"
+        "en": "Pipe"
       }
     },
     {
@@ -293,11 +293,11 @@
       "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
       "definition": {
         "nl": "Object dat extra informatie over één of meerdere nutsvoorzieningsnetwerkelementen weergeeft via bijkomende bestanden.",
-        "en": "Enter your translation here"
+        "en": "Object that displays additional information about one or more utility network elements via additional files."
       },
       "label": {
         "nl": "Plan",
-        "en": "Enter your translation here"
+        "en": "Plan"
       }
     },
     {
@@ -305,11 +305,11 @@
       "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
       "definition": {
         "nl": "Het grondoppervlak,waarvan de hoogte vaak opgegeven wordt ten opzichte van een nationaal nul-niveau.",
-        "en": "Enter your translation here"
+        "en": "The ground surface,whose height is often specified relative to a national zero level."
       },
       "label": {
         "nl": "Referentieoppervlak",
-        "en": "Enter your translation here"
+        "en": "ReferenceSurface"
       }
     },
     {
@@ -317,11 +317,11 @@
       "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
       "definition": {
         "nl": "Een rioolbuis die wordt gebruikt om afvalwater (riool) van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
+        "en": "A sewer pipe used to convey wastewater (sewer) from one location to another."
       },
       "label": {
         "nl": "Rioolpijp",
-        "en": "Enter your translation here"
+        "en": "SewerPipe"
       }
     },
     {
@@ -329,11 +329,11 @@
       "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
       "definition": {
         "nl": "Een utility link of linksequentie die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
+        "en": "A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another."
       },
       "label": {
         "nl": "Telecommunicatiekabel",
-        "en": "Enter your translation here"
+        "en": "TelecommunicationsCable"
       }
     },
     {
@@ -341,11 +341,11 @@
       "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
       "definition": {
         "nl": "Een pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te verspreiden.",
-        "en": "Enter your translation here"
+        "en": "A pipe used to disseminate heating or cooling from one location to another."
       },
       "label": {
-        "nl": "ThermischePijp",
-        "en": "Enter your translation here"
+        "nl": "Thermische Pijp",
+        "en": "Thermal Pipe"
       }
     },
     {
@@ -353,11 +353,11 @@
       "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
       "definition": {
         "nl": "Een toebehoren is een knooppuntobject dat wordt beschreven door zijn type (via het attribuut \"toebehorenType\")",
-        "en": "Enter your translation here"
+        "en": "An appurtenance is a node object that is described by its type (via the attribute "appurtenanceType")"
       },
       "label": {
         "nl": "Toebehoren",
-        "en": "Enter your translation here"
+        "en": "Appurtenance"
       }
     },
     {
@@ -365,15 +365,15 @@
       "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
       "definition": {
         "nl": "Object dat extra topografische informatie kan verstrekken over een deel van of een volledig utility network",
-        "en": "Enter your translation here"
+        "en": "Object that can provide additional topographical information about part or all of a utility network."
       },
       "label": {
         "nl": "Topografisch Element",
-        "en": "Enter your translation here"
+        "en": "TopographicalElement"
       },
       "usage": {
         "nl": "Hiermee kunnen extra eigentopografie en ontwerptopografie  via het attribuut topografisch Elementtype - worden beschreven. Deze topografieën worden gesitueerd via het attribuut ligging waarbij punt, lijn en polygoon geometrieën gebruikt kunnen worden.",
-        "en": "Enter your translation here"
+        "en": "This allows additional eigentopography and design topography via the attribute topographic Element Type - to be described. These topographies are situated via the attribute location where point, line and polygon geometries can be used."
       }
     },
     {
@@ -381,15 +381,15 @@
       "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
       "definition": {
         "nl": "Eenvoudig torenobject dat nutsvoorzieningobjecten kan vervoeren die tot één of meerdere nutsvoorzieningnetwerken behoren.",
-        "en": "Enter your translation here"
+        "en": "Simple tower object which may carry utility objects belonging to either single or multiple utility networks."
       },
       "label": {
         "nl": "Toren",
-        "en": "Enter your translation here"
+        "en": "Tower"
       },
       "usage": {
         "nl": "Torens vertegenwoordigen knooppuntobjecten die reservoirs, kabels of antennes ondersteunen.",
-        "en": "Enter your translation here"
+        "en": "Towers represent node objects that support reservoirs, cables or antennas."
       }
     },
     {
@@ -397,11 +397,11 @@
       "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
       "definition": {
         "nl": "De manier waarop een object eruit ziet.",
-        "en": "Enter your translation here"
+        "en": "The way an item looks"
       },
       "label": {
         "nl": "Uiterlijk",
-        "en": "Enter your translation here"
+        "en": "Appearance"
       }
     },
     {
@@ -409,11 +409,11 @@
       "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "verticalePositie",
-        "en": "Enter your translation here"
+        "en": "verticalPosition"
       }
     },
     {
@@ -421,11 +421,11 @@
       "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
       "definition": {
         "nl": "Een waterleiding die wordt gebruikt om water van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
+        "en": "A water pipe used to convey water from one location to another."
       },
       "label": {
         "nl": "Waterleiding",
-        "en": "Enter your translation here"
+        "en": "WaterPipe"
       }
     }
   ],
@@ -435,11 +435,11 @@
       "EA-Guid": "{A9A65420-5DE4-4dc4-80E0-D03317ECF385}",
       "definition": {
         "nl": "Geeft aan op welke verschillende manieren het object waarneembaar is.",
-        "en": "Enter your translation here"
+        "en": "Indicates the different ways in which the object is observable."
       },
       "label": {
         "nl": "zichtbaarheid",
-        "en": "Enter your translation here"
+        "en": "visibility"
       }
     },
     {
@@ -447,11 +447,11 @@
       "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
         "nl": "Geeft aan op welke verschillende manieren het object waarneembaar is.",
-        "en": "Enter your translation here"
+        "en": "Indicates the different ways in which the object is observable."
       },
       "label": {
         "nl": "zichtbaarheid",
-        "en": "Enter your translation here"
+        "en": "visibility"
       }
     },
     {
@@ -459,11 +459,11 @@
       "EA-Guid": "{CB78D103-BABF-4d04-BDDB-5146D44A72EF}",
       "definition": {
         "nl": "Geeft aan op welke verschillende manieren het object waarneembaar is.",
-        "en": "Enter your translation here"
+        "en": "Indicates the different ways in which the object is observable."
       },
       "label": {
         "nl": "zichtbaarheid",
-        "en": "Enter your translation here"
+        "en": "visibility"
       }
     },
     {
@@ -471,11 +471,11 @@
       "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
       "definition": {
         "nl": "De gebruiks- of bedrijfsspanning van de apparatuur die elektriciteit gebruikt.",
-        "en": "Enter your translation here"
+        "en": "The utilization or operating voltage by the equipment using the electricity."
       },
       "label": {
         "nl": "werkspanning",
-        "en": "Enter your translation here"
+        "en": "operatingVoltage"
       }
     },
     {
@@ -483,11 +483,11 @@
       "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
       "definition": {
         "nl": "Type van water",
-        "en": "Enter your translation here"
+        "en": "Type of water"
       },
       "label": {
         "nl": "watertype",
-        "en": "Enter your translation here"
+        "en": "waterType"
       }
     },
     {
@@ -495,11 +495,11 @@
       "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
       "definition": {
         "nl": "Soort bovengronds zichtbaar waarschuwingsmechanisme dat wordt gebruikt om een ondergronds nutsnetwerkelement aan te duiden.",
-        "en": "Enter your translation here"
+        "en": "Kind of overground visible warning mechanism used to indicate an underground utility network element."
       },
       "label": {
         "nl": "waarschuwingstype",
-        "en": "Enter your translation here"
+        "en": "warningType"
       }
     },
     {
@@ -507,11 +507,11 @@
       "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "verticalePositiedetail",
-        "en": "Enter your translation here"
+        "en": "verticalPositiondetail"
       }
     },
     {
@@ -519,11 +519,11 @@
       "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "verticalePositie",
-        "en": "Enter your translation here"
+        "en": "verticalPosition"
       }
     },
     {
@@ -531,11 +531,11 @@
       "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "verticalePositie",
-        "en": "Enter your translation here"
+        "en": "verticalPosition"
       }
     },
     {
@@ -543,11 +543,11 @@
       "EA-Guid": "{D9335DED-CB05-4e08-9E35-992400B607AF}",
       "definition": {
         "nl": "De manier waarop een object eruit ziet.",
-        "en": "Enter your translation here"
+        "en": "The way an object looks."
       },
       "label": {
         "nl": "uiterlijk",
-        "en": "Enter your translation here"
+        "en": "appearance"
       }
     },
     {
@@ -555,11 +555,11 @@
       "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
       "definition": {
         "nl": "De manier waarop een object eruit ziet.",
-        "en": "Enter your translation here"
+        "en": "The way an object looks."
       },
       "label": {
         "nl": "uiterlijk",
-        "en": "Enter your translation here"
+        "en": "appearance"
       }
     },
     {
@@ -567,11 +567,11 @@
       "EA-Guid": "{ACE6F98E-D2DC-40fb-B473-8E0BC8C66040}",
       "definition": {
         "nl": "De manier waarop een object eruit ziet.",
-        "en": "Enter your translation here"
+        "en": "The way an object looks."
       },
       "label": {
         "nl": "uiterlijk",
-        "en": "Enter your translation here"
+        "en": "appearance"
       }
     },
     {
@@ -579,15 +579,15 @@
       "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
       "definition": {
         "nl": "Classificatie van de verschillende soorten beschermde gebieden.",
-        "en": "Enter your translation here"
+        "en": "Classification of different types of protected areas."
       },
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "usage": {
         "nl": "De classificatie van beschermde gebieden zit vervat in het datatype",
-        "en": "Enter your translation here"
+        "en": "The classification of protected areas is contained in the data type"
       }
     },
     {
@@ -595,11 +595,11 @@
       "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
       "definition": {
         "nl": "Hoogte van de toren.",
-        "en": "Enter your translation here"
+        "en": "Total heigt of the tower."
       },
       "label": {
         "nl": "torenhoogte",
-        "en": "Enter your translation here"
+        "en": "towerHeight"
       }
     },
     {
@@ -607,27 +607,27 @@
       "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
       "definition": {
         "nl": "Beschrijft het soort van het topografisch element.",
-        "en": "Enter your translation here"
+        "en": "Describes the type of topographic element."
       },
       "label": {
         "nl": "topografisch elementtype",
-        "en": "Enter your translation here"
+        "en": "topographical ElementType"
       },
       "usage": {
         "nl": "Dit attribuut maakt gebruik van de codelijst topografischElementtype.",
-        "en": "Enter your translation here"
+        "en": "This attribute uses the code list topographicElementtype."
       }
     },
     {
       "name": "toebehorentype",
       "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
       "definition": {
-        "nl": "Type van toebehoren",
-        "en": "Enter your translation here"
+        "nl": "Classificatie van het toebehoren.",
+        "en": "Appurtenance classification."
       },
       "label": {
         "nl": "toebehorentype",
-        "en": "Enter your translation here"
+        "en": "appurtenanceType"
       }
     },
     {
@@ -635,11 +635,11 @@
       "EA-Guid": "{8FBCB721-4DB1-47f4-9694-E06978259957}",
       "definition": {
         "nl": "Classificatie van het toebehoren.",
-        "en": "Enter your translation here"
+        "en": "Appurtenance classification."
       },
       "label": {
         "nl": "toebehorentype",
-        "en": "Enter your translation here"
+        "en": "appurtenanceType"
       }
     },
     {
@@ -647,11 +647,11 @@
       "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
       "definition": {
         "nl": "Het type thermisch product dat door de thermische pijp wordt getransporteerd.",
-        "en": "Enter your translation here"
+        "en": "The type of thermal product that is conveyed through the thermal pipe."
       },
       "label": {
         "nl": "thermischProducttype",
-        "en": "Enter your translation here"
+        "en": "thermalProductType"
       }
     },
     {
@@ -659,11 +659,11 @@
       "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
       "definition": {
         "nl": "De maximale temperatuur van de inhoud in de pijp.",
-        "en": "Enter your translation here"
+        "en": "The maximum temperature of the content in the pipe."
       },
       "label": {
         "nl": "temperatuur",
-        "en": "Enter your translation here"
+        "en": "temperature"
       }
     },
     {
@@ -671,11 +671,11 @@
       "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
       "definition": {
         "nl": "Type van kabelmateriaal",
-        "en": "Enter your translation here"
+        "en": "Type of cable material"
       },
       "label": {
         "nl": "telecommunicatiekabelmateriaaltype",
-        "en": "Enter your translation here"
+        "en": "telecommunicationsCableMaterialType"
       }
     },
     {
@@ -683,11 +683,11 @@
       "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
       "definition": {
         "nl": "Effectieve informatie die wordt weergegeven.",
-        "en": "Enter your translation here"
+        "en": "Actual information displayed."
       },
       "label": {
         "nl": "tekst",
-        "en": "Enter your translation here"
+        "en": "text"
       }
     },
     {
