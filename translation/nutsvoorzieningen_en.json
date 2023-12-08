@@ -695,11 +695,11 @@
       "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "technischeSpecificate",
-        "en": "Enter your translation here"
+        "en": "technicalSpecification"
       }
     },
     {
@@ -707,11 +707,11 @@
       "EA-Guid": "{3819ED88-81D8-4541-B26B-A64C5CDE020D}",
       "definition": {
         "nl": "Classificatie van een pijp volgens het thematisch domein waar deze toe behoren.",
-        "en": "Enter your translation here"
+        "en": "Classification of a pipe according to the thematic domain they belong to."
       },
       "label": {
         "nl": "subthema",
-        "en": "Enter your translation here"
+        "en": "subtheme"
       }
     },
     {
@@ -719,11 +719,11 @@
       "EA-Guid": "{92F903FE-6F84-43f6-A09B-CC9D355D8C89}",
       "definition": {
         "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
-        "en": "Enter your translation here"
+        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
       },
       "label": {
         "nl": "subthema",
-        "en": "Enter your translation here"
+        "en": "subtheme"
       }
     },
     {
@@ -731,11 +731,11 @@
       "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "standaardVerticalePositiedetail",
-        "en": "Enter your translation here"
+        "en": "standardVerticalPositiondetail"
       }
     },
     {
@@ -755,11 +755,11 @@
       "EA-Guid": "{3846A060-B6A3-4e1c-8C23-6824A4215BB9}",
       "definition": {
         "nl": "Geeft aan of een nutsvoorzieningknoop als gevaarlijk kan beschouwd worden.",
-        "en": "Enter your translation here"
+        "en": "Indicates whether a utility node can be considered hazardous."
       },
       "label": {
         "nl": "risico",
-        "en": "Enter your translation here"
+        "en": "risk"
       }
     },
     {
@@ -767,11 +767,11 @@
       "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
       "definition": {
         "nl": "Geeft aan of een nutsvoorzieninglinkset als gevaarlijk kan beschouwd worden.",
-        "en": "Enter your translation here"
+        "en": "Indicates whether a utility link set can be considered hazardous."
       },
       "label": {
         "nl": "risico",
-        "en": "Enter your translation here"
+        "en": "risk"
       }
     },
     {
@@ -779,11 +779,11 @@
       "EA-Guid": "{D53BCB73-D335-450e-9E1E-532956F36F0B}",
       "definition": {
         "nl": "Geeft aan of een nutsvoorzieningknoopcontainer als gevaarlijk kan beschouwd worden.",
-        "en": "Enter your translation here"
+        "en": "Indicates whether a utility node container can be considered hazardous."
       },
       "label": {
         "nl": "risico",
-        "en": "Enter your translation here"
+        "en": "risk"
       }
     },
     {
@@ -791,11 +791,11 @@
       "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
       "definition": {
         "nl": "Type van rioolwater",
-        "en": "Enter your translation here"
+        "en": "Type of sewer water"
       },
       "label": {
         "nl": "rioolwatertype",
-        "en": "Enter your translation here"
+        "en": "sewerWaterType"
       }
     },
     {
@@ -803,11 +803,11 @@
       "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "referentieOppervlak",
-        "en": "Enter your translation here"
+        "en": "referenceSurface"
       }
     },
     {
@@ -815,11 +815,12 @@
       "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
       "definition": {
         "nl": "Buitendiameter pijp",
-        "en": "Enter your translation here"
+        "en": "Pipe outer diameter
+"
       },
       "label": {
         "nl": "pijpdiameter",
-        "en": "Enter your translation here"
+        "en": "pipeDiameter"
       }
     },
     {
@@ -827,11 +828,11 @@
       "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "pijp",
-        "en": "Enter your translation here"
+        "en": "pipe"
       }
     },
     {
@@ -839,11 +840,11 @@
       "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
       "definition": {
         "nl": "Pijpen kunnen meerdere pijpen bevatten.",
-        "en": "Enter your translation here"
+        "en": "Pipes may contain multiple pipes."
       },
       "label": {
         "nl": "pijp",
-        "en": "Enter your translation here"
+        "en": "pipe"
       }
     },
     {
@@ -851,11 +852,11 @@
       "EA-Guid": "{AB08957F-2B69-41d5-9AA0-0236F59F1144}",
       "definition": {
         "nl": "De hoogte van de paal.",
-        "en": "Enter your translation here"
+        "en": "The height of the Pole"
       },
       "label": {
         "nl": "paalhoogte",
-        "en": "Enter your translation here"
+        "en": "poleHeight"
       }
     },
     {
@@ -863,11 +864,11 @@
       "EA-Guid": "{74E9CE28-3C3F-4790-93FE-318D9CD6E326}",
       "definition": {
         "nl": "Verwijzing naar een overheidsdienstobject dat verband houdt met dit element van een nutsvoorzieningsnetwerkelement.",
-        "en": "Enter your translation here"
+        "en": "Reference to a public service object related to this element of a utility network element."
       },
       "label": {
         "nl": "overheidsdienstreferentie",
-        "en": "Enter your translation here"
+        "en": "governementalServiceReference"
       }
     },
     {
@@ -875,11 +876,11 @@
       "EA-Guid": "{19868C0F-5DAB-45f8-A997-72B8BC4358E7}",
       "definition": {
         "nl": "Uitvoer van het resultaat van de activiteit in de functie.",
-        "en": "Enter your translation here"
+        "en": "Output the result of the activity in the function."
       },
       "label": {
         "nl": "output",
-        "en": "Enter your translation here"
+        "en": "output"
       }
     },
     {
@@ -887,11 +888,11 @@
       "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
       "definition": {
         "nl": "Het attribuut oriëntatie beschrijft de hoek die de oriëntatie van de Nutsvoorzieningknoop object bepaalt.",
-        "en": "Enter your translation here"
+        "en": "The attribute "orientation" describes the angle that determines the orientation of the Utility node object."
       },
       "label": {
         "nl": "oriëntatie",
-        "en": "Enter your translation here"
+        "en": "orientation"
       }
     },
     {
@@ -899,11 +900,11 @@
       "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
       "definition": {
         "nl": "Het attribuut oriëntatie beschrijft de hoek die de oriëntatie van de Nutsvoorzieningknoopcontainer object bepaalt.",
-        "en": "Enter your translation here"
+        "en": "The attribute "orientation" describes the angle that determines the orientation of the Utility node container object."
       },
       "label": {
         "nl": "oriëntatie",
-        "en": "Enter your translation here"
+        "en": "orientation"
       }
     },
     {
@@ -911,11 +912,11 @@
       "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
       "definition": {
         "nl": "Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd.",
-        "en": "Enter your translation here"
+        "en": "The type of oil, gas or chemical product transported through the oil, gas or chemical pipe."
       },
       "label": {
         "nl": "OlieGasChemicaliënProducttype",
-        "en": "Enter your translation here"
+        "en": "oilGasChemicalProductType"
       }
     },
     {
@@ -923,11 +924,11 @@
       "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
       "definition": {
         "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
+        "en": "The type of utility network or the utility network theme."
       },
       "label": {
         "nl": "nutsvoorzieningnetwerktype",
-        "en": "Enter your translation here"
+        "en": "utilityNetworkType"
       }
     },
     {
@@ -935,11 +936,11 @@
       "EA-Guid": "{4E6C7DB7-08AF-4e6b-B569-1F5E04CE754F}",
       "definition": {
         "nl": "Soort nutsnetwerk, bijvoorbeeld transport, distributie, inzameling",
-        "en": "Enter your translation here"
+        "en": "Kind of utility network e.g. transport, distribution, collection…"
       },
       "label": {
         "nl": "nutsvoorzieningleveringstype",
-        "en": "Enter your translation here"
+        "en": "utilityDeliveryType"
       }
     },
     {
@@ -947,11 +948,11 @@
       "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
       "definition": {
         "nl": "De nominale systeemspanning op het leveringspunt.",
-        "en": "Enter your translation here"
+        "en": "The nominal system voltage at the point of supply."
       },
       "label": {
         "nl": "nominale Spanning",
-        "en": "Enter your translation here"
+        "en": "nominalVoltage"
       }
     },
     {
@@ -959,11 +960,11 @@
       "EA-Guid": "{B9624384-8209-495b-BBB1-6A46F5ED0B94}",
       "definition": {
         "nl": "Een nutsvoorzieningnetwerk kan bestaan uit meerdere nutsvoorzieningnetwerken.",
-        "en": "Enter your translation here"
+        "en": "A utility network may consist of several utility networks."
       },
       "label": {
         "nl": "netwerk",
-        "en": "Enter your translation here"
+        "en": "network"
       }
     },
     {
@@ -971,11 +972,11 @@
       "EA-Guid": "{669729F3-407B-4d0e-AFC8-F53D8EABC85D}",
       "definition": {
         "nl": "De correctheid van de meting.",
-        "en": "Enter your translation here"
+        "en": "The correctness of the Measurement"
       },
       "label": {
         "nl": "nauwkeurigheid",
-        "en": "Enter your translation here"
+        "en": "accuracy"
       }
     },
     {
@@ -983,11 +984,11 @@
       "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
       "definition": {
         "nl": "Classificatie van het matriaal gebruikt voor de nutsvoorzieninglinkset",
-        "en": "Enter your translation here"
+        "en": "Classification of material used for utility link set."
       },
       "label": {
         "nl": "materiaaltype",
-        "en": "Enter your translation here"
+        "en": "materialType"
       }
     },
     {
@@ -995,15 +996,15 @@
       "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "locatie",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features using points, lines, polygons and coordinates."
       }
     },
     {
@@ -1011,15 +1012,15 @@
       "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "locatie",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features using points, lines, polygons and coordinates."
       }
     },
     {
@@ -1027,15 +1028,15 @@
       "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "ligging",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features using points, lines, polygons and coordinates."
       }
     },
     {
@@ -1043,15 +1044,15 @@
       "EA-Guid": "{B180BBBC-C7FF-47b1-B8A3-9FB429C38692}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "ligging",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features using points, lines, polygons and coordinates."
       }
     },
     {
@@ -1059,15 +1060,15 @@
       "EA-Guid": "{C0CAAE0B-80A5-40c1-B32F-188074D5A190}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "ligging",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features using points, lines, polygons and coordinates."
       }
     },
     {
@@ -1075,15 +1076,15 @@
       "EA-Guid": "{319584C1-3AA8-49fb-AA76-6E86040D3F31}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "ligging",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features using points, lines, polygons and coordinates."
       }
     },
     {
@@ -1091,11 +1092,11 @@
       "EA-Guid": "{46331986-D10E-4bda-9CAF-30970AE00D3B}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "knoop",
-        "en": "Enter your translation here"
+        "en": "node"
       }
     },
     {
@@ -1103,11 +1104,11 @@
       "EA-Guid": "{320A079D-1C70-465e-85DA-E31BE1A1DD0D}",
       "definition": {
         "nl": "De kleur van een item.",
-        "en": "Enter your translation here"
+        "en": "The colour of an item"
       },
       "label": {
         "nl": "kleur",
-        "en": "Enter your translation here"
+        "en": "colour"
       }
     },
     {
@@ -1115,11 +1116,11 @@
       "EA-Guid": "{CF953F89-815C-4736-9F26-C63AB01A7040}",
       "definition": {
         "nl": "Breedte van het kanaal",
-        "en": "Enter your translation here"
+        "en": "The width of the duct"
       },
       "label": {
         "nl": "kanaalbreedte",
-        "en": "Enter your translation here"
+        "en": "ductWidth"
       }
     },
     {
@@ -1127,11 +1128,11 @@
       "EA-Guid": "{4F60EFC8-708A-4454-94BC-4DA8A4432ACA}",
       "definition": {
         "nl": "Kanalen (kanaalbanken of binnenkanalen) kunnen kabels bevatten.",
-        "en": "Enter your translation here"
+        "en": "Channels (channel banks or inner channels) may contain cables."
       },
       "label": {
         "nl": "kanaal",
-        "en": "Enter your translation here"
+        "en": "ducts"
       }
     },
     {
@@ -1139,11 +1140,11 @@
       "EA-Guid": "{D1E13FF4-FCAA-4046-BCFC-A7B0D1C3B0FA}",
       "definition": {
         "nl": "Diameter van de kabel",
-        "en": "Enter your translation here"
+        "en": "The diameter of the Cable"
       },
       "label": {
         "nl": "kabeldiameter",
-        "en": "Enter your translation here"
+        "en": "cableDiameter"
       }
     },
     {
@@ -1151,11 +1152,11 @@
       "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
       "definition": {
         "nl": "Kabels kunnen andere kabels bevatten.",
-        "en": "Enter your translation here"
+        "en": "Ducts (duct banks, or inner-ducts) may contain cables."
       },
       "label": {
         "nl": "kabel",
-        "en": "Enter your translation here"
+        "en": "cables"
       }
     },
     {
@@ -1163,11 +1164,11 @@
       "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "kabel",
-        "en": "Enter your translation here"
+        "en": "cable"
       }
     },
     {
@@ -1175,11 +1176,11 @@
       "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
       "definition": {
         "nl": "Invoer voor de activiteit in de functie",
-        "en": "Enter your translation here"
+        "en": "Input for the activity in the function."
       },
       "label": {
         "nl": "input",
-        "en": "Enter your translation here"
+        "en": "input"
       }
     },
     {
@@ -1187,11 +1188,11 @@
       "EA-Guid": "{B7EE7353-0C10-44a0-9E23-C788317104BB}",
       "definition": {
         "nl": "Verwijzing naar een Netwerk object waartoe een Nutsvoorzieningknoop behoort.",
-        "en": "Enter your translation here"
+        "en": "Reference to a Network object to which a Utility node belongs."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwerk"
       }
     },
     {
@@ -1199,11 +1200,11 @@
       "EA-Guid": "{00B84534-2965-4e6f-9B62-64AE34F23F96}",
       "definition": {
         "nl": "Verwijzing naar een Netwerk object waartoe een Nutsvoorzieninglinkset behoort",
-        "en": "Enter your translation here"
+        "en": "Reference to a Network object to which a Utility Link Set belongs"
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwerk"
       }
     },
     {
@@ -1211,11 +1212,11 @@
       "EA-Guid": "{6866C6BE-1FE0-45f8-8AF2-34549BD88BC0}",
       "definition": {
         "nl": "Verwijzing naar een Netwerk object waartoe een Nutsvoorzieninglink behoort.",
-        "en": "Enter your translation here"
+        "en": "Reference to a Network object to which a Utility link belongs."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwerk"
       }
     },
     {
@@ -1223,11 +1224,11 @@
       "EA-Guid": "{8AEBDD8E-DAB5-4601-A4EC-2A4AFAD88140}",
       "definition": {
         "nl": "Verwijzing naar een Netwerk object waartoe een Nutsvoorzieninglinksetsequentie behoort.",
-        "en": "Enter your translation here"
+        "en": "Reference to a Network object to which a Utility link set sequence belongs."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwerk"
       }
     },
     {
@@ -1235,11 +1236,11 @@
       "EA-Guid": "{AF24B6DA-57B9-4fa6-AF32-F0B9ABE0C449}",
       "definition": {
         "nl": "Verwijzing naar een Netwerk object waartoe een NetwerkElement behoort.",
-        "en": "Enter your translation here"
+        "en": "Reference to a Network object to which a NetworkElement belongs."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwerk"
       }
     },
     {
@@ -1247,11 +1248,11 @@
       "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
       "definition": {
         "nl": "De status van een nutsobject met betrekking tot de voltooiing en het gebruik ervan.",
-        "en": "Enter your translation here"
+        "en": "The status of an utility object with regards to its completion and use."
       },
       "label": {
         "nl": "huidigeStatus",
-        "en": "Enter your translation here"
+        "en": "currentStatus"
       }
     },
     {
@@ -1259,11 +1260,11 @@
       "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
       "definition": {
         "nl": "De hoogte van het toebehoren",
-        "en": "Enter your translation here"
+        "en": "The height of the Appurtenance"
       },
       "label": {
         "nl": "hoogte",
-        "en": "Enter your translation here"
+        "en": "height"
       }
     },
     {
@@ -1271,11 +1272,11 @@
       "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "hoogte",
-        "en": "Enter your translation here"
+        "en": "height"
       }
     },
     {
@@ -1283,11 +1284,11 @@
       "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
       "definition": {
         "nl": "Het tijdstip waarop het nutsvoorzieningnetwerkelement in de echte wereld begon te bestaan.",
-        "en": "Enter your translation here"
+        "en": "The time when the utility network element started to exist in the real world."
       },
       "label": {
         "nl": "geldigVan",
-        "en": "Enter your translation here"
+        "en": "validFrom"
       }
     },
     {
@@ -1295,11 +1296,11 @@
       "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
       "definition": {
         "nl": "Het tijdstip vanaf wanneer het nutsvoorzieningnetwerkelement niet meer bestaat in de echte wereld.",
-        "en": "Enter your translation here"
+        "en": "The time from which the utility network element no longer exists in the real world."
       },
       "label": {
         "nl": "geldigTot",
-        "en": "Enter your translation here"
+        "en": "validTo"
       }
     },
     {
@@ -1307,11 +1308,11 @@
       "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "definition": {
         "nl": "Verzameling van annotatie delen.",
-        "en": "Enter your translation here"
+        "en": "Collection of annotation parts."
       },
       "label": {
         "nl": "geheel",
-        "en": "Enter your translation here"
+        "en": "whole"
       }
     },
     {
@@ -1319,11 +1320,11 @@
       "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
       "definition": {
         "nl": "Object waar de annotatie betrekking op heeft",
-        "en": "Enter your translation here"
+        "en": "Object to which the annotation refers."
       },
       "label": {
         "nl": "geassocieerd met",
-        "en": "Enter your translation here"
+        "en": "associatedWith"
       }
     },
     {
@@ -1331,11 +1332,11 @@
       "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "definition": {
         "nl": "Activiteiten uitgevoerd door het activiteitencomplex. De functie wordt beschreven door de activiteit en eventueel aangevuld met informatie over inputs en outputs als gevolg daarvan.",
-        "en": "Enter your translation here"
+        "en": "Activities performed by the activity complex. Function is described by the activity and potentially complemented with information about inputs and outputs as result of it."
       },
       "label": {
         "nl": "functie",
-        "en": "Enter your translation here"
+        "en": "function"
       }
     },
     {
@@ -1343,11 +1344,11 @@
       "EA-Guid": "{277E93E2-BA37-4447-ABD1-D5DD8A203C49}",
       "definition": {
         "nl": "De maximaal toegestane operationele druk waarbij een product door een pijp wordt getransporteerd.",
-        "en": "Enter your translation here"
+        "en": "The maximum allowable operating pressure at which a product is conveyed through a pipe."
       },
       "label": {
         "nl": "druk",
-        "en": "Enter your translation here"
+        "en": "pressure"
       }
     },
     {
@@ -1355,11 +1356,11 @@
       "EA-Guid": "{8A6073D6-54F4-4273-8D01-3A5C9AE86471}",
       "definition": {
         "nl": "Extra uitleg over het nutsvoorzieningsnetwerkelement.",
-        "en": "Enter your translation here"
+        "en": "Additional explanation of the utility network element."
       },
       "label": {
         "nl": "documentatie",
-        "en": "Enter your translation here"
+        "en": "documentation"
       }
     },
     {
@@ -1367,11 +1368,11 @@
       "EA-Guid": "{AB4880EF-C725-4006-8448-5C5B2C1F126E}",
       "definition": {
         "nl": "Extra uitleg over het nutsvoorzieningnetwerk",
-        "en": "Enter your translation here"
+        "en": "Additional explanation of utility network."
       },
       "label": {
         "nl": "documentatie",
-        "en": "Enter your translation here"
+        "en": "documentation"
       }
     },
     {
@@ -1379,11 +1380,11 @@
       "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
       "definition": {
         "nl": "Extra uitleg over het activiteitencomplex",
-        "en": "Enter your translation here"
+        "en": "Additional explanation of the activity complex."
       },
       "label": {
         "nl": "documentatie",
-        "en": "Enter your translation here"
+        "en": "documentation"
       }
     },
     {
@@ -1391,11 +1392,11 @@
       "EA-Guid": "{84D05DCC-DF57-4ec2-A1D3-CDB55EAC6E4C}",
       "definition": {
         "nl": "Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk.",
-        "en": "Enter your translation here"
+        "en": "Legal text describing confidentiality clauses applying to the utility network information."
       },
       "label": {
         "nl": "disclaimer",
-        "en": "Enter your translation here"
+        "en": "disclaimer"
       }
     },
     {
@@ -1403,11 +1404,11 @@
       "EA-Guid": "{4BFA1700-E708-414a-AFB9-70E236965A52}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "diepte",
-        "en": "Enter your translation here"
+        "en": "depth"
       }
     },
     {
@@ -1415,11 +1416,11 @@
       "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "definition": {
         "nl": "Een onderdeel van een annotatie in een groter geheel.",
-        "en": "Enter your translation here"
+        "en": "Part of an annotation in a larger whole."
       },
       "label": {
         "nl": "deel",
-        "en": "Enter your translation here"
+        "en": "part"
       }
     },
     {
@@ -1427,11 +1428,11 @@
       "EA-Guid": "{A46FB68D-F943-48ac-B943-B63B769B47CF}",
       "definition": {
         "nl": "Het moment waarop de meting heeft plaatsgevonden",
-        "en": "Enter your translation here"
+        "en": "The time when the measurement took place,"
       },
       "label": {
         "nl": "datum",
-        "en": "Enter your translation here"
+        "en": "date"
       }
     },
     {
@@ -1439,11 +1440,11 @@
       "EA-Guid": "{81C9EC16-88BB-4de5-A325-2B0E48E4AB0C}",
       "definition": {
         "nl": "Attribuut dat het soort van pijpcontainer aangeeft.",
-        "en": "Enter your translation here"
+        "en": "Attribute indicating the type of pipe container."
       },
       "label": {
         "nl": "containertype",
-        "en": "Enter your translation here"
+        "en": "containertype"
       }
     },
     {
@@ -1451,11 +1452,11 @@
       "EA-Guid": "{56A89955-9113-4d56-8A78-1A6416729AFA}",
       "definition": {
         "nl": "De aard van de container aan het kanaal",
-        "en": "Enter your translation here"
+        "en": "The kind of container linked to the canal."
       },
       "label": {
         "nl": "containertype",
-        "en": "Enter your translation here"
+        "en": "containertype"
       }
     },
     {
@@ -1463,11 +1464,11 @@
       "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
       "definition": {
         "nl": "Partijen die bevoegd zijn om een nutsvoorzieningnetwerk te beheren, zoals beheerders, exploitanten of eigenaren.",
-        "en": "Enter your translation here"
+        "en": "Parties authorized to manage a utility network, such as maintainers, operators or owners."
       },
       "label": {
         "nl": "bevoegdePartij",
-        "en": "Enter your translation here"
+        "en": "authorityRole"
       }
     },
     {
@@ -1475,11 +1476,11 @@
       "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
       "definition": {
         "nl": "Classificatie van het annotatie object.",
-        "en": "Enter your translation here"
+        "en": "Classification of the annotation object."
       },
       "label": {
         "nl": "annotatietype",
-        "en": "Enter your translation here"
+        "en": "annotationType"
       }
     },
     {
@@ -1487,11 +1488,11 @@
       "EA-Guid": "{402EBC20-6752-4cb9-A310-47F1119B60DD}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "afstand",
-        "en": "Enter your translation here"
+        "en": "distance"
       }
     },
     {
@@ -1499,11 +1500,11 @@
       "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
       "definition": {
         "nl": "Identificatie van een plaats  door middel van een straat, nummer en gemeente.",
-        "en": "Enter your translation here"
+        "en": "Identification of a place by street, number and municipality."
       },
       "label": {
         "nl": "adres",
-        "en": "Enter your translation here"
+        "en": "adres"
       }
     },
     {
@@ -1511,11 +1512,11 @@
       "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
       "definition": {
         "nl": "Verwijzing naar een facilitair activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk.",
-        "en": "Enter your translation here"
+        "en": "Reference to a facility activity complex that is linked to (e.g. part of) this utility network."
       },
       "label": {
         "nl": "activiteitencomplexreferentie",
-        "en": "Enter your translation here"
+        "en": "utilityFacilityReference"
       }
     },
     {
@@ -1523,11 +1524,11 @@
       "EA-Guid": "{F70F22E8-22A0-4c24-BBB2-3ECBC29AABCD}",
       "definition": {
         "nl": "In de context van ActivityComplex dat een Function object bevat gaat het hier om de functiebeschrijving van het ActivityComplex.",
-        "en": "Enter your translation here"
+        "en": "In the context of ActivityComplex containing a Function object, this is about the function description of the ActivityComplex."
       },
       "label": {
         "nl": "activiteit",
-        "en": "Enter your translation here"
+        "en": "activity"
       }
     },
     {
