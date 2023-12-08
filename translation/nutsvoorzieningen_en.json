@@ -2202,11 +2202,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
       "definition": {
         "nl": "Verzameling van Netwerkelementen.",
-        "en": "Enter your translation here"
+        "en": "Collection of Network Elements"
       },
       "label": {
         "nl": "Netwerk",
-        "en": "Enter your translation here"
+        "en": "Network"
       }
     }
   ],
@@ -2216,11 +2216,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
       "definition": {
         "nl": "Associatie attribuut vanuit de extra informatie objecten en ActivityComplex naar Nutsvoorzieningsnetwerkelement.",
-        "en": "Enter your translation here"
+        "en": "Association attribute from the additional information objects and ActivityComplex to Utility Network element."
       },
       "label": {
         "nl": "op",
-        "en": "Enter your translation here"
+        "en": "on"
       }
     },
     {
@@ -2228,11 +2228,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
       "definition": {
         "nl": "Geeft aan of de gerichte link overeenkomt (positief) of niet overeenkomt (negatief) met de positieve richting van de link.",
-        "en": "Enter your translation here"
+        "en": ""Indicates if the directed link agrees (positive) or disagrees (negative) with the positive direction of the link.""
       },
       "label": {
         "nl": "richting",
-        "en": "Enter your translation here"
+        "en": "direction"
       }
     },
     {
@@ -2240,11 +2240,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{FA832228-665E-4467-A9FF-B970B7EE6B03}",
       "definition": {
         "nl": "De optionele eindnode voor deze link. De eindNode kan dezelfde instantie zijn al de startNode.",
-        "en": "Enter your translation here"
+        "en": "The optional end node for this link. The end node may be the same instance as the start node."
       },
       "label": {
         "nl": "eindNode",
-        "en": "Enter your translation here"
+        "en": "endNode"
       }
     },
     {
@@ -2252,11 +2252,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{6087554F-C158-4fb6-934F-F94321A053D8}",
       "definition": {
         "nl": "De optionele startnode voor deze link",
-        "en": "Enter your translation here"
+        "en": "The optional start code for this link"
       },
       "label": {
         "nl": "startNode",
-        "en": "Enter your translation here"
+        "en": "startNode"
       }
     },
     {
@@ -2264,11 +2264,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
       "definition": {
         "nl": "Netwerkelement dat twee posities met elkaar verbindt en een homogeen pad in het netwerk vertegenwoordigt. De verbonden posities kunnen voorgesteld zijn als knooppunten.",
-        "en": "Enter your translation here"
+        "en": "Network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes."
       },
       "label": {
         "nl": "link",
-        "en": "Enter your translation here"
+        "en": "link"
       }
     },
     {
@@ -2276,11 +2276,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{43D2E535-52C3-4008-990F-57D9080C843E}",
       "definition": {
         "nl": "De geometrie die de middellijn van de schakel weergeeft.",
-        "en": "Enter your translation here"
+        "en": "The geometry that represents the centreline of the link"
       },
       "label": {
         "nl": "middelijngeometrie",
-        "en": "Enter your translation here"
+        "en": "centrelineGeometry"
       }
     },
     {
@@ -2288,11 +2288,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
       "definition": {
         "nl": "Ligging van het nutsvoorzieningknooppunt.",
-        "en": "Enter your translation here"
+        "en": "Location of utility node."
       },
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       }
     },
     {
@@ -2312,11 +2312,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{DFA56CED-AF76-4077-AA73-25EAF7B3BF3E}",
       "definition": {
         "nl": "Verwijzing naar de Link.",
-        "en": "Enter your translation here"
+        "en": "Network element that connects two positions and represents a homogeneous path in the network. The connected positions may be represented as nodes."
       },
       "label": {
         "nl": "link",
-        "en": "Enter your translation here"
+        "en": "link"
       }
     },
     {
@@ -2324,11 +2324,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{A85FB6B8-4B1E-44b2-8F83-3154C27A3D7F}",
       "definition": {
         "nl": "Het bepalen van de precieze omvang van iets door het te meten.",
-        "en": "Enter your translation here"
+        "en": "Determining the exact size of something by measuring it."
       },
       "label": {
         "nl": "opmeting",
-        "en": "Enter your translation here"
+        "en": "measurement"
       }
     },
     {
@@ -2336,11 +2336,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{BAD41103-19C8-4665-9B51-882FED3485BA}",
       "definition": {
         "nl": "De manier waarop de positie werd bepaald.",
-        "en": "Enter your translation here"
+        "en": "The way the position was determined."
       },
       "label": {
         "nl": "opmeting",
-        "en": "Enter your translation here"
+        "en": "Emeasurement"
       }
     },
     {
@@ -2348,11 +2348,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
       "definition": {
         "nl": "Adres waarvan de adresvoorstelling is afgeleid.",
-        "en": "Enter your translation here"
+        "en": "Address from which the address representation is derived."
       },
       "label": {
         "nl": "verwijst Naar",
-        "en": "Enter your translation here"
+        "en": "refersTo"
       }
     },
     {
@@ -2360,11 +2360,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
       "definition": {
         "nl": "Land waarin het adres gelegen is.",
-        "en": "Enter your translation here"
+        "en": "Country in which the address is located."
       },
       "label": {
         "nl": "land",
-        "en": "Enter your translation here"
+        "en": "country"
       }
     },
     {
@@ -2372,11 +2372,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
         "nl": "Gemeentenaam vh adres.",
-        "en": "Enter your translation here"
+        "en": "Municipal name from address."
       },
       "label": {
         "nl": "gemeentenaam",
-        "en": "Enter your translation here"
+        "en": "municipality name"
       }
     },
     {
@@ -2384,11 +2384,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{C2D96375-F4C9-4843-8BB8-720BDFB01C6F}",
       "definition": {
         "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.",
-        "en": "Enter your translation here"
+        "en": "Officially assigned alphanumeric code added to the house number to distinguish multiple building units, pitches, moorings or plots that have the same house number."
       },
       "label": {
         "nl": "busnummer",
-        "en": "Enter your translation here"
+        "en": "box number"
       }
     },
     {
@@ -2396,11 +2396,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{8D4E1B8A-E644-40ae-934D-AB99591AA272}",
       "definition": {
         "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
-        "en": "Enter your translation here"
+        "en": "Alphanumeric code officially assigned to building units, moorings, pitches or plots."
       },
       "label": {
         "nl": "huisnummer",
-        "en": "Enter your translation here"
+        "en": "house number"
       }
     },
     {
@@ -2408,11 +2408,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{CF7A8796-A603-40bd-BEB3-0A061B4D12D2}",
       "definition": {
         "nl": "Straatnaam vh adres.",
-        "en": "Enter your translation here"
+        "en": "Street name of address."
       },
       "label": {
         "nl": "straatnaam",
-        "en": "Enter your translation here"
+        "en": "street name"
       }
     },
     {
@@ -2420,11 +2420,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{0C3DC406-E0CB-4dad-830C-552FECE0607D}",
       "definition": {
         "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid.",
-        "en": "Enter your translation here"
+        "en": "Name denoting the geographical area that groups addresses for postal purposes."
       },
       "label": {
         "nl": "postnaam",
-        "en": "Enter your translation here"
+        "en": "postal name"
       }
     },
     {
@@ -2432,11 +2432,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{79059549-95C0-406d-A855-3AB01E5D9374}",
       "definition": {
         "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid.",
-        "en": "Enter your translation here"
+        "en": "Code denoting the geographical area that groups addresses for postal purposes."
       },
       "label": {
         "nl": "postcode",
-        "en": "Enter your translation here"
+        "en": "postal code"
       }
     },
     {
@@ -2444,23 +2444,22 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{B0415347-2C6D-4b21-9C85-D880A76C823D}",
       "definition": {
         "nl": "Postbusnummer in een postkantoor.",
-        "en": "Enter your translation here"
+        "en": "PO Box number in a post office."
       },
       "label": {
         "nl": "postbus",
-        "en": "Enter your translation here"
-      }
+        "en": "PObox"
     },
     {
       "name": "locatienaam",
       "EA-Guid": "{961B165A-2D89-419f-842D-09B23DFB1C7B}",
       "definition": {
         "nl": "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt.",
-        "en": "Enter your translation here"
+        "en": "Name or description vh the geographic object the address locator designates."
       },
       "label": {
         "nl": "locatienaam",
-        "en": "Enter your translation here"
+        "en": "location name"
       }
     },
     {
@@ -2468,23 +2467,24 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{3D6659FE-98C9-4e40-BC96-D4F2A5098925}",
       "definition": {
         "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc.",
-        "en": "Enter your translation here"
+        "en": "Alphanumeric code that uniquely identifies the address locator within the street, administrative unit, etc."
       },
       "label": {
         "nl": "locatieaanduiding",
-        "en": "Enter your translation here"
+        "en": "location indication"
       }
     },
     {
       "name": "geometrie",
       "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
       "definition": {
-        "nl": "De geometrie die wordt gebruikt om de omvang of positie van het Activiteitencomplex te definiëren.",
-        "en": "Enter your translation here"
+        "nl": "De geometrie die wordt gebruikt om de omvang of positie van het Activiteitencomplex te definiëren.",
+        "en": "The geometry used to define the extent or position of the Activity Complex."
+"
       },
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       }
     },
     {
@@ -2492,15 +2492,15 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{086D84C0-C685-48ff-8360-D5104AEC0B66}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position features of an object."
       },
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten.",
-        "en": "Enter your translation here"
+        "en": "Describes these features through points, lines, polygons and coordinates."
       }
     },
     {
@@ -2508,11 +2508,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
       "definition": {
         "nl": "Het complete adres in één string, al dan niet geformatteerd.",
-        "en": "Enter your translation here"
+        "en": The complete address in one string, formatted or not."
       },
       "label": {
         "nl": "volledig Adres",
-        "en": "Enter your translation here"
+        "en": "full address"
       }
     },
     {
@@ -2520,11 +2520,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
       "definition": {
         "nl": "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat.",
-        "en": "Enter your translation here"
+        "en": "The region vh address, usually a province or state or similar area that typically includes several places."
       },
       "label": {
         "nl": "administratieve eenheid niveau 2",
-        "en": "Enter your translation here"
+        "en": "administrative unit level 2"
       }
     },
     {
@@ -2532,11 +2532,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{8DC1493A-7FA0-47cc-85D4-A2CFCAFFCEC6}",
       "definition": {
         "nl": "Hoogste Administratieve eenheid vh adres, doorgaans een land.",
-        "en": "Enter your translation here"
+        "en": "Highest Administrative Unit vh address, usually a country."
       },
       "label": {
         "nl": "administratieve eenheid niveau 1",
-        "en": "Enter your translation here"
+        "en": "administrative unit level 2"
       }
     },
     {
@@ -2544,11 +2544,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{060EBDC2-5490-4b36-8887-9C681BEE4C98}",
       "definition": {
         "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is",
-        "en": "Enter your translation here"
+        "en": "Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit"
       },
       "label": {
         "nl": "adresgebied",
-        "en": "Enter your translation here"
+        "en": "address area"
       }
     },
     {
@@ -2556,11 +2556,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
       "definition": {
         "nl": "De plaats waar het document is opgeslagen of raadpleegbaar is.",
-        "en": "Enter your translation here"
+        "en": "Place where the document is stored or viewable."
       },
       "label": {
         "nl": "documentlocatie",
-        "en": "Enter your translation here"
+        "en": "document Location"
       }
     },
     {
@@ -2568,11 +2568,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
       "definition": {
         "nl": "Naam vd agent die de identificator heeft toegekend.",
-        "en": "Enter your translation here"
+        "en": "Name from the agent who assigned the identifier."
       },
       "label": {
         "nl": "toegekend door (String)",
-        "en": "Enter your translation here"
+        "en": "assigned By (String)"
       }
     },
     {
@@ -2580,11 +2580,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{CCB506D5-DE86-4a26-9E83-8DD33411D059}",
       "definition": {
         "nl": "Externe object-ID van het activiteitencomplex",
-        "en": "Enter your translation here"
+        "en": "External object identifier of the Activity Complex"
       },
       "label": {
         "nl": "identificator",
-        "en": "Enter your translation here"
+        "en": "identifier"
       }
     },
     {
@@ -2592,11 +2592,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
       "definition": {
         "nl": "Informatie gebruikt om een docuent uniek te identificeren.",
-        "en": "Enter your translation here"
+        "en": "Information used to uniquely identify a docuent."
       },
       "label": {
         "nl": "documentidentificator",
-        "en": "Enter your translation here"
+        "en": "document Identifier"
       }
     },
     {
@@ -2604,11 +2604,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{283FF600-0E03-430b-AD12-3959852FCECE}",
       "definition": {
         "nl": "String gebruikt om het object uniek te identificeren.",
-        "en": "Enter your translation here"
+        "en": "String used to uniquely identify the object."
       },
       "label": {
         "nl": "identificator",
-        "en": "Enter your translation here"
+        "en": "identifier"
       }
     },
     {
@@ -2616,11 +2616,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
       "definition": {
         "nl": "Het gebruikte medium om het document te raadplegen.",
-        "en": "Enter your translation here"
+        "en": "Medium used to access the document."
       },
       "label": {
         "nl": "documentmediumtype",
-        "en": "Enter your translation here"
+        "en": "documentMediaType"
       }
     },
     {
@@ -2628,11 +2628,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
       "definition": {
         "nl": "Classificatie van het document,",
-        "en": "Enter your translation here"
+        "en": "Classification of the document."
       },
       "label": {
         "nl": "documentType",
-        "en": "Enter your translation here"
+        "en": "document Type"
       }
     },
     {
@@ -2640,11 +2640,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{C6EFD7E3-420E-4e78-8EDB-7DF71919616D}",
       "definition": {
         "nl": "Directe positie uitgedrukt in wkt-formaat.",
-        "en": "Enter your translation here"
+        "en": "Direct position expressed in wkt format."
       },
       "label": {
         "nl": "wkt",
-        "en": "Enter your translation here"
+        "en": "wkt"
       }
     },
     {
@@ -2652,11 +2652,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{51FC18F5-A6A3-4869-A42E-DB57B5020058}",
       "definition": {
         "nl": "Geometrie uitgedrukt in wkt-formaat.",
-        "en": "Enter your translation here"
+        "en": "Geometry expressed in wkt format."
       },
       "label": {
         "nl": "als WKT",
-        "en": "Enter your translation here"
+        "en": "wkt"
       }
     },
     {
@@ -2664,11 +2664,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{885CCC32-8976-4960-9770-83DBA03AC131}",
       "definition": {
         "nl": "Directe positie uitgedrukt in gml-formaat.",
-        "en": "Enter your translation here"
+        "en": "Direct position expressed in gml format."
       },
       "label": {
         "nl": "gml",
-        "en": "Enter your translation here"
+        "en": "gml"
       }
     },
     {
@@ -2676,11 +2676,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "definition": {
         "nl": "Geometrie uitgedrukt in gml-formaat.",
-        "en": "Enter your translation here"
+        "en": "Geometry expressed in gml format."
       },
       "label": {
         "nl": "als GML",
-        "en": "Enter your translation here"
+        "en": "gml"
       }
     },
     {
@@ -2688,23 +2688,23 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
       "definition": {
         "nl": "Het type van het referentie oppervlak.",
-        "en": "Enter your translation here"
+        "en": "The type of Reference Surface"
       },
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       }
     },
     {
       "name": "naam",
       "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
       "definition": {
-        "nl": "Beschrijvende naam van het \"Activiteitencomplex\".",
-        "en": "Enter your translation here"
+        "nl": "Beschrijvende naam van het Activiteitencomplex.",
+        "en": "Descriptive name of the Activity Complex."
       },
       "label": {
         "nl": "naam",
-        "en": "Enter your translation here"
+        "en": "name"
       }
     },
     {
@@ -2712,11 +2712,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
       "definition": {
         "nl": "Het object waar het document betrekking op heeft.",
-        "en": "Enter your translation here"
+        "en": "Object to which the document refers."
       },
       "label": {
         "nl": "verwijstNaar",
-        "en": "Enter your translation here"
+        "en": "refersTo"
       }
     },
     {
@@ -2724,11 +2724,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
       "definition": {
         "nl": "Tijdstip waarop de identificator werd uitgegeven.",
-        "en": "Enter your translation here"
+        "en": "Time the identifier was assigned."
       },
       "label": {
         "nl": "toegekend op",
-        "en": "Enter your translation here"
+        "en": "assignedOn"
       }
     },
     {
@@ -2736,11 +2736,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{72FF6C37-B881-412b-BCDA-6C7841BB57C3}",
       "definition": {
         "nl": "Tekstveld dat meer informatie bevat over de klasse Document.",
-        "en": "Enter your translation here"
+        "en": "Text field containing more information about the Document class."
       },
       "label": {
         "nl": "beschrijving",
-        "en": "Enter your translation here"
+        "en": "description"
       }
     },
     {
@@ -2748,11 +2748,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{AB1E6036-8E1E-4240-A610-2FF6B3833D52}",
       "definition": {
         "nl": "Tekstveld dat meer informatie bevat over de klasse Functie.",
-        "en": "Enter your translation here"
+        "en": "Text field containing more information about the class Function."
       },
       "label": {
         "nl": "beschrijving",
-        "en": "Enter your translation here"
+        "en": "description"
       }
     },
     {
@@ -2760,11 +2760,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{767E63D8-08FC-45e3-8FD0-CA01DA4E5F0B}",
       "definition": {
         "nl": "Tekstveld dat meer informatie bevat over de klasse Beschermd Gebied.",
-        "en": "Enter your translation here"
+        "en": "Text field containing more information about the Protected Area class."
       },
       "label": {
         "nl": "beschrijving",
-        "en": "Enter your translation here"
+        "en": "description"
       }
     },
     {
@@ -2772,11 +2772,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
       "definition": {
         "nl": "Link naar de agent die de identificator heeft uitgegeven.",
-        "en": "Enter your translation here"
+        "en": "Link to the agent who assigned the identifier."
       },
       "label": {
         "nl": "toegekend door",
-        "en": "Enter your translation here"
+        "en": "assignedBy"
       }
     },
     {
@@ -2784,11 +2784,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "eenheidsidentificator",
-        "en": "Enter your translation here"
+        "en": "uomIdentifier"
       }
     },
     {
@@ -2796,11 +2796,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "waarde",
-        "en": "Enter your translation here"
+        "en": "value"
       }
     },
     {
@@ -2808,11 +2808,11 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "eenheid",
-        "en": "Enter your translation here"
+        "en": "uom"
       }
     },
     {
@@ -2820,11 +2820,12 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "eenheid",
-        "en": "Enter your translation here"
+        "en": "uom
+"
       }
     }
   ]
