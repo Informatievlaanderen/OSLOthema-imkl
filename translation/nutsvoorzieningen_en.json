@@ -153,11 +153,11 @@
       "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "definition": {
         "nl": "Eenvoudig containerobject dat enkele of meerdere nutsnetwerkobjecten kan bevatten.",
-        "en": "Enter your translation here"
+        "en": ""Simple container object which may contain either single or multiple utility networks objects."
       },
       "label": {
         "nl": "Mangat",
-        "en": "Enter your translation here"
+        "en": "Manhole"
       }
     },
     {
@@ -165,11 +165,11 @@
       "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
       "definition": {
         "nl": "Abstract basistype dat een element in een utiliteitsnetwerk vertegenwoordigt. Elk element in een utiliteitsnetwerk levert een functie die van belang is in het utiliteitsnetwerk.",
-        "en": "Enter your translation here"
+        "en": "Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network."
       },
       "label": {
         "nl": "Nustvoorzieningnetwerkelement",
-        "en": "Enter your translation here"
+        "en": "UtilityNetworkElement"
       }
     },
     {
