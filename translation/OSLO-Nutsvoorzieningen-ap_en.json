@@ -5,12 +5,12 @@
       "name": "Aansluiting",
       "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
       "definition": {
-        "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft.",
-        "en": "Enter your translation here"
+        "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft",
+        "en": "Object describing the connection of a cable or pipe to a building or other physical object."
       },
       "label": {
         "nl": "Aansluiting",
-        "en": "Enter your translation here"
+        "en": "Connection"
       }
     },
     {
@@ -18,31 +18,31 @@
       "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
       "definition": {
         "nl": "Een korte uitleg of notitie toegevoegd aan een object.",
-        "en": "Enter your translation here"
+        "en": "A short explanation or note added to a text or image, or the act of adding short explanations or notes."
       },
       "label": {
         "nl": "Annotatie",
-        "en": "Enter your translation here"
+        "en": "Annotation"
       },
       "usage": {
         "nl": "Pijlen, lijnen en labels die op een kaartafbeelding zijn geannoteerd en niet als afmetingen worden gebruikt, worden opgenomen in het Annotation-object",
-        "en": "Enter your translation here"
+        "en": "Arrows, lines and labels that are annotated on a map image and are not used as dimensions are included with the Annotation object"
       }
     },
     {
       "name": "Beschermd Gebied",
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "definition": {
-        "nl": "Object dat een gebied of zone aanduidt waar niet gegraven mag worden.",
-        "en": "Enter your translation here"
+        "nl": "Object dat een gebied of zone aanduid waar niet gegraven mag worden.",
+        "en": "Object designating an area or zone where no digging is allowed."
       },
       "label": {
         "nl": "Beschermd Gebied",
-        "en": "Enter your translation here"
+        "en": "Protected Areae"
       }
     },
     {
-      "name": "Diepte",
+     "name": "Diepte",
       "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
       "definition": {
         "nl": "TO DO",
@@ -50,7 +50,7 @@
       },
       "label": {
         "nl": "Diepte",
-        "en": "Enter your translation here"
+        "en": "Depth"
       }
     },
     {
@@ -58,11 +58,11 @@
       "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
       "definition": {
         "nl": "Een nutsverbinding of verbindingsreeks die wordt gebruikt om elektriciteit van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
+        "en": "A utility link or link sequence used to convey electricity from one location to another."
       },
       "label": {
         "nl": "Electriciteitskabel",
-        "en": "Enter your translation here"
+        "en": "Electricity Cable"
       }
     },
     {
@@ -70,11 +70,11 @@
       "EA-Guid": "{AE548CAC-0093-4236-9116-7B5DDD565129}",
       "definition": {
         "nl": "Activiteiten uitgevoerd door het activiteitencomplex. De functie wordt beschreven door de activiteit en eventueel aangevuld met informatie over de invoer en de uitvoer die het resultaat is van deze activiteiten.",
-        "en": "Enter your translation here"
+        "en": "Activities performed by the activity complex. The function is described by the activity and possibly supplemented by information about the input and output resulting from these activities."
       },
       "label": {
         "nl": "Functie",
-        "en": "Enter your translation here"
+        "en": "Function"
       }
     },
     {
