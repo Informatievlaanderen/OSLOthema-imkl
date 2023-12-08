@@ -1535,11 +1535,11 @@
       "EA-Guid": "{B9D2CF04-9D78-481c-BC1E-27F84F2EB431}",
       "definition": {
         "nl": "String gebruikt om het object uniek te identificeren.",
-        "en": "Enter your translation here"
+        "en": "String used to uniquely identify the object."
       },
       "label": {
         "nl": "identificator",
-        "en": "Enter your translation here"
+        "en": "identificator"
       }
     },
     {
@@ -1547,11 +1547,11 @@
       "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "geografischeNaam",
-        "en": "Enter your translation here"
+        "en": "geographicalName"
       }
     },
     {
@@ -1559,11 +1559,11 @@
       "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
       "definition": {
         "nl": "Agent die de Opmeting heeft uitgevoerd.",
-        "en": "Enter your translation here"
+        "en": "Agent who performed the Survey."
       },
       "label": {
         "nl": "uitgevoerdDoor",
-        "en": "Enter your translation here"
+        "en": "recordedBy"
       }
     },
     {
@@ -1571,11 +1571,11 @@
       "EA-Guid": "{5CF54001-0D21-41e1-B29D-97CC7EC9F020}",
       "definition": {
         "nl": "Aard van de gebruikte methode.",
-        "en": "Enter your translation here"
+        "en": "Type of method used."
       },
       "label": {
         "nl": "methode",
-        "en": "Enter your translation here"
+        "en": "method"
       }
     },
     {
@@ -1583,11 +1583,11 @@
       "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
       "definition": {
         "nl": "Verticale maat naar boven vanaf het grondoppervlak van het maaiveld.",
-        "en": "Enter your translation here"
+        "en": "Vertical measure upwards from the ground surface of the reference surface."
       },
       "label": {
         "nl": "hoogte",
-        "en": "Enter your translation here"
+        "en": "verticalPosition"
       }
     }
   ],
@@ -1597,23 +1597,23 @@
       "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
       "definition": {
         "nl": "De afstandsmaat als integraal, d.w.z. de limiet van een oneindige som van afstanden tussen punten op een kromme.  Bijvoorbeeld de lengte van een kromme, de omtrek van een veelhoek als de lengte van de grens.",
-        "en": "Enter your translation here"
+        "en": "The measure of distance as an integral, i.e. the limit of an infinite sum of distances between points on a curve.  For example the length of curve, the perimeter of a polygon as the length of the boundary."
       },
       "label": {
         "nl": "Lengte",
-        "en": "Enter your translation here"
+        "en": "Length"
       }
     },
     {
       "name": "Maat",
       "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
       "definition": {
-        "nl": "TO DO",
-        "en": "Enter your translation here"
+        "nl": "Het resultaat van het uitvoeren van de handeling of het proces van het bepalen van de grootte, afmetingen of hoeveelheid van een bepaalde entiteit.",
+        "en": "The result from performing the act or process of ascertaining the extent, dimensions, or quantity of some entity."
       },
       "label": {
         "nl": "Maat",
-        "en": "Enter your translation here"
+        "en": "Measure"
       }
     },
     {
@@ -1621,11 +1621,11 @@
       "EA-Guid": "{AC115F40-08A9-47dc-96A2-547A024E7F0D}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "Meeteenheid",
-        "en": "Enter your translation here"
+        "en": "UnitOfMeasure"
       }
     },
     {
@@ -1633,11 +1633,11 @@
       "EA-Guid": "{51E1B009-115C-4cc2-9C42-546B04A2AF9B}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "lengteëenheid",
-        "en": "Enter your translation here"
+        "en": "UomLength"
       }
     },
     {
@@ -1645,11 +1645,11 @@
       "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "PositioneleNauwkeurigheid",
-        "en": "Enter your translation here"
+        "en": "PositionalAccuracy"
       }
     },
     {
@@ -1657,11 +1657,11 @@
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "KabelEnLeidingContainer",
-        "en": "Enter your translation here"
+        "en": "CableAndPipeContainer"
       }
     },
     {
@@ -1669,11 +1669,11 @@
       "EA-Guid": "{D93A332C-24CF-4eb0-890E-015F90D266C4}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "LeidingElementContainer",
-        "en": "Enter your translation here"
+        "en": "PipeElementContainer"
       }
     },
     {
@@ -1681,15 +1681,15 @@
       "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "definition": {
         "nl": "Een 1-dimensionele geometrische primitieve.",
-        "en": "Enter your translation here"
+        "en": "A 1-dimensional geometric primitive."
       },
       "label": {
         "nl": "Curve",
-        "en": "Enter your translation here"
+        "en": "Curve"
       },
       "usage": {
         "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
-        "en": "Enter your translation here"
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Curve itself, 1 coordinate suffices to locate a point on the Curve, e.g. the distance along the Curve from the starting point. A Curve has a length but no width or height, which does not prevent it from meandering through 3D space. Curves are usually represented by polylines, which are sets of successive points where the intermediate points of the Curve are obtained by interpolation. If the interpolation method is linear you get a Linestring (an angular line connecting successive points by a straight line), other ways of interpolating result in circular arcs, cubic splines, Bézier curves etc (where the control points are not necessarily on the Curve). A Curve is bounded by its starting and ending points."
       }
     },
     {
@@ -1697,15 +1697,15 @@
       "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
       "definition": {
         "nl": "Een 0-dimensionele geometrische primitieve.",
-        "en": "Enter your translation here"
+        "en": "A 0-dimensional geometric primitive."
       },
       "label": {
         "nl": "Punt",
-        "en": "Enter your translation here"
+        "en": "Point"
       },
       "usage": {
         "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
-        "en": "Enter your translation here"
+        "en": "Dimension is to be understood in a mathematical sense: the minimum number of coordinates needed to represent any point that is part of the primitive. In the coordinate system formed by a Point itself, no coordinate is needed, as there is only 1 point. A Point therefore has no width, length or depth. ATTENTION: this does not mean that a Point cannot have coordinates in another coordinate system, e.g. xyz-coordinates in and 3-axis orthogonal coordinate system."
       }
     },
     {
@@ -1713,11 +1713,11 @@
       "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
       "definition": {
         "nl": "Aard van de container",
-        "en": "Enter your translation here"
+        "en": "Kind of container"
       },
       "label": {
         "nl": "Containertype",
-        "en": "Enter your translation here"
+        "en": "ContainertypeValue"
       }
     },
     {
@@ -1725,11 +1725,11 @@
       "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
       "definition": {
         "nl": "In welke mate het object waarneembaar is.",
-        "en": "Enter your translation here"
+        "en": "To what extent the object is observable."
       },
       "label": {
         "nl": "Zichtbaarheidstype",
-        "en": "Enter your translation here"
+        "en": "VisibilityTypeValue"
       }
     },
     {
@@ -1737,11 +1737,11 @@
       "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
       "definition": {
         "nl": "De aard van het risico",
-        "en": "Enter your translation here"
+        "en": "The nature of the risk."
       },
       "label": {
         "nl": "RisicoType",
-        "en": "Enter your translation here"
+        "en": "RiskTypeValue"
       }
     },
     {
@@ -1749,11 +1749,11 @@
       "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
       "definition": {
         "nl": "De kleur van het element",
-        "en": "Enter your translation here"
+        "en": "Colour of the element."
       },
       "label": {
         "nl": "Kleur",
-        "en": "Enter your translation here"
+        "en": "ColourValue"
       }
     },
     {
@@ -1761,11 +1761,11 @@
       "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
       "definition": {
         "nl": "De aard van het materiaal",
-        "en": "Enter your translation here"
+        "en": "The kind of material used."
       },
       "label": {
         "nl": "MateriaalType",
-        "en": "Enter your translation here"
+        "en": "MaterialTypeValue"
       }
     },
     {
@@ -1773,11 +1773,11 @@
       "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
       "definition": {
         "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
-        "en": "Enter your translation here"
+        "en": "Classification of a cable, pipe, or pipe elements according to the thematic domain to which they belong."
       },
       "label": {
         "nl": "Subthema",
-        "en": "Enter your translation here"
+        "en": "SubthemeValue"
       }
     },
     {
@@ -1785,11 +1785,11 @@
       "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
       "definition": {
         "nl": "Classificatie van typen nutsvoorzieningnetwerken.",
-        "en": "Enter your translation here"
+        "en": "Classification of utility network types."
       },
       "label": {
         "nl": "Nutsvoorzieningnetwerktype",
-        "en": "Enter your translation here"
+        "en": "UtilityNetworkTypeValue"
       }
     },
     {
@@ -1797,11 +1797,11 @@
       "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
       "definition": {
         "nl": "De hoedanigheid van het faciliteitsonderdeel.",
-        "en": "Enter your translation here"
+        "en": "The state of the facility component."
       },
       "label": {
         "nl": "Faciliteitstatus",
-        "en": "Enter your translation here"
+        "en": "ConditionOfFacilityValue"
       }
     },
     {
@@ -1809,11 +1809,11 @@
       "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "Verticale Positietype",
-        "en": "Enter your translation here"
+        "en": "VerticalPositionValue"
       }
     },
     {
@@ -1821,11 +1821,11 @@
       "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
       "definition": {
         "nl": "Classificatie van typen nutsvoorzieningsleveringen.",
-        "en": "Enter your translation here"
+        "en": "Classification of utility network types."
       },
       "label": {
         "nl": "Nutsvoorzieningleveringstype",
-        "en": "Enter your translation here"
+        "en": "UtilityNetworkTypeValue"
       }
     },
     {
@@ -1833,11 +1833,11 @@
       "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
       "definition": {
         "nl": "Classificatie van soorten waarschuwingen.",
-        "en": "Enter your translation here"
+        "en": "Classification of warning types."
       },
       "label": {
         "nl": "Waarschuwingstype",
-        "en": "Enter your translation here"
+        "en": "WarningTypeValue"
       }
     },
     {
@@ -1845,11 +1845,11 @@
       "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
       "definition": {
         "nl": "Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is.",
-        "en": "Enter your translation here"
+        "en": "Kind of material the telecommunication cable is made of."
       },
       "label": {
         "nl": "Telecommunicatiekabelmateriaaltype",
-        "en": "Enter your translation here"
+        "en": "TelecommunicationsCableMaterialTypeValue"
       }
     },
     {
@@ -1857,11 +1857,11 @@
       "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
       "definition": {
         "nl": "Classificatie van de olie, gas of chemicaliën.",
-        "en": "Enter your translation here"
+        "en": "Classification of oil, gas or chemicals."
       },
       "label": {
         "nl": "OlieGasChemicalientype",
-        "en": "Enter your translation here"
+        "en": "OilGasChemicalProductTypeValue"
       }
     },
     {
@@ -1869,11 +1869,11 @@
       "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
       "definition": {
         "nl": "Aard van het rioolwater.",
-        "en": "Enter your translation here"
+        "en": "Nature of sewage."
       },
       "label": {
         "nl": "Rioolwatertype",
-        "en": "Enter your translation here"
+        "en": "SewerWaterTypeValue"
       }
     },
     {
@@ -1881,11 +1881,11 @@
       "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
       "definition": {
         "nl": "Aard van het water.",
-        "en": "Enter your translation here"
+        "en": "Kind of water."
       },
       "label": {
         "nl": "Watertype",
-        "en": "Enter your translation here"
+        "en": "WaterTypeValue"
       }
     },
     {
@@ -1893,11 +1893,11 @@
       "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
       "definition": {
         "nl": "Classificatie van het termisch product.",
-        "en": "Enter your translation here"
+        "en": "Classification of thermal product."
       },
       "label": {
         "nl": "Thermisch Producttype",
-        "en": "Enter your translation here"
+        "en": "ThermalProductTypeValue"
       }
     },
     {
@@ -1905,11 +1905,11 @@
       "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
       "definition": {
         "nl": "TO DO",
-        "en": "Enter your translation here"
+        "en": "TO DO"
       },
       "label": {
         "nl": "Teken",
-        "en": "Enter your translation here"
+        "en": "Sign"
       }
     },
     {
@@ -1917,11 +1917,11 @@
       "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
       "definition": {
         "nl": "Classificatie van de toebehoren.",
-        "en": "Enter your translation here"
+        "en": "Appurtenance classification."
       },
       "label": {
         "nl": "Toebehorentype",
-        "en": "Enter your translation here"
+        "en": "AppurtenanceTypeValue"
       }
     },
     {
@@ -1929,15 +1929,16 @@
       "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
       "definition": {
         "nl": "Classificatie van de economische activiteit.",
-        "en": "Enter your translation here"
+        "en": "Classification of economic activity."
       },
       "label": {
         "nl": "Economische Activiteittype",
-        "en": "Enter your translation here"
+        "en": "EconomicActivityValue"
       },
       "usage": {
         "nl": "Voor de classificatie van de activiteit moeten de NACEBEL 2008 codes gebruikt worden.\nDeze codetabel wordt gepubliceerd door de FOD Economie, K.M.O., Middenstand en Energie: http://economie.fgov.be/nl/modules/publications/publicaties_kbo/nacebel_2008.jsp",
-        "en": "Enter your translation here"
+        "en": "NACEBEL 2008 codes must be used for the classification of the activity.
+This code table is published by the FPS Economy, SMEs, Self-Employed and Energy: http://economie.fgov.be/nl/modules/publications/publicaties_kbo/nacebel_2008.jsp"
       }
     },
     {
@@ -1945,11 +1946,11 @@
       "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
       "definition": {
         "nl": "De waarde van de input en output.",
-        "en": "Enter your translation here"
+        "en": "The value of inputs and outputs."
       },
       "label": {
         "nl": "Inputoutputtype",
-        "en": "Enter your translation here"
+        "en": "InputOutputValue"
       }
     },
     {
@@ -1957,11 +1958,11 @@
       "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
       "definition": {
         "nl": "Aard van de annotatie",
-        "en": "Enter your translation here"
+        "en": "Kind of annotation"
       },
       "label": {
         "nl": "Annotatietype",
-        "en": "Enter your translation here"
+        "en": "AnnotationType"
       }
     },
     {
@@ -1969,11 +1970,11 @@
       "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
       "definition": {
         "nl": "Classificatie van het topografisch element,",
-        "en": "Enter your translation here"
+        "en": "Classification of the topographic element."
       },
       "label": {
         "nl": "TopografischElementtype",
-        "en": "Enter your translation here"
+        "en": "TopographicalElementType"
       }
     },
     {
@@ -1981,11 +1982,11 @@
       "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
       "definition": {
         "nl": "Aard van het documentmedium",
-        "en": "Enter your translation here"
+        "en": "DocumentMediaType."
       },
       "label": {
         "nl": "Documentmediumtype",
-        "en": "Enter your translation here"
+        "en": "DocumentMediaType"
       }
     },
     {
@@ -1993,11 +1994,11 @@
       "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
       "definition": {
         "nl": "Aard van het document",
-        "en": "Enter your translation here"
+        "en": "Kind of document."
       },
       "label": {
         "nl": "Documenttype",
-        "en": "Enter your translation here"
+        "en": "DocumentType"
       }
     },
     {
@@ -2005,11 +2006,12 @@
       "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
       "definition": {
         "nl": "De aard van het referentieoppervlak",
-        "en": "Enter your translation here"
+        "en": "The kind of reference surface.
+"
       },
       "label": {
         "nl": "Referentieoppervlaktype",
-        "en": "Enter your translation here"
+        "en": "ReferenceSurfaceType"
       }
     },
     {
@@ -2017,11 +2019,11 @@
       "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
       "definition": {
         "nl": "De manier waarop het meetresultaat is vastgestemd",
-        "en": "Enter your translation here"
+        "en": "The way the measurement result was determined"
       },
       "label": {
         "nl": "Opmetingsmethode",
-        "en": "Enter your translation here"
+        "en": "MethodOfMeasurement"
       }
     },
     {
@@ -2029,11 +2031,11 @@
       "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
       "definition": {
         "nl": "Classificatie van de soorten beschermd gebied",
-        "en": "Enter your translation here"
+        "en": "Classification of protected area"
       },
       "label": {
         "nl": "Beschermd Gebiedtype",
-        "en": "Enter your translation here"
+        "en": "Protected Area Value"
       }
     },
     {
@@ -2041,11 +2043,11 @@
       "EA-Guid": "{82BFE44B-9A87-4166-BDD5-402AC1405D9F}",
       "definition": {
         "nl": "Informatie gebruikt om een object uniek te identificeren.",
-        "en": "Enter your translation here"
+        "en": "Information used to uniquely identify an object."
       },
       "label": {
         "nl": "Identificator",
-        "en": "Enter your translation here"
+        "en": "Identifier"
       }
     },
     {
@@ -2053,11 +2055,11 @@
       "EA-Guid": "{000197CE-3A4A-4354-8328-2EA003847C3C}",
       "definition": {
         "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object.",
-        "en": "Enter your translation here"
+        "en": "More readable representation containing only the basic data of the address,intended for using an address as an attribute of another object."
       },
       "label": {
         "nl": "Adresvoorstelling",
-        "en": "Enter your translation here"
+        "en": "Address Representation"
       }
     },
     {
@@ -2065,11 +2067,11 @@
       "EA-Guid": "{372EA823-D942-4310-81CA-B95912579A06}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position characteristics of an object."
       },
       "label": {
         "nl": "Geometrie",
-        "en": "Enter your translation here"
+        "en": "Geometry"
       }
     },
     {
@@ -2077,11 +2079,11 @@
       "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
       "definition": {
         "nl": "Bijlage in elke vorm voor bijkomende informatie.",
-        "en": "Enter your translation here"
+        "en": "Attachment in any form for additional information."
       },
       "label": {
         "nl": "Document",
-        "en": "Enter your translation here"
+        "en": "Document"
       }
     },
     {
@@ -2089,23 +2091,23 @@
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
         "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid,een ligplaats,een standplaats of een perceel op basis van een gemeentenaam,een straatnaam,een huisnummer en eventueel een busnummer en een postcode.",
-        "en": "Enter your translation here"
+        "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
       },
       "label": {
         "nl": "Adres",
-        "en": "Enter your translation here"
+        "en": "Adress"
       }
     },
     {
       "name": "Activiteitencomplex",
       "EA-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
       "definition": {
-        "nl": "Een enkele eenheid\", zowel technisch als economisch, onder beheerscontrole van dezelfde juridische entiteit (exploitant), die activiteiten omvat zoals vermeld in de Eurostat NACE-classificatie, producten en diensten. Activiteitencomplex omvat alle infrastructuur, uitrusting en Het moet het hele gebied vertegenwoordigen, op dezelfde of op een andere geografische locatie, beheerd door één \"enkele eenheid\".",
-        "en": "Enter your translation here"
+        "nl": "Een enkele eenheid, zowel technisch als economisch, onder beheerscontrole van dezelfde juridische entiteit (exploitant), die activiteiten omvat zoals vermeld in de Eurostat NACE-classificatie, producten en diensten. Activiteitencomplex omvat alle infrastructuur, uitrusting en Het moet het hele gebied vertegenwoordigen, op dezelfde of op een andere geografische locatie, beheerd door één enkele eenheid.",
+        "en": "A single unit, both technically and economically, under the management control of the same legal entity (operator), covering activities as those listed in the Eurostat NACE classification, products and services. Activity Complex includes all infrastructure, equipment and materials. It must represent the whole area, at the same or different geographical location, managed by a single unit."
       },
       "label": {
         "nl": "Activiteitencomplex",
-        "en": "Enter your translation here"
+        "en": "Activity Complex"
       }
     },
     {
@@ -2113,15 +2115,14 @@
       "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
       "definition": {
         "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
-        "en": "Enter your translation here"
-      },
+        "en": "Holder of the coordinates of a position in a coordinate reference system."
       "label": {
         "nl": "DirectePositie",
-        "en": "Enter your translation here"
+        "en": "DirectPosition"
       },
       "usage": {
         "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak...) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
-        "en": "Enter your translation here"
+        "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane...) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       }
     },
     {
@@ -2129,11 +2130,11 @@
       "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
       "definition": {
         "nl": "Het bepalen van de precieze omvang van iets door het te meten.",
-        "en": "Enter your translation here"
+        "en": "Determining the exact size of something by measuring it."
       },
       "label": {
         "nl": "Opmeting",
-        "en": "Enter your translation here"
+        "en": "Measurement"
       }
     },
     {
@@ -2141,11 +2142,11 @@
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
         "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
-        "en": "Enter your translation here"
+        "en": "A link either in its positive or negative direction."
       },
       "label": {
         "nl": "Gerichte link",
-        "en": "Enter your translation here"
+        "en": "Directed Link"
       }
     },
     {
@@ -2153,11 +2154,11 @@
       "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "definition": {
         "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
-        "en": "Enter your translation here"
+        "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Node."
       },
       "label": {
         "nl": "Knoop",
-        "en": "Enter your translation here"
+        "en": "Node"
       }
     },
     {
@@ -2165,11 +2166,11 @@
       "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}",
       "definition": {
         "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
-        "en": "Enter your translation here"
+        "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes."
       },
       "label": {
         "nl": "Link",
-        "en": "Enter your translation here"
+        "en": "Link"
       }
     },
     {
@@ -2177,11 +2178,11 @@
       "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}",
       "definition": {
         "nl": "Onvertakt doorlopend pad in een Netwerk.",
-        "en": "Enter your translation here"
+        "en": "Unbranched continuous path in a Network."
       },
       "label": {
         "nl": "Linksequentie",
-        "en": "Enter your translation here"
+        "en": "Linksequence"
       }
     },
     {
@@ -2189,11 +2190,11 @@
       "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
       "definition": {
         "nl": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk.",
-        "en": "Enter your translation here"
+        "en": "Collection of Link Sequences and/or Links with a specific function or interest in the Network."
       },
       "label": {
         "nl": "Linkset",
-        "en": "Enter your translation here"
+        "en": "Linkset"
       }
     },
     {
