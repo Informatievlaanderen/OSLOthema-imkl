@@ -5,7 +5,7 @@
       "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
       "definition": {
         "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft",
-        "en": "Enter your translation here"
+        "en": "Object describing the connection of a cable or pipe to a building or other physical object."
       },
       "label": {
         "nl": "Aansluiting",
