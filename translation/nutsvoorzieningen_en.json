@@ -352,7 +352,7 @@
       "name": "Toebehoren",
       "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
       "definition": {
-        "nl": "Een toebehoren is een knooppuntobject dat wordt beschreven door zijn type (via het attribuut toebehorenType\)",
+        "nl": "Een toebehoren is een knooppuntobject dat wordt beschreven door zijn type (via het attribuut toebehorenType)",
         "en": "An appurtenance is a node object that is described by its type (via the attribute appurtenanceType)"
       },
       "label": {
@@ -899,7 +899,7 @@
       "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
       "definition": {
         "nl": "Het attribuut oriëntatie beschrijft de hoek die de oriëntatie van de Nutsvoorzieningknoopcontainer object bepaalt.",
-        "en": "The attribute "orientation" describes the angle that determines the orientation of the Utility node container object."
+        "en": "The attribute \"orientation\" describes the angle that determines the orientation of the Utility node container object."
       },
       "label": {
         "nl": "oriëntatie",
@@ -1937,8 +1937,7 @@
       },
       "usage": {
         "nl": "Voor de classificatie van de activiteit moeten de NACEBEL 2008 codes gebruikt worden.\nDeze codetabel wordt gepubliceerd door de FOD Economie, K.M.O., Middenstand en Energie: http://economie.fgov.be/nl/modules/publications/publicaties_kbo/nacebel_2008.jsp",
-        "en": "NACEBEL 2008 codes must be used for the classification of the activity.
-This code table is published by the FPS Economy, SMEs, Self-Employed and Energy: http://economie.fgov.be/nl/modules/publications/publicaties_kbo/nacebel_2008.jsp"
+        "en": "NACEBEL 2008 codes must be used for the classification of the activity. This code table is published by the FPS Economy, SMEs, Self-Employed and Energy: http://economie.fgov.be/nl/modules/publications/publicaties_kbo/nacebel_2008.jsp"
       }
     },
     {
@@ -2006,8 +2005,7 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
       "definition": {
         "nl": "De aard van het referentieoppervlak",
-        "en": "The kind of reference surface.
-"
+        "en": "The kind of reference surface."
       },
       "label": {
         "nl": "Referentieoppervlaktype",
@@ -2116,6 +2114,7 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "definition": {
         "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
         "en": "Holder of the coordinates of a position in a coordinate reference system."
+      },
       "label": {
         "nl": "DirectePositie",
         "en": "DirectPosition"
@@ -2228,7 +2227,7 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
       "definition": {
         "nl": "Geeft aan of de gerichte link overeenkomt (positief) of niet overeenkomt (negatief) met de positieve richting van de link.",
-        "en": ""Indicates if the directed link agrees (positive) or disagrees (negative) with the positive direction of the link.""
+        "en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the positive direction of the link."
       },
       "label": {
         "nl": "richting",
@@ -2449,6 +2448,7 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "label": {
         "nl": "postbus",
         "en": "PObox"
+      }
     },
     {
       "name": "locatienaam",
@@ -2480,7 +2480,6 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "definition": {
         "nl": "De geometrie die wordt gebruikt om de omvang of positie van het Activiteitencomplex te definiëren.",
         "en": "The geometry used to define the extent or position of the Activity Complex."
-"
       },
       "label": {
         "nl": "geometrie",
@@ -2508,7 +2507,7 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
       "definition": {
         "nl": "Het complete adres in één string, al dan niet geformatteerd.",
-        "en": The complete address in one string, formatted or not."
+        "en": "The complete address in one string, formatted or not."
       },
       "label": {
         "nl": "volledig Adres",
@@ -2824,8 +2823,7 @@ This code table is published by the FPS Economy, SMEs, Self-Employed and Energy:
       },
       "label": {
         "nl": "eenheid",
-        "en": "uom
-"
+        "en": "uom"
       }
     }
   ]
