@@ -153,7 +153,7 @@
       "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "definition": {
         "nl": "Eenvoudig containerobject dat enkele of meerdere nutsnetwerkobjecten kan bevatten.",
-        "en": ""Simple container object which may contain either single or multiple utility networks objects."
+        "en": "Simple container object which may contain either single or multiple utility networks objects."
       },
       "label": {
         "nl": "Mangat",
@@ -197,7 +197,7 @@
       },
       "usage": {
         "nl": "Knooppunten bevinden zich aan beide uiteinden van de Nutsvoorzieningslink.",
-        "en": ""Nodes are found at either end of the UtilityLink."
+        "en": "Nodes are found at either end of the UtilityLink."
       }
     },
     {
