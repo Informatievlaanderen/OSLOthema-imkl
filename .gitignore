@@ -1,7 +1,7 @@
 .vscode/
 *.html
 *.xls*
-*backup*.eap
+*.eap
 ea-model-validator-cli-1.2.jar
 report*
 target/
