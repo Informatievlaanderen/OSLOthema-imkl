@@ -5,7 +5,7 @@
       "name": "Aansluiting",
       "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
       "definition": {
-        "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft",
+        "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft.",
         "en": "Object describing the connection of a cable or pipe to a building or other physical object."
       },
       "label": {
@@ -33,7 +33,7 @@
       "name": "Beschermd Gebied",
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "definition": {
-        "nl": "Object dat een gebied of zone aanduid waar niet gegraven mag worden.",
+        "nl": "Object dat een gebied of zone aanduidt waar niet gegraven mag worden.",
         "en": "Object designating an area or zone where no digging is allowed."
       },
       "label": {

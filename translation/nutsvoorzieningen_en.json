@@ -352,8 +352,8 @@
       "name": "Toebehoren",
       "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
       "definition": {
-        "nl": "Een toebehoren is een knooppuntobject dat wordt beschreven door zijn type (via het attribuut toebehorenType)",
-        "en": "An appurtenance is a node object that is described by its type (via the attribute appurtenanceType)"
+        "nl": "Een toebehoren is een knooppuntobject dat wordt beschreven door zijn type (via het attribuut \"toebehorenType\")",
+        "en": "An appurtenance is a node object that is described by its type (via the attribute \"appurtenanceType\")"
       },
       "label": {
         "nl": "Toebehoren",
@@ -2698,7 +2698,7 @@
       "name": "naam",
       "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
       "definition": {
-        "nl": "Beschrijvende naam van het Activiteitencomplex.",
+        "nl": "Beschrijvende naam van het \"Activiteitencomplex\".",
         "en": "Descriptive name of the Activity Complex."
       },
       "label": {
