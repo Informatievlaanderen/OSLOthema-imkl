@@ -1,0 +1,68 @@
+{
+    "naam": "Applicatieprofiel Nutsvoorzieningen",
+    "rapport": "",
+    "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
+    "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
+    "publicatiedatum": "",
+    "type_toepassing": "Aanbevolen",
+    "categorie": "Applicatieprofiel",
+    "beschrijving": "nutsvoorzieningen-description.md",
+    "specificatiedocument": [
+        {
+            "naam": "Nutsvoorzieningen Applicatieprofiel",
+            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/nutsvoorzieningen"
+        },
+        {
+            "naam": "Utility Services Application profile",
+            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/nutsvoorzieningen/index_en.html"
+        }
+    ],
+    "documentatie": [],
+    "charter": [
+        {
+            "naam": "Charter",
+            "waarde": "Charter OSLO IMKL.docx"
+        }
+    ],
+    "verslagen": [
+        {
+            "naam": "Verslag business werkgroep - 24 april 2023",
+            "waarde": "Verslag Business Workshop IMKL.pdf"
+        },
+        {
+            "naam": "Verslag thematische werkgroep 1 - 25 mei 2023",
+            "waarde": "Verslag Thematische Werkgroep 1 IMKL.pdf"
+        },
+        {
+            "naam": "Verslag thematische werkgroep 2 - 29 juni 2023",
+            "waarde": "Verslag Thematische Werkgroep 2 IMKL(1).pdf"
+        }
+    ],
+    "presentaties": [
+        {
+            "naam": "Presentatie business werkgroep - 24 april 2023",
+            "waarde": "Business Werkgroep presentatie IMKL - 24 april 2023"
+        },
+        {
+            "naam": "Presentatie thematische werkgroep 1 - 25 mei 2023",
+            "waarde": "Presentatie eerste thematische werkgroep - IMKL -  25 mei 2023.pdf"
+        },
+        {
+            "naam": "Presentatie thematische werkgroep 2 - 29 juni 2023",
+            "waarde": "Presentatie tweede thematische werkgroep - IMKL -  29 juni 2023.pdf"
+        },
+        {
+            "naam": "Presentatie thematische werkgroep 3 - 7 september 2023",
+            "waarde": "Presentatie derde thematische werkgroep - IMKL - 7 september  2023.pdf"
+        },
+        {
+            "naam": "Presentatie thematische werkgroep 4 - 5 oktober 2023",
+            "waarde": "Presentatie vierde thematische werkgroep - IMKL - 5 oktober 2023.pdf"
+        }
+    ],
+    "functioneel_toepassingsgebied": "Semantische standaard voor informatie over nutsvoorzieningen",
+    "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse Overheid",
+    "datum_van_aanmelding": "2023-02-17",
+    "erkenning_werkgroep_datastandaarden": "TBD",
+    "erkenning_stuurgroep": "TBD"
+}
