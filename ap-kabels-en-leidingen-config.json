@@ -44,6 +44,10 @@
         {
             "naam": "Verslag thematische werkgroep 4 - 5 oktober 2023",
             "waarde": "Verslag Thematische Werkgroep 4 IMKL.pdf"
+        },
+         {
+            "naam": "Verslag Webinar Publieke Review IMKL - 28 november 2023",
+            "waarde": "Verslag Webinar IMKL 28.11.2023.pdf"
         }
     ],
     "presentaties": [
@@ -66,6 +70,10 @@
         {
             "naam": "Presentatie thematische werkgroep 4 - 5 oktober 2023",
             "waarde": "Presentatie vierde thematische werkgroep - IMKL - 5 oktober 2023.pdf"
+        },
+        {
+            "naam": "Presentatie Webinar Publieke Review IMKL - 28 november 2023",
+            "waarde": "Presentatie Webinar Publieke Review.pdf"
         }
     ],
     "functioneel_toepassingsgebied": "Semantische standaard voor informatie over kabels en leidingen",
