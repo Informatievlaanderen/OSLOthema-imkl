@@ -6,7 +6,7 @@
     "publicatiedatum": "",
     "type_toepassing": "Aanbevolen",
     "categorie": "Vocabularium",
-    "beschrijving": "nutsvoorzieningen-description.md",
+    "beschrijving": "kabels-en-leidingen-description.md",
     "specificatiedocument": [
         {
             "naam": "Nutsvoorzieningen Vocabularium",
@@ -35,7 +35,15 @@
         },
         {
             "naam": "Verslag thematische werkgroep 2 - 29 juni 2023",
-            "waarde": "Verslag Thematische Werkgroep 2 IMKL(1).pdf"
+            "waarde": "Verslag Thematische Werkgroep 2 IMKL.pdf"
+        },
+        {
+            "naam": "Verslag thematische werkgroep 3 - 7 september 2023",
+            "waarde": "Verslag Thematische Werkgroep 3 IMKL.pdf"
+        },
+        {
+            "naam": "Verslag thematische werkgroep 4 - 5 oktober 2023",
+            "waarde": "Verslag Thematische Werkgroep 4 IMKL.pdf"
         }
     ],
     "presentaties": [
@@ -60,7 +68,7 @@
             "waarde": "Presentatie vierde thematische werkgroep - IMKL - 5 oktober 2023.pdf"
         }
     ],
-    "functioneel_toepassingsgebied": "Semantische standaard voor informatie over nutsvoorzieningen",
+    "functioneel_toepassingsgebied": "Semantische standaard voor informatie over kabels en leidingen",
     "organisatorisch_werkingsgebied": "Alle entiteiten van de Vlaamse Overheid",
     "datum_van_aanmelding": "2023-02-17",
     "erkenning_werkgroep_datastandaarden": "TBD",
