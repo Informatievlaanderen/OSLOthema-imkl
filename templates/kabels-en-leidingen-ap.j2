@@ -1,16 +1,15 @@
 {% extends "ap2.j2" %}
 
 {% block summary %}
-<p> Het OSLO-Kabels en Leidingen applicatieprofiel laat zien hoe termen uit het bijbehorende <a href="https://data.vlaanderen.be/ns/mobiliteit/imkl">vocabularium</a> moeten worden gebruikt om kabel- en pijpleidinginformatie weer te geven, zowel bovengronds als ondergronds. </p>
-<p> Met deze gegevens is het de bedoeling om graafschade ondergronds te beperken door belangrijke elementen in kaart te brengen. </p>
-
-<p> Het model bestaat uit vijf delen. Het eerste deel is het bovenste deel van het model. Dit beschrijft de componenten van een netwerk, zoals gedefinieerd in de Europese standaard INSPIRE - Utility Services. </p>
-
-<p> Het tweede deel bevindt zich onder de Nutsvoorzieninglinkset. Daaronder wordt onderscheid gemaakt tussen kabels, leidingen en kanalen. Leidingen worden op hun beurt weer verder onderverdeeld in de verschillende soorten leidingen.</p>
-
-<p> De derde sectie beschrijft de onderverdeling in Nutsvoorzieninglinksequentie, nutsvoorzieninglink, nutsvoorzieningsknoop en nutsvoorzieningsknoopcontainer. Deze elementen bepalen de vorm en richting van het netwerk. </p>
-
-<p> Het vierde deel zijn de codelijsten in groen. Deze niet-eindige lijsten vertegenwoordigen de voltooiing van specifieke attributen. </p>
-
-<p> Het laatste deel zijn de datatypes aan de rechterkant, die geel gekleurd zijn. Dit deel beschrijft alle verschillende datatypes. </p>
+<p> Het OSLO Kabels en Leidingen applicatieprofiel laat zien hoe termen uit het bijbehorende <a href="https://data.vlaanderen.be//ns/nutsvoorzieningen">vocabularium</a> moeten worden gebruikt om kabels en leidingen te beschrijven. </p>
+<p> Deze kunnen zowel boven- als ondergronds gelegen zijn. Voor wat de ondergronds gelegen kabels en leidingen betreft is de beschrijving zodanig dat alle elementen aanwezig zijn die bijdragen tot het beperken van graafschade. </p>
+<p>Het model bouwt verder op <a href="https://knowledge-base.inspire.ec.europa.eu/utility-and-governmental-services_en">INSPIRE Utility Services</a> en modellen waarop dat model gebaseerd is, vnl INSPIRE Networks.</p>
+<p>Nutsvoorzieningen zoals kabels en leidingen worden opgevat als een netwerk (een Nutsvoorzieningnetwerk) waarin ze de lineaire elementen vormen, verbonden middels puntobjecten zoals splitters, koppelstukken, aansluitingen gemonteerd in of op kasten, torens, palen etc./p>
+<p>Kabels en leidingen zijn verzamelingen van links in het netwerk, Nutsvoorzieninglinksets samengesteld uit Nutsvoorzieninglinksequenties of -links. De voornaamste types linksets zijn Kabels, Pijpen en Kanalen. Pijpen en Kanalen zijn leidingen: ze leiden stoffen zoals water, afvalwater, gas of bevatten Kabels of andere Pijpen of Kanalen.</p>
+<p>De klasse Kabels wordt uitgesplitst in Electriciteitskabels en Telecommunicatiekabels. Bij Pijpen wordt een onderscheid gemaakt tussen OlieGasChemicaliënPijpen, Rioolpijpen, Waterleidingen en ThermischePijpen.</p>
+<De geometrie van de Nutsvoorzieninglinksets is deze van de samenstellende linksequenties of links. In het geval van een linksequentie de geometrie van links die de sequentie vormen maar dan in een bepaalde richting (van belang voor bvb afwatering), bij de links de geometrie van de midellijn.</p>
+<p>De puntobjecten die de koppelingen in het netwerk realiseren (bvb koppelstukken, aansluitingen, pompen, meters) zijn de knopen van het netwerk, de zgn Nutsvoorzieningknopen. Ze kunnen op zich staan maar zijn typisch gemonteerd op puntobjecten van grotere omvang zoals Palen of Torens of zitten in Kasten op straat. Deze noemen we Nutsvoorzieningcontainers.</p>
+<p>Sommige Nutsvoorzieningelementen vormen samen een faciliteit of installatie die apart kan beschreven worden als Activiteitencomplex.</p>
+<p>Het model omvat diverse ondersteunende klassen en datatypes, oa om de netwerkinformatie aan te vullen met topografische informatie (klasse Topografischelement) of zones waar niet gegraven mag worden (klasse BeschermdGebied) of om de objecten te annoteren (klasse Annotatie).</p>
+<p>De geometrie van kabels en leidingen en knopen in het netwerk kan 2D of 2.5D beschreven worden. Als 2.5D niet kan of onvoldoende is kan aanvullende informatie over de VerticalePositie worden gegeven en dit zowel relatief (tov een Referentieoppervlak) als absoluut (Directepositie in een verticaal coördinaatsysteem zoals TAW). Deze info is erg belangrijk ivm het vermijden van graafschade.</p>
 {% endblock %}
