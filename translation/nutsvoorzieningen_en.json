@@ -93,7 +93,7 @@
         "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
         "definition": {
           "nl": "Object dat potentieel kabels of leidingen kan omvatten.",
-          "en": Object that could potentially contain cables or pipes/ducts."
+          "en": "Object that could potentially contain cables or pipes/ducts."
         },
         "label": {
           "nl": "KabelEnLeidingContainer",
