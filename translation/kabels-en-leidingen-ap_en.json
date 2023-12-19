@@ -18,7 +18,7 @@
       "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
       "definition": {
         "nl": "Een korte uitleg of notitie toegevoegd aan een Object.",
-        "en": "[UPDATED] A short explanation or note added to a text or image, or the act of adding short explanations or notes."
+        "en": "A short explanation or note added to an Object."
       },
       "label": {
         "nl": "Annotatie",
@@ -26,7 +26,7 @@
       },
       "usage": {
         "nl": "In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn.",
-        "en": "[UPDATED] Arrows, lines and labels that are annotated on a map image and are not used as dimensions are included with the Annotation object"
+        "en": "In this context, typically a Dimension on a cable or pipe map, for example the distance of a cable to a facade. Can consist of parts (e.g. dimensioning line, dimensioning guideline, two arrows) that are also Annotations in themselves."
       }
     },
     {
@@ -34,7 +34,7 @@
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "definition": {
         "nl": "Gebied waar niet gegraven mag worden.",
-        "en": "[UPDATED] Object designating an area or zone where no digging is allowed."
+        "en": "Area where digging is not allowed."
       },
       "label": {
         "nl": "Beschermd Gebied",
@@ -46,7 +46,7 @@
       "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
       "definition": {
         "nl": "VerticalePositie onder het Referentieoppervlak.",
-        "en": "Enter your translation here"
+        "en": "VerticalPosition below the ReferenceSurface."
       },
       "label": {
         "nl": "Diepte",
@@ -58,7 +58,7 @@
       "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
       "definition": {
         "nl": "Een Kabel gebruikt om elektriciteit van de ene naar de andere locatie te transporteren.",
-        "en": "[UPDATED] A utility link or link sequence used to convey electricity from one location to another."
+        "en": "A Cable used to transport electricity from one location to another."
       },
       "label": {
         "nl": "Electriciteitskabel",
@@ -70,11 +70,11 @@
       "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
       "definition": {
         "nl": "VerticalePositie boven het Referentieoppervlak.",
-        "en": "Enter your translation here"
+        "en": "VerticalPosition above the ReferenceSurface."
       },
       "label": {
         "nl": "Hoogte",
-        "en": "Enter your translation here"
+        "en": "Height"
       }
     },
     {
