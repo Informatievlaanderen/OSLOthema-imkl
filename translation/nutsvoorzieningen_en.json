@@ -879,8 +879,7 @@
         },
         "usage": {
           "nl": "Bvb een kabel.",
-          "en": "For example a cable.
-"
+          "en": "For example a cable."
         }
       },
       {
@@ -1408,7 +1407,7 @@
         },
         "usage": {
           "nl": "Aansluiting is een specialisatie van Toebehoren waarbij het type Toebehoren \"aansluitingspunt\" is.",
-          "en": "Connection is a specialisation of Appurtenance where the type of Appurtenance is "delivery point"."
+          "en": "Connection is a specialisation of Appurtenance where the type of Appurtenance is \"delivery point"\."
         }
       }
     ],
@@ -1418,7 +1417,7 @@
         "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
         "definition": {
           "nl": "Afstand tussen twee punten op een kromme.",
-          "en": Distance between two points on a curve."
+          "en": "Distance between two points on a curve."
         },
         "label": {
           "nl": "Lengte",
