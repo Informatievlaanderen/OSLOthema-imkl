@@ -393,7 +393,7 @@
         },
         "usage": {
           "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
-          "en": "Can stand alone as a UtilityNode, but is often mounted on a carrier (the UtilityNodeContainer). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc.
+          "en": "Can stand alone as a UtilityNode, but is often mounted on a carrier (the UtilityNodeContainer). E.g. an inspection hatch, a hydrant, a splitter, a meter, a pump etc."
         }
       },
       {
