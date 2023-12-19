@@ -2356,7 +2356,7 @@
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen.",
-          "en": "Enter your translation here"
+          "en": "Specialisation of AddressRepresentation.location for Belgian addresses."
         }
       },
       {
@@ -2372,7 +2372,7 @@
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen.",
-          "en": "Enter your translation here"
+          "en": "Specialization of AddressRepresentation: location for Belgian addresses."
         }
       },
       {
@@ -2380,11 +2380,11 @@
         "EA-Guid": "{319584C1-3AA8-49fb-AA76-6E86040D3F31}",
         "definition": {
           "nl": "Locatie van het BeschermdGebied.",
-          "en": "Enter your translation here"
+          "en": "Location of the Protected Area."
         },
         "label": {
           "nl": "ligging",
-          "en": "Enter your translation here"
+          "en": "location"
         }
       },
       {
@@ -2464,11 +2464,12 @@
         "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
         "definition": {
           "nl": "Geometrie van de Annotatie.",
-          "en": "Enter your translation here"
+          "en": "Geometry of the Annotation.
+"
         },
         "label": {
           "nl": "locatie",
-          "en": "Enter your translation here"
+          "en": "location"
         }
       },
       {
@@ -2476,11 +2477,11 @@
         "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
         "definition": {
           "nl": "Geometrie van het TopografiscElement.",
-          "en": "Enter your translation here"
+          "en": "Geometry of the Topographic Element."
         },
         "label": {
           "nl": "locatie",
-          "en": "Enter your translation here"
+          "en": "location"
         }
       },
       {
@@ -2488,11 +2489,11 @@
         "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
         "definition": {
           "nl": "Geometrie van de locatie waarop het Plan betrekking heeft.",
-          "en": "Enter your translation here"
+          "en": "Geometry of the site covered by the Plan."
         },
         "label": {
           "nl": "locatie",
-          "en": "Enter your translation here"
+          "en": "location"
         }
       },
       {
@@ -2500,11 +2501,11 @@
         "EA-Guid": "{B180BBBC-C7FF-47b1-B8A3-9FB429C38692}",
         "definition": {
           "nl": "Locatie waarvoor de VerticalePositie geldt.",
-          "en": "Enter your translation here"
+          "en": "Location for which the VerticalPosition applies."
         },
         "label": {
           "nl": "ligging",
-          "en": "Enter your translation here"
+          "en": "location"
         }
       },
       {
@@ -2512,11 +2513,11 @@
         "EA-Guid": "{C0CAAE0B-80A5-40c1-B32F-188074D5A190}",
         "definition": {
           "nl": "Locatie van het Referentieoppervlak.",
-          "en": "Enter your translation here"
+          "en": "Location of the ReferenceSurface."
         },
         "label": {
           "nl": "ligging",
-          "en": "Enter your translation here"
+          "en": "location"
         }
       },
       {
@@ -2524,7 +2525,7 @@
         "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
         "definition": {
           "nl": "Geometrie van het complex om de ligging en omvang ervan te beschrijven.",
-          "en": "[UPDATED] The geometry used to define the extent or position of the Activity Complex."
+          "en": "Geometry of the complex to describe its location and size."
         },
         "label": {
           "nl": "geometrie",
@@ -2536,7 +2537,7 @@
         "EA-Guid": "{086D84C0-C685-48ff-8360-D5104AEC0B66}",
         "definition": {
           "nl": "Geometrie van het BeschermdGebied.",
-          "en": "[UPDATED] Shape and position features of an object."
+          "en": "Geometry of the Protected Area."
         },
         "label": {
           "nl": "geometrie",
@@ -2556,7 +2557,7 @@
         },
         "usage": {
           "nl": "Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer.",
-          "en": "Enter your translation here"
+          "en": "Avoids errors when splitting an address into its components. Displays the prescribed order of the different parts."
         }
       },
       {
@@ -2588,7 +2589,7 @@
         "EA-Guid": "{060EBDC2-5490-4b36-8887-9C681BEE4C98}",
         "definition": {
           "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is",
-          "en": "Name from a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit"
+          "en": "Name of a geographic area or place that groups a number of addressable objects to address them without the area or place being an administrative unit"
         },
         "label": {
           "nl": "adresgebied",
@@ -2596,7 +2597,7 @@
         },
         "usage": {
           "nl": "Bvb de naam vh gehucht waarin het adres ligt.",
-          "en": "Enter your translation here"
+          "en": "E.g. the name of the hamlet in which the address is located."
         }
       },
       {
@@ -2604,7 +2605,7 @@
         "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
         "definition": {
           "nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is.",
-          "en": "[UPDATED] Place where the document is stored or viewable."
+          "en": "The place where the Document is stored or can be consulted."
         },
         "label": {
           "nl": "documentlocatie",
@@ -2620,7 +2621,7 @@
         },
         "label": {
           "nl": "toegekend door (String)",
-          "en": "assigned By (String)"
+          "en": "assignedBy(String)"
         }
       },
       {
@@ -2628,7 +2629,7 @@
         "EA-Guid": "{CCB506D5-DE86-4a26-9E83-8DD33411D059}",
         "definition": {
           "nl": "Externe Identificator van het complex.",
-          "en": "[UPDATED] External object identifier of the Activity Complex"
+          "en": "External Identifier of the complex."
         },
         "label": {
           "nl": "identificator",
@@ -2640,7 +2641,7 @@
         "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
         "definition": {
           "nl": "Identificator van het Document.",
-          "en": "[UPDATED] Information used to uniquely identify a docuent."
+          "en": "Identifier of the Document."
         },
         "label": {
           "nl": "documentidentificator",
@@ -2660,7 +2661,7 @@
         },
         "usage": {
           "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator.",
-          "en": "Enter your translation here"
+          "en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier."
         }
       },
       {
@@ -2688,7 +2689,7 @@
         },
         "usage": {
           "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype.",
-          "en": "Enter your translation here"
+          "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as the data type."
         }
       },
       {
@@ -2716,7 +2717,7 @@
         },
         "usage": {
           "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype.",
-          "en": "Enter your translation here"
+          "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
         }
       },
       {
@@ -2724,11 +2725,11 @@
         "EA-Guid": "{81C9EC16-88BB-4de5-A325-2B0E48E4AB0C}",
         "definition": {
           "nl": "Aard van de Pijp als container.",
-          "en": "Enter your translation here"
+          "en": "Type of the Pipe as a container."
         },
         "label": {
           "nl": "containertype",
-          "en": "Enter your translation here"
+          "en": "containertype"
         }
       },
       {
@@ -2736,11 +2737,11 @@
         "EA-Guid": "{56A89955-9113-4d56-8A78-1A6416729AFA}",
         "definition": {
           "nl": "Aard van het Kanaal als container.",
-          "en": "Enter your translation here"
+          "en": "Type of the Duct as a container."
         },
         "label": {
           "nl": "containertype",
-          "en": "Enter your translation here"
+          "en": "containertype"
         }
       },
       {
@@ -2748,7 +2749,7 @@
         "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
         "definition": {
           "nl": "Naam waaronder het complex gekend is.",
-          "en": "[UPDATED] Descriptive name of the Activity Complex."
+          "en": "Name by which the complex is known."
         },
         "label": {
           "nl": "naam",
@@ -2784,7 +2785,7 @@
         "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
         "definition": {
           "nl": "Type referentieoppervlak.",
-          "en": "[UPDATED] The type of Reference Surface"
+          "en": "Reference Surface type."
         },
         "label": {
           "nl": "type",
@@ -2796,11 +2797,11 @@
         "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
         "definition": {
           "nl": "Aard van het BeschermdGebied.",
-          "en": "Enter your translation here"
+          "en": "Type of the Protected Area."
         },
         "label": {
           "nl": "type",
-          "en": "Enter your translation here"
+          "en": "type"
         }
       },
       {
@@ -2808,11 +2809,11 @@
         "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
         "definition": {
           "nl": "Aard van het TopografischElement.",
-          "en": "Enter your translation here"
+          "en": "Type of the TopographicElement."
         },
         "label": {
           "nl": "topografisch elementtype",
-          "en": "Enter your translation here"
+          "en": "topographicalElementType"
         }
       },
       {
@@ -2820,11 +2821,11 @@
         "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
         "definition": {
           "nl": "Type van Toebehoren.",
-          "en": "Enter your translation here"
+          "en": "Type of Appurtenance"
         },
         "label": {
           "nl": "toebehorentype",
-          "en": "Enter your translation here"
+          "en": "appurtenanceType"
         }
       },
       {
@@ -2832,11 +2833,11 @@
         "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
         "definition": {
           "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk.",
-          "en": "Enter your translation here"
+          "en": "The type of utility network or the utility network theme."
         },
         "label": {
           "nl": "nutsvoorzieningnetwerktype",
-          "en": "Enter your translation here"
+          "en": "utilityNetworkType"
         }
       },
       {
@@ -2844,7 +2845,7 @@
         "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
         "definition": {
           "nl": "Classificatie van het Document.",
-          "en": "[UPDATED] Classification of the document."
+          "en": "Classification of the document."
         },
         "label": {
           "nl": "documentType",
@@ -2856,11 +2857,11 @@
         "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
         "definition": {
           "nl": "Aard van de Annotatie.",
-          "en": "Enter your translation here"
+          "en": "Classification of the Annotation."
         },
         "label": {
           "nl": "annotatietype",
-          "en": "Enter your translation here"
+          "en": "annotationType"
         }
       },
       {
@@ -2868,11 +2869,11 @@
         "EA-Guid": "{1BD28B6D-5215-4811-B9A0-5282FB8641B1}",
         "definition": {
           "nl": "Naam van het BeschermdGebied.",
-          "en": "Enter your translation here"
+          "en": "Name of the Protected Area."
         },
         "label": {
           "nl": "naam",
-          "en": "Enter your translation here"
+          "en": "name"
         }
       },
       {
@@ -2880,7 +2881,7 @@
         "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
         "definition": {
           "nl": "Het Object waar het Document betrekking op heeft.",
-          "en": "[UPDATED] Object to which the document refers."
+          "en": "Object to which the document refers."
         },
         "label": {
           "nl": "verwijstNaar",
@@ -2892,11 +2893,11 @@
         "EA-Guid": "{8A6073D6-54F4-4273-8D01-3A5C9AE86471}",
         "definition": {
           "nl": "Verwijzing naar een Document met extra informatie over het element.",
-          "en": "Enter your translation here"
+          "en": "Reference to a Document containing additional information about the element."
         },
         "label": {
           "nl": "documentatie",
-          "en": "Enter your translation here"
+          "en": "documentation"
         }
       },
       {
@@ -2904,11 +2905,11 @@
         "EA-Guid": "{AB4880EF-C725-4006-8448-5C5B2C1F126E}",
         "definition": {
           "nl": "Verwijzing naar een Document met extra informatie over het Netwerk.",
-          "en": "Enter your translation here"
+          "en": "Reference to a Document containing additional information about the Network."
         },
         "label": {
           "nl": "documentatie",
-          "en": "Enter your translation here"
+          "en": "documentation"
         }
       },
       {
@@ -2916,7 +2917,7 @@
         "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
         "definition": {
           "nl": "Aard van de gegevensdrager waarop het Document is opgeslagen.",
-          "en": "[UPDATED] Medium used to access the document."
+          "en": "Nature of the data carrier on which the Document is stored."
         },
         "label": {
           "nl": "documentmediumtype",
@@ -2928,7 +2929,7 @@
         "EA-Guid": "{72FF6C37-B881-412b-BCDA-6C7841BB57C3}",
         "definition": {
           "nl": "Beschrijving van het Document.",
-          "en": "[UPDATED] Text field containing more information about the Document class."
+          "en": "Description of the Document."
         },
         "label": {
           "nl": "beschrijving",
@@ -2940,7 +2941,7 @@
         "EA-Guid": "{AB1E6036-8E1E-4240-A610-2FF6B3833D52}",
         "definition": {
           "nl": "Een meer gedtailleerde beschrijving van de functie.",
-          "en": "[UPDATED] Text field containing more information about the class Function."
+          "en": "A more detailed description of the function."
         },
         "label": {
           "nl": "beschrijving",
@@ -2952,7 +2953,7 @@
         "EA-Guid": "{767E63D8-08FC-45e3-8FD0-CA01DA4E5F0B}",
         "definition": {
           "nl": "Beschrijving van het BeschermdGebied.",
-          "en": "[UPDATED] Text field containing more information about the Protected Area class."
+          "en": "Description of the Protected Area."
         },
         "label": {
           "nl": "beschrijving",
@@ -2964,11 +2965,11 @@
         "EA-Guid": "{A46FB68D-F943-48ac-B943-B63B769B47CF}",
         "definition": {
           "nl": "Het moment waarop de Opmeting heeft plaatsgevonden",
-          "en": "Enter your translation here"
+          "en": "The moment at which the Survey took place"
         },
         "label": {
           "nl": "datum",
-          "en": "Enter your translation here"
+          "en": "date"
         }
       },
       {
@@ -2976,11 +2977,11 @@
         "EA-Guid": "{19868C0F-5DAB-45f8-A997-72B8BC4358E7}",
         "definition": {
           "nl": "Uitvoer van het resultaat van de activiteit in de functie.",
-          "en": "Enter your translation here"
+          "en": "Output the result of the activity in the function."
         },
         "label": {
           "nl": "output",
-          "en": "Enter your translation here"
+          "en": "output"
         }
       },
       {
@@ -2988,11 +2989,11 @@
         "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
         "definition": {
           "nl": "Invoer voor de activiteit in de functie",
-          "en": "Enter your translation here"
+          "en": "Input for the activity in the function."
         },
         "label": {
           "nl": "input",
-          "en": "Enter your translation here"
+          "en": "input"
         }
       },
       {
@@ -3000,15 +3001,15 @@
         "EA-Guid": "{F70F22E8-22A0-4c24-BBB2-3ECBC29AABCD}",
         "definition": {
           "nl": "Classificatie van de activiteit.",
-          "en": "Enter your translation here"
+          "en": "Classification of the activity."
         },
         "label": {
           "nl": "activiteit",
-          "en": "Enter your translation here"
+          "en": "activity"
         },
         "usage": {
           "nl": "Gebruik bij voorkeur de NACE codes.",
-          "en": "Enter your translation here"
+          "en": "Preferably use the NACE codes."
         }
       },
       {
@@ -3016,7 +3017,7 @@
         "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
         "definition": {
           "nl": "Identificator van de eenheid.",
-          "en": "[UPDATED] TO DO"
+          "en": "Unit identifier."
         },
         "label": {
           "nl": "eenheidsidentificator",
@@ -3024,7 +3025,7 @@
         },
         "usage": {
           "nl": "Bvb m voor meter.",
-          "en": "Enter your translation here"
+          "en": "E.g. m for meter."
         }
       },
       {
@@ -3032,7 +3033,7 @@
         "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
         "definition": {
           "nl": "De hoeveelheid.",
-          "en": "[UPDATED] TO DO"
+          "en": "The amount."
         },
         "label": {
           "nl": "waarde",
@@ -3044,7 +3045,7 @@
         "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
         "definition": {
           "nl": "Eenheid waarin de hoeveelheid wordt uitgedrukt.",
-          "en": "[UPDATED] TO DO"
+          "en": "Unit in which the quantity is expressed."
         },
         "label": {
           "nl": "eenheid",
@@ -3056,7 +3057,7 @@
         "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
         "definition": {
           "nl": "Eenheid waarin de Lengte wordt uitegdrukt.",
-          "en": "[UPDATED] TO DO"
+          "en": "Unit in which the Length is expressed."
         },
         "label": {
           "nl": "eenheid",
@@ -3064,7 +3065,7 @@
         },
         "usage": {
           "nl": "Bvb meter, centimeter.",
-          "en": "Enter your translation here"
+          "en": "E.g. meters, centimeters."
         }
       }
     ]
