@@ -1498,14 +1498,18 @@
         }
       },
       {
-        "name": "Agent",
-        "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
-        "label": {
-          "nl": "Agent",
-          "en": "Agent"
-        }
+      "name": "Agent",
+      "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
+      "definition": {
+        "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen."
+        "en": "Someone or something that can act or produce an effect."
       },
-      {
+      "label": {
+        "nl": "Agent"
+        "en": "Agent"
+      }
+    },
+    {
         "name": "Curve",
         "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
         "definition": {
