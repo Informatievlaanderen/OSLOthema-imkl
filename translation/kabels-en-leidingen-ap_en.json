@@ -79,30 +79,30 @@
     },
     {
       "name": "Kabel",
-      "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
-      "definition": {
-        "nl": "Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen.",
-        "en": "Enter your translation here"
+        "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
+        "definition": {
+          "nl": "Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen.",
+          "en": "[UPDATED] A utility link or link sequence used to convey electricity or data from one location to another."
+        },
+        "label": {
+          "nl": "Kabel",
+          "en": "Cable"
+        }
       },
-      "label": {
-        "nl": "Kabel",
-        "en": "Enter your translation here"
-      }
-    },
-    {
+      {
       "name": "KabelEnLeidingContainer",
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "definition": {
         "nl": "Object dat potentieel kabels of leidingen kan omvatten.",
-        "en": "Enter your translation here"
+        "en": "Object that could potentially contain cables or pipes/ducts."
       },
       "label": {
         "nl": "KabelEnLeidingContainer",
-        "en": "Enter your translation here"
+        "en": "CableAndPipeContainer"
       },
       "usage": {
         "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen vh type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-        "en": "Enter your translation here"
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not CableAndPipe Containers. NOTE: whether the CableAndPipeContainer ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       }
     },
     {
@@ -110,27 +110,26 @@
       "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
         "nl": "Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie.",
-        "en": "Enter your translation here"
+        "en": "A UtilityLinkSet used to protect and route cables and pipes through an enclosing structure."
       },
       "label": {
         "nl": "Kanaal",
-        "en": "Enter your translation here"
-      }
+        "en": "Duct"
     },
     {
       "name": "Kast",
       "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "definition": {
         "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast.",
-        "en": "Enter your translation here"
+        "en": "Simple UtilityNodeCcontainer that takes the shape of a cabinet."
       },
       "label": {
         "nl": "Kast",
-        "en": "Enter your translation here"
+        "en": "Cabinet"
       },
       "usage": {
         "nl": "Bevat typisch kleiner monteerbaar Toebehoren en Kabels.",
-        "en": "Enter your translation here"
+        "en": "Contains typically smaller mountable Appurtenances and Cables."
       }
     },
     {
@@ -138,15 +137,15 @@
       "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
       "definition": {
         "nl": "Soort Annotatie dat de maat van een Object aangeeft.",
-        "en": "Enter your translation here"
+        "en": "Type of Annotation that indicates the size of an Object."
       },
-      "label": {
-        "nl": "Maataanduiding",
-        "en": "Enter your translation here"
+     "label": {
+          "nl": "Maataanduiding",
+          "en": "Dimension"
       },
       "usage": {
         "nl": "Bv de afmetingen van een kamer.",
-        "en": "Enter your translation here"
+        "en": "For example, the dimensions of a room."
       }
     },
     {
