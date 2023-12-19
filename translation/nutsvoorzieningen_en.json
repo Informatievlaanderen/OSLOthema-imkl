@@ -1407,7 +1407,7 @@
         },
         "usage": {
           "nl": "Aansluiting is een specialisatie van Toebehoren waarbij het type Toebehoren \"aansluitingspunt\" is.",
-          "en": "Connection is a specialisation of Appurtenance where the type of Appurtenance is \"delivery point"\."
+          "en": "Connection is a specialisation of Appurtenance where the type of Appurtenance is \"delivery point\"."
         }
       }
     ],
@@ -1473,7 +1473,7 @@
         "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
         "definition": {
           "nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt.",
-          "en": Degree to which a specified position represents the actual position."
+          "en": "Degree to which a specified position represents the actual position."
         },
         "label": {
           "nl": "PositioneleNauwkeurigheid",
@@ -1917,7 +1917,7 @@
         },
         "usage": {
           "nl": "Te substitueren door een instantie van het gewenste type, ttz Geometrie, Adresvoorstelling, Plaats, GeografischeNaam, Gebouw, Perceel etc. Zie oa <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis\">OSLO Generiek</a> voor meer info over deze klassen.",
-          "en": "To be replaced by an instance of the desired type, i.e. Geometry, Address Representation, Location, Geographical Name, Building, Plot, etc. See, among others, <a href="https://data.vlaanderen.be/doc/applicationprofiel/generiek-basis"> OSLO Generic</a> for more information about these classes."
+          "en": "To be replaced by an instance of the desired type, i.e. Geometry, Address Representation, Location, Geographical Name, Building, Plot, etc. See, among others, <a href=\"https://data.vlaanderen.be/doc/applicationprofiel/generiek-basis\"> OSLO Generic</a> for more information about these classes."
         }
       },
       {
@@ -2105,7 +2105,7 @@
         },
         "usage": {
           "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href="https://www.w3.org/TR/xmlschema-2/">xsd data types</a> Integer, Float, Decimal, Double etc."
+          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
         }
       }
     ],
@@ -2211,7 +2211,7 @@
         "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
         "definition": {
           "nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset.",
-          "en": UtilityLinkSequence or UtilityLink that is part of the LinkSet."
+          "en": "UtilityLinkSequence or UtilityLink that is part of the LinkSet."
         },
         "label": {
           "nl": "link",
@@ -2463,8 +2463,7 @@
         "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
         "definition": {
           "nl": "Geometrie van de Annotatie.",
-          "en": "Geometry of the Annotation.
-"
+          "en": "Geometry of the Annotation."
         },
         "label": {
           "nl": "locatie",
