@@ -150,519 +150,519 @@
     },
     {
       "name": "Mangat",
-      "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
-      "definition": {
-        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond.",
-        "en": "Enter your translation here"
+        "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
+        "definition": {
+          "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond.",
+          "en": "[UPDATED] Simple container object which may contain either single or multiple utility networks objects."
+        },
+        "label": {
+          "nl": "Mangat",
+          "en": "Manhole"
+        },
+        "usage": {
+          "nl": "Bvb riooldeksel.",
+          "en": "Enter your translation here"
+        }
       },
-      "label": {
-        "nl": "Mangat",
-        "en": "Enter your translation here"
+      {
+        "name": "Nutsvoorzieningknoop",
+        "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
+        "definition": {
+          "nl": "Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk.",
+          "en": "[UPDATED] A spatial point object used for connectivity."
+        },
+        "label": {
+          "nl": "Nutsvoorzieningknoop",
+          "en": "UtilityNode"
+        },
+        "usage": {
+          "nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan.",
+          "en": "Enter your translation here"
+        }
       },
-      "usage": {
-        "nl": "Bvb riooldeksel.",
-        "en": "Enter your translation here"
+      {
+        "name": "Nutsvoorzieningknoopcontainer",
+        "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
+        "definition": {
+          "nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen.",
+          "en": "[UPDATED] A point spatial object which is used for connectivity, and also may contain other spatial objects (not neccessarily belonging to the same utility network)."
+        },
+        "label": {
+          "nl": "Nutsvoorzieningknoopcontainer",
+          "en": "UtilityNodeContainer"
+        },
+        "usage": {
+          "nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk.",
+          "en": "[UPDATED] Nodes are found at either end of the UtilityLink."
+        }
+      },
+      {
+        "name": "Nutsvoorzieninglink",
+        "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
+        "definition": {
+          "nl": "Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk.",
+          "en": "[UPDATED] A linear spatial object that describes the geometry and connectivity of a utility network between two points in the network."
+        },
+        "label": {
+          "nl": "Nutsvoorzieninglink",
+          "en": "UtilityLink"
+        }
+      },
+      {
+        "name": "Nutsvoorzieninglinksequentie",
+        "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
+        "definition": {
+          "nl": "Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk.",
+          "en": "[UPDATED] A linear spatial object, composed of an ordered collection of utility links, which represents a continuous path in the utility network without any branches. The element has a defined beginning and end and every position on the utility link sequence is identifiable with one single parameter."
+        },
+        "label": {
+          "nl": "Nutsvoorzieninglinksequentie",
+          "en": "UtilityLinkSequence"
+        },
+        "usage": {
+          "nl": "In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks.",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "Nutsvoorzieninglinkset",
+        "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
+        "definition": {
+          "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk.",
+          "en": "[UPDATED] An abstract utility network class which groups common properties of Cable, Pipe and Duct featureTypes."
+        },
+        "label": {
+          "nl": "Nutsvoorzieninglinkset",
+          "en": "UtilityLinkSet"
+        },
+        "usage": {
+          "nl": "In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc.",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "Nutsvoorzieningnetwerk",
+        "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
+        "definition": {
+          "nl": "Verzameling van netwerkelementen van één type nutsvoorziening.",
+          "en": "[UPDATED] Collection of network elements that belong to a single type of utility network."
+        },
+        "label": {
+          "nl": "Nutsvoorzieningnetwerk",
+          "en": "UtilityNetwork"
+        },
+        "usage": {
+          "nl": "Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat.",
+          "en": "[UPDATED] In the real world, objects are connected to each other: an optical cable is connected to a multiplexer that in turn is connected to copper cables connecting into our homes to provide cable TV, telephony and internet access. Using GIS to support network utility management typically involves many types of features that may have connectivity to each other. Topology in GIS is generally defined as the spatial relationship between connecting or adjacent features, and is an essential prerequisite for many spatial operations such as network analysis. Utility networks can be described as NaN (Node-Arc-Node) network using two basic geometric types: points (aka nodes) and polylines (aka arcs). NaN topologies can be directed or un-directed, depending on specific type of network (i.e. water networks are directed, while telecommunications networks are not). Such topology structure provides an automated way to handle digitising and editing errors, and enable advanced spatial analyses such as adjacency, connectivity and containment. Infrastructure networks rely on Generic network model developed during Annex I."
+        }
+      },
+      {
+        "name": "Nustvoorzieningnetwerkelement",
+        "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
+        "definition": {
+          "nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult.",
+          "en": "[UPDATED] Abstract base type representing an utility network element in an utility network. Every element in an utility network provides some function that is of interest in the utility network."
+        },
+        "label": {
+          "nl": "Nustvoorzieningnetwerkelement",
+          "en": "UtilityNetworkElement"
+        },
+        "usage": {
+          "nl": "OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc).",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "OlieGasChemicaliënPijp",
+        "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
+        "definition": {
+          "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren.",
+          "en": "A pipe used to transport oil, gas or chemicals from one location to another."
+        },
+        "label": {
+          "nl": "OlieGasChemicaliënPijp",
+          "en": "OilGasChemicalPipe"
+        }
+      },
+      {
+        "name": "Paal",
+        "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
+        "definition": {
+          "nl": "Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast.",
+          "en": "[UPDATED] Simple pole (mast) object which may carry utility objects belonging to either single or multiple utility networks."
+        },
+        "label": {
+          "nl": "Paal",
+          "en": "Pole"
+        },
+        "usage": {
+          "nl": "Typisch drager van monteerbaar Toebehoren en Kabels.",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "Pijp",
+        "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
+        "definition": {
+          "nl": "Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere.",
+          "en": "[UPDATED] A utility link or link sequence for the conveyance of solids, liquids, chemicals or gases from one location to another."
+        },
+        "label": {
+          "nl": "Pijp",
+          "en": "Pipe"
+        }
+      },
+      {
+        "name": "Plan",
+        "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
+        "definition": {
+          "nl": "Tekening met de onderdelen of details van iets.",
+          "en": "[UPDATED] Object that displays additional information about one or more utility network elements via additional files."
+        },
+        "label": {
+          "nl": "Plan",
+          "en": "Plan"
+        },
+        "usage": {
+          "nl": "Bvb plattegrond, stratenplan.",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "Referentieoppervlak",
+        "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
+        "definition": {
+          "nl": "Oppervlak tov waarvan een positie wordt gemeten.",
+          "en": "[UPDATED] The ground surface,whose height is often specified relative to a national zero level."
+        },
+        "label": {
+          "nl": "Referentieoppervlak",
+          "en": "ReferenceSurface"
+        },
+        "usage": {
+          "nl": "In deze context typisch het maaiveld.",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "Rioolpijp",
+        "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
+        "definition": {
+          "nl": "Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren.",
+          "en": "[UPDATED] A sewer pipe used to convey wastewater (sewer) from one location to another."
+        },
+        "label": {
+          "nl": "Rioolpijp",
+          "en": "SewerPipe"
+        }
+      },
+      {
+        "name": "Telecommunicatiekabel",
+        "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
+        "definition": {
+          "nl": "Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren.",
+          "en": "[UPDATED] A utility link or link sequence used to convey data signals (PSTN, radio or computer) from one location to another."
+        },
+        "label": {
+          "nl": "Telecommunicatiekabel",
+          "en": "TelecommunicationsCable"
+        }
+      },
+      {
+        "name": "ThermischePijp",
+        "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
+        "definition": {
+          "nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren.",
+          "en": "[UPDATED] A pipe used to disseminate heating or cooling from one location to another."
+        },
+        "label": {
+          "nl": "ThermischePijp",
+          "en": "[UPDATED] Thermal Pipe"
+        }
+      },
+      {
+        "name": "Toebehoren",
+        "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
+        "definition": {
+          "nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk.",
+          "en": "[UPDATED] An appurtenance is a node object that is described by its type (via the attribute \"appurtenanceType\")"
+        },
+        "label": {
+          "nl": "Toebehoren",
+          "en": "Appurtenance"
+        },
+        "usage": {
+          "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
+          "en": "Enter your translation here"
+        }
+      },
+      {
+        "name": "Topografisch Element",
+        "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
+        "definition": {
+          "nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak.",
+          "en": "[UPDATED] Object that can provide additional topographical information about part or all of a utility network."
+        },
+        "label": {
+          "nl": "Topografisch Element",
+          "en": "TopographicalElement"
+        },
+        "usage": {
+          "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie...",
+          "en": "[UPDATED] This allows additional eigentopography and design topography via the attribute topographic Element Type - to be described. These topographies are situated via the attribute location where point, line and polygon geometries can be used."
+        }
+      },
+      {
+        "name": "Toren",
+        "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
+        "definition": {
+          "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren.",
+          "en": "[UPDATED] Simple tower object which may carry utility objects belonging to either single or multiple utility networks."
+        },
+        "label": {
+          "nl": "Toren",
+          "en": "Tower"
+        },
+        "usage": {
+          "nl": "Typisch drager van monteerbaar Toebehoren en Kabels.",
+          "en": "[UPDATED] Towers represent node objects that support reservoirs, cables or antennas."
+        }
+      },
+      {
+        "name": "Uiterlijk",
+        "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
+        "definition": {
+          "nl": "De manier waarop een object eruit ziet.",
+          "en": "The way an item looks"
+        },
+        "label": {
+          "nl": "Uiterlijk",
+          "en": "Appearance"
+        }
+      },
+      {
+        "name": "VerticalePositie",
+        "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
+        "definition": {
+          "nl": "Positie in verticale richting tov een Referentieoppervlak.",
+          "en": "[UPDATED] TO DO"
+        },
+        "label": {
+          "nl": "VerticalePositie",
+          "en": "[UPDATED] verticalPosition"
+        }
+      },
+      {
+        "name": "Waterleiding",
+        "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
+        "definition": {
+          "nl": "Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren.",
+          "en": "[UPDATED] A water pipe used to convey water from one location to another."
+        },
+        "label": {
+          "nl": "Waterleiding",
+          "en": "WaterPipe"
+        }
       }
-    },
-    {
-      "name": "Nutsvoorzieningknoop",
-      "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
-      "definition": {
-        "nl": "Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
+    ],
+    "properties": [
+      {
+        "name": "werkspanning",
+        "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
+        "definition": {
+          "nl": "Spanning tijdens belasting.",
+          "en": "[UPDATED] The utilization or operating voltage by the equipment using the electricity."
+        },
+        "label": {
+          "nl": "werkspanning",
+          "en": "operatingVoltage"
+        }
       },
-      "label": {
-        "nl": "Nutsvoorzieningknoop",
-        "en": "Enter your translation here"
+      {
+        "name": "watertype",
+        "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
+        "definition": {
+          "nl": "Type van het water.",
+          "en": "[UPDATED] Type of water"
+        },
+        "label": {
+          "nl": "watertype",
+          "en": "waterType"
+        }
       },
-      "usage": {
-        "nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Nutsvoorzieningknoopcontainer",
-      "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
-      "definition": {
-        "nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen.",
-        "en": "Enter your translation here"
+      {
+        "name": "waarschuwingstype",
+        "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
+        "definition": {
+          "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd.",
+          "en": "[UPDATED] Kind of overground visible warning mechanism used to indicate an underground utility network element."
+        },
+        "label": {
+          "nl": "waarschuwingstype",
+          "en": "warningType"
+        },
+        "usage": {
+          "nl": "Bvb een bovengronds signalisatiebord om een ondergrondse gasleiding aan te duiden.",
+          "en": "Enter your translation here"
+        }
       },
-      "label": {
-        "nl": "Nutsvoorzieningknoopcontainer",
-        "en": "Enter your translation here"
+      {
+        "name": "verticalePositiedetail",
+        "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
+        "definition": {
+          "nl": "Detail van de VerticalePositie van het element.",
+          "en": "[UPDATED] TO DO"
+        },
+        "label": {
+          "nl": "verticalePositiedetail",
+          "en": "verticalPositiondetail"
+        },
+        "usage": {
+          "nl": "Bv diepte.",
+          "en": "Enter your translation here"
+        }
       },
-      "usage": {
-        "nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Nutsvoorzieninglink",
-      "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
-      "definition": {
-        "nl": "Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
+      {
+        "name": "torenhoogte",
+        "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
+        "definition": {
+          "nl": "Hoogte van de Toren.",
+          "en": "[UPDATED] Total heigt of the tower."
+        },
+        "label": {
+          "nl": "torenhoogte",
+          "en": "towerHeight"
+        }
       },
-      "label": {
-        "nl": "Nutsvoorzieninglink",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Nutsvoorzieninglinksequentie",
-      "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
-      "definition": {
-        "nl": "Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
+      {
+        "name": "thermischProducttype",
+        "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
+        "definition": {
+          "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd.",
+          "en": "[UPDATED] The type of thermal product that is conveyed through the thermal pipe."
+        },
+        "label": {
+          "nl": "thermischProducttype",
+          "en": "thermalProductType"
+        }
       },
-      "label": {
-        "nl": "Nutsvoorzieninglinksequentie",
-        "en": "Enter your translation here"
+      {
+        "name": "temperatuur",
+        "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
+        "definition": {
+          "nl": "De maximum toelaatbare temperatuur van de inhoud van de Pijp.",
+          "en": "[UPDATED] The maximum temperature of the content in the pipe."
+        },
+        "label": {
+          "nl": "temperatuur",
+          "en": "temperature"
+        }
       },
-      "usage": {
-        "nl": "In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Nutsvoorzieninglinkset",
-      "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
-      "definition": {
-        "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
+      {
+        "name": "telecommunicatiekabelmateriaaltype",
+        "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
+        "definition": {
+          "nl": "Type van kabelmateriaal.",
+          "en": "[UPDATED] Type of cable material"
+        },
+        "label": {
+          "nl": "telecommunicatiekabelmateriaaltype",
+          "en": "telecommunicationsCableMaterialType"
+        }
       },
-      "label": {
-        "nl": "Nutsvoorzieninglinkset",
-        "en": "Enter your translation here"
+      {
+        "name": "tekst",
+        "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
+        "definition": {
+          "nl": "Tekst van de Annotatie.",
+          "en": "[UPDATED] Actual information displayed."
+        },
+        "label": {
+          "nl": "tekst",
+          "en": "text"
+        },
+        "usage": {
+          "nl": "Bvb de maat in het geval van een Maataanduiding.",
+          "en": "Enter your translation here"
+        }
       },
-      "usage": {
-        "nl": "In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Nutsvoorzieningnetwerk",
-      "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
-      "definition": {
-        "nl": "Verzameling van netwerkelementen van één type nutsvoorziening.",
-        "en": "Enter your translation here"
+      {
+        "name": "technischeSpecificatie",
+        "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
+        "definition": {
+          "nl": "Nadere bepaling van de linkset.",
+          "en": "[UPDATED] TO DO"
+        },
+        "label": {
+          "nl": "technischeSpecificatie",
+          "en": "[UPDATED] technicalSpecification"
+        },
+        "usage": {
+          "nl": "Bv diameter, materiaal etc. Bvb PE200 om polyethyleenbuis van 200mm diameter te specifiëren.",
+          "en": "Enter your translation here"
+        }
       },
-      "label": {
-        "nl": "Nutsvoorzieningnetwerk",
-        "en": "Enter your translation here"
+      {
+        "name": "standaardVerticalePositiedetail",
+        "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
+        "definition": {
+          "nl": "Standaard VerticalePositie van elementen in het netwerk.",
+          "en": "[UPDATED] TO DO"
+        },
+        "label": {
+          "nl": "standaardVerticalePositiedetail",
+          "en": "standardVerticalPositiondetail"
+        },
+        "usage": {
+          "nl": "Bv de standaard Diepte waarop de elementen zich bevinden.",
+          "en": "Enter your translation here"
+        }
       },
-      "usage": {
-        "nl": "Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Nustvoorzieningnetwerkelement",
-      "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
-      "definition": {
-        "nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult.",
-        "en": "Enter your translation here"
+      {
+        "name": "rotatiehoek",
+        "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
+        "definition": {
+          "nl": "Hoek waarmee de Annotatie bij weergave moet worden geroteerd.",
+          "en": "Enter your translation here"
+        },
+        "label": {
+          "nl": "rotatiehoek",
+          "en": "Enter your translation here"
+        },
+        "usage": {
+          "nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel.",
+          "en": "Enter your translation here"
+        }
       },
-      "label": {
-        "nl": "Nustvoorzieningnetwerkelement",
-        "en": "Enter your translation here"
+      {
+        "name": "rioolwatertype",
+        "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
+        "definition": {
+          "nl": "Type van rioolwater.",
+          "en": "[UPDATED] Type of sewer water"
+        },
+        "label": {
+          "nl": "rioolwatertype",
+          "en": "sewerWaterType"
+        }
       },
-      "usage": {
-        "nl": "OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc).",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "OlieGasChemicaliënPijp",
-      "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
-      "definition": {
-        "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
+      {
+        "name": "referentieOppervlak",
+        "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
+        "definition": {
+          "nl": "Verwijzing naar het Referentieoppervlak.",
+          "en": "[UPDATED] TO DO"
+        },
+        "label": {
+          "nl": "referentieOppervlak",
+          "en": "referenceSurface"
+        },
+        "usage": {
+          "nl": "Bvb het maaiveld.",
+          "en": "Enter your translation here"
+        }
       },
-      "label": {
-        "nl": "OlieGasChemicaliënPijp",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Paal",
-      "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
-      "definition": {
-        "nl": "Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Paal",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Typisch drager van monteerbaar Toebehoren en Kabels.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Pijp",
-      "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
-      "definition": {
-        "nl": "Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Pijp",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Plan",
-      "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
-      "definition": {
-        "nl": "Tekening met de onderdelen of details van iets.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Plan",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bvb plattegrond, stratenplan.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Referentieoppervlak",
-      "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
-      "definition": {
-        "nl": "Oppervlak tov waarvan een positie wordt gemeten.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Referentieoppervlak",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "In deze context typisch het maaiveld.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Rioolpijp",
-      "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
-      "definition": {
-        "nl": "Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Rioolpijp",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Telecommunicatiekabel",
-      "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
-      "definition": {
-        "nl": "Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Telecommunicatiekabel",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "ThermischePijp",
-      "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
-      "definition": {
-        "nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "ThermischePijp",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Toebehoren",
-      "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
-      "definition": {
-        "nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Toebehoren",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Topografisch Element",
-      "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
-      "definition": {
-        "nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Topografisch Element",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Toren",
-      "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
-      "definition": {
-        "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Toren",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Typisch drager van monteerbaar Toebehoren en Kabels.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Uiterlijk",
-      "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
-      "definition": {
-        "nl": "De manier waarop een object eruit ziet.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Uiterlijk",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "VerticalePositie",
-      "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
-      "definition": {
-        "nl": "Positie in verticale richting tov een Referentieoppervlak.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "VerticalePositie",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "Waterleiding",
-      "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
-      "definition": {
-        "nl": "Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "Waterleiding",
-        "en": "Enter your translation here"
-      }
-    }
-  ],
-  "properties": [
-    {
-      "name": "werkspanning",
-      "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
-      "definition": {
-        "nl": "Spanning tijdens belasting.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "werkspanning",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "watertype",
-      "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
-      "definition": {
-        "nl": "Type van het water.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "watertype",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "waarschuwingstype",
-      "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
-      "definition": {
-        "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "waarschuwingstype",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bvb een bovengronds signalisatiebord om een ondergrondse gasleiding aan te duiden.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "verticalePositiedetail",
-      "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
-      "definition": {
-        "nl": "Detail van de VerticalePositie van het element.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "verticalePositiedetail",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bv diepte.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "torenhoogte",
-      "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
-      "definition": {
-        "nl": "Hoogte van de Toren.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "torenhoogte",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "thermischProducttype",
-      "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
-      "definition": {
-        "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "thermischProducttype",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "temperatuur",
-      "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
-      "definition": {
-        "nl": "De maximum toelaatbare temperatuur van de inhoud van de Pijp.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "temperatuur",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "telecommunicatiekabelmateriaaltype",
-      "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
-      "definition": {
-        "nl": "Type van kabelmateriaal.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "telecommunicatiekabelmateriaaltype",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "tekst",
-      "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
-      "definition": {
-        "nl": "Tekst van de Annotatie.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "tekst",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bvb de maat in het geval van een Maataanduiding.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "technischeSpecificatie",
-      "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
-      "definition": {
-        "nl": "Nadere bepaling van de linkset.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "technischeSpecificatie",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bv diameter, materiaal etc. Bvb PE200 om polyethyleenbuis van 200mm diameter te specifiëren.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "standaardVerticalePositiedetail",
-      "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
-      "definition": {
-        "nl": "Standaard VerticalePositie van elementen in het netwerk.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "standaardVerticalePositiedetail",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bv de standaard Diepte waarop de elementen zich bevinden.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "rotatiehoek",
-      "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
-      "definition": {
-        "nl": "Hoek waarmee de Annotatie bij weergave moet worden geroteerd.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "rotatiehoek",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "rioolwatertype",
-      "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
-      "definition": {
-        "nl": "Type van rioolwater.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "rioolwatertype",
-        "en": "Enter your translation here"
-      }
-    },
-    {
-      "name": "referentieOppervlak",
-      "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
-      "definition": {
-        "nl": "Verwijzing naar het Referentieoppervlak.",
-        "en": "Enter your translation here"
-      },
-      "label": {
-        "nl": "referentieOppervlak",
-        "en": "Enter your translation here"
-      },
-      "usage": {
-        "nl": "Bvb het maaiveld.",
-        "en": "Enter your translation here"
-      }
-    },
-    {
+      {
       "name": "pijpdiameter",
       "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
       "definition": {
