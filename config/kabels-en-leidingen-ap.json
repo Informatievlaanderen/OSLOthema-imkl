@@ -17,7 +17,7 @@
         "translation": [
             {
                 "language": "en",
-                "template": "kabels-en-leidingen-ap.j2",
+                "template": "kabels-en-leidingen-ap_en.j2",
                 "title": "OSLO Cables and Pipes (Application profile)",
                 "translationjson": "kabels-en-leidingen-ap_en.json",
                 "mergefile": "kabels-en-leidingen-ap_en_merged.json"
