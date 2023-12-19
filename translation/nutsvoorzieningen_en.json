@@ -2247,7 +2247,7 @@
         "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
         "definition": {
           "nl": "Geometrie van de Knoop.",
-          "en": "[UPDATED] Location of utility node."
+          "en": "Geometry of the Node."
         },
         "label": {
           "nl": "geometrie",
