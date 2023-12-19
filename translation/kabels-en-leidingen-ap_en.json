@@ -2704,7 +2704,7 @@
       },
       "usage": {
         "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
-        "en": "Use <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> as datatype.",
+        "en": "Use <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> as datatype."
       }
     },
     {
