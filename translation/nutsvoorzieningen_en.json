@@ -137,7 +137,7 @@
         "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
         "definition": {
           "nl": "Soort Annotatie dat de maat van een Object aangeeft.",
-          "en": "[UPDATED] TO DO"
+          "en": "Type of Annotation that indicates the size of an Object."
         },
         "label": {
           "nl": "Maataanduiding",
