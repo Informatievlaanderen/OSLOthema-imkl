@@ -102,7 +102,7 @@
       },
       "usage": {
         "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen vh type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-        "en": "[UPDATED] For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not CableAndPipe Containers. NOTE: whether the CableAndPipeContainer ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
+        "en": "For example, if the object is a Pipe: a Pipe can include Cables or other Pipes. Analogous for pipes of the Duct type. Cables are not CableAndPipe Containers. NOTE: whether the CableAndPipeContainer ultimately contains other elements is indicated by the outgoing relations to those other relations (e.g. Channel.pipe, Pipe.cable, Channel.cable, Pipe.pipe etc)."
       }
     },
     {
@@ -410,7 +410,7 @@
       },
       "usage": {
         "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie",
-        "en": "[UPDATED] Typical elements are relief, landforms, water bodies, vegetation…"
+        "en": "Typical elements are relief, landforms, water bodies, vegetation…"
       }
     },
     {
@@ -692,7 +692,7 @@
       },
       "usage": {
         "nl": "De hoogte is de verticale afstand gemeten ten opzichte van het object - in dit geval de paal, loodrecht op de lengte.",
-        "en": "[UPDATED] "
+        "en": " "
       }
     },
     {
