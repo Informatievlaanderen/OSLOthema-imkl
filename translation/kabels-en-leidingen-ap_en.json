@@ -1188,7 +1188,7 @@
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-        "en": "[UPDATED] UtilityNetworkElement belonging to the network."
+        "en": "UtilityNetworkElement belonging to the network."
       },
       "label": {
         "nl": "inNetwerk",
@@ -1200,7 +1200,7 @@
       "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
         "nl": "Mate waarin de container waarneembaar is.",
-        "en": "[UPDATED] Extent to which the Linkset is observable."
+        "en": "Extent to which the Linkset is observable."
       },
       "label": {
         "nl": "zichtbaarheid",
@@ -1400,7 +1400,7 @@
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
-        "en": "[UPDATED] ActivityComplex that belongs to the network."
+        "en": "ActivityComplex that belongs to the network."
       },
       "label": {
         "nl": "inNetwork",
@@ -1546,7 +1546,7 @@
       "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
       "definition": {
         "nl": "Aard van de container.",
-        "en": "[UPDATED] Kind of container"
+        "en": "Kind of container"
       },
       "label": {
         "nl": "Containertype",
@@ -1594,7 +1594,7 @@
       "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
       "definition": {
         "nl": "De aard van het gebruikte materiaal",
-        "en": "[UPDATED] The kind of material used."
+        "en": "The kind of material used."
       },
       "label": {
         "nl": "MateriaalType",
@@ -1798,7 +1798,7 @@
       "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
       "definition": {
         "nl": "Classificatie van het topografisch element.",
-        "en": "[UPDATED] Classification of the topographic element."
+        "en": "Classification of the topographic element."
       },
       "label": {
         "nl": "TopografischElementtype",
@@ -1846,7 +1846,7 @@
       "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
       "definition": {
         "nl": "De manier waarop het meetresultaat is vastgesteld",
-        "en": "[UPDATED] The way the measurement result was determined"
+        "en": "The way the measurement result was determined"
       },
       "label": {
         "nl": "Opmetingsmethode",
@@ -1910,7 +1910,7 @@
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld.",
-        "en": "[UPDATED] Describes these features through points, lines, polygons and coordinates."
+        "en": "Describes these features through points, lines, polygons and coordinates."
       }
     },
     {
@@ -2152,7 +2152,7 @@
       "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
       "definition": {
         "nl": "Afstand onder het Referentieoppervlak.",
-        "en": "[UPDATED] Distance above the ReferenceSurface."
+        "en": "Distance above the ReferenceSurface."
       },
       "label": {
         "nl": "hoogte",
@@ -2592,7 +2592,7 @@
       "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
       "definition": {
         "nl": "Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven.",
-        "en": "[UPDATED] Geometry of the complex to describe its location and size."
+        "en": "Geometry of the complex to describe its location and size."
       },
       "label": {
         "nl": "geometrie",
@@ -3092,7 +3092,7 @@
       "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
       "definition": {
         "nl": "Invoer voor de activiteit in de functie.",
-        "en": "[UPDATED] Input for the activity in the function."
+        "en": "Input for the activity in the function."
       },
       "label": {
         "nl": "input",
