@@ -1914,11 +1914,11 @@
         }
       },
       {
-      "name": "Object",
+      "name": "Entiteit",
         "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
         "label": {
-          "nl": "Object",
-          "en": "Object"
+          "nl": "Entiteit",
+          "en": "Entity"
         }
       },
       {
@@ -2125,8 +2125,8 @@
           "en": "Number"
         },
         "usage": {
-          "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
+          "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
+          "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
         }
       }
     ],
