@@ -988,15 +988,15 @@
       }
     },
     {
-      "name": "complex",
+      "name": "inNetwork",
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
-        "nl": "Activiteitencomplex dat tot het netwerk behoort.",
-        "en": "ActivityComplex that belongs to the network."
+        "nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
+        "en": "UtilityNetwork to which the ActivityComplex belongs."
       },
       "label": {
-        "nl": "complex",
-        "en": "complex"
+        "nl": "inNetwerk2",
+        "en": "inNetwork2"
       }
     },
     {
@@ -1396,15 +1396,15 @@
       }
     },
     {
-      "name": "inNetwork",
+      "name": "complex",
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
-        "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
+        "nl": "Activiteitencomplex dat tot het netwerk behoort.",
         "en": "ActivityComplex that belongs to the network."
       },
       "label": {
-        "nl": "inNetwerk",
-        "en": "inNetwork"
+        "nl": "complex",
+        "en": "complex"
       }
     },
     {
