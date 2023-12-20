@@ -995,8 +995,8 @@
         "en": "UtilityNetwork to which the ActivityComplex belongs."
       },
       "label": {
-        "nl": "inNetwerk2",
-        "en": "inNetwork2"
+        "nl": "inNetwerk",
+        "en": "inNetwork"
       }
     },
     {
