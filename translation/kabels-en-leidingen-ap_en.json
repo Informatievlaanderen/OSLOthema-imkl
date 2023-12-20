@@ -1,4 +1,4 @@
-{
+Cf{
   "baseURI": "https://data.vlaanderen.be/ns/nutsvoorzieningen#",
   "classes": [
     {
@@ -1914,11 +1914,11 @@
         }
       },
       {
-      "name": "Entiteit",
+      "name": "Object",
         "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
         "label": {
-          "nl": "Entiteit",
-          "en": "Entity"
+          "nl": "Object",
+          "en": "Object"
         }
       },
       {
