@@ -940,7 +940,7 @@
       "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
       "definition": {
         "nl": "Verwijzing naar een Document met extra informatie over het Activiteitencomplex.",
-        "en": "[UPDATED] Reference to a Document with additional information about the complex."
+        "en": "Reference to a Document with additional information about the complex."
       },
       "label": {
         "nl": "documentatie",
