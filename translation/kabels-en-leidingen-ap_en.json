@@ -916,7 +916,7 @@
       },
       "label": {
         "nl": "element",
-        "en": "Enter your translation here"
+        "en": "element"
       }
     },
     {
@@ -996,7 +996,7 @@
       },
       "label": {
         "nl": "complex",
-        "en": "Enter your translation here"
+        "en": "complex"
       }
     },
     {
@@ -1192,7 +1192,7 @@
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwork"
       }
     },
     {
@@ -1403,8 +1403,8 @@
         "en": "ActivityComplex that belongs to the network."
       },
       "label": {
-        "nl": "inNetwork",
-        "en": "Enter your translation here"
+        "nl": "inNetwerk",
+        "en": "inNetwork"
       }
     },
     {
@@ -1502,7 +1502,7 @@
       "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
       "definition": {
         "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen.",
-        "en": "Enter your translation here"
+        "en": "Someone or something that can act or produce an effect."
       },
       "label": {
         "nl": "Agent",
@@ -1918,7 +1918,7 @@
       "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
       "definition": {
         "nl": "Entiteit waarvan alle entiteiten zijn afgeleid.",
-        "en": "Enter your translation here"
+        "en": "Entity from which all entities are derived."
       },
       "label": {
         "nl": "Object",
@@ -2372,7 +2372,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2432,7 +2432,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2448,7 +2448,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2464,7 +2464,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2480,7 +2480,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2496,7 +2496,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2512,7 +2512,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2640,7 +2640,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2656,7 +2656,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2700,7 +2700,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2856,7 +2856,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2872,7 +2872,7 @@
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": " "
       }
     },
     {
@@ -2888,7 +2888,7 @@
       },
       "usage": {
         "nl": "Typsch maaiveld.",
-        "en": "Enter your translation here"
+        "en": "Typical the groundlevel."
       }
     },
     {
