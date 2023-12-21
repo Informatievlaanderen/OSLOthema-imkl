@@ -907,7 +907,7 @@
       },
       "label": {
         "nl": "element",
-        "en": "Enter your translation here"
+        "en": "element"
       }
     },
     {
@@ -1019,11 +1019,11 @@
       "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "definition": {
         "nl": "Activiteitencomplex dat tot het netwerk behoort.",
-        "en": "Enter your translation here"
+        "en": "Activity complex belonging to the network."
       },
       "label": {
         "nl": "activiteitencomplexreferentie",
-        "en": "Enter your translation here"
+        "en": "activitycomplexreference"
       }
     },
     {
@@ -1167,7 +1167,7 @@
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwork"
       }
     },
     {
@@ -1379,7 +1379,7 @@
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "Enter your translation here"
+        "en": "inNetwork"
       }
     },
     {
