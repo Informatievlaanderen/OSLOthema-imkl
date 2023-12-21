@@ -2776,7 +2776,7 @@
       },
       "usage": {
         "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
-        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
+        "en": "Use <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> as datatype."
       }
     },
     {
