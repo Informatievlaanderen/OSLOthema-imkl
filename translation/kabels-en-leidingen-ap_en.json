@@ -988,18 +988,6 @@
       }
     },
     {
-      "name": "inNetwork",
-      "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
-      "definition": {
-        "nl": "Nutsvoorzieningnetwerk waartoe het Activiteitencomplex behoort.",
-        "en": "UtilityNetwork to which the ActivityComplex belongs."
-      },
-      "label": {
-        "nl": "inNetwerk",
-        "en": "inNetwork"
-      }
-    },
-    {
       "name": "bevoegdePartij",
       "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
       "definition": {
@@ -1041,14 +1029,14 @@
     },
     {
       "name": "activiteitencomplexreferentie",
-      "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
+      "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "definition": {
-        "nl": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk.",
-        "en": "Reference to a facility ActivityComplex that is linked to (whole or part of) this utility network."
+        "nl": "Activiteitencomplex dat tot het netwerk behoort.",
+        "en": "Enter your translation here"
       },
       "label": {
         "nl": "activiteitencomplexreferentie",
-        "en": "utilityFacilityReference"
+        "en": "Enter your translation here"
       }
     },
     {
@@ -1188,11 +1176,11 @@
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-        "en": "UtilityNetworkElement belonging to the network."
+        "en": "[UPDATED] UtilityNetworkElement belonging to the network."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "inNetwork"
+        "en": "[UPDATED] element"
       }
     },
     {
@@ -1396,15 +1384,15 @@
       }
     },
     {
-      "name": "complex",
+      "name": "inNetwerk",
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
-        "nl": "Activiteitencomplex dat tot het netwerk behoort.",
-        "en": "ActivityComplex that belongs to the network."
+        "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
+        "en": "[UPDATED] UtilityNetwork to which the ActivityComplex belongs."
       },
       "label": {
-        "nl": "complex",
-        "en": "complex"
+        "nl": "inNetwerk",
+        "en": "inNetwork"
       }
     },
     {
@@ -1958,7 +1946,7 @@
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
         "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode.",
-        "en": "Information that allows to refer in a structured and unique way to a building unit, a berth, a pitch or a plot based on a municipal name, a street name, a house number and possibly a bus number and a postal code."
+        "en": "[UPDATED] Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
       },
       "label": {
         "nl": "Adres",
@@ -2130,7 +2118,7 @@
       },
       "usage": {
         "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-        "en": "NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
+        "en": "[UPDATED] NOTE: Substitute for the primitive data types that can be used to represent a quantity. See <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd data types</a> Integer, Float, Decimal, Double etc."
       }
     }
   ],
