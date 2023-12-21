@@ -1957,8 +1957,8 @@
       "name": "Adres",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
-        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid,een ligplaats,een standplaats of een perceel op basis van een gemeentenaam,een straatnaam,een huisnummer en eventueel een busnummer en een postcode.",
-        "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
+        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode.",
+        "en": "Information that allows to refer in a structured and unique way to a building unit, a berth, a pitch or a plot based on a municipal name, a street name, a house number and possibly a bus number and a postal code."
       },
       "label": {
         "nl": "Adres",
