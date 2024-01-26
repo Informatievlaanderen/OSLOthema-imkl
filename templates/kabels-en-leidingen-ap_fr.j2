@@ -1,0 +1,22 @@
+{% extends "ap2_fr.j2" %}
+
+{% block summary %}
+<p>Le profil d'application OSLO Câbles et Conduites montre comment les termes du <a href="https://data.vlaanderen.be//ns/nutsvoorzieningen/index_fr.html">vocabulaire</a> associé doivent être utilisés pour décrire les câbles et conduites.</p>
+<p>Ces éléments peuvent être situés à la fois au-dessus et en dessous du sol. En ce qui concerne les câbles et conduites souterrains, la description a pour objectif que tous les éléments soient présents afin de limiter les dommages lors des travaux d'excavation.</p>
+<p>Le modèle s'appuie sur les <a href="https://knowledge-base.inspire.ec.europa.eu/utility-and-governmental-services_en">INSPIRE Utility Services</a> et sur les modèles sur lesquels ce modèle est basé, principalement INSPIRE Networks.</p>
+<p>Les services tels que les câbles et conduites sont conçus comme un réseau (un UtilityNetwork) dans lequel ils forment des éléments linéaires, connectés par des objets ponctuels tels que des splitters, des connecteurs, des connexions montées dans des armoires, des tours, des poteaux, etc.</p>
+<p>Les câbles et conduites sont des collections de tronçons dans le réseau, des Ensemble de Tronçons de Service composés de Séquences de Tronçons de Service  ou de Tronçons. Les principaux types d'ensemble de tronçons sont les Câbles, les Conduites et les Canalisations. Les Conduites et les Canalisations sont des conduites : ils transportent des substances telles que l'eau, les eaux usées, le gaz ou contiennent des Câbles ou d'autres Conduites ou Canalisations.</p>
+<p>La classe des Câbles est divisée en Câbles Électriques et Câbles de Télécommunications. Dans les Conduites, une distinction est faite entre les Conduites d'Hydrocarbures, les Conduites d'Eaux Usées, les Conduites d'Eau et les Conduites Thermiques.</p>
+<p>La géométrie des Ensemble de Tronçons de Service des services correspond à celle des Séquences de Tronçons de Service ou des tronçons constitutifs. Dans le cas d'une séquence de tronçons, il s'agit de la géométrie des tronçons formant la séquence, mais dans une direction particulière (important, par exemple, pour le drainage). Pour les tronçons, il s'agit de la géométrie de la ligne médiane.</p>
+<p>Les objets pouvant être représentés sous forme de point qui réalisent les connexions dans le réseau (par exemple, raccords, connexions, pompes, compteurs) sont les nœuds du réseau, les soi-disant Noeuds de Service. Ils peuvent être autonomes mais sont généralement montés sur des objets plus volumineux tels que des poteaux ou des tours, ou sont placés dans des armoires sur la chaussée. Nous les appelons des Conteneurs de Nœuds de Service.</p>
+<p>Certains Eléments de Service forment ensemble une installation ou une installation qui peut être décrite séparément comme un Complexe d'Activités.</p>
+<p>Le modèle comprend diverses classes et types de données de support, notamment pour compléter les informations du réseau avec des informations topographiques (classe Elément Topographique) ou des zones où l'excavation n'est pas autorisée (classe Zone Protégée) ou pour annoter les objets (classe Annotation).</p>
+<p>La géométrie des câbles et conduites et des nœuds dans le réseau peut être décrite en 2D ou en 2.5D.</p>
+<p>Si le 2.5D n'est pas possible ou est insuffisante, des informations supplémentaires sur la Position Verticale peuvent être fournies, à la fois sous forme relative (par rapport à une Surface de Référence) et absolue (Position Directe dans un système de coordonnées verticales tel que le TAW). Ces informations sont importantes pour éviter les dommages lors des travaux d'excavation.</p>
+{% endblock %}
+
+{% block images %}
+<a href="/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19/html/overview_fr.jpg" target="_blank">
+<img src="/doc/applicatieprofiel/kabels-en-leidingen/kandidaatstandaard/2023-12-19/html/overview_fr.jpg" />
+</a>
+{% endblock %}
