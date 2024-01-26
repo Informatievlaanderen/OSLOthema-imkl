@@ -15,6 +15,10 @@
         {
             "naam": "Cables and Pipes Application profile",
             "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_en.html"
+        },
+        {
+            "naam": "Câbles et Conduites Profil d'application",
+            "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_fr.html"
         }
     ],
     "documentatie": [],
