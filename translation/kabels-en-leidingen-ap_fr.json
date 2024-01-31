@@ -6,11 +6,11 @@
         "name": "Aansluiting",
         "label": {
           "nl": "Aansluiting",
-          "fr": "Enter your translation here"
+          "fr": "Connexion"
         },
         "definition": {
           "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft",
-          "fr": "Enter your translation here"
+          "fr": "Objet décrivant la connexion d'un câble ou d'une conduite à un bâtiment ou à un autre objet physique"
         }
       },
       {
@@ -18,15 +18,15 @@
         "name": "Annotatie",
         "label": {
           "nl": "Annotatie",
-          "fr": "Enter your translation here"
+          "fr": "Annotation"
         },
         "definition": {
           "nl": "Een korte uitleg of notitie toegevoegd aan een Object.",
-          "fr": "Enter your translation here"
+          "fr": "Une courte explication ou une note ajoutée à un Objet."
         },
         "usage": {
           "nl": "In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn.",
-          "fr": "Enter your translation here"
+          "fr": "Dans ce contexte, il s'agit généralement d'une Indication de mesure sur un plan de câble ou de conduite, par ex. la distance d'un câble par rapport à une façade. Peut se composer d'éléments (par ex. : une ligne de dimensionnement, une ligne de guidage de dimensionnement, deux flèches) qui sont également des Annotations en soi."
         }
       },
       {
@@ -34,11 +34,11 @@
         "name": "BeschermdGebied",
         "label": {
           "nl": "Beschermd Gebied",
-          "fr": "Enter your translation here"
+          "fr": "Zone protégée"
         },
         "definition": {
           "nl": "Gebied waar niet gegraven mag worden.",
-          "fr": "Enter your translation here"
+          "fr": "Zone où il est interdit de creuser."
         }
       },
       {
@@ -46,11 +46,11 @@
         "name": "Diepte",
         "label": {
           "nl": "Diepte",
-          "fr": "Enter your translation here"
+          "fr": "Profondeur"
         },
         "definition": {
           "nl": "VerticalePositie onder het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "Position verticale sous la Surface de Référence."
         }
       },
       {
@@ -58,11 +58,11 @@
         "name": "Electriciteitskabel",
         "label": {
           "nl": "Electriciteitskabel",
-          "fr": "Enter your translation here"
+          "fr": "Câble Electrique"
         },
         "definition": {
           "nl": "Een Kabel gebruikt om elektriciteit van de ene naar de andere locatie te transporteren.",
-          "fr": "Enter your translation here"
+          "fr": "Câble utilisé pour transporter l'électricité d'un endroit à un autre."
         }
       },
       {
@@ -70,11 +70,11 @@
         "name": "Hoogte",
         "label": {
           "nl": "Hoogte",
-          "fr": "Enter your translation here"
+          "fr": "Hauteur"
         },
         "definition": {
           "nl": "VerticalePositie boven het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "Position verticale au-dessus de la Surface de Référence."
         }
       },
       {
@@ -82,11 +82,11 @@
         "name": "Kabel",
         "label": {
           "nl": "Kabel",
-          "fr": "Enter your translation here"
+          "fr": "Câble"
         },
         "definition": {
           "nl": "Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen.",
-          "fr": "Enter your translation here"
+          "fr": "Un Ensemble de Tronçons de Service utilisé pour transférer de l'électricité ou des données d'un endroit à un autre."
         }
       },
       {
@@ -94,15 +94,15 @@
         "name": "Kabelenleidingcontainer",
         "label": {
           "nl": "KabelEnLeidingContainer",
-          "fr": "Enter your translation here"
+          "fr": "Conteneur de Cable et Conduite"
         },
         "definition": {
           "nl": "Object dat potentieel kabels of leidingen kan omvatten.",
-          "fr": "Enter your translation here"
+          "fr": "Objet pouvant potentiellement inclure des câbles ou des conduites."
         },
         "usage": {
           "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen vh type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQU+Z255E : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex. : Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
         }
       },
       {
@@ -110,11 +110,11 @@
         "name": "Kanaal",
         "label": {
           "nl": "Kanaal",
-          "fr": "Enter your translation here"
+          "fr": "Canalisation"
         },
         "definition": {
           "nl": "Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie.",
-          "fr": "Enter your translation here"
+          "fr": "Un Ensemble de Tronçons de Service utilisé pour protéger et guider des câbles et conduites à travers une structure enveloppante."
         }
       },
       {
@@ -122,15 +122,15 @@
         "name": "Kast",
         "label": {
           "nl": "Kast",
-          "fr": "Enter your translation here"
+          "fr": "Armoire"
         },
         "definition": {
           "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast.",
-          "fr": "Enter your translation here"
+          "fr": "Simple Conteneur de Noeud de Service qui prend la forme d'une armoire."
         },
         "usage": {
           "nl": "Bevat typisch kleiner monteerbaar Toebehoren en Kabels.",
-          "fr": "Enter your translation here"
+          "fr": "Contient des Accessoires et des Câbles montables généralement plus petits."
         }
       },
       {
@@ -138,15 +138,15 @@
         "name": "Maataanduiding",
         "label": {
           "nl": "Maataanduiding",
-          "fr": "Enter your translation here"
+          "fr": "Retrieving data. Wait a few seconds and try to cut or copy again."
         },
         "definition": {
           "nl": "Soort Annotatie dat de maat van een Object aangeeft.",
-          "fr": "Enter your translation here"
+          "fr": "Type d'Annotation indiquant la taille d'un Objet."
         },
         "usage": {
           "nl": "Bv de afmetingen van een kamer.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : les dimensions d'une pièce."
         }
       },
       {
@@ -154,15 +154,15 @@
         "name": "Mangat",
         "label": {
           "nl": "Mangat",
-          "fr": "Enter your translation here"
+          "fr": "Trou d'Homme"
         },
         "definition": {
           "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond.",
-          "fr": "Enter your translation here"
+          "fr": "Simple Conteneur de Noeud de Service qui prend la forme d'une ouverture couverte dans le revêtement routier et qui permet d'accéder au sous-sol."
         },
         "usage": {
           "nl": "Bvb riooldeksel.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : une taque d'égout."
         }
       },
       {
@@ -170,15 +170,15 @@
         "name": "Nutsvoorzieningknoop",
         "label": {
           "nl": "Nutsvoorzieningknoop",
-          "fr": "Enter your translation here"
+          "fr": "Noeud de Service"
         },
         "definition": {
           "nl": "Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Objet spatial qui joue un rôle important dans un Réseau de Service et qui peut être représenté sous forme d'un point."
         },
         "usage": {
           "nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan.",
-          "fr": "Enter your translation here"
+          "fr": "Peut être autonome ou constituer le début ou la fin d'un Tronçon de Service. REMARQUE : est abstrait, devrait être spécialisé en tant qu'Accessoire ou une sous-classe de celui-ci."
         }
       },
       {
@@ -186,15 +186,15 @@
         "name": "Nutsvoorzieningknoopcontainer",
         "label": {
           "nl": "Nutsvoorzieningknoopcontainer",
-          "fr": "Enter your translation here"
+          "fr": "Conteneur de Noeud de Service"
         },
         "definition": {
           "nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen.",
-          "fr": "Enter your translation here"
+          "fr": "Élément du Réseau de Service porteur potentiel de nœuds de service qui peut être représenté sous forme d'un point."
         },
         "usage": {
           "nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : Tour, Poteau, Trou d'Homme, Armoire. Par ex. : une Armoire contient des interrupteurs, des connexions, etc. qui forment des Nœuds dans le Réseau de Service."
         }
       },
       {
@@ -202,11 +202,11 @@
         "name": "Nutsvoorzieninglink",
         "label": {
           "nl": "Nutsvoorzieninglink",
-          "fr": "Enter your translation here"
+          "fr": "Tronçon de Service"
         },
         "definition": {
           "nl": "Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Objet spatial linéaire décrivant la géométrie et la connectivité entre deux points d'un Réseau de Service."
         }
       },
       {
@@ -214,15 +214,15 @@
         "name": "Nutsvoorzieninglinksequentie",
         "label": {
           "nl": "Nutsvoorzieninglinksequentie",
-          "fr": "Enter your translation here"
+          "fr": "Séquence de Tronçons de Service"
         },
         "definition": {
           "nl": "Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Un chemin continu non ramifié dans le Réseau de Service."
         },
         "usage": {
           "nl": "In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks.",
-          "fr": "Enter your translation here"
+          "fr": "En principe, il s'agit d'un itinéraire dans le réseau, par ex. une conduite d'eau dans le sens de l'écoulement. Les itinéraires ont une direction, c'est pourquoi la Séquence de Tronçons est composée de Tronçons Orientés."
         }
       },
       {
@@ -230,15 +230,15 @@
         "name": "Nutsvoorzieninglinkset",
         "label": {
           "nl": "Nutsvoorzieninglinkset",
-          "fr": "Enter your translation here"
+          "fr": Ensemble de Tronçons de Service""
         },
         "definition": {
           "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Collection d'objets spatiaux linéaires ayant une fonction ou une importance spécifique dans le Réseau de Service."
         },
         "usage": {
           "nl": "In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc.",
-          "fr": "Enter your translation here"
+          "fr": "En pratique, il s'agit d'une collection de Séquence de Tronçons de Service et/ou de Tronçons de Service. REMARQUE : est abstrait, nécessite une spécialisation plus poussée, par ex. Câble Electrique, Conduite d'Eaux Usées, etc."
         }
       },
       {
@@ -246,15 +246,15 @@
         "name": "Nutsvoorzieningnetwerk",
         "label": {
           "nl": "Nutsvoorzieningnetwerk",
-          "fr": "Enter your translation here"
+          "fr": "Réseau de Service"
         },
         "definition": {
           "nl": "Verzameling van netwerkelementen van één type nutsvoorziening.",
-          "fr": "Enter your translation here"
+          "fr": "Collection d'éléments de réseau d'un type de service."
         },
         "usage": {
           "nl": "Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : un réseau électrique, un réseau d'égouts, un réseau de gaz. Les éléments de réseau en question sont, par ex., les éléments du réseau d'un fournisseur d'accès à Internet : des câbles optiques arrivant dans des armoires situées dans la rue, via des multiplexeurs connectés à des câbles en cuivre jusqu'aux maisons situées dans cette rue."
         }
       },
       {
@@ -262,15 +262,15 @@
         "name": "Nustvoorzieningnetwerkelement",
         "label": {
           "nl": "Nustvoorzieningnetwerkelement",
-          "fr": "Enter your translation here"
+          "fr": "Elément du Réseau de Service"
         },
         "definition": {
           "nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult.",
-          "fr": "Enter your translation here"
+          "fr": "Élément d'un Réseau de Service qui remplit une fonction importante dans ce réseau."
         },
         "usage": {
           "nl": "OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc).",
-          "fr": "Enter your translation here"
+          "fr": "REMARQUE : est abstrait, doit être spécifié (par ex. Câble Electrique, Conduite d'Eaux Usées, Trou d'Homme, Armoire, etc.)."
         }
       },
       {
@@ -278,11 +278,11 @@
         "name": "Oliegaschemicaliënpijp",
         "label": {
           "nl": "OlieGasChemicaliënPijp",
-          "fr": "Enter your translation here"
+          "fr": "Conduite d'Hydrocarbure, de Gaz ou de Produits Chimiques"
         },
         "definition": {
           "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren.",
-          "fr": "Enter your translation here"
+          "fr": "Une conduite utilisée pour transporter des hydrocarbures, du gaz ou des produits chimiques d'un endroit à un autre."
         }
       },
       {
@@ -290,15 +290,15 @@
         "name": "Paal",
         "label": {
           "nl": "Paal",
-          "fr": "Enter your translation here"
+          "fr": "Poteau"
         },
         "definition": {
           "nl": "Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast.",
-          "fr": "Enter your translation here"
+          "fr": "Simple Conteneur de Noeud de Service qui prend la forme d’un mât."
         },
         "usage": {
           "nl": "Typisch drager van monteerbaar Toebehoren en Kabels.",
-          "fr": "Enter your translation here"
+          "fr": "Généralement support des Accessoires et des Câbles montables."
         }
       },
       {
@@ -306,11 +306,11 @@
         "name": "Pijp",
         "label": {
           "nl": "Pijp",
-          "fr": "Enter your translation here"
+          "fr": "Conduite"
         },
         "definition": {
           "nl": "Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere.",
-          "fr": "Enter your translation here"
+          "fr": "Un Ensemble de Tronçons de Service pour le transport de solides, de liquides, de produits chimiques ou de gaz d'un endroit à un autre."
         }
       },
       {
@@ -318,15 +318,15 @@
         "name": "Plan",
         "label": {
           "nl": "Plan",
-          "fr": "Enter your translation here"
+          "fr": "Plan"
         },
         "definition": {
           "nl": "Tekening met de onderdelen of details van iets.",
-          "fr": "Enter your translation here"
+          "fr": "Dessin montrant les parties ou les détails de quelque chose."
         },
         "usage": {
           "nl": "Bvb plattegrond, stratenplan.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : une carte, un plan de ville."
         }
       },
       {
@@ -334,15 +334,15 @@
         "name": "Referentieoppervlak",
         "label": {
           "nl": "Referentieoppervlak",
-          "fr": "Enter your translation here"
+          "fr": "Surface de Référence"
         },
         "definition": {
           "nl": "Oppervlak tov waarvan een positie wordt gemeten.",
-          "fr": "Enter your translation here"
+          "fr": "Surface par rapport à laquelle une position est mesurée."
         },
         "usage": {
           "nl": "In deze context typisch het maaiveld.",
-          "fr": "Enter your translation here"
+          "fr": "Dans ce contexte, typiquement le niveau du sol."
         }
       },
       {
@@ -350,11 +350,11 @@
         "name": "Rioolpijp",
         "label": {
           "nl": "Rioolpijp",
-          "fr": "Enter your translation here"
+          "fr": "Conduite d'Eaux Usées"
         },
         "definition": {
           "nl": "Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren.",
-          "fr": "Enter your translation here"
+          "fr": "Une conduite utilisée pour transporter des eaux usées d'un endroit à un autre."
         }
       },
       {
@@ -362,11 +362,11 @@
         "name": "Telecommunicatiekabel",
         "label": {
           "nl": "Telecommunicatiekabel",
-          "fr": "Enter your translation here"
+          "fr": "Cable de Télécommunication"
         },
         "definition": {
           "nl": "Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren.",
-          "fr": "Enter your translation here"
+          "fr": "Un Ensemble de Tronçons de Service utilisé pour transporter des signaux de données (PSTN, radio ou ordinateur) d'un endroit à un autre."
         }
       },
       {
@@ -374,11 +374,11 @@
         "name": "Thermischepijp",
         "label": {
           "nl": "ThermischePijp",
-          "fr": "Enter your translation here"
+          "fr": "Conduite Thermique"
         },
         "definition": {
           "nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren.",
-          "fr": "Enter your translation here"
+          "fr": "Une Conduite utilisée pour transporter le chauffage ou le refroidissement d'un endroit à un autre."
         }
       },
       {
@@ -386,15 +386,15 @@
         "name": "Toebehoren",
         "label": {
           "nl": "Toebehoren",
-          "fr": "Enter your translation here"
+          "fr": "Accessoire"
         },
         "definition": {
           "nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Partie physique du Réseau de Service pouvant être représenté sous forme d'un point."
         },
         "usage": {
           "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
-          "fr": "Enter your translation here"
+          "fr": "Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex. : trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
         }
       },
       {
@@ -402,15 +402,15 @@
         "name": "TopografischElement",
         "label": {
           "nl": "Topografisch Element",
-          "fr": "Enter your translation here"
+          "fr": "Élément Topographique"
         },
         "definition": {
           "nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "Partie de la description de la forme et des caractéristiques de la surface du sol."
         },
         "usage": {
           "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie",
-          "fr": "Enter your translation here"
+          "fr": "Les éléments typiques comprennent le relief, les reliefs géomorphologiques, les plans d'eau, la végétation..."
         }
       },
       {
@@ -418,15 +418,15 @@
         "name": "Toren",
         "label": {
           "nl": "Toren",
-          "fr": "Enter your translation here"
+          "fr": "Tour"
         },
         "definition": {
           "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren.",
-          "fr": "Enter your translation here"
+          "fr": "Simple Conteneur de Noeud de Service qui prend la forme d'une Tour."
         },
         "usage": {
           "nl": "Typisch drager van monteerbaar Toebehoren en Kabels.",
-          "fr": "Enter your translation here"
+          "fr": "Généralement support des Accessoires et des Câbles montables."
         }
       },
       {
@@ -434,11 +434,11 @@
         "name": "Uiterlijk",
         "label": {
           "nl": "Uiterlijk",
-          "fr": "Enter your translation here"
+          "fr": "Apparence"
         },
         "definition": {
           "nl": "De manier waarop een object eruit ziet.",
-          "fr": "Enter your translation here"
+          "fr": "L'apparence d'un objet."
         }
       },
       {
@@ -446,11 +446,11 @@
         "name": "Verticalepositie",
         "label": {
           "nl": "VerticalePositie",
-          "fr": "Enter your translation here"
+          "fr": "Position Verticale"
         },
         "definition": {
           "nl": "Positie in verticale richting tov een Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "Position verticale par rapport à une Surface de Référence."
         }
       },
       {
@@ -458,11 +458,11 @@
         "name": "Waterleiding",
         "label": {
           "nl": "Waterleiding",
-          "fr": "Enter your translation here"
+          "fr": "Conduite d'Eau"
         },
         "definition": {
           "nl": "Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren.",
-          "fr": "Enter your translation here"
+          "fr": "Une Conduite utilisée pour transporter l’eau d'un endroit à un autre."
         }
       }
     ],
@@ -472,11 +472,11 @@
         "name": "werkspanning",
         "label": {
           "nl": "werkspanning",
-          "fr": "Enter your translation here"
+          "fr": "werkspanning"
         },
         "definition": {
           "nl": "Spanning tijdens belasting.",
-          "fr": "Enter your translation here"
+          "fr": "tension de fonctionnement"
         }
       },
       {
@@ -484,11 +484,11 @@
         "name": "watertype",
         "label": {
           "nl": "watertype",
-          "fr": "Enter your translation here"
+          "fr": "type d'eau"
         },
         "definition": {
           "nl": "Type van het water.",
-          "fr": "Enter your translation here"
+          "fr": "Type d'eau."
         }
       },
       {
@@ -496,15 +496,15 @@
         "name": "waarschuwingstype",
         "label": {
           "nl": "waarschuwingstype",
-          "fr": "Enter your translation here"
+          "fr": "type d'avertissement"
         },
         "definition": {
           "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd.",
-          "fr": "Enter your translation here"
+          "fr": "Manière d’avertir de la présence de l'Ensemble de Tronçons."
         },
         "usage": {
           "nl": "Bvb een bovengronds signalisatiebord om een ondergrondse gasleiding aan te duiden.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : un panneau de signalisation en surface pour indiquer une conduite de gaz souterraine."
         }
       },
       {
@@ -512,15 +512,15 @@
         "name": "verticalepositiedetail",
         "label": {
           "nl": "verticalePositiedetail",
-          "fr": "Enter your translation here"
+          "fr": "détail de la position verticale"
         },
         "definition": {
           "nl": "Detail van de VerticalePositie van het element.",
-          "fr": "Enter your translation here"
+          "fr": "Détail de la Position Verticale de l'élément."
         },
         "usage": {
           "nl": "Bv diepte.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex.  : profondeur."
         }
       },
       {
@@ -528,11 +528,11 @@
         "name": "torenhoogte",
         "label": {
           "nl": "torenhoogte",
-          "fr": "Enter your translation here"
+          "fr": "hauteur de la tour"
         },
         "definition": {
           "nl": "Hoogte van de Toren.",
-          "fr": "Enter your translation here"
+          "fr": "Hauteur de la Tour."
         }
       },
       {
@@ -540,11 +540,11 @@
         "name": "thermischproducttype",
         "label": {
           "nl": "thermischProducttype",
-          "fr": "Enter your translation here"
+          "fr": "type de Produit Thermique"
         },
         "definition": {
           "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd.",
-          "fr": "Enter your translation here"
+          "fr": "Le type de produit thermique transporté par la ConduiteThermique."
         }
       },
       {
@@ -552,11 +552,11 @@
         "name": "temperatuur",
         "label": {
           "nl": "temperatuur",
-          "fr": "Enter your translation here"
+          "fr": "température"
         },
         "definition": {
           "nl": "De maximum toelaatbare temperatuur van de inhoud van de Pijp.",
-          "fr": "Enter your translation here"
+          "fr": "Température maximale admissible du contenu de la Conduite."
         }
       },
       {
@@ -564,11 +564,11 @@
         "name": "telecommunicatiekabelmateriaaltype",
         "label": {
           "nl": "telecommunicatiekabelmateriaaltype",
-          "fr": "Enter your translation here"
+          "fr": "type de Matériau du Cable de Télécommunication"
         },
         "definition": {
           "nl": "Type van kabelmateriaal.",
-          "fr": "Enter your translation here"
+          "fr": "Type de matériau du câble."
         }
       },
       {
@@ -576,15 +576,15 @@
         "name": "tekst",
         "label": {
           "nl": "tekst",
-          "fr": "Enter your translation here"
+          "fr": "texte"
         },
         "definition": {
           "nl": "Tekst van de Annotatie.",
-          "fr": "Enter your translation here"
+          "fr": "Texte de l'Annotation."
         },
         "usage": {
           "nl": "Bvb de maat in het geval van een Maataanduiding.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : la taille dans le cas d'une Indication de mesure."
         }
       },
       {
@@ -592,15 +592,15 @@
         "name": "technischespecificatie",
         "label": {
           "nl": "technischeSpecificatie",
-          "fr": "Enter your translation here"
+          "fr": "spécification technique"
         },
         "definition": {
           "nl": "Nadere bepaling van de linkset.",
-          "fr": "Enter your translation here"
+          "fr": "Précision sur l'Ensemble de Tronçons."
         },
         "usage": {
           "nl": "Bv diameter, materiaal etc. Bvb PE200 om polyethyleenbuis van 200mm diameter te specifiëren.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : diamètre, matériau, etc. Par ex. : PE200 pour spécifier un tuyau en polyéthylène de 200 mm de diamètre."
         }
       },
       {
@@ -608,15 +608,15 @@
         "name": "standaardverticalepositiedetail",
         "label": {
           "nl": "standaardVerticalePositiedetail",
-          "fr": "Enter your translation here"
+          "fr": "détail de la position verticale standard"
         },
         "definition": {
           "nl": "Standaard VerticalePositie van elementen in het netwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Position Verticale standard des éléments du réseau."
         },
         "usage": {
           "nl": "Bv de standaard Diepte waarop de elementen zich bevinden.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. la Profondeur standard à laquelle les éléments sont situés."
         }
       },
       {
@@ -624,15 +624,15 @@
         "name": "rotatiehoek",
         "label": {
           "nl": "rotatiehoek",
-          "fr": "Enter your translation here"
+          "fr": "angle de rotation"
         },
         "definition": {
           "nl": "Hoek waarmee de Annotatie bij weergave moet worden geroteerd.",
-          "fr": "Enter your translation here"
+          "fr": "Angle de rotation de l'Annotation à l'affichage."
         },
         "usage": {
           "nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel.",
-          "fr": "Enter your translation here"
+          "fr": "Généralement pour aligner l'Annotation à l'Objet auquel elle se rapporte, par ex. parallèlement au câble."
         }
       },
       {
@@ -640,11 +640,11 @@
         "name": "rioolwatertype",
         "label": {
           "nl": "rioolwatertype",
-          "fr": "Enter your translation here"
+          "fr": "type d'eaux usées"
         },
         "definition": {
           "nl": "Type van rioolwater.",
-          "fr": "Enter your translation here"
+          "fr": "Type d'eaux usées."
         }
       },
       {
@@ -652,15 +652,15 @@
         "name": "referentieoppervlak",
         "label": {
           "nl": "referentieOppervlak",
-          "fr": "Enter your translation here"
+          "fr": "surface de référence"
         },
         "definition": {
           "nl": "Verwijzing naar het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "Référence à la Surface de Référence."
         },
         "usage": {
           "nl": "Bvb het maaiveld.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex., le niveau du sol."
         }
       },
       {
@@ -668,15 +668,15 @@
         "name": "pijpdiameter",
         "label": {
           "nl": "pijpdiameter",
-          "fr": "Enter your translation here"
+          "fr": "diamètre de la conduite"
         },
         "definition": {
           "nl": "Buitendiameter van de Pijp.",
-          "fr": "Enter your translation here"
+          "fr": "Diamètre extérieur de la Conduite."
         },
         "usage": {
           "nl": "Voor convex gevormde objecten (bijvoorbeeld een cirkel) is de diameter gedefinieerd als de grootste afstand die gevormd kan worden tussen twee tegenover elkaar liggende parallelle lijnen die raken aan de rand.",
-          "fr": "Enter your translation here"
+          "fr": "Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles."
         }
       },
       {
@@ -684,11 +684,11 @@
         "name": "paalhoogte",
         "label": {
           "nl": "paalhoogte",
-          "fr": "Enter your translation here"
+          "fr": "hauteur du poteau"
         },
         "definition": {
           "nl": "Hoogte van de Paal.",
-          "fr": "Enter your translation here"
+          "fr": "Hauteur du Poteau."
         }
       },
       {
@@ -696,11 +696,11 @@
         "name": "oliegaschemicaliënproducttype",
         "label": {
           "nl": "olieGasChemicaliënProducttype",
-          "fr": "Enter your translation here"
+          "fr": "type d'hydrocarbure, de gaz ou de produit chimique"
         },
         "definition": {
           "nl": "Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd.",
-          "fr": "Enter your translation here"
+          "fr": "Le type d'hydrocarbure, de gaz ou de produit chimique transporté par la conduite d'hydrocarbure, de gaz ou de produit chimique."
         }
       },
       {
@@ -708,15 +708,15 @@
         "name": "nutsvoorzieningleveringstype",
         "label": {
           "nl": "nutsvoorzieningleveringstype",
-          "fr": "Enter your translation here"
+          "fr": "type de fourniture de service"
         },
         "definition": {
           "nl": "Manier waarop de nutsvoorziening wordt geleverd.",
-          "fr": "Enter your translation here"
+          "fr": "La manière dont le service est fourni."
         },
         "usage": {
           "nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
         }
       },
       {
@@ -724,11 +724,11 @@
         "name": "nominaleSpanning",
         "label": {
           "nl": "nominale Spanning",
-          "fr": "Enter your translation here"
+          "fr": "tension nominale"
         },
         "definition": {
           "nl": "Spanning zonder belasting.",
-          "fr": "Enter your translation here"
+          "fr": "Tension hors fonctionnement"
         }
       },
       {
@@ -736,15 +736,15 @@
         "name": "netwerk",
         "label": {
           "nl": "netwerk",
-          "fr": "Enter your translation here"
+          "fr": "réseau"
         },
         "definition": {
           "nl": "Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd.",
-          "fr": "Enter your translation here"
+          "fr": "Réseau de Service associé au Réseau de Service."
         },
         "usage": {
           "nl": "Bvb een deelnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : un réseau partagé."
         }
       },
       {
@@ -752,11 +752,11 @@
         "name": "nauwkeurigheid",
         "label": {
           "nl": "nauwkeurigheid",
-          "fr": "Enter your translation here"
+          "fr": "précision"
         },
         "definition": {
           "nl": "De PositioneleNauwkeurigheid van de Opmeting.",
-          "fr": "Enter your translation here"
+          "fr": "Précision positionnelle de la Mesure."
         }
       },
       {
@@ -764,11 +764,11 @@
         "name": "materiaaltype",
         "label": {
           "nl": "materiaaltype",
-          "fr": "Enter your translation here"
+          "fr": "type de matériel"
         },
         "definition": {
           "nl": "Soort materiaal waaruit de Linkset bestaat.",
-          "fr": "Enter your translation here"
+          "fr": "Type de matériau constituant l'Ensemble de Tronçons."
         }
       },
       {
@@ -776,11 +776,11 @@
         "name": "knoop",
         "label": {
           "nl": "knoop",
-          "fr": "Enter your translation here"
+          "fr": "noeud"
         },
         "definition": {
           "nl": "Nutsvoorzieningknoop die de Nutsvoorzieningknoopcontainer omvat.",
-          "fr": "Enter your translation here"
+          "fr": "Noeud de Service comprenant un Conteneur de Noeud de Service."
         }
       },
       {
@@ -788,11 +788,11 @@
         "name": "kleur",
         "label": {
           "nl": "kleur",
-          "fr": "Enter your translation here"
+          "fr": "couleur"
         },
         "definition": {
           "nl": "De kleur van het object.",
-          "fr": "Enter your translation here"
+          "fr": "La couleur de l'objet."
         }
       },
       {
@@ -800,11 +800,11 @@
         "name": "kanaalbreedte",
         "label": {
           "nl": "kanaalbreedte",
-          "fr": "Enter your translation here"
+          "fr": "largeur de la canalisation"
         },
         "definition": {
           "nl": "Breedte van het Kanaal",
-          "fr": "Enter your translation here"
+          "fr": "Largeur de la Canalisation"
         }
       },
       {
@@ -812,11 +812,11 @@
         "name": "kabeldiameter",
         "label": {
           "nl": "kabeldiameter",
-          "fr": "Enter your translation here"
+          "fr": "diamètre du câble"
         },
         "definition": {
           "nl": "Diameter van de kabel.",
-          "fr": "Enter your translation here"
+          "fr": "Diamètre du câble."
         }
       },
       {
@@ -824,11 +824,11 @@
         "name": "huidigestatus",
         "label": {
           "nl": "huidigeStatus",
-          "fr": "Enter your translation here"
+          "fr": "statut actuel"
         },
         "definition": {
           "nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan.",
-          "fr": "Enter your translation here"
+          "fr": "Le statut de l'élément en ce qui concerne son achèvement et son utilisation."
         }
       },
       {
@@ -836,11 +836,11 @@
         "name": "geldigvan",
         "label": {
           "nl": "geldigVan",
-          "fr": "Enter your translation here"
+          "fr": "valable dès"
         },
         "definition": {
           "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond.",
-          "fr": "Enter your translation here"
+          "fr": "Date à partir de laquelle l’élément existe dans la réalité."
         }
       },
       {
@@ -848,11 +848,11 @@
         "name": "geldigtot",
         "label": {
           "nl": "geldigTot",
-          "fr": "Enter your translation here"
+          "fr": "valable jusque"
         },
         "definition": {
           "nl": "Tijdstip tot wanneer het element in de werkelijkheid bestond.",
-          "fr": "Enter your translation here"
+          "fr": "Date jusqu’à laquelle l’élément existe dans la réalité."
         }
       },
       {
@@ -860,15 +860,15 @@
         "name": "geheel",
         "label": {
           "nl": "geheel",
-          "fr": "Enter your translation here"
+          "fr": "ensemble"
         },
         "definition": {
           "nl": "Annotatie waarvan de Annotatie deel uitmaakt.",
-          "fr": "Enter your translation here"
+          "fr": "Annotation dont l'Annotation fait partie."
         },
         "usage": {
           "nl": "Bvb de Maataanduiding waartoe de maatvoeringslijn behoort.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : l’Indication de mesure à laquelle la ligne de dimensionnement appartient."
         }
       },
       {
@@ -876,15 +876,15 @@
         "name": "geassocieerdMet",
         "label": {
           "nl": "geassocieerd met",
-          "fr": "Enter your translation here"
+          "fr": "associé à"
         },
         "definition": {
           "nl": "Object waar de Annotatie betrekking op heeft",
-          "fr": "Enter your translation here"
+          "fr": "Objet auquel l'Annotation se rapporte"
         },
         "usage": {
           "nl": "Bvb een kabel.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : un câble."
         }
       },
       {
@@ -892,15 +892,15 @@
         "name": "functie",
         "label": {
           "nl": "functie",
-          "fr": "Enter your translation here"
+          "fr": "fonction"
         },
         "definition": {
           "nl": "Activiteiten uitgevoerd door het complex.",
-          "fr": "Enter your translation here"
+          "fr": "Activités exercées par le complexe."
         },
         "usage": {
           "nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten.",
-          "fr": "Enter your translation here"
+          "fr": "Complété éventuellement par des informations sur les inputs et les outputs des activités."
         }
       },
       {
@@ -908,11 +908,11 @@
         "name": "element",
         "label": {
           "nl": "element",
-          "fr": "Enter your translation here"
+          "fr": "élément"
         },
         "definition": {
           "nl": "Nutsvoorzieningnetwerkelement dat tot het netwerk behoort.",
-          "fr": "Enter your translation here"
+          "fr": "Élément du Réseau de Service appartenant au réseau."
         }
       },
       {
@@ -920,15 +920,15 @@
         "name": "druk",
         "label": {
           "nl": "druk",
-          "fr": "Enter your translation here"
+          "fr": "tension"
         },
         "definition": {
           "nl": "De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd.",
-          "fr": "Enter your translation here"
+          "fr": "La pression opérationnelle maximale admissible à laquelle un produit est transporté dans une Conduite."
         },
         "usage": {
           "nl": "De meeteenheid voor druk wordt meestal uitgedrukt in 'bar'.",
-          "fr": "Enter your translation here"
+          "fr": "L'unité de mesure de la pression est généralement exprimée en « bar »."
         }
       },
       {
@@ -936,11 +936,11 @@
         "name": "documentatie",
         "label": {
           "nl": "documentatie",
-          "fr": "Enter your translation here"
+          "fr": "documentation"
         },
         "definition": {
           "nl": "Verwijzing naar een Document met extra informatie over het Activiteitencomplex.",
-          "fr": "Enter your translation here"
+          "fr": "Référence à un Document contenant des informations supplémentaires sur le Complexe d’Activités."
         }
       },
       {
@@ -948,11 +948,11 @@
         "name": "disclaimer",
         "label": {
           "nl": "disclaimer",
-          "fr": "Enter your translation here"
+          "fr": "disclaimer"
         },
         "definition": {
           "nl": "Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": "Texte juridique décrivant les clauses de confidentialité applicables aux informations du réseau de service."
         }
       },
       {
@@ -960,11 +960,11 @@
         "name": "diepte",
         "label": {
           "nl": "diepte",
-          "fr": "Enter your translation here"
+          "fr": "profondeur"
         },
         "definition": {
           "nl": "Afstand onder het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "Distance au-dessous de la Surface de Référence."
         }
       },
       {
@@ -972,15 +972,15 @@
         "name": "deel",
         "label": {
           "nl": "deel",
-          "fr": "Enter your translation here"
+          "fr": "partie"
         },
         "definition": {
           "nl": "Annotatie die deel uitmaakt van de Annotatie.",
-          "fr": "Enter your translation here"
+          "fr": "Annotation faisant partie de l'Annotation."
         },
         "usage": {
           "nl": "Bvb de maatvoeringslijn in het geval van een Maataanduiding bestaande uit twee pijlen en een maatvoeringshulplijn.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : la ligne de dimensionnement dans le cas d'une Indication de mesure composée de deux flèches et d'une ligne de guidage de dimensionnement."
         }
       },
       {
@@ -988,11 +988,11 @@
         "name": "bevoegdepartij",
         "label": {
           "nl": "bevoegdePartij",
-          "fr": "Enter your translation here"
+          "fr": "partie compétente"
         },
         "definition": {
           "nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is.",
-          "fr": "Enter your translation here"
+          "fr": "Parties autorisées à gérer ou exploiter le Réseau de Service, ou qui en est le propriétaire."
         }
       },
       {
@@ -1000,15 +1000,15 @@
         "name": "afstand",
         "label": {
           "nl": "afstand",
-          "fr": "Enter your translation here"
+          "fr": "distance"
         },
         "definition": {
           "nl": "De VerticalePositie als afstand tov het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": "La Position Verticale comme distance par rapport à la Surface de Référence."
         },
         "usage": {
           "nl": "Bvb de afstand tov het maaiveld.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex., la distance par rapport au niveau du sol."
         }
       },
       {
@@ -1016,11 +1016,11 @@
         "name": "adres",
         "label": {
           "nl": "adres",
-          "fr": "Enter your translation here"
+          "fr": "adresse"
         },
         "definition": {
           "nl": "Adres van de aansluiting.",
-          "fr": "Enter your translation here"
+          "fr": "Adresse de la connexion."
         }
       },
       {
@@ -1028,11 +1028,11 @@
         "name": "activiteitencomplexreferentie",
         "label": {
           "nl": "activiteitencomplexreferentie",
-          "fr": "Enter your translation here"
+          "fr": "référence à un complexe d'activités"
         },
         "definition": {
           "nl": "Activiteitencomplex dat tot het netwerk behoort.",
-          "fr": "Enter your translation here"
+          "fr": "Référence à un Complexe d'Activités lié à (une partie de) ce réseau de service."
         }
       },
       {
@@ -1040,11 +1040,11 @@
         "name": "identificator",
         "label": {
           "nl": "identificator",
-          "fr": "Enter your translation here"
+          "fr": "identifiant"
         },
         "definition": {
           "nl": "Identificator van het element.",
-          "fr": "Enter your translation here"
+          "fr": "Identifiant de l'élément."
         }
       },
       {
@@ -1052,11 +1052,11 @@
         "name": "geografischenaam",
         "label": {
           "nl": "geografischeNaam",
-          "fr": "Enter your translation here"
+          "fr": "nom géographique"
         },
         "definition": {
           "nl": "Naam waaronder het netwerk bekend staat.",
-          "fr": "Enter your translation here"
+          "fr": "Nom sous lequel le réseau est connu."
         }
       },
       {
@@ -1064,15 +1064,15 @@
         "name": "verticalepositie",
         "label": {
           "nl": "verticalePositie",
-          "fr": "Enter your translation here"
+          "fr": "position verticale"
         },
         "definition": {
           "nl": "De VerticalePositie als positie in een verticaal coördinaatsysteem.",
-          "fr": "Enter your translation here"
+          "fr": "Position verticale comme position dans un système de coordonnées verticales."
         },
         "usage": {
           "nl": "Bvb in België de z-coördinaat in TAW.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex., en Belgique, la coordonnée z dans le DNG."
         }
       },
       {
@@ -1080,15 +1080,15 @@
         "name": "verticalepositie",
         "label": {
           "nl": "verticalePositie",
-          "fr": "Enter your translation here"
+          "fr": "position verticale"
         },
         "definition": {
           "nl": "De VerticalePositie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem.",
-          "fr": "Enter your translation here"
+          "fr": "Position verticale de la Surface de Référence comme position dans un système de coordonnées verticales."
         },
         "usage": {
           "nl": "Bvb in België de z-coördinaat in TAW.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex., en Belgique, la coordonnée z dans le DNG."
         }
       },
       {
@@ -1096,11 +1096,11 @@
         "name": "subthema",
         "label": {
           "nl": "subthema",
-          "fr": "Enter your translation here"
+          "fr": "sous-thème"
         },
         "definition": {
           "nl": "Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort.",
-          "fr": "Enter your translation here"
+          "fr": "Classification de la Conduite en fonction du domaine thématique auquel elle appartient."
         }
       },
       {
@@ -1108,11 +1108,11 @@
         "name": "pijp",
         "label": {
           "nl": "pijp",
-          "fr": "Enter your translation here"
+          "fr": "conduite"
         },
         "definition": {
           "nl": "Andere Pijp gelegen in de Pijp.",
-          "fr": "Enter your translation here"
+          "fr": "Autre Conduite se trouvant dans la Conduite."
         }
       },
       {
@@ -1120,11 +1120,11 @@
         "name": "kabel",
         "label": {
           "nl": "kabel",
-          "fr": "Enter your translation here"
+          "fr": "câble"
         },
         "definition": {
           "nl": "Kabel gelegen in de Pijp.",
-          "fr": "Enter your translation here"
+          "fr": "Câble se trouvant dans la Conduite."
         }
       },
       {
@@ -1132,11 +1132,11 @@
         "name": "uitgevoerddoor",
         "label": {
           "nl": "uitgevoerdDoor",
-          "fr": "Enter your translation here"
+          "fr": "exécuté par"
         },
         "definition": {
           "nl": "Agent die de Opmeting heeft uitgevoerd.",
-          "fr": "Enter your translation here"
+          "fr": "Agent qui a effectué la mesure."
         }
       },
       {
@@ -1144,11 +1144,11 @@
         "name": "methode",
         "label": {
           "nl": "methode",
-          "fr": "Enter your translation here"
+          "fr": "méthode"
         },
         "definition": {
           "nl": "Aard van de gebruikte methode.",
-          "fr": "Enter your translation here"
+          "fr": "Nature de la méthode utilisée."
         }
       },
       {
@@ -1156,15 +1156,15 @@
         "name": "verticalepositie",
         "label": {
           "nl": "verticalePositie",
-          "fr": "Enter your translation here"
+          "fr": "position verticale"
         },
         "definition": {
           "nl": "Algemene aanduiding van de VerticalePositie van het element.",
-          "fr": "Enter your translation here"
+          "fr": "Indication générale de la PositionvVerticale de l'élément."
         },
         "usage": {
           "nl": "Bv ondergronds, bovengronds.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : souterrain, en surface."
         }
       },
       {
@@ -1172,11 +1172,11 @@
         "name": "innetwerk",
         "label": {
           "nl": "inNetwerk",
-          "fr": "Enter your translation here"
+          "fr": "dans le réseau"
         },
         "definition": {
           "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-          "fr": "Enter your translation here"
+          "fr": "Réseau de Service auquel l'élément appartient."
         }
       },
       {
@@ -1184,15 +1184,15 @@
         "name": "zichtbaarheid",
         "label": {
           "nl": "zichtbaarheid",
-          "fr": "Enter your translation here"
+          "fr": "visibilité"
         },
         "definition": {
           "nl": "Mate waarin de container waarneembaar is.",
-          "fr": "Enter your translation here"
+          "fr": "Mesure dans laquelle le conteneur est visible."
         },
         "usage": {
           "nl": "Bvb nietBovengrondsZichtbaar.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : Invisible en Surface."
         }
       },
       {
@@ -1200,11 +1200,11 @@
         "name": "uiterlijk",
         "label": {
           "nl": "uiterlijk",
-          "fr": "Enter your translation here"
+          "fr": "apparence"
         },
         "definition": {
           "nl": "Uitzicht van de Linkset.",
-          "fr": "Enter your translation here"
+          "fr": "Apparence de l'Ensemble de Tronçons."
         }
       },
       {
@@ -1212,11 +1212,11 @@
         "name": "risico",
         "label": {
           "nl": "risico",
-          "fr": "Enter your translation here"
+          "fr": "risque"
         },
         "definition": {
           "nl": "Geeft aan of de linkset als gevaarlijk kan beschouwd worden.",
-          "fr": "Enter your translation here"
+          "fr": "Indique si l'Ensemble de Tronçons peut être considéré comme dangereux."
         }
       },
       {
@@ -1224,15 +1224,15 @@
         "name": "zichtbaarheid",
         "label": {
           "nl": "zichtbaarheid",
-          "fr": "Enter your translation here"
+          "fr": "visibilité"
         },
         "definition": {
           "nl": "Mate waarin de container waarneembaar is.",
-          "fr": "Enter your translation here"
+          "fr": "Mesure dans laquelle le conteneur est visible."
         },
         "usage": {
           "nl": "Bvb nietBovengrondsZichtbaar.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : Invisible en Surface."
         }
       },
       {
@@ -1240,15 +1240,15 @@
         "name": "uiterlijk",
         "label": {
           "nl": "uiterlijk",
-          "fr": "Enter your translation here"
+          "fr": "apparence"
         },
         "definition": {
           "nl": "Uitzicht van de container.",
-          "fr": "Enter your translation here"
+          "fr": "Apparence du conteneur."
         },
         "usage": {
           "nl": "Bvb de kleur.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : la couleur."
         }
       },
       {
@@ -1256,11 +1256,11 @@
         "name": "risico",
         "label": {
           "nl": "risico",
-          "fr": "Enter your translation here"
+          "fr": "risque"
         },
         "definition": {
           "nl": "Geeft aan of de container als gevaarlijk kan beschouwd worden.",
-          "fr": "Enter your translation here"
+          "fr": "Indique si le conteneur peut être considéré comme dangereux."
         }
       },
       {
@@ -1268,11 +1268,11 @@
         "name": "oriëntatie",
         "label": {
           "nl": "oriëntatie",
-          "fr": "Enter your translation here"
+          "fr": "orientation"
         },
         "definition": {
           "nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd.",
-          "fr": "Enter your translation here"
+          "fr": "Angle de rotation du symbole représentant le conteneur sur la carte."
         }
       },
       {
@@ -1280,15 +1280,15 @@
         "name": "zichtbaarheid",
         "label": {
           "nl": "zichtbaarheid",
-          "fr": "Enter your translation here"
+          "fr": "visibilité"
         },
         "definition": {
           "nl": "Mate waarin de Knoop waarneembaar is.",
-          "fr": "Enter your translation here"
+          "fr": "Mesure dans laquelle le Noeud est visible."
         },
         "usage": {
           "nl": "Bvb nietBovengrondsZichtbaar.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : Invisible en Surface."
         }
       },
       {
@@ -1296,15 +1296,15 @@
         "name": "uiterlijk",
         "label": {
           "nl": "uiterlijk",
-          "fr": "Enter your translation here"
+          "fr": "apparence"
         },
         "definition": {
           "nl": "Uitzicht van de Knoop.",
-          "fr": "Enter your translation here"
+          "fr": "Apparence du Noeud."
         },
         "usage": {
           "nl": "Bvb de kleur.",
-          "fr": "Enter your translation here"
+          "fr": "Par ex. : la couleur."
         }
       },
       {
@@ -1312,11 +1312,11 @@
         "name": "risico",
         "label": {
           "nl": "risico",
-          "fr": "Enter your translation here"
+          "fr": "risque"
         },
         "definition": {
           "nl": "Geeft aan of de Knoop als gevaarlijk kan beschouwd worden.",
-          "fr": "Enter your translation here"
+          "fr": "Indique si le Nœud peut être considéré comme dangereux."
         }
       },
       {
@@ -1324,11 +1324,11 @@
         "name": "oriëntatie",
         "label": {
           "nl": "oriëntatie",
-          "fr": "Enter your translation here"
+          "fr": "orientation"
         },
         "definition": {
           "nl": "Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd.",
-          "fr": "Enter your translation here"
+          "fr": "Angle de rotation du symbole représentant le Nœud sur la carte."
         }
       },
       {
@@ -1336,11 +1336,11 @@
         "name": "pijp",
         "label": {
           "nl": "pijp",
-          "fr": "Enter your translation here"
+          "fr": "conduite"
         },
         "definition": {
           "nl": "Pijp gelegen in het Kanaal.",
-          "fr": "Enter your translation here"
+          "fr": "Conduite située dans la Canalisation."
         }
       },
       {
@@ -1348,11 +1348,11 @@
         "name": "kanaal",
         "label": {
           "nl": "kanaal",
-          "fr": "Enter your translation here"
+          "fr": "canalisation"
         },
         "definition": {
           "nl": "Kanaal gelegen in het Kanaal.",
-          "fr": "Enter your translation here"
+          "fr": "Canal situé dans la Canalisation."
         }
       },
       {
@@ -1360,11 +1360,11 @@
         "name": "kabel",
         "label": {
           "nl": "kabel",
-          "fr": "Enter your translation here"
+          "fr": "câble"
         },
         "definition": {
           "nl": "Kabel gelegen in het Kanaal.",
-          "fr": "Enter your translation here"
+          "fr": "Câble situé dans la Canalisation."
         }
       },
       {
@@ -1372,11 +1372,11 @@
         "name": "subthema",
         "label": {
           "nl": "subthema",
-          "fr": "Enter your translation here"
+          "fr": "sous-thème"
         },
         "definition": {
           "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
-          "fr": "Enter your translation here"
+          "fr": "Classification d'un câble, d'une canalisation ou d'éléments de canalisation en fonction du domaine thématique auquel ils appartiennent."
         }
       },
       {
@@ -1384,11 +1384,11 @@
         "name": "innetwerk",
         "label": {
           "nl": "inNetwerk",
-          "fr": "Enter your translation here"
+          "fr": "dans le réseau"
         },
         "definition": {
           "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
-          "fr": "Enter your translation here"
+          "fr": "dans le réseau"
         }
       },
       {
@@ -1396,15 +1396,15 @@
         "name": "toebehorentype",
         "label": {
           "nl": "toebehorentype",
-          "fr": "Enter your translation here"
+          "fr": "type d'accessoire"
         },
         "definition": {
           "nl": "Aard van het Toebehoren.",
-          "fr": "Enter your translation here"
+          "fr": "Nature de l'Accessoire."
         },
         "usage": {
           "nl": "Aansluiting is een specialisatie van Toebehoren waarbij het type Toebehoren \"aansluitingspunt\" is.",
-          "fr": "Enter your translation here"
+          "fr": "La connexion est une spécialisation de l'Accessoire dont le type d'Accessoire est le « point de connexion »."
         }
       }
     ],
@@ -1414,15 +1414,15 @@
         "name": "Lengte",
         "label": {
           "nl": "Lengte",
-          "fr": "Enter your translation here"
+          "fr": "Longueur"
         },
         "definition": {
           "nl": "Afstand tussen twee punten op een kromme.",
-          "fr": "Enter your translation here"
+          "fr": "Distance entre deux points sur une courbe."
         },
         "usage": {
           "nl": "Typisch gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren. OPMERKING: de kromme kan een Curve zijn, maar ook een Lijnstring of zelfs een rechte (Linstring met enkel begin- en eindpunt).",
-          "fr": "Enter your translation here"
+          "fr": "Généralement utilisé pour décrire la taille de quelque chose, par ex. la hauteur d'une tour. REMARQUE : la ligne peut être une Courbe, mais aussi une Ligne Polygonale ou même une droite (Ligne Polygonale avec seulement des points de départ et d'arrivée)."
         }
       },
       {
@@ -1430,11 +1430,11 @@
         "name": "Maat",
         "label": {
           "nl": "Maat",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1442,11 +1442,11 @@
         "name": "Meeteenheid",
         "label": {
           "nl": "Meeteenheid",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Eenheid waarin de Maat is uitgedrukt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1454,15 +1454,15 @@
         "name": "Lengteëenheid",
         "label": {
           "nl": "Lengteëenheid",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Eenheid waarin de Lengte is uitgedrukt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bvb meter.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1470,15 +1470,15 @@
         "name": "Positionelenauwkeurigheid",
         "label": {
           "nl": "PositioneleNauwkeurigheid",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1486,11 +1486,11 @@
         "name": "Agent",
         "label": {
           "nl": "Agent",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1498,15 +1498,15 @@
         "name": "Curve",
         "label": {
           "nl": "Curve",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Een 1-dimensionele geometrische primitieve.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1514,15 +1514,15 @@
         "name": "Punt",
         "label": {
           "nl": "Punt",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Een 0-dimensionele geometrische primitieve.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1530,11 +1530,11 @@
         "name": "Containertype",
         "label": {
           "nl": "Containertype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van de container.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1542,11 +1542,11 @@
         "name": "Zichtbaarheidstype",
         "label": {
           "nl": "Zichtbaarheidstype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "In welke mate het object waarneembaar is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1554,11 +1554,11 @@
         "name": "Risicotype",
         "label": {
           "nl": "RisicoType",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De aard van het risico",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1566,11 +1566,11 @@
         "name": "Kleur",
         "label": {
           "nl": "Kleur",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De kleur van het element",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1578,11 +1578,11 @@
         "name": "Materiaaltype",
         "label": {
           "nl": "MateriaalType",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De aard van het gebruikte materiaal",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1590,11 +1590,11 @@
         "name": "Subthema",
         "label": {
           "nl": "Subthema",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1602,11 +1602,11 @@
         "name": "Nutsvoorzieningnetwerktype",
         "label": {
           "nl": "Nutsvoorzieningnetwerktype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van typen nutsvoorzieningnetwerken.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1614,11 +1614,11 @@
         "name": "Faciliteitstatus",
         "label": {
           "nl": "Faciliteitstatus",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De hoedanigheid van het faciliteitsonderdeel.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1626,11 +1626,11 @@
         "name": "VerticalePositietype",
         "label": {
           "nl": "Verticale Positietype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "TO DO",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1638,11 +1638,11 @@
         "name": "Nutsvoorzieningleveringstype",
         "label": {
           "nl": "Nutsvoorzieningleveringstype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van typen nutsvoorzieningsleveringen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1650,11 +1650,11 @@
         "name": "Waarschuwingstype",
         "label": {
           "nl": "Waarschuwingstype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van soorten waarschuwingen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1662,11 +1662,11 @@
         "name": "Telecommunicatiekabelmateriaaltype",
         "label": {
           "nl": "Telecommunicatiekabelmateriaaltype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1674,11 +1674,11 @@
         "name": "Oliegaschemicalientype",
         "label": {
           "nl": "OlieGasChemicalientype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van de olie, gas of chemicaliën.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1686,11 +1686,11 @@
         "name": "Rioolwatertype",
         "label": {
           "nl": "Rioolwatertype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het rioolwater.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1698,11 +1698,11 @@
         "name": "Watertype",
         "label": {
           "nl": "Watertype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het water.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1710,11 +1710,11 @@
         "name": "ThermischProducttype",
         "label": {
           "nl": "Thermisch Producttype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van het termisch product.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1722,11 +1722,11 @@
         "name": "Teken",
         "label": {
           "nl": "Teken",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "TO DO",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1734,11 +1734,11 @@
         "name": "Toebehorentype",
         "label": {
           "nl": "Toebehorentype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van de toebehoren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1746,11 +1746,11 @@
         "name": "Economischeactiviteittype",
         "label": {
           "nl": "EconomischeActiviteittype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van de economische activiteit.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1758,11 +1758,11 @@
         "name": "Inputoutputtype",
         "label": {
           "nl": "Inputoutputtype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De waarde van de input en output.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1770,11 +1770,11 @@
         "name": "Annotatietype",
         "label": {
           "nl": "Annotatietype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van de annotatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1782,11 +1782,11 @@
         "name": "Topografischelementtype",
         "label": {
           "nl": "TopografischElementtype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van het topografisch element.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1794,11 +1794,11 @@
         "name": "Documentmediumtype",
         "label": {
           "nl": "Documentmediumtype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het documentmedium",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1806,11 +1806,11 @@
         "name": "Documenttype",
         "label": {
           "nl": "Documenttype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het document",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1818,11 +1818,11 @@
         "name": "Referentieoppervlaktype",
         "label": {
           "nl": "Referentieoppervlaktype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De aard van het referentieoppervlak",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1830,11 +1830,11 @@
         "name": "Opmetingsmethode",
         "label": {
           "nl": "Opmetingsmethode",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De manier waarop het meetresultaat is vastgesteld",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1842,11 +1842,11 @@
         "name": "BeschermdGebiedtype",
         "label": {
           "nl": "Beschermd Gebiedtype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van de soorten beschermd gebied",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1854,15 +1854,15 @@
         "name": "Identificator",
         "label": {
           "nl": "Identificator",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Informatie gebruikt om een object uniek te identificeren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1870,15 +1870,15 @@
         "name": "Adresvoorstelling",
         "label": {
           "nl": "Adresvoorstelling",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bv als attribuut ve persoon of gebouw... De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen).",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1886,15 +1886,15 @@
         "name": "Geometrie",
         "label": {
           "nl": "Geometrie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Vorm- en positiekenmerken van een object.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1902,11 +1902,11 @@
         "name": "Object",
         "label": {
           "nl": "Object",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Entiteit waarvan alle entiteiten zijn afgeleid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1914,15 +1914,15 @@
         "name": "Locatie",
         "label": {
           "nl": "Locatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een adres of een ander geografisch object.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Te substitueren door een instantie van het gewenste type, ttz Geometrie, Adresvoorstelling, Plaats, GeografischeNaam, Gebouw, Perceel etc. Zie oa <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis\">OSLO Generiek</a> voor meer info over deze klassen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1930,11 +1930,11 @@
         "name": "Document",
         "label": {
           "nl": "Document",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Informatie vastgelegd op een gegevensdrager.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1942,15 +1942,15 @@
         "name": "Adres",
         "label": {
           "nl": "Adres",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding...) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1958,15 +1958,15 @@
         "name": "Activiteitencomplex",
         "label": {
           "nl": "Activiteitencomplex",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaartsvinden mbt productie en dienstverlening.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1974,15 +1974,15 @@
         "name": "Directepositie",
         "label": {
           "nl": "DirectePositie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak...) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -1990,11 +1990,11 @@
         "name": "Functie",
         "label": {
           "nl": "Functie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2002,11 +2002,11 @@
         "name": "Opmeting",
         "label": {
           "nl": "Opmeting",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Het bepalen van de precieze omvang van iets door het te meten.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2014,11 +2014,11 @@
         "name": "Generiekelink",
         "label": {
           "nl": "GeneriekeLink",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Lineair Netwerkelement.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2026,11 +2026,11 @@
         "name": "GerichteLink",
         "label": {
           "nl": "Gerichte link",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2038,11 +2038,11 @@
         "name": "Knoop",
         "label": {
           "nl": "Knoop",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2050,11 +2050,11 @@
         "name": "Link",
         "label": {
           "nl": "Link",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2062,15 +2062,15 @@
         "name": "Linksequentie",
         "label": {
           "nl": "Linksequentie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Onvertakt doorlopend pad in een Netwerk.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bv een route in het Netwerk.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2078,11 +2078,11 @@
         "name": "Linkset",
         "label": {
           "nl": "Linkset",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2090,15 +2090,15 @@
         "name": "Netwerk",
         "label": {
           "nl": "Netwerk",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Verzameling van Netwerkelementen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2106,15 +2106,15 @@
         "name": "Getal",
         "label": {
           "nl": "Getal",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aanduiding van een hoeveelheid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       }
     ],
@@ -2124,11 +2124,11 @@
         "name": "hoogte",
         "label": {
           "nl": "hoogte",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De hoogte van het Toebehoren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2136,11 +2136,11 @@
         "name": "hoogte",
         "label": {
           "nl": "hoogte",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Afstand onder het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2148,11 +2148,11 @@
         "name": "op",
         "label": {
           "nl": "op",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2160,11 +2160,11 @@
         "name": "richting",
         "label": {
           "nl": "richting",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2172,11 +2172,11 @@
         "name": "eindlink",
         "label": {
           "nl": "eindlink",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Link waarvan de Knoop de eindKnoop is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2184,11 +2184,11 @@
         "name": "eindknoop",
         "label": {
           "nl": "eindknoop",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Knoop waarmee de Link begint.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2196,11 +2196,11 @@
         "name": "beginlink",
         "label": {
           "nl": "beginlink",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Link waarvan de Knoop de beginKnoop is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2208,11 +2208,11 @@
         "name": "startknoop",
         "label": {
           "nl": "startknoop",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Knoop waarmee de Link eindigt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2220,11 +2220,11 @@
         "name": "link",
         "label": {
           "nl": "link",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2232,11 +2232,11 @@
         "name": "link",
         "label": {
           "nl": "link",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "GerichteLink die deel uitmaakt van de Linksequentie.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2244,11 +2244,11 @@
         "name": "middelijngeometrie",
         "label": {
           "nl": "middelijngeometrie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De geometrie van de middellijn van de link.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2256,11 +2256,11 @@
         "name": "geometrie",
         "label": {
           "nl": "geometrie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van de Knoop.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2268,11 +2268,11 @@
         "name": "geometrie",
         "label": {
           "nl": "geometrie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van de container",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2280,11 +2280,11 @@
         "name": "link",
         "label": {
           "nl": "link",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Verwijzing naar de Link.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2292,11 +2292,11 @@
         "name": "opmeting",
         "label": {
           "nl": "opmeting",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De manier waarop de geometrie werd bepaald.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2304,11 +2304,11 @@
         "name": "opmeting",
         "label": {
           "nl": "opmeting",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De manier waarop de positie werd bepaald.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2316,15 +2316,15 @@
         "name": "verwijstNaar",
         "label": {
           "nl": "verwijst Naar",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Adres waarvan de adresvoorstelling is afgeleid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2332,15 +2332,15 @@
         "name": "land",
         "label": {
           "nl": "land",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Land waarin het adres gelegen is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2348,15 +2348,15 @@
         "name": "gemeentenaam",
         "label": {
           "nl": "gemeentenaam",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Gemeentenaam vh adres.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2364,15 +2364,15 @@
         "name": "busnummer",
         "label": {
           "nl": "busnummer",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2380,15 +2380,15 @@
         "name": "huisnummer",
         "label": {
           "nl": "huisnummer",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2396,11 +2396,11 @@
         "name": "ligging",
         "label": {
           "nl": "ligging",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Locatie van het BeschermdGebied.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2408,15 +2408,15 @@
         "name": "straatnaam",
         "label": {
           "nl": "straatnaam",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Straatnaam vh adres.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2424,15 +2424,15 @@
         "name": "postnaam",
         "label": {
           "nl": "postnaam",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2440,15 +2440,15 @@
         "name": "postcode",
         "label": {
           "nl": "postcode",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2456,15 +2456,15 @@
         "name": "postbus",
         "label": {
           "nl": "postbus",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Postbusnummer in een postkantoor.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2472,15 +2472,15 @@
         "name": "locatienaam",
         "label": {
           "nl": "locatienaam",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2488,15 +2488,15 @@
         "name": "locatieaanduiding",
         "label": {
           "nl": "locatieaanduiding",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2504,15 +2504,15 @@
         "name": "locatie",
         "label": {
           "nl": "locatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van de Annotatie.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bvb de ligging en vorm van een Maataanduiding.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2520,11 +2520,11 @@
         "name": "locatie",
         "label": {
           "nl": "locatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van het TopografiscElement.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2532,11 +2532,11 @@
         "name": "locatie",
         "label": {
           "nl": "locatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van de locatie waarop het Plan betrekking heeft.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2544,15 +2544,15 @@
         "name": "ligging",
         "label": {
           "nl": "ligging",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Locatie waarvoor de VerticalePositie geldt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de VerticalePositie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2560,15 +2560,15 @@
         "name": "ligging",
         "label": {
           "nl": "ligging",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Locatie van het Referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de VerticalePositie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2576,11 +2576,11 @@
         "name": "geometrie",
         "label": {
           "nl": "geometrie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van het Activiteitencomplex om de ligging en omvang ervan te beschrijven.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2588,11 +2588,11 @@
         "name": "geometrie",
         "label": {
           "nl": "geometrie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie van het BeschermdGebied.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2600,15 +2600,15 @@
         "name": "volledigAdres",
         "label": {
           "nl": "volledig Adres",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Het complete adres in één string, al dan niet geformatteerd.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2616,15 +2616,15 @@
         "name": "administratieveEenheidNiveau2",
         "label": {
           "nl": "administratieve eenheid niveau 2",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2632,15 +2632,15 @@
         "name": "administratieveEenheidNiveau1",
         "label": {
           "nl": "administratieve eenheid niveau 1",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Hoogste Administratieve eenheid vh adres, doorgaans een land.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2648,15 +2648,15 @@
         "name": "adresgebied",
         "label": {
           "nl": "adresgebied",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bvb de naam vh gehucht waarin het adres ligt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2664,11 +2664,11 @@
         "name": "documentlocatie",
         "label": {
           "nl": "documentlocatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2676,15 +2676,15 @@
         "name": "toegekendDoor(string)",
         "label": {
           "nl": "toegekend door (String)",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Naam vd agent die de identificator heeft toegekend.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2692,11 +2692,11 @@
         "name": "identificator",
         "label": {
           "nl": "identificator",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Externe Identificator van het complex.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2704,11 +2704,11 @@
         "name": "documentidentificator",
         "label": {
           "nl": "documentidentificator",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Identificator van het Document.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2716,15 +2716,15 @@
         "name": "identificator",
         "label": {
           "nl": "identificator",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "String gebruikt om het object uniek te identificeren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2732,15 +2732,15 @@
         "name": "wkt",
         "label": {
           "nl": "wkt",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Directe positie uitgedrukt in wkt-formaat.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2748,15 +2748,15 @@
         "name": "alsWkt",
         "label": {
           "nl": "als WKT",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie uitgedrukt in wkt-formaat.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2764,15 +2764,15 @@
         "name": "gml",
         "label": {
           "nl": "gml",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Directe positie uitgedrukt in gml-formaat.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2780,15 +2780,15 @@
         "name": "alsGml",
         "label": {
           "nl": "als GML",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Geometrie uitgedrukt in gml-formaat.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2796,11 +2796,11 @@
         "name": "containertype",
         "label": {
           "nl": "containertype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van de Pijp als container.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2808,11 +2808,11 @@
         "name": "containertype",
         "label": {
           "nl": "containertype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het Kanaal als container.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2820,11 +2820,11 @@
         "name": "naam",
         "label": {
           "nl": "naam",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Naam waaronder het complex gekend is.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2832,15 +2832,15 @@
         "name": "toegekendOp",
         "label": {
           "nl": "toegekend op",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Tijdstip waarop de identificator werd uitgegeven.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2848,15 +2848,15 @@
         "name": "toegekendDoor",
         "label": {
           "nl": "toegekend door",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Link naar de agent die de identificator heeft uitgegeven.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": " ",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2864,15 +2864,15 @@
         "name": "type",
         "label": {
           "nl": "type",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Type referentieoppervlak.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Typsch maaiveld.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2880,11 +2880,11 @@
         "name": "type",
         "label": {
           "nl": "type",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het BeschermdGebied.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2892,11 +2892,11 @@
         "name": "topografischElementtype",
         "label": {
           "nl": "topografisch elementtype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van het TopografischElement.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2904,11 +2904,11 @@
         "name": "toebehorentype",
         "label": {
           "nl": "toebehorentype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Type van Toebehoren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2916,15 +2916,15 @@
         "name": "nutsvoorzieningnetwerktype",
         "label": {
           "nl": "nutsvoorzieningnetwerktype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Gebruikt de codelijst \"Nutsvoorzieningnetwerktype\" om de mogelijke nutsvoorzieningnetwerken te beschrijven. Dit bevat ook de waarde 'crossTheme' die moet worden gebruikt voor nutsvoorzieningnetwerken die kabels of leidingen uit verschillende thema's kunnen bevatten, die doorgaans worden gebruikt door aanbieders van nutsvoorzieningnetwerken die leidingen leveren.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2932,11 +2932,11 @@
         "name": "documenttype",
         "label": {
           "nl": "documentType",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van het Document.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2944,11 +2944,11 @@
         "name": "annotatietype",
         "label": {
           "nl": "annotatietype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van de Annotatie.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2956,11 +2956,11 @@
         "name": "naam",
         "label": {
           "nl": "naam",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Naam van het BeschermdGebied.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2968,11 +2968,11 @@
         "name": "verwijstnaar",
         "label": {
           "nl": "verwijstNaar",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Het Object waar het Document betrekking op heeft.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2980,11 +2980,11 @@
         "name": "documentatie",
         "label": {
           "nl": "documentatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Verwijzing naar een Document met extra informatie over het element.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -2992,11 +2992,11 @@
         "name": "documentatie",
         "label": {
           "nl": "documentatie",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Verwijzing naar een Document met extra informatie over het Netwerk.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3004,11 +3004,11 @@
         "name": "documentmediumtype",
         "label": {
           "nl": "documentmediumtype",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Aard van de gegevensdrager waarop het Document is opgeslagen.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3016,11 +3016,11 @@
         "name": "beschrijving",
         "label": {
           "nl": "beschrijving",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Beschrijving van het Document.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3028,11 +3028,11 @@
         "name": "beschrijving",
         "label": {
           "nl": "beschrijving",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Een meer gedtailleerde beschrijving van de functie.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3040,11 +3040,11 @@
         "name": "beschrijving",
         "label": {
           "nl": "beschrijving",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Beschrijving van het BeschermdGebied.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3052,11 +3052,11 @@
         "name": "datum",
         "label": {
           "nl": "datum",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Het moment waarop de Opmeting heeft plaatsgevonden",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3064,11 +3064,11 @@
         "name": "output",
         "label": {
           "nl": "output",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Uitvoer van het resultaat van de activiteit in de functie.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3076,11 +3076,11 @@
         "name": "input",
         "label": {
           "nl": "input",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Invoer voor de activiteit in de functie.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3088,15 +3088,15 @@
         "name": "activiteit",
         "label": {
           "nl": "activiteit",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Classificatie van de activiteit.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Gebruik bij voorkeur de NACE codes.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3104,15 +3104,15 @@
         "name": "eenheidsidentificator",
         "label": {
           "nl": "eenheidsidentificator",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Identificator van de eenheid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bvb m voor meter.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3120,11 +3120,11 @@
         "name": "waarde",
         "label": {
           "nl": "waarde",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "De hoeveelheid.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3132,11 +3132,11 @@
         "name": "eenheid",
         "label": {
           "nl": "eenheid",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Eenheid waarin de hoeveelheid wordt uitgedrukt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       },
       {
@@ -3144,15 +3144,15 @@
         "name": "eenheid",
         "label": {
           "nl": "eenheid",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "definition": {
           "nl": "Eenheid waarin de Lengte wordt uitegdrukt.",
-          "fr": "Enter your translation here"
+          "fr": ""
         },
         "usage": {
           "nl": "Bvb meter, centimeter.",
-          "fr": "Enter your translation here"
+          "fr": ""
         }
       }
     ]
