@@ -1894,7 +1894,7 @@
         },
         "usage": {
           "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld.",
-          "fr": "Décrit ces caractéristiques par des points,  lignes, polygones, etc. et des coordonnées. REMARQUE : Si nécessaire, utilisez les sous-classes Point ou Courbe. Pour les autres cas, utilisez les types <a href="">Simple Features Vocabulary</a>, par ex. LineString, Polygon, Surface, etc. Ou utilisez Geometrie, dans la sérialisation WKT ou GML, le type de géométrie est également mentionné.""
+          "fr": "Décrit ces caractéristiques par des points,  lignes, polygones, etc. et des coordonnées. REMARQUE : Si nécessaire, utilisez les sous-classes Point ou Courbe. Pour les autres cas, utilisez les types <a href=\">Simple Features Vocabulary\"</a>, par ex. LineString, Polygon, Surface, etc. Ou utilisez Geometrie, dans la sérialisation WKT ou GML, le type de géométrie est également mentionné.""
         }
       },
       {
@@ -1922,7 +1922,7 @@
         },
         "usage": {
           "nl": "Te substitueren door een instantie van het gewenste type, ttz Geometrie, Adresvoorstelling, Plaats, GeografischeNaam, Gebouw, Perceel etc. Zie oa <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis\">OSLO Generiek</a> voor meer info over deze klassen.",
-          "fr": "À remplacer par une instance du type souhaité, à savoir Géométrie, ReprésentationAdresse, Lieu, NomGéographique, Bâtiment, Parcelle, etc. Voir notamment <a href=https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis>OSLO Generiek</a> pour plus d'informations sur ces classes."
+          "fr": "À remplacer par une instance du type souhaité, à savoir Géométrie, ReprésentationAdresse, Lieu, NomGéographique, Bâtiment, Parcelle, etc. Voir notamment <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis\">OSLO Generiek</a> pour plus d'informations sur ces classes."
         }
       },
       {
@@ -2114,7 +2114,7 @@
         },
         "usage": {
           "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-          "fr": "REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href="https://www.w3.org/TR/xmlschema-2/">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
+          "fr": "REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
         }
       }
     ],
