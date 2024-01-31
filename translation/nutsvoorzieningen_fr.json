@@ -672,10 +672,6 @@
         "definition": {
           "nl": "Buitendiameter van de Pijp.",
           "fr": "Diamètre extérieur de la Conduite."
-        },
-        "usage": {
-          "nl": "Voor convex gevormde objecten (bijvoorbeeld een cirkel) is de diameter gedefinieerd als de grootste afstand die gevormd kan worden tussen twee tegenover elkaar liggende parallelle lijnen die raken aan de rand.",
-          "fr": "Pour les objets de forme convexe (par exemple un cercle), le diamètre est défini comme la plus grande distance pouvant être formée entre deux tangentes parallèles."
         }
       },
       {
@@ -924,10 +920,6 @@
         "definition": {
           "nl": "De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd.",
           "fr": "La pression opérationnelle maximale admissible à laquelle un produit est transporté dans une Conduite."
-        },
-        "usage": {
-          "nl": "De meeteenheid voor druk wordt meestal uitgedrukt in 'bar'.",
-          "fr": "L'unité de mesure de la pression est généralement exprimée en « bar »."
         }
       },
       {
@@ -1946,10 +1938,6 @@
         "definition": {
           "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode.",
           "fr": "Informations permettant de se référer de manière structurée et unique à une unité de bâtiments, un poste d’amarrage, un emplacement ou une parcelle sur la base d'un nom de commune, d'un nom de rue, d'un numéro de maison et éventuellement d'un numéro de boîte et d'un code postal."
-        },
-        "usage": {
-          "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding...) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
-          "fr": "La définition se réfère aux adresses belges. Dans d'autres pays, une adresse peut éventuellement se référer à d'autres objets géographiques (pas une unité de bâtiment ou une parcelle) ou consister en d'autres désignations (différentes du numéro de maison et du numéro de boîte) ou en des éléments autres que le nom de la rue, le nom de la commune ou le code postal. D'autres indications d'adresse que le numéro de maison ou le numéro de boîte (par ex., désignation de l'entrée, désignation de l'escalier, désignation de l'étage...) ou un nom de bâtiment ou de chambre sont possibles grâce à une association avec l'extension de l'adresse. L'échange d'adresses étrangères doit être effectué à l'aide de l'objet représentation d'adresse."
         }
       },
       {
@@ -2508,10 +2496,6 @@
         "definition": {
           "nl": "Geometrie van de Annotatie.",
           "fr": "Géométrie de l'Annotation."
-        },
-        "usage": {
-          "nl": "Bvb de ligging en vorm van een Maataanduiding.",
-          "fr": "Par ex. : l'emplacement et la forme d'une Indication de mesure."
         }
       },
       {
@@ -2548,10 +2532,6 @@
         "definition": {
           "nl": "Locatie waarvoor de VerticalePositie geldt.",
           "fr": "Localisation à laquelle s’applique la Position Verticale."
-        },
-        "usage": {
-          "nl": "Typisch de xy-coördinaten van het Punt op het aardoppervlak waar de VerticalePositie is gemeten. Of de xy-coördinaten van de leiding of kabel of van de zone waarin deze ligt.",
-          "fr": "Typiquement les coordonnées xy du Point de la surface de la Terre où la Position Verticale est mesurée. Ou les coordonnées xy de la conduite ou du câble, ou la zone dans laquelle il se trouve."
         }
       },
       {
@@ -2564,10 +2544,6 @@
         "definition": {
           "nl": "Locatie van het Referentieoppervlak.",
           "fr": "Localisation de la Surface de Référence."
-        },
-        "usage": {
-          "nl": "Typisch de xy-coördinaten van een Punt op het aardoppervlak waarvoor de VerticalePositie van het Referentieoppervlak geldt. Of de Geometrie van (een deel van) het ReferentieOppervlak.",
-          "fr": "Typiquement les coordonnées xy d'un Point sur la surface de la Terre pour lequel la Position Verticale de la Surface de Référence s'applique. Ou la Géométrie (d’une partie) de la Surface de Référence."
         }
       },
       {
@@ -2736,10 +2712,6 @@
         "definition": {
           "nl": "Directe positie uitgedrukt in wkt-formaat.",
           "fr": "Position directe exprimée au format WKT."
-        },
-        "usage": {
-          "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> als datatype.",
-          "fr": "Utilisez <a href=\"http://www.opengis.net/ont/geosparql#wktLiteral\">wktliteral</a> comme type de données."
         }
       },
       {
@@ -2768,10 +2740,6 @@
         "definition": {
           "nl": "Directe positie uitgedrukt in gml-formaat.",
           "fr": "Position directe exprimée au format GML."
-        },
-        "usage": {
-          "nl": "Gebruik <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> als datatype.",
-          "fr": "Utilisez <a href=\"http://www.opengis.net/ont/geosparql#gmlLiteral\">gmlliteral</a> comme type de données."
         }
       },
       {
@@ -2868,10 +2836,6 @@
         "definition": {
           "nl": "Type referentieoppervlak.",
           "fr": "Type de Surface de Référence."
-        },
-        "usage": {
-          "nl": "Typsch maaiveld.",
-          "fr": "Typiquement le niveau du sol."
         }
       },
       {
@@ -2920,10 +2884,6 @@
         "definition": {
           "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk.",
           "fr": "Le type du Réseau de Service ou le thème du Réseau de Service."
-        },
-        "usage": {
-          "nl": "Gebruikt de codelijst \"Nutsvoorzieningnetwerktype\" om de mogelijke nutsvoorzieningnetwerken te beschrijven. Dit bevat ook de waarde 'crossTheme' die moet worden gebruikt voor nutsvoorzieningnetwerken die kabels of leidingen uit verschillende thema's kunnen bevatten, die doorgaans worden gebruikt door aanbieders van nutsvoorzieningnetwerken die leidingen leveren.",
-          "fr": "Utilise la liste de codes  Type de Réseau de Service » pour décrire les Réseaux de Service possibles. Cela inclut également la valeur « crossTheme » à utiliser pour les Réseaux de Service qui peuvent contenir des câbles ou des conduites de différents thèmes, qui sont généralement utilisés par les fournisseurs de Réseaux de Service qui fournissent des conduites."
         }
       },
       {
