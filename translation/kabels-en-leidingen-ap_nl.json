@@ -336,7 +336,7 @@
         "nl": "Topografisch Element"
       },
       "usage": {
-        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie..."
+        "nl": "Typische elementen zijn o.a. relief landvormen, waterlichamen en vegetatie."
       }
     },
     {
@@ -1615,7 +1615,7 @@
       "name": "Adres",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
-        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid,een ligplaats,een standplaats of een perceel op basis van een gemeentenaam,een straatnaam,een huisnummer en eventueel een busnummer en een postcode."
+        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode."
       },
       "label": {
         "nl": "Adres"

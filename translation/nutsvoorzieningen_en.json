@@ -408,7 +408,7 @@
         "en": "TopographicalElement"
       },
       "usage": {
-        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie...",
+        "nl": "Typische elementen zijn o.a. relief landvormen, waterlichamen en vegetatie.",
         "en": "Typical elements are relief, landforms, water bodies, vegetation..."
       }
     },
@@ -1924,7 +1924,7 @@
       "name": "Adres",
       "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
-        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid,een ligplaats,een standplaats of een perceel op basis van een gemeentenaam,een straatnaam,een huisnummer en eventueel een busnummer en een postcode.",
+        "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid, een ligplaats, een standplaats of een perceel op basis van een gemeentenaam, een straatnaam, een huisnummer en eventueel een busnummer en een postcode.",
         "en": "Information that allows to refer in a structured and unique way to a building unit,a berth,a pitch or a plot based on a municipal name,a street name,a house number and possibly a bus number and a postal code."
       },
       "label": {
@@ -2674,7 +2674,7 @@
         "en": "wkt"
       },
       "usage": {
-        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype.",
+        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> als datatype.",
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> as the data type."
       }
     },
@@ -2702,7 +2702,7 @@
         "en": "gml"
       },
       "usage": {
-        "nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
+        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlLiteral</a> als datatype.",
         "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlLiteral</a> als datatype."
       }
     },

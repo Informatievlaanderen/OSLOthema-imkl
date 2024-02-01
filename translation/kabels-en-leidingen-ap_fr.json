@@ -409,7 +409,7 @@
         "fr": "Partie de la description de la forme et des caractéristiques de la surface du sol."
       },
       "usage": {
-        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie",
+        "nl": "Typische elementen zijn o.a. relief landvormen, waterlichamen en vegetatie.",
         "fr": "Les éléments typiques comprennent le relief, les reliefs géomorphologiques, les plans d'eau, la végétation..."
       }
     },
@@ -1169,7 +1169,7 @@
     },
     {
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
-      "name": "innetwerk",
+      "name": "inNetwerk",
       "label": {
         "nl": "inNetwerk",
         "fr": "dans le réseau"
@@ -1381,7 +1381,7 @@
     },
     {
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
-      "name": "innetwerk",
+      "name": "inNetwerk",
       "label": {
         "nl": "inNetwerk",
         "fr": "dans le réseau"
@@ -2755,8 +2755,8 @@
         "fr": "Géométrie exprimée au format WKT."
       },
       "usage": {
-        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype.",
-        "fr": "Utilisez <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> comme type de données."
+        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> als datatype.",
+        "fr": "Utilisez <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> comme type de données."
       }
     },
     {
@@ -2787,7 +2787,7 @@
         "fr": "Géométrie exprimée au format GML."
       },
       "usage": {
-        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> als datatype.",
+        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlLiteral</a> als datatype.",
         "fr": "Utilisez h<a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> comme type de données."
       }
     },

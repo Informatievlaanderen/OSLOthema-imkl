@@ -1176,11 +1176,11 @@
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-        "en": "UtilityNetworkElement belonging to the network."
+        "en": "UtilityNetwork to which the element belongs."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "element"
+        "en": "inNetwork"
       }
     },
     {
