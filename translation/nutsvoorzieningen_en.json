@@ -408,8 +408,8 @@
         "en": "TopographicalElement"
       },
       "usage": {
-        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie",
-        "en": "[UPDATED] Typical elements are relief, landforms, water bodies, vegetation…"
+        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie...",
+        "en": "Typical elements are relief, landforms, water bodies, vegetation..."
       }
     },
     {
@@ -1163,7 +1163,7 @@
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-        "en": "[UPDATED] UtilityNetworkElement belonging to the network."
+        "en": "UtilityNetwork to which the element belongs."
       },
       "label": {
         "nl": "inNetwerk",
@@ -1175,7 +1175,7 @@
       "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
         "nl": "Mate waarin de container waarneembaar is.",
-        "en": "[UPDATED] Extent to which the Linkset is observable."
+        "en": "Extent to which the container is observable."
       },
       "label": {
         "nl": "zichtbaarheid",
@@ -1375,7 +1375,7 @@
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort.",
-        "en": "[UPDATED] ActivityComplex that belongs to the network."
+        "en": "UtilityNetwork to which the complex belongs."
       },
       "label": {
         "nl": "inNetwerk",
@@ -2675,7 +2675,7 @@
       },
       "usage": {
         "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype.",
-        "en": "[UPDATED] Use http://www.opengis.net/ont/geosparql#wktLiteral as the data type."
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktLiteral</a> as the data type."
       }
     },
     {
@@ -2703,7 +2703,7 @@
       },
       "usage": {
         "nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype.",
-        "en": "[UPDATED] Use http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
+        "en": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlLiteral</a> als datatype."
       }
     },
     {

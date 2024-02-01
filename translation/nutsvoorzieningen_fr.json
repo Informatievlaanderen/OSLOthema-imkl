@@ -25,7 +25,7 @@
         },
         "usage": {
           "nl": "In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn.",
-          "fr": "Dans ce contexte, il s'agit généralement d'une Indication de mesure sur un plan de câble ou de conduite, par ex. la distance d'un câble par rapport à une façade. Peut se composer d'éléments (par ex. : une ligne de dimensionnement, une ligne de guidage de dimensionnement, deux flèches) qui sont également des Annotations en soi."
+          "fr": "Dans ce contexte, il s'agit généralement d'une Indication de mesure sur un plan de câble ou de conduite, par ex. la distance d'un câble par rapport à une façade. Peut se composer d'éléments (par ex.: une ligne de dimensionnement, une ligne de guidage de dimensionnement, deux flèches) qui sont également des Annotations en soi."
         }
       },
       {
@@ -101,7 +101,7 @@
         },
         "usage": {
           "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen vh type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc).",
-          "fr": "Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQU+Z255E : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex. : Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
+          "fr": "Par ex. si l'objet est une Conduite : une Conduite peut inclure des Câbles ou d'autres Conduites. Analogue aux conduites de type Canal. Les Câbles ne sont pas des Conteneurs de Câble et Conduite. REMARQU+Z255E : Le fait que le Conteneur de Câble et Conduite contienne éventuellement d'autres éléments est représenté par les relations sortantes vers ces autres relations (par ex.: Canalisation.conduite, Conduite.Câble, Canalisation.Câble, Conduite.Conduite, etc)."
         }
       },
       {
@@ -145,7 +145,7 @@
         },
         "usage": {
           "nl": "Bv de afmetingen van een kamer.",
-          "fr": "Par ex. : les dimensions d'une pièce."
+          "fr": "Par ex.: les dimensions d'une pièce."
         }
       },
       {
@@ -161,7 +161,7 @@
         },
         "usage": {
           "nl": "Bvb riooldeksel.",
-          "fr": "Par ex. : une taque d'égout."
+          "fr": "Par ex.: une taque d'égout."
         }
       },
       {
@@ -193,7 +193,7 @@
         },
         "usage": {
           "nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk.",
-          "fr": "Par ex. : Tour, Poteau, Trou d'Homme, Armoire. Par ex. : une Armoire contient des interrupteurs, des connexions, etc. qui forment des Nœuds dans le Réseau de Service."
+          "fr": "Par ex.: Tour, Poteau, Trou d'Homme, Armoire. Par ex.: une Armoire contient des interrupteurs, des connexions, etc. qui forment des Nœuds dans le Réseau de Service."
         }
       },
       {
@@ -229,7 +229,7 @@
         "name": "Nutsvoorzieninglinkset",
         "label": {
           "nl": "Nutsvoorzieninglinkset",
-          "fr": Ensemble de Tronçons de Service""
+          "fr": "Ensemble de Tronçons de Service"
         },
         "definition": {
           "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk.",
@@ -253,7 +253,7 @@
         },
         "usage": {
           "nl": "Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat.",
-          "fr": "Par ex. : un réseau électrique, un réseau d'égouts, un réseau de gaz. Les éléments de réseau en question sont, par ex., les éléments du réseau d'un fournisseur d'accès à Internet : des câbles optiques arrivant dans des armoires situées dans la rue, via des multiplexeurs connectés à des câbles en cuivre jusqu'aux maisons situées dans cette rue."
+          "fr": "Par ex.: un réseau électrique, un réseau d'égouts, un réseau de gaz. Les éléments de réseau en question sont, par ex., les éléments du réseau d'un fournisseur d'accès à Internet : des câbles optiques arrivant dans des armoires situées dans la rue, via des multiplexeurs connectés à des câbles en cuivre jusqu'aux maisons situées dans cette rue."
         }
       },
       {
@@ -325,7 +325,7 @@
         },
         "usage": {
           "nl": "Bvb plattegrond, stratenplan.",
-          "fr": "Par ex. : une carte, un plan de ville."
+          "fr": "Par ex.: une carte, un plan de ville."
         }
       },
       {
@@ -393,7 +393,7 @@
         },
         "usage": {
           "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc.",
-          "fr": "Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex. : trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
+          "fr": "Il peut être autonome en tant que Noeud de Service, mais il est souvent monté sur un support (le Conteneur du Noeud Service). Par ex.: trappe d'inspection, bouche d'incendie, splitter, jauge, pompe, etc."
         }
       },
       {
@@ -471,11 +471,11 @@
         "name": "werkspanning",
         "label": {
           "nl": "werkspanning",
-          "fr": "werkspanning"
+          "fr": "tension de fonctionnement"
         },
         "definition": {
           "nl": "Spanning tijdens belasting.",
-          "fr": "tension de fonctionnement"
+          "fr": "Tension pendant le fonctionnement."
         }
       },
       {
@@ -503,7 +503,7 @@
         },
         "usage": {
           "nl": "Bvb een bovengronds signalisatiebord om een ondergrondse gasleiding aan te duiden.",
-          "fr": "Par ex. : un panneau de signalisation en surface pour indiquer une conduite de gaz souterraine."
+          "fr": "Par ex.: un panneau de signalisation en surface pour indiquer une conduite de gaz souterraine."
         }
       },
       {
@@ -519,7 +519,7 @@
         },
         "usage": {
           "nl": "Bv diepte.",
-          "fr": "Par ex.  : profondeur."
+          "fr": "Par ex.: profondeur."
         }
       },
       {
@@ -583,7 +583,7 @@
         },
         "usage": {
           "nl": "Bvb de maat in het geval van een Maataanduiding.",
-          "fr": "Par ex. : la taille dans le cas d'une Indication de mesure."
+          "fr": "Par ex.: la taille dans le cas d'une Indication de mesure."
         }
       },
       {
@@ -599,7 +599,7 @@
         },
         "usage": {
           "nl": "Bv diameter, materiaal etc. Bvb PE200 om polyethyleenbuis van 200mm diameter te specifiëren.",
-          "fr": "Par ex. : diamètre, matériau, etc. Par ex. : PE200 pour spécifier un tuyau en polyéthylène de 200 mm de diamètre."
+          "fr": "Par ex.: diamètre, matériau, etc. Par ex.: PE200 pour spécifier un tuyau en polyéthylène de 200 mm de diamètre."
         }
       },
       {
@@ -711,7 +711,7 @@
         },
         "usage": {
           "nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater.",
-          "fr": "Par ex. : transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
+          "fr": "Par ex.: transport, distribution, collecte. Resp par ex. du gaz, de l'électricité, des eaux usées."
         }
       },
       {
@@ -739,7 +739,7 @@
         },
         "usage": {
           "nl": "Bvb een deelnetwerk.",
-          "fr": "Par ex. : un réseau partagé."
+          "fr": "Par ex.: un réseau partagé."
         }
       },
       {
@@ -863,7 +863,7 @@
         },
         "usage": {
           "nl": "Bvb de Maataanduiding waartoe de maatvoeringslijn behoort.",
-          "fr": "Par ex. : l’Indication de mesure à laquelle la ligne de dimensionnement appartient."
+          "fr": "Par ex.: l’Indication de mesure à laquelle la ligne de dimensionnement appartient."
         }
       },
       {
@@ -879,7 +879,7 @@
         },
         "usage": {
           "nl": "Bvb een kabel.",
-          "fr": "Par ex. : un câble."
+          "fr": "Par ex.: un câble."
         }
       },
       {
@@ -971,7 +971,7 @@
         },
         "usage": {
           "nl": "Bvb de maatvoeringslijn in het geval van een Maataanduiding bestaande uit twee pijlen en een maatvoeringshulplijn.",
-          "fr": "Par ex. : la ligne de dimensionnement dans le cas d'une Indication de mesure composée de deux flèches et d'une ligne de guidage de dimensionnement."
+          "fr": "Par ex.: la ligne de dimensionnement dans le cas d'une Indication de mesure composée de deux flèches et d'une ligne de guidage de dimensionnement."
         }
       },
       {
@@ -1155,7 +1155,7 @@
         },
         "usage": {
           "nl": "Bv ondergronds, bovengronds.",
-          "fr": "Par ex. : souterrain, en surface."
+          "fr": "Par ex.: souterrain, en surface."
         }
       },
       {
@@ -1183,7 +1183,7 @@
         },
         "usage": {
           "nl": "Bvb nietBovengrondsZichtbaar.",
-          "fr": "Par ex. : Invisible en Surface."
+          "fr": "Par ex.: Invisible en Surface."
         }
       },
       {
@@ -1223,7 +1223,7 @@
         },
         "usage": {
           "nl": "Bvb nietBovengrondsZichtbaar.",
-          "fr": "Par ex. : Invisible en Surface."
+          "fr": "Par ex.: Invisible en Surface."
         }
       },
       {
@@ -1239,7 +1239,7 @@
         },
         "usage": {
           "nl": "Bvb de kleur.",
-          "fr": "Par ex. : la couleur."
+          "fr": "Par ex.: la couleur."
         }
       },
       {
@@ -1279,7 +1279,7 @@
         },
         "usage": {
           "nl": "Bvb nietBovengrondsZichtbaar.",
-          "fr": "Par ex. : Invisible en Surface."
+          "fr": "Par ex.: Invisible en Surface."
         }
       },
       {
@@ -1295,7 +1295,7 @@
         },
         "usage": {
           "nl": "Bvb de kleur.",
-          "fr": "Par ex. : la couleur."
+          "fr": "Par ex.: la couleur."
         }
       },
       {
@@ -1395,7 +1395,7 @@
         },
         "usage": {
           "nl": "Aansluiting is een specialisatie van Toebehoren waarbij het type Toebehoren \"aansluitingspunt\" is.",
-          "fr": "La connexion est une spécialisation de l'Accessoire dont le type d'Accessoire est le « point de connexion »."
+          "fr": "La connexion est une spécialisation de l'Accessoire dont le type d'Accessoire est le « point de connexion »."
         }
       }
     ],
@@ -1453,7 +1453,7 @@
         },
         "usage": {
           "nl": "Bvb meter.",
-          "fr": "Par ex. : mètre"
+          "fr": "Par ex.: mètre"
         }
       },
       {
@@ -1469,7 +1469,7 @@
         },
         "usage": {
           "nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities.",
-          "fr": "Par ex. : exprimé comme l'écart maximal en cm entre les deux positions."
+          "fr": "Par ex.: exprimé comme l'écart maximal en cm entre les deux positions."
         }
       },
       {
@@ -1885,7 +1885,7 @@
         },
         "usage": {
           "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen etc en coördinaten. OPMERKING: gebruik indien gevraagd de subklassen Punt of Curve. Voor andere gevallen gebruik de types uit uit het <a href=\"\">Simple Features Vocabulary</a>, bvb LineString, Polygon, Surface etc. Of gebruik Geometrie, in de wkt- of gml serialisatie wordt het type geometrie ook vermeld.",
-          "fr": "Décrit ces caractéristiques par des points,  lignes, polygones, etc. et des coordonnées. REMARQUE : Si nécessaire, utilisez les sous-classes Point ou Courbe. Pour les autres cas, utilisez les types <a href=\">Simple Features Vocabulary\"</a>, par ex. LineString, Polygon, Surface, etc. Ou utilisez Geometrie, dans la sérialisation WKT ou GML, le type de géométrie est également mentionné.""
+          "fr": "Décrit ces caractéristiques par des points,  lignes, polygones, etc. et des coordonnées. REMARQUE : Si nécessaire, utilisez les sous-classes Point ou Courbe. Pour les autres cas, utilisez les types <a href=\">Simple Features Vocabulary\"</a>, par ex. LineString, Polygon, Surface, etc. Ou utilisez Geometrie, dans la sérialisation WKT ou GML, le type de géométrie est également mentionné."
         }
       },
       {
@@ -1893,11 +1893,11 @@
         "name": "Object",
         "label": {
           "nl": "Object",
-          "fr": ""
+          "fr": "Objet"
         },
         "definition": {
           "nl": "Entiteit waarvan alle entiteiten zijn afgeleid.",
-          "fr": ""
+          "fr": "Entité faîtière"
         }
       },
       {
@@ -1969,7 +1969,7 @@
         },
         "usage": {
           "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak...) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
-          "fr": "Généralement utilisé pour décrire la géométrie d'un objet spatial ou les primitives géométriques (par exemple point, ligne, plan...) qui composent cet objet. Cependant, un DirectPosition peut également être autonome pour décrire une position dans l'espace. La position est donnée dans un système de référence de coordonnées. Ce système de référence est explicitement spécifié avec DirectPosition, sauf s'il fait partie d'un objet spatial (par exemple une primitive géométrique) pour lequel un système de référence est déjà indiqué. Pour information : un système de référence de coordonnées diffère d'un système de référence spatiale indirecte dans la mesure où les positions sont spécifiées directement par des coordonnées plutôt qu'indirectement par une adresse ou un nom de lieu."
+          "fr": "Généralement utilisé pour décrire la géométrie d'un objet spatial ou les primitives géométriques (par exemple point, ligne, plan...) qui composent cet objet. Cependant, un DirectPosition peut également être autonome pour décrire une position dans l'espace. La position est donnée dans un système de référence de coordonnées. Ce système de référence est explicitement spécifié avec DirectPosition, sauf s'il fait partie d'un objet spatial (par exemple une primitive géométrique) pour lequel un système de référence est déjà indiqué. Pour information : un système de référence de coordonnées diffère d'un système de référence spatiale indirecte dans la mesure où les positions sont spécifiées directement par des coordonnées plutôt qu'indirectement par une adresse ou un nom de lieu."
         }
       },
       {
@@ -2057,7 +2057,7 @@
         },
         "usage": {
           "nl": "Bv een route in het Netwerk.",
-          "fr": "Par ex. : un itinéraire dans le Réseau."
+          "fr": "Par ex.: un itinéraire dans le Réseau."
         }
       },
       {
@@ -2100,8 +2100,8 @@
           "fr": "Indication d'une quantité."
         },
         "usage": {
-          "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
-          "fr": "REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
+          "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc.",
+          "fr": "REMARQUE : À remplacer par les types de données primitives qui peuvent être utilisés pour désigner une quantité. Voir <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double, etc."
         }
       }
     ],
@@ -2326,7 +2326,7 @@
           "fr": "Pays dans lequel l'adresse se situe."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2342,7 +2342,7 @@
           "fr": "Nom de la commune de l’adresse."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2359,7 +2359,7 @@
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen.",
-          "fr": "Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
+          "fr": "Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
         }
       },
       {
@@ -2375,7 +2375,7 @@
         },
         "usage": {
           "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen.",
-          "fr": "Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
+          "fr": "Spécialisation de la représentation de l'adresse : indication de l'emplacement pour les adresses belges."
         }
       },
       {
@@ -2402,7 +2402,7 @@
           "fr": "Nom de la rue de l’adresse."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2418,7 +2418,7 @@
           "fr": "Nom désignant la zone géographique qui regroupe les adresses à des fins postales."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2434,7 +2434,7 @@
           "fr": "Code désignant la zone géographique qui regroupe les adresses à des fins postales."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2450,7 +2450,7 @@
           "fr": "Numéro de boîte postale dans un bureau de poste."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2466,7 +2466,7 @@
           "fr": "Nom ou description de l'objet géographique désigné par le localisateur d'adresse."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2482,7 +2482,7 @@
           "fr": "Code alphanumérique qui identifie de manière unique le localisateur d'adresse dans la rue, l'unité administrative, etc."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2598,7 +2598,7 @@
           "fr": "La région de l'adresse, généralement une province, une entité fédérée ou une zone similaire qui comprend généralement plusieurs endroits."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2614,7 +2614,7 @@
           "fr": "Unité administrative la plus élevée de l’adresse, généralement un pays."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2658,7 +2658,7 @@
           "fr": "Nom de l'agent qui a attribué l'identifiant."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2806,7 +2806,7 @@
           "fr": "Date à laquelle l’identifiant a été attribué."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -2822,7 +2822,7 @@
           "fr": "Lien vers l'agent qui a émis l'identifiant."
         },
         "usage": {
-          "nl": " ",
+          "nl": "",
           "fr": ""
         }
       },
@@ -3071,7 +3071,7 @@
         },
         "usage": {
           "nl": "Bvb m voor meter.",
-          "fr": "Par ex. : m pour mètre."
+          "fr": "Par ex.: m pour mètre."
         }
       },
       {
@@ -3111,7 +3111,7 @@
         },
         "usage": {
           "nl": "Bvb meter, centimeter.",
-          "fr": "Par ex. : mètres, centimètres."
+          "fr": "Par ex.: mètres, centimètres."
         }
       }
     ]
