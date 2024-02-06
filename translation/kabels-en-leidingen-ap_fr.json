@@ -1172,7 +1172,7 @@
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-        "fr": "Réseau de Service auquel l'élement appartient."
+        "fr": "Réseau de Service auquel l'élément appartient."
       },
       "label": {
         "nl": "inNetwerk",
