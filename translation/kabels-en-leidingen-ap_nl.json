@@ -1931,7 +1931,7 @@
         "nl": "land"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -1944,7 +1944,7 @@
         "nl": "gemeentenaam"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -1993,7 +1993,7 @@
         "nl": "straatnaam"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2006,7 +2006,7 @@
         "nl": "postnaam"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2019,7 +2019,7 @@
         "nl": "postcode"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2032,7 +2032,7 @@
         "nl": "postbus"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2045,7 +2045,7 @@
         "nl": "locatienaam"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2058,7 +2058,7 @@
         "nl": "locatieaanduiding"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2163,7 +2163,7 @@
         "nl": "administratieve eenheid niveau 2"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2176,7 +2176,7 @@
         "nl": "administratieve eenheid niveau 1"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2212,7 +2212,7 @@
         "nl": "toegekend door (String)"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2340,7 +2340,7 @@
         "nl": "toegekend op"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {
@@ -2353,7 +2353,7 @@
         "nl": "toegekend door"
       },
       "usage": {
-        "nl": ""
+        "nl": " "
       }
     },
     {

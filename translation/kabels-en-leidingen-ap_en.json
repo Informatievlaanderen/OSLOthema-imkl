@@ -409,7 +409,7 @@
         "en": "TopographicalElement"
       },
       "usage": {
-        "nl": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie.",
+        "nl": "Typische elementen zijn relief, landvormen, waterlichamen, vegetatie",
         "en": "Typical elements are relief, landforms, water bodies, vegetation…"
       }
     },
@@ -1172,11 +1172,11 @@
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort.",
-        "en": "UtilityNetwork to which the element belongs."
+        "en": "UtilityNetworkElement belonging to the network."
       },
       "label": {
         "nl": "inNetwerk",
-        "en": "inNetwork"
+        "en": "element"
       }
     },
     {
@@ -1949,7 +1949,7 @@
         "en": "Adress"
       },
       "usage": {
-        "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding.) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
+        "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling.",
         "en": "The definition refers to Belgian addresses. In other countries, an address may refer to other geographical objects (not a building unit or a plot of land) or consist of other designations (different from house number and bus number) or of other components than street name, town name or postal code. Alternative address designations than house number or bus number (e.g. entrance designation, stair designation, floor designation.) or a building name or room name etc are possible through an association with address extension. Exchange of foreign addresses must be done with the object address representation."
       }
     },
@@ -1981,7 +1981,7 @@
         "en": "DirectPosition"
       },
       "usage": {
-        "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak.) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
+        "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam.",
         "en": "Typically used to describe the geometry of a spatial object or the geometric primitives (e.g. point, line, plane.) that compose that object. However, a DirectPosition can also stand alone to describe a position in space. The position is given in a coordinate reference system. That reference system is explicitly specified with the DirectPosition, unless it is part of a spatial object (eg a geometric primitive) where a reference system is already stated. FYI: A coordinate reference system differs from an indirect spatial reference system in that positions are specified directly by coordinates instead of indirectly by an address or place name."
       }
     },
@@ -2339,7 +2339,7 @@
         "en": "country"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2355,7 +2355,7 @@
         "en": "municipality name"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2415,7 +2415,7 @@
         "en": "street name"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2431,7 +2431,7 @@
         "en": "postal name"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2447,7 +2447,7 @@
         "en": "postal code"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2463,7 +2463,7 @@
         "en": "PObox"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2479,7 +2479,7 @@
         "en": "location name"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2495,7 +2495,7 @@
         "en": "location indication"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2623,7 +2623,7 @@
         "en": "administrative unit level 2"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2639,7 +2639,7 @@
         "en": "administrative unit level 2"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2683,7 +2683,7 @@
         "en": "assignedBy(String)"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2839,7 +2839,7 @@
         "en": "assignedOn"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },
@@ -2855,7 +2855,7 @@
         "en": "assignedBy"
       },
       "usage": {
-        "nl": "",
+        "nl": " ",
         "en": ""
       }
     },

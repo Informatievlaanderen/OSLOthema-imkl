@@ -1,1152 +1,1152 @@
 {
   "classes": [
     {
-      "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
       "name": "Aansluiting",
-      "label": {
-        "nl": "Aansluiting"
-      },
+      "EA-Guid": "{9CDB7CF9-D28B-4f65-806C-7091ADF65E98}",
       "definition": {
         "nl": "Object dat de aansluiting van een kabel of leiding aan een gebouw of een ander fysiek object beschrijft"
+      },
+      "label": {
+        "nl": "Aansluiting"
       }
     },
     {
-      "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
       "name": "Annotatie",
-      "label": {
-        "nl": "Annotatie"
-      },
+      "EA-Guid": "{7B841105-4194-4dc0-B8CB-89615D9C4438}",
       "definition": {
         "nl": "Een korte uitleg of notitie toegevoegd aan een Object."
+      },
+      "label": {
+        "nl": "Annotatie"
       },
       "usage": {
         "nl": "In deze context typisch Maataanduiding op een kabel- of leidingenkaart, bvb de afstand van een kabel tov een gevel. Kan bestaan uit onderdelen (bvb maatvoeringslijn, maatvoeringshulplijn, twee pijlen) die op zich ook Annotaties zijn."
       }
     },
     {
-      "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "name": "BeschermdGebied",
-      "label": {
-        "nl": "Beschermd Gebied"
-      },
+      "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "definition": {
         "nl": "Gebied waar niet gegraven mag worden."
+      },
+      "label": {
+        "nl": "Beschermd Gebied"
       }
     },
     {
-      "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
       "name": "Diepte",
-      "label": {
-        "nl": "Diepte"
-      },
+      "EA-Guid": "{1BD92463-822E-49e6-B186-9E2997C706D4}",
       "definition": {
         "nl": "VerticalePositie onder het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "Diepte"
       }
     },
     {
-      "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
       "name": "Electriciteitskabel",
-      "label": {
-        "nl": "Electriciteitskabel"
-      },
+      "EA-Guid": "{5222D87E-3001-47e1-B6F9-14F9C2B4F162}",
       "definition": {
         "nl": "Een Kabel gebruikt om elektriciteit van de ene naar de andere locatie over te brengen."
+      },
+      "label": {
+        "nl": "Electriciteitskabel"
       }
     },
     {
-      "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
       "name": "Hoogte",
-      "label": {
-        "nl": "Hoogte"
-      },
+      "EA-Guid": "{2E4FF2C4-A20C-455b-ABD5-8837E052C157}",
       "definition": {
         "nl": "VerticalePositie boven het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "Hoogte"
       }
     },
     {
-      "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
       "name": "Kabel",
-      "label": {
-        "nl": "Kabel"
-      },
+      "EA-Guid": "{EE737F0C-1379-41ad-9E54-C7308A8B08B7}",
       "definition": {
         "nl": "Een Nutsvoorzieninglinkset gebruikt om elektriciteit of gegevens van de ene locatie naar de andere over te brengen."
+      },
+      "label": {
+        "nl": "Kabel"
       }
     },
     {
-      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "name": "Kabelenleidingcontainer",
-      "label": {
-        "nl": "KabelEnLeidingContainer"
-      },
+      "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "definition": {
         "nl": "Object dat potentieel kabels en leidingen kan omvatten."
       },
+      "label": {
+        "nl": "KabelEnLeidingContainer"
+      },
       "usage": {
-        "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
+        "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wortdt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
       }
     },
     {
-      "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "name": "Kanaal",
-      "label": {
-        "nl": "Kanaal"
-      },
+      "EA-Guid": "{7D921807-2366-4fcb-B212-709C20E0CA99}",
       "definition": {
         "nl": "Een Nutsvoorzieninglinkset gebruikt om kabels en leidingen te beschermen en te geleiden via een omhullende constructie."
+      },
+      "label": {
+        "nl": "Kanaal"
       }
     },
     {
-      "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "name": "Kast",
-      "label": {
-        "nl": "Kast"
-      },
+      "EA-Guid": "{372EBCFB-1C9B-47fa-B078-279291D1CDAE}",
       "definition": {
         "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een kast."
+      },
+      "label": {
+        "nl": "Kast"
       },
       "usage": {
         "nl": "Bevat typisch kleiner monteerbaar Toebehoren en Kabels."
       }
     },
     {
-      "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
       "name": "Maataanduiding",
-      "label": {
-        "nl": "Maataanduiding"
-      },
+      "EA-Guid": "{A621ADB8-FD64-436b-A933-36DDE0EDC78F}",
       "definition": {
         "nl": "Soort Annotatie dat de maat van een Object aangeeft."
+      },
+      "label": {
+        "nl": "Maataanduiding"
       },
       "usage": {
         "nl": "Bv de afmetingen van een kamer."
       }
     },
     {
-      "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "name": "Mangat",
-      "label": {
-        "nl": "Mangat"
-      },
+      "EA-Guid": "{DA81483D-D2B8-4f27-9809-BDAFDA944055}",
       "definition": {
         "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een afgedekte opening in het wegdek die toegang verschaft tot de ondergrond."
+      },
+      "label": {
+        "nl": "Mangat"
       },
       "usage": {
         "nl": "Bvb riooldeksel."
       }
     },
     {
-      "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
       "name": "Nutsvoorzieningknoop",
-      "label": {
-        "nl": "Nutsvoorzieningknoop"
-      },
+      "EA-Guid": "{62C7863D-CE99-4f17-86A1-99FC46FCF765}",
       "definition": {
         "nl": "Puntvormig ruimtelijk object dat een rol van belang vervult in een Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "nl": "Nutsvoorzieningknoop"
       },
       "usage": {
         "nl": "Kan op zichzelf staan of begin of einde vormen van een Nutsvoorzieninglink. OPMERKING: is abstract, moet verder gespecialiseerd worden als Toebehoren of een subklasse daarvan."
       }
     },
     {
-      "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
       "name": "Nutsvoorzieningknoopcontainer",
-      "label": {
-        "nl": "Nutsvoorzieningknoopcontainer"
-      },
+      "EA-Guid": "{5A2FA179-6AC8-447f-B78E-6FA97646EAD5}",
       "definition": {
         "nl": "Puntvormig Nutsvoorzieningnetwerkelement, potentieel drager van Nutsvoorzieningknopen."
+      },
+      "label": {
+        "nl": "Nutsvoorzieningknoopcontainer"
       },
       "usage": {
         "nl": "Bvb Toren, Paal, Mangat, Kast. Bvb een Kast bevat schakelaars, aansluitingen etc die Knopen vormen in het Nutsvoorzieningnetwerk."
       }
     },
     {
-      "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
       "name": "Nutsvoorzieninglink",
-      "label": {
-        "nl": "Nutsvoorzieninglink"
-      },
+      "EA-Guid": "{591B8241-BA7B-462a-AD35-57006875B6BF}",
       "definition": {
         "nl": "Een lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "nl": "Nutsvoorzieninglink"
       }
     },
     {
-      "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
       "name": "Nutsvoorzieninglinksequentie",
-      "label": {
-        "nl": "Nutsvoorzieninglinksequentie"
-      },
+      "EA-Guid": "{C575A8D4-E830-4299-90A1-5900BCD4445F}",
       "definition": {
         "nl": "Een onvertakt doorlopend pad in het Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "nl": "Nutsvoorzieninglinksequentie"
       },
       "usage": {
         "nl": "In feite een route in het netwerk, bvb een waterleiding in de stroomrichting. Routes hebben een richting, daarom is de Linksequentie samengesteld uit GerichteLinks."
       }
     },
     {
-      "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
       "name": "Nutsvoorzieninglinkset",
-      "label": {
-        "nl": "Nutsvoorzieninglinkset"
-      },
+      "EA-Guid": "{363C7D92-0FEF-4a2a-84D7-C74B1BFDB7AB}",
       "definition": {
         "nl": "Collectie lineaire ruimtelijke objecten met een specifieke functie of belang in het Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "nl": "Nutsvoorzieninglinkset"
       },
       "usage": {
         "nl": "In praktijk een collectie van Nutsvoorzieninglinksequenties en/of Nutsvoorzieninglinks. OPMERKING: is abstract, moet verder gespecialiseerd worden bvb als Electriciteitskabel, Rioolpijp etc."
       }
     },
     {
-      "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
       "name": "Nutsvoorzieningnetwerk",
-      "label": {
-        "nl": "Nutsvoorzieningnetwerk"
-      },
+      "EA-Guid": "{E487D274-A57B-4ec9-A67D-65B38FA02E10}",
       "definition": {
         "nl": "Verzameling van netwerkelementen van één type nutsvoorziening."
+      },
+      "label": {
+        "nl": "Nutsvoorzieningnetwerk"
       },
       "usage": {
         "nl": "Bvb een electriciteitsnet, een rioleringsnet, een gasnet. De netwerkelementen waarvan sprake zijn bvb de elementen van het netwerk van een aanbiedervan internet: optische kabels aankomend in kasten op straat via multiplexers verbonden met koperkabels naar de woningen in die straat."
       }
     },
     {
-      "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
       "name": "Nustvoorzieningnetwerkelement",
-      "label": {
-        "nl": "Nustvoorzieningnetwerkelement"
-      },
+      "EA-Guid": "{226E7F1E-A4EA-4664-94EB-56BD01175E9F}",
       "definition": {
         "nl": "Element in een Nutsvoorzieningnetwerk dat daarin een functie van belang vervult."
+      },
+      "label": {
+        "nl": "Nustvoorzieningnetwerkelement"
       },
       "usage": {
         "nl": "OPMERKING: is abstract, moet gespecialiseerd worden (bvb als Electriciteitskabel, Riooolpijp, Mangat, Kast etc)."
       }
     },
     {
-      "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
       "name": "Oliegaschemicaliënpijp",
-      "label": {
-        "nl": "OlieGasChemicaliënPijp"
-      },
+      "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
       "definition": {
         "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "nl": "OlieGasChemicaliënPijp"
       }
     },
     {
-      "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
       "name": "Paal",
-      "label": {
-        "nl": "Paal"
-      },
+      "EA-Guid": "{9177D32C-B5BA-4c8d-AAFC-7D7DD359E7D7}",
       "definition": {
         "nl": "Eenvoudige Nutsvoorzieningenknoopcontainer die de vorm aanneemt van een mast."
+      },
+      "label": {
+        "nl": "Paal"
       },
       "usage": {
         "nl": "Typisch drager van monteerbaar Toebehoren en Kabels."
       }
     },
     {
-      "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "name": "Pijp",
-      "label": {
-        "nl": "Pijp"
-      },
+      "EA-Guid": "{432356EE-4226-48e8-9CEC-8F9B4CF977D5}",
       "definition": {
         "nl": "Een Nutsvoorzieninglinkset voor het transport van vaste stoffen, vloeistoffen, chemicaliën of gassen van de ene locatie naar de andere."
+      },
+      "label": {
+        "nl": "Pijp"
       }
     },
     {
-      "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
       "name": "Plan",
-      "label": {
-        "nl": "Plan"
-      },
+      "EA-Guid": "{54993CB5-04EA-40ad-B7D2-6F06883CCB26}",
       "definition": {
         "nl": "Tekening met de onderdelen of details van iets."
+      },
+      "label": {
+        "nl": "Plan"
       },
       "usage": {
         "nl": "Bvb plattegrond, stratenplan."
       }
     },
     {
-      "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
       "name": "Referentieoppervlak",
-      "label": {
-        "nl": "Referentieoppervlak"
-      },
+      "EA-Guid": "{D1C76982-B10F-4c8a-8556-E743E298358D}",
       "definition": {
         "nl": "Oppervlak tov waarvan een positie wordt gemeten."
+      },
+      "label": {
+        "nl": "Referentieoppervlak"
       },
       "usage": {
         "nl": "In deze context typisch het maaiveld."
       }
     },
     {
-      "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
       "name": "Rioolpijp",
-      "label": {
-        "nl": "Rioolpijp"
-      },
+      "EA-Guid": "{681D99F0-0956-4821-930C-3A876FE6BCD5}",
       "definition": {
         "nl": "Een buis die wordt gebruikt om afvalwater van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "nl": "Rioolpijp"
       }
     },
     {
-      "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
       "name": "Telecommunicatiekabel",
-      "label": {
-        "nl": "Telecommunicatiekabel"
-      },
+      "EA-Guid": "{092F3E3C-D060-49fc-BDC3-F151DDE69326}",
       "definition": {
         "nl": "Een Nutsvoorzieninglinkset die wordt gebruikt om datasignalen (PSTN, radio of computer) van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "nl": "Telecommunicatiekabel"
       }
     },
     {
-      "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
       "name": "Thermischepijp",
-      "label": {
-        "nl": "ThermischePijp"
-      },
+      "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
       "definition": {
         "nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "nl": "ThermischePijp"
       }
     },
     {
-      "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
       "name": "Toebehoren",
-      "label": {
-        "nl": "Toebehoren"
-      },
+      "EA-Guid": "{F636F4F6-AD20-4992-98E1-9651979BEA16}",
       "definition": {
         "nl": "Fysiek puntvormig onderdeel van het Nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "nl": "Toebehoren"
       },
       "usage": {
         "nl": "Kan als Nutsvoorzieningknoop op zichzelf staan maar is dikwijls gemonteerd op een drager (de Nutsvoorzieningknoopcontainter). Bvb inspectieluik, hydrant, splitter, meter, pomp etc."
       }
     },
     {
-      "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
       "name": "TopografischElement",
-      "label": {
-        "nl": "Topografisch Element"
-      },
+      "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
       "definition": {
         "nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak."
+      },
+      "label": {
+        "nl": "Topografisch Element"
       },
       "usage": {
         "nl": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie."
       }
     },
     {
-      "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
       "name": "Toren",
-      "label": {
-        "nl": "Toren"
-      },
+      "EA-Guid": "{98C86CC0-EC82-4bbe-AFC3-662EB4B3EDE3}",
       "definition": {
         "nl": "Eenvoudige Nutsvoorzieningknoopcontainer die de vorm aanneemt van een Toren."
+      },
+      "label": {
+        "nl": "Toren"
       },
       "usage": {
         "nl": "Typisch drager van monteerbaar Toebehoren en Kabels."
       }
     },
     {
-      "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
       "name": "Uiterlijk",
-      "label": {
-        "nl": "Uiterlijk"
-      },
+      "EA-Guid": "{832DE919-04DB-4d9e-A819-5A19E69D291A}",
       "definition": {
         "nl": "De manier waarop een object eruit ziet."
+      },
+      "label": {
+        "nl": "Uiterlijk"
       }
     },
     {
-      "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
       "name": "Verticalepositie",
-      "label": {
-        "nl": "VerticalePositie"
-      },
+      "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
       "definition": {
         "nl": "Positie in verticale richting tov een Referentieoppervlak."
+      },
+      "label": {
+        "nl": "VerticalePositie"
       }
     },
     {
-      "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
       "name": "Waterleiding",
-      "label": {
-        "nl": "Waterleiding"
-      },
+      "EA-Guid": "{0E532C59-7A32-47ca-87B8-CC3204797981}",
       "definition": {
         "nl": "Een Pijp die wordt gebruikt om water van de ene locatie naar de andere te transporteren."
+      },
+      "label": {
+        "nl": "Waterleiding"
       }
     }
   ],
   "properties": [
     {
-      "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
       "name": "werkspanning",
-      "label": {
-        "nl": "werkspanning"
-      },
+      "EA-Guid": "{D1830335-BDBB-4e04-AE0A-D3BDA5FDCEBB}",
       "definition": {
         "nl": "Spanning tijdens belasting."
+      },
+      "label": {
+        "nl": "werkspanning"
       }
     },
     {
-      "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
       "name": "watertype",
-      "label": {
-        "nl": "watertype"
-      },
+      "EA-Guid": "{79221124-8F87-4713-943A-8BC0846FEB6D}",
       "definition": {
         "nl": "Type van het water."
+      },
+      "label": {
+        "nl": "watertype"
       }
     },
     {
-      "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
       "name": "waarschuwingstype",
-      "label": {
-        "nl": "waarschuwingstype"
-      },
+      "EA-Guid": "{97A97624-EDF7-4f17-978F-0D5CE9992CDB}",
       "definition": {
         "nl": "Manier waarop voor de aanwezigheid van de Linkset wordt gewaarschuwd."
+      },
+      "label": {
+        "nl": "waarschuwingstype"
       },
       "usage": {
         "nl": "Bijvoorbeeld een ondergrondse beschermplaat of net."
       }
     },
     {
-      "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
       "name": "verticalepositiedetail",
-      "label": {
-        "nl": "verticalePositiedetail"
-      },
+      "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
       "definition": {
         "nl": "Detail van de VerticalePositie van het element."
+      },
+      "label": {
+        "nl": "verticalePositiedetail"
       },
       "usage": {
         "nl": "Bv diepte."
       }
     },
     {
-      "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
       "name": "torenhoogte",
-      "label": {
-        "nl": "torenhoogte"
-      },
+      "EA-Guid": "{2B21AEA3-7CCC-461e-87AF-1BF09ED938F1}",
       "definition": {
         "nl": "Hoogte van de Toren."
+      },
+      "label": {
+        "nl": "torenhoogte"
       }
     },
     {
-      "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
       "name": "thermischproducttype",
-      "label": {
-        "nl": "thermischProducttype"
-      },
+      "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
       "definition": {
         "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
+      },
+      "label": {
+        "nl": "thermischProducttype"
       }
     },
     {
-      "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
       "name": "temperatuur",
-      "label": {
-        "nl": "temperatuur"
-      },
+      "EA-Guid": "{9DB69F76-8ADB-482d-9585-BEE44F6FCD4D}",
       "definition": {
         "nl": "De maximum toelaatbare temperatuur van de inhoud van de Pijp."
+      },
+      "label": {
+        "nl": "temperatuur"
       }
     },
     {
-      "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
       "name": "telecommunicatiekabelmateriaaltype",
-      "label": {
-        "nl": "telecommunicatiekabelmateriaaltype"
-      },
+      "EA-Guid": "{984136ED-710B-4418-8372-69FF100BEED8}",
       "definition": {
         "nl": "Type van kabelmateriaal."
+      },
+      "label": {
+        "nl": "telecommunicatiekabelmateriaaltype"
       }
     },
     {
-      "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
       "name": "tekst",
-      "label": {
-        "nl": "tekst"
-      },
+      "EA-Guid": "{DF186437-0131-4785-8474-9974B20650FD}",
       "definition": {
         "nl": "Tekst van de Annotatie."
+      },
+      "label": {
+        "nl": "tekst"
       },
       "usage": {
         "nl": "Bvb de maat in het geval van een Maataanduiding."
       }
     },
     {
-      "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "name": "technischespecificatie",
-      "label": {
-        "nl": "technischeSpecificatie"
-      },
+      "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "definition": {
         "nl": "Nadere bepaling van de linkset."
+      },
+      "label": {
+        "nl": "technischeSpecificatie"
       },
       "usage": {
         "nl": "Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren."
       }
     },
     {
-      "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
       "name": "standaardverticalepositiedetail",
-      "label": {
-        "nl": "standaardVerticalePositiedetail"
-      },
+      "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
       "definition": {
         "nl": "Standaard VerticalePositie van elementen in het netwerk."
+      },
+      "label": {
+        "nl": "standaardVerticalePositiedetail"
       },
       "usage": {
         "nl": "Bv de standaard Diepte waarop de elementen zich bevinden."
       }
     },
     {
-      "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
       "name": "rotatiehoek",
-      "label": {
-        "nl": "rotatiehoek"
-      },
+      "EA-Guid": "{CF5583BC-DD99-4e55-A817-83BC38FF4025}",
       "definition": {
         "nl": "Hoek waarmee de Annotatie bij weergave moet worden geroteerd."
+      },
+      "label": {
+        "nl": "rotatiehoek"
       },
       "usage": {
         "nl": "Typisch om de Annotatie te aligneren met het Object waarop het betrekking heeft, bvb evenwijdig met de kabel."
       }
     },
     {
-      "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
       "name": "rioolwatertype",
-      "label": {
-        "nl": "rioolwatertype"
-      },
+      "EA-Guid": "{6ACEF37E-7958-4cd6-8A21-879AE99AE881}",
       "definition": {
         "nl": "Type van rioolwater."
+      },
+      "label": {
+        "nl": "rioolwatertype"
       }
     },
     {
-      "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
       "name": "referentieoppervlak",
-      "label": {
-        "nl": "referentieOppervlak"
-      },
+      "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
       "definition": {
         "nl": "Verwijzing naar het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "referentieOppervlak"
       },
       "usage": {
         "nl": "Bvb het maaiveld."
       }
     },
     {
-      "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
       "name": "pijpdiameter",
-      "label": {
-        "nl": "pijpdiameter"
-      },
+      "EA-Guid": "{25704DE1-F380-480c-B4FC-00EB4AD16B14}",
       "definition": {
         "nl": "Buitendiameter van de Pijp."
+      },
+      "label": {
+        "nl": "pijpdiameter"
       }
     },
     {
-      "EA-Guid": "{AB08957F-2B69-41d5-9AA0-0236F59F1144}",
       "name": "paalhoogte",
-      "label": {
-        "nl": "paalhoogte"
-      },
+      "EA-Guid": "{AB08957F-2B69-41d5-9AA0-0236F59F1144}",
       "definition": {
         "nl": "Hoogte van de Paal."
+      },
+      "label": {
+        "nl": "paalhoogte"
       }
     },
     {
-      "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
       "name": "oliegaschemicaliënproducttype",
-      "label": {
-        "nl": "olieGasChemicaliënProducttype"
-      },
+      "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
       "definition": {
         "nl": "Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
+      },
+      "label": {
+        "nl": "olieGasChemicaliënProducttype"
       }
     },
     {
-      "EA-Guid": "{4E6C7DB7-08AF-4e6b-B569-1F5E04CE754F}",
       "name": "nutsvoorzieningleveringstype",
-      "label": {
-        "nl": "nutsvoorzieningleveringstype"
-      },
+      "EA-Guid": "{4E6C7DB7-08AF-4e6b-B569-1F5E04CE754F}",
       "definition": {
         "nl": "Manier waarop de nutsvoorziening wordt geleverd."
+      },
+      "label": {
+        "nl": "nutsvoorzieningleveringstype"
       },
       "usage": {
         "nl": "Bvb transport, distributie, collectie. Resp bvb van gas, elektriciteit, afvalwater."
       }
     },
     {
-      "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
       "name": "nominaleSpanning",
-      "label": {
-        "nl": "nominale Spanning"
-      },
+      "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
       "definition": {
         "nl": "Spanning zonder belasting."
+      },
+      "label": {
+        "nl": "nominale Spanning"
       }
     },
     {
-      "EA-Guid": "{B9624384-8209-495b-BBB1-6A46F5ED0B94}",
       "name": "netwerk",
-      "label": {
-        "nl": "netwerk"
-      },
+      "EA-Guid": "{B9624384-8209-495b-BBB1-6A46F5ED0B94}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk dat met het Nutsvoorzieningnetwerk is geassocieerd."
+      },
+      "label": {
+        "nl": "netwerk"
       },
       "usage": {
         "nl": "Bvb een deelnetwerk."
       }
     },
     {
-      "EA-Guid": "{669729F3-407B-4d0e-AFC8-F53D8EABC85D}",
       "name": "nauwkeurigheid",
-      "label": {
-        "nl": "nauwkeurigheid"
-      },
+      "EA-Guid": "{669729F3-407B-4d0e-AFC8-F53D8EABC85D}",
       "definition": {
         "nl": "De PositioneleNauwkeurigheid van de Opmeting."
+      },
+      "label": {
+        "nl": "nauwkeurigheid"
       }
     },
     {
-      "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
       "name": "materiaaltype",
-      "label": {
-        "nl": "materiaaltype"
-      },
+      "EA-Guid": "{68620BC6-B294-4fb0-99E7-81111B70A9AF}",
       "definition": {
         "nl": "Soort materiaal waaruit de Linkset bestaat."
+      },
+      "label": {
+        "nl": "materiaaltype"
       }
     },
     {
-      "EA-Guid": "{46331986-D10E-4bda-9CAF-30970AE00D3B}",
       "name": "knoop",
-      "label": {
-        "nl": "knoop"
-      },
+      "EA-Guid": "{46331986-D10E-4bda-9CAF-30970AE00D3B}",
       "definition": {
         "nl": "Nutsvoorzieningknoop die de Nutsvoorzieningknoopcontainer omvat."
+      },
+      "label": {
+        "nl": "knoop"
       }
     },
     {
-      "EA-Guid": "{320A079D-1C70-465e-85DA-E31BE1A1DD0D}",
       "name": "kleur",
-      "label": {
-        "nl": "kleur"
-      },
+      "EA-Guid": "{320A079D-1C70-465e-85DA-E31BE1A1DD0D}",
       "definition": {
         "nl": "De kleur van het object."
+      },
+      "label": {
+        "nl": "kleur"
       }
     },
     {
-      "EA-Guid": "{CF953F89-815C-4736-9F26-C63AB01A7040}",
       "name": "kanaalbreedte",
-      "label": {
-        "nl": "kanaalbreedte"
-      },
+      "EA-Guid": "{CF953F89-815C-4736-9F26-C63AB01A7040}",
       "definition": {
         "nl": "Breedte van het Kanaal"
+      },
+      "label": {
+        "nl": "kanaalbreedte"
       }
     },
     {
-      "EA-Guid": "{D1E13FF4-FCAA-4046-BCFC-A7B0D1C3B0FA}",
       "name": "kabeldiameter",
-      "label": {
-        "nl": "kabeldiameter"
-      },
+      "EA-Guid": "{D1E13FF4-FCAA-4046-BCFC-A7B0D1C3B0FA}",
       "definition": {
         "nl": "Diameter van de kabel."
+      },
+      "label": {
+        "nl": "kabeldiameter"
       }
     },
     {
-      "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
       "name": "huidigestatus",
-      "label": {
-        "nl": "huidigeStatus"
-      },
+      "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
       "definition": {
         "nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan."
+      },
+      "label": {
+        "nl": "huidigeStatus"
       }
     },
     {
-      "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
       "name": "geldigvan",
-      "label": {
-        "nl": "geldigVan"
-      },
+      "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
       "definition": {
         "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
+      },
+      "label": {
+        "nl": "geldigVan"
       }
     },
     {
-      "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
       "name": "geldigtot",
-      "label": {
-        "nl": "geldigTot"
-      },
+      "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
       "definition": {
         "nl": "Tijdstip tot wanneer het element in de werkelijkheid bestond."
+      },
+      "label": {
+        "nl": "geldigTot"
       }
     },
     {
-      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "name": "geheel",
-      "label": {
-        "nl": "geheel"
-      },
+      "EA-Guid": "{E122BE7B-8B1E-46e5-8C88-E4892C890E4C}",
       "definition": {
         "nl": "Annotatie waarvan de Annotatie deel uitmaakt."
+      },
+      "label": {
+        "nl": "geheel"
       },
       "usage": {
         "nl": "Bvb de Maataanduiding waartoe de maatvoeringslijn behoort."
       }
     },
     {
-      "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
       "name": "geassocieerdMet",
-      "label": {
-        "nl": "geassocieerd met"
-      },
+      "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
       "definition": {
         "nl": "Object waar de Annotatie betrekking op heeft"
+      },
+      "label": {
+        "nl": "geassocieerd met"
       },
       "usage": {
         "nl": "Bvb een kabel."
       }
     },
     {
-      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "name": "functie",
-      "label": {
-        "nl": "functie"
-      },
+      "EA-Guid": "{351D5359-F680-4559-9688-753E8AEC6380}",
       "definition": {
         "nl": "Activiteiten uitgevoerd door het complex."
+      },
+      "label": {
+        "nl": "functie"
       },
       "usage": {
         "nl": "Eventueel aangevuld met informatie over inputs en outputs van de activiteiten."
       }
     },
     {
-      "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "name": "element",
-      "label": {
-        "nl": "element"
-      },
+      "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerkelement dat tot het netwerk behoort."
+      },
+      "label": {
+        "nl": "element"
       }
     },
     {
-      "EA-Guid": "{277E93E2-BA37-4447-ABD1-D5DD8A203C49}",
       "name": "druk",
-      "label": {
-        "nl": "druk"
-      },
+      "EA-Guid": "{277E93E2-BA37-4447-ABD1-D5DD8A203C49}",
       "definition": {
         "nl": "De maximaal toegestane operationele druk waarbij een product door een Pijp wordt getransporteerd."
+      },
+      "label": {
+        "nl": "druk"
       }
     },
     {
-      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
       "name": "documentatie",
-      "label": {
-        "nl": "documentatie"
-      },
+      "EA-Guid": "{E2AF05DC-67F9-49e4-B17E-71E9E7B0C838}",
       "definition": {
         "nl": "Verwijzing naar een Document met extra informatie over het complex."
+      },
+      "label": {
+        "nl": "documentatie"
       }
     },
     {
-      "EA-Guid": "{84D05DCC-DF57-4ec2-A1D3-CDB55EAC6E4C}",
       "name": "disclaimer",
-      "label": {
-        "nl": "disclaimer"
-      },
+      "EA-Guid": "{84D05DCC-DF57-4ec2-A1D3-CDB55EAC6E4C}",
       "definition": {
         "nl": "Wettelijke tekst waarin vertrouwelijkheidsclausules worden beschreven die van toepassing zijn op de informatie over het nutsnetwerk."
+      },
+      "label": {
+        "nl": "disclaimer"
       }
     },
     {
-      "EA-Guid": "{4BFA1700-E708-414a-AFB9-70E236965A52}",
       "name": "diepte",
-      "label": {
-        "nl": "diepte"
-      },
+      "EA-Guid": "{4BFA1700-E708-414a-AFB9-70E236965A52}",
       "definition": {
         "nl": "Afstand onder het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "diepte"
       }
     },
     {
-      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "name": "deel",
-      "label": {
-        "nl": "deel"
-      },
+      "EA-Guid": "{2B7F78C4-143F-48b9-89A2-418554A6B2F8}",
       "definition": {
         "nl": "Annotatie die deel uitmaakt van de Annotatie."
+      },
+      "label": {
+        "nl": "deel"
       },
       "usage": {
         "nl": "Bvb de maatvoeringslijn in het geval van een Maataanduiding bestaande uit twee pijlen en een maatvoeringshulplijn."
       }
     },
     {
-      "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
       "name": "bevoegdepartij",
-      "label": {
-        "nl": "bevoegdePartij"
-      },
+      "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
       "definition": {
         "nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
+      },
+      "label": {
+        "nl": "bevoegdePartij"
       }
     },
     {
-      "EA-Guid": "{402EBC20-6752-4cb9-A310-47F1119B60DD}",
       "name": "afstand",
-      "label": {
-        "nl": "afstand"
-      },
+      "EA-Guid": "{402EBC20-6752-4cb9-A310-47F1119B60DD}",
       "definition": {
         "nl": "De VerticalePositie als afstand tov het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "afstand"
       },
       "usage": {
         "nl": "Bvb de afstand tov het maaiveld."
       }
     },
     {
-      "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
       "name": "adres",
-      "label": {
-        "nl": "adres"
-      },
+      "EA-Guid": "{9F470422-C6B3-4c74-BC4E-860AF8AD44E7}",
       "definition": {
         "nl": "Adres van de aansluiting."
+      },
+      "label": {
+        "nl": "adres"
       }
     },
     {
-      "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "name": "activiteitencomplexreferentie",
-      "label": {
-        "nl": "activiteitencomplexreferentie"
-      },
+      "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "definition": {
         "nl": "Activiteitencomplex dat tot het netwerk behoort."
+      },
+      "label": {
+        "nl": "activiteitencomplexreferentie"
       }
     },
     {
-      "EA-Guid": "{B9D2CF04-9D78-481c-BC1E-27F84F2EB431}",
       "name": "identificator",
-      "label": {
-        "nl": "identificator"
-      },
+      "EA-Guid": "{B9D2CF04-9D78-481c-BC1E-27F84F2EB431}",
       "definition": {
         "nl": "Identificator van het element."
+      },
+      "label": {
+        "nl": "identificator"
       }
     },
     {
-      "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
       "name": "geografischenaam",
-      "label": {
-        "nl": "geografischeNaam"
-      },
+      "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
       "definition": {
         "nl": "Naam waaronder het netwerk bekend staat."
+      },
+      "label": {
+        "nl": "geografischeNaam"
       }
     },
     {
-      "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
       "name": "verticalepositie",
-      "label": {
-        "nl": "verticalePositie"
-      },
+      "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
       "definition": {
         "nl": "De VerticalePositie als positie in een verticaal coördinaatsysteem."
       },
+      "label": {
+        "nl": "verticalePositie"
+      },
       "usage": {
         "nl": "Bvb in België de z-coördinaat in TAW."
       }
     },
     {
-      "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
       "name": "verticalepositie",
-      "label": {
-        "nl": "verticalePositie"
-      },
+      "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
       "definition": {
         "nl": "De VerticalePositie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
       },
+      "label": {
+        "nl": "verticalePositie"
+      },
       "usage": {
         "nl": "Bvb in België de z-coördinaat in TAW."
       }
     },
     {
-      "EA-Guid": "{3819ED88-81D8-4541-B26B-A64C5CDE020D}",
       "name": "subthema",
-      "label": {
-        "nl": "subthema"
-      },
+      "EA-Guid": "{3819ED88-81D8-4541-B26B-A64C5CDE020D}",
       "definition": {
         "nl": "Classificatie van de Pijp volgens het thematisch domein waartoe deze behoort."
+      },
+      "label": {
+        "nl": "subthema"
       }
     },
     {
-      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
       "name": "pijp",
-      "label": {
-        "nl": "pijp"
-      },
+      "EA-Guid": "{08F7D59F-1CC5-446b-BE54-64564DB8F56C}",
       "definition": {
         "nl": "Andere Pijp gelegen in de Pijp."
+      },
+      "label": {
+        "nl": "pijp"
       }
     },
     {
-      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
       "name": "kabel",
-      "label": {
-        "nl": "kabel"
-      },
+      "EA-Guid": "{38F44AE5-0050-4c02-8903-C7E6B8917838}",
       "definition": {
         "nl": "Kabel gelegen in de Pijp."
+      },
+      "label": {
+        "nl": "kabel"
       }
     },
     {
-      "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
       "name": "uitgevoerddoor",
-      "label": {
-        "nl": "uitgevoerdDoor"
-      },
+      "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
       "definition": {
         "nl": "Agent die de Opmeting heeft uitgevoerd."
+      },
+      "label": {
+        "nl": "uitgevoerdDoor"
       }
     },
     {
-      "EA-Guid": "{5CF54001-0D21-41e1-B29D-97CC7EC9F020}",
       "name": "methode",
-      "label": {
-        "nl": "methode"
-      },
+      "EA-Guid": "{5CF54001-0D21-41e1-B29D-97CC7EC9F020}",
       "definition": {
         "nl": "Aard van de gebruikte methode."
+      },
+      "label": {
+        "nl": "methode"
       }
     },
     {
-      "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
       "name": "verticalepositie",
-      "label": {
-        "nl": "verticalePositie"
-      },
+      "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
       "definition": {
         "nl": "Algemene aanduiding van de VerticalePositie van het element."
+      },
+      "label": {
+        "nl": "verticalePositie"
       },
       "usage": {
         "nl": "Bv ondergronds, bovengronds."
       }
     },
     {
-      "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "name": "innetwerk",
-      "label": {
-        "nl": "inNetwerk"
-      },
+      "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort."
+      },
+      "label": {
+        "nl": "inNetwerk"
       }
     },
     {
-      "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "name": "zichtbaarheid",
-      "label": {
-        "nl": "zichtbaarheid"
-      },
+      "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
         "nl": "Mate waarin de linkset waarneembaar is."
       },
+      "label": {
+        "nl": "zichtbaarheid"
+      },
       "usage": {
         "nl": "Bvb nietBovengrondsZichtbaar."
       }
     },
     {
-      "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
       "name": "uiterlijk",
-      "label": {
-        "nl": "uiterlijk"
-      },
+      "EA-Guid": "{451C5196-58DF-4df8-AE6F-13A5828A6E6F}",
       "definition": {
         "nl": "Uitzicht van de Linkset."
+      },
+      "label": {
+        "nl": "uiterlijk"
       }
     },
     {
-      "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
       "name": "risico",
-      "label": {
-        "nl": "risico"
-      },
+      "EA-Guid": "{4680B8E0-ADA5-4df0-BB22-757CF168E14E}",
       "definition": {
         "nl": "Geeft aan of de linkset als gevaarlijk kan beschouwd worden."
+      },
+      "label": {
+        "nl": "risico"
       }
     },
     {
-      "EA-Guid": "{CB78D103-BABF-4d04-BDDB-5146D44A72EF}",
       "name": "zichtbaarheid",
-      "label": {
-        "nl": "zichtbaarheid"
-      },
+      "EA-Guid": "{CB78D103-BABF-4d04-BDDB-5146D44A72EF}",
       "definition": {
         "nl": "Mate waarin de container waarneembaar is."
       },
-      "usage": {
-        "nl": "Bvb nietBovengrondsZichtbaar."
-      }
-    },
-    {
-      "EA-Guid": "{ACE6F98E-D2DC-40fb-B473-8E0BC8C66040}",
-      "name": "uiterlijk",
-      "label": {
-        "nl": "uiterlijk"
-      },
-      "definition": {
-        "nl": "Uitzicht van de container."
-      },
-      "usage": {
-        "nl": "Bvb de kleur."
-      }
-    },
-    {
-      "EA-Guid": "{D53BCB73-D335-450e-9E1E-532956F36F0B}",
-      "name": "risico",
-      "label": {
-        "nl": "risico"
-      },
-      "definition": {
-        "nl": "Geeft aan of de container als gevaarlijk kan beschouwd worden."
-      }
-    },
-    {
-      "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
-      "name": "oriëntatie",
-      "label": {
-        "nl": "oriëntatie"
-      },
-      "definition": {
-        "nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
-      }
-    },
-    {
-      "EA-Guid": "{A9A65420-5DE4-4dc4-80E0-D03317ECF385}",
-      "name": "zichtbaarheid",
       "label": {
         "nl": "zichtbaarheid"
       },
-      "definition": {
-        "nl": "Mate waarin de Knoop waarneembaar is."
-      },
       "usage": {
         "nl": "Bvb nietBovengrondsZichtbaar."
       }
     },
     {
-      "EA-Guid": "{D9335DED-CB05-4e08-9E35-992400B607AF}",
       "name": "uiterlijk",
+      "EA-Guid": "{ACE6F98E-D2DC-40fb-B473-8E0BC8C66040}",
+      "definition": {
+        "nl": "Uitzicht van de container."
+      },
       "label": {
         "nl": "uiterlijk"
-      },
-      "definition": {
-        "nl": "Uitzicht van de Knoop."
       },
       "usage": {
         "nl": "Bvb de kleur."
       }
     },
     {
-      "EA-Guid": "{3846A060-B6A3-4e1c-8C23-6824A4215BB9}",
       "name": "risico",
+      "EA-Guid": "{D53BCB73-D335-450e-9E1E-532956F36F0B}",
+      "definition": {
+        "nl": "Geeft aan of de container als gevaarlijk kan beschouwd worden."
+      },
       "label": {
         "nl": "risico"
-      },
-      "definition": {
-        "nl": "Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
       }
     },
     {
-      "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
       "name": "oriëntatie",
+      "EA-Guid": "{9E9E6F1D-85EE-452e-BB76-512A6EB93731}",
+      "definition": {
+        "nl": "Hoek waarmee het symbool dat de container weergeeft op kaart moet worden geroteerd."
+      },
       "label": {
         "nl": "oriëntatie"
+      }
+    },
+    {
+      "name": "zichtbaarheid",
+      "EA-Guid": "{A9A65420-5DE4-4dc4-80E0-D03317ECF385}",
+      "definition": {
+        "nl": "Mate waarin de Knoop waarneembaar is."
       },
+      "label": {
+        "nl": "zichtbaarheid"
+      },
+      "usage": {
+        "nl": "Bvb nietBovengrondsZichtbaar."
+      }
+    },
+    {
+      "name": "uiterlijk",
+      "EA-Guid": "{D9335DED-CB05-4e08-9E35-992400B607AF}",
+      "definition": {
+        "nl": "Uitzicht van de Knoop."
+      },
+      "label": {
+        "nl": "uiterlijk"
+      },
+      "usage": {
+        "nl": "Bvb de kleur."
+      }
+    },
+    {
+      "name": "risico",
+      "EA-Guid": "{3846A060-B6A3-4e1c-8C23-6824A4215BB9}",
+      "definition": {
+        "nl": "Geeft aan of de Knoop als gevaarlijk kan beschouwd worden."
+      },
+      "label": {
+        "nl": "risico"
+      }
+    },
+    {
+      "name": "oriëntatie",
+      "EA-Guid": "{B51C2121-D6ED-437e-8786-E6B4573C28C9}",
       "definition": {
         "nl": "Hoek waarmee het symbool dat de Knoop weergeeft op kaart moet worden geroteerd."
+      },
+      "label": {
+        "nl": "oriëntatie"
       }
     },
     {
-      "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
       "name": "pijp",
-      "label": {
-        "nl": "pijp"
-      },
+      "EA-Guid": "{77697554-CF39-4bf5-8840-23FA1B2415DD}",
       "definition": {
         "nl": "Pijp gelegen in het Kanaal."
+      },
+      "label": {
+        "nl": "pijp"
       }
     },
     {
-      "EA-Guid": "{4F60EFC8-708A-4454-94BC-4DA8A4432ACA}",
       "name": "kanaal",
-      "label": {
-        "nl": "kanaal"
-      },
+      "EA-Guid": "{4F60EFC8-708A-4454-94BC-4DA8A4432ACA}",
       "definition": {
         "nl": "Kanaal gelegen in het Kanaal."
+      },
+      "label": {
+        "nl": "kanaal"
       }
     },
     {
-      "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
       "name": "kabel",
-      "label": {
-        "nl": "kabel"
-      },
+      "EA-Guid": "{2F358CAE-0920-4a24-B363-CFD68C6310DA}",
       "definition": {
         "nl": "Kabel gelegen in het Kanaal."
+      },
+      "label": {
+        "nl": "kabel"
       }
     },
     {
-      "EA-Guid": "{92F903FE-6F84-43f6-A09B-CC9D355D8C89}",
       "name": "subthema",
-      "label": {
-        "nl": "subthema"
-      },
+      "EA-Guid": "{92F903FE-6F84-43f6-A09B-CC9D355D8C89}",
       "definition": {
         "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+      },
+      "label": {
+        "nl": "subthema"
       }
     },
     {
-      "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "name": "innetwerk",
-      "label": {
-        "nl": "inNetwerk"
-      },
+      "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort."
+      },
+      "label": {
+        "nl": "inNetwerk"
       }
     },
     {
-      "EA-Guid": "{8FBCB721-4DB1-47f4-9694-E06978259957}",
       "name": "toebehorentype",
-      "label": {
-        "nl": "toebehorentype"
-      },
+      "EA-Guid": "{8FBCB721-4DB1-47f4-9694-E06978259957}",
       "definition": {
         "nl": "Aard van het Toebehoren."
+      },
+      "label": {
+        "nl": "toebehorentype"
       },
       "usage": {
         "nl": "Aansluiting is een specialisatie van Toebehoren waarbij het type Toebehoren \"aansluitingspunt\" is."
@@ -1155,576 +1155,576 @@
   ],
   "externals": [
     {
-      "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
       "name": "Lengte",
-      "label": {
-        "nl": "Lengte"
-      },
+      "EA-Guid": "{91658B08-12DB-45b3-8460-CEE464AC4C6E}",
       "definition": {
         "nl": "Afstand tussen twee punten op een kromme."
+      },
+      "label": {
+        "nl": "Lengte"
       },
       "usage": {
         "nl": "Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren."
       }
     },
     {
-      "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
       "name": "Maat",
-      "label": {
-        "nl": "Maat"
-      },
+      "EA-Guid": "{889C9976-B9C7-47d5-849B-C0D9B0D55915}",
       "definition": {
         "nl": "Een (af)gemeten hoeveelheid ve bepaalde grootheid, uitgedrukt in een bepaalde eenheid."
+      },
+      "label": {
+        "nl": "Maat"
       }
     },
     {
-      "EA-Guid": "{AC115F40-08A9-47dc-96A2-547A024E7F0D}",
       "name": "Meeteenheid",
-      "label": {
-        "nl": "Meeteenheid"
-      },
+      "EA-Guid": "{AC115F40-08A9-47dc-96A2-547A024E7F0D}",
       "definition": {
         "nl": "Eenheid waarin de Maat is uitgedrukt."
+      },
+      "label": {
+        "nl": "Meeteenheid"
       }
     },
     {
-      "EA-Guid": "{51E1B009-115C-4cc2-9C42-546B04A2AF9B}",
       "name": "Lengteëenheid",
-      "label": {
-        "nl": "Lengteëenheid"
-      },
+      "EA-Guid": "{51E1B009-115C-4cc2-9C42-546B04A2AF9B}",
       "definition": {
         "nl": "Eenheid waarin de Lengte is uitgedrukt."
+      },
+      "label": {
+        "nl": "Lengteëenheid"
       },
       "usage": {
         "nl": "Bvb meter."
       }
     },
     {
-      "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
       "name": "Positionelenauwkeurigheid",
-      "label": {
-        "nl": "PositioneleNauwkeurigheid"
-      },
+      "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
       "definition": {
         "nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt."
+      },
+      "label": {
+        "nl": "PositioneleNauwkeurigheid"
       },
       "usage": {
         "nl": "Bvb uitgedrukt als de maximum afwijking in cm tussen beide posities."
       }
     },
     {
-      "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
       "name": "Agent",
+      "EA-Guid": "{F0F9C22E-B0EA-45d9-9832-97449167534F}",
       "label": {
         "nl": "Agent"
       }
     },
     {
-      "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "name": "Curve",
-      "label": {
-        "nl": "Curve"
-      },
+      "EA-Guid": "{5215CE2B-FA62-4e16-9191-4BA14EC24DDA}",
       "definition": {
         "nl": "Een 1-dimensionele geometrische primitieve."
+      },
+      "label": {
+        "nl": "Curve"
       },
       "usage": {
         "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Curve zelf gevormd wordt volstaat 1 coördinaat om een punt op de Curve te lokaliseren, bv de afstand langs de Curve vanaf het vertrekpunt. Een Curve heeft een lengte maar geen breedte of hoogte, wat niet wegneemt dat ze door de 3D ruimte kan kronkelen. Curves worden doorgaans voorgesteld door polylijnen, dit zijn sets van opeenvolgende punten waarbij de tussenliggende punten van de Curve bekomen worden dmv interpolatie. Als de interpolatiemethode lineair is krijg je een Lijnstring (een hoekige lijn die de opeenvolgende punten verbindt middels een rechte lijn), andere manieren om te interpoleren resulteren in circulaire bogen, cubic splines, Bézier curves etc (waarbij de controlepunten niet noodzakelijk op de Curve liggen). Een Curve wordt begrensd door zijn begin- en eindpunt."
       }
     },
     {
-      "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
       "name": "Punt",
-      "label": {
-        "nl": "Punt"
-      },
+      "EA-Guid": "{B07BF018-BE28-4750-A037-1762FFC1C8C8}",
       "definition": {
         "nl": "Een 0-dimensionele geometrische primitieve."
+      },
+      "label": {
+        "nl": "Punt"
       },
       "usage": {
         "nl": "Dimensie is te verstaan in wiskundige zin: het minimum aantal coördinaten nodig om een willekeurig punt voor te stellen dat deel uitmaakt van de primitieve. In het coördinaatsysteem dat door een Punt zelf gevormd wordt is geen enkele coördinaat nodig, er is immers maar 1 punt. Een Punt heeft daarom geen breedte, lengte of diepte. OPGELET: dat betekent niet dat een Punt geen coördinaten kan hebben in een ander coördinaatysteem, bv xyz-coördinaten in en 3-assig orthogonaal coördinaatsysteem."
       }
     },
     {
-      "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
       "name": "Containertype",
-      "label": {
-        "nl": "Containertype"
-      },
+      "EA-Guid": "{B69A62F0-5763-4958-8784-BAB9DE6FCB0E}",
       "definition": {
         "nl": "Aard van de container"
+      },
+      "label": {
+        "nl": "Containertype"
       }
     },
     {
-      "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
       "name": "Zichtbaarheidstype",
-      "label": {
-        "nl": "Zichtbaarheidstype"
-      },
+      "EA-Guid": "{8B274381-D55D-4519-AAC1-D795D69B5003}",
       "definition": {
         "nl": "In welke mate het object waarneembaar is."
+      },
+      "label": {
+        "nl": "Zichtbaarheidstype"
       }
     },
     {
-      "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
       "name": "Risicotype",
-      "label": {
-        "nl": "RisicoType"
-      },
+      "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
       "definition": {
         "nl": "De aard van het risico"
+      },
+      "label": {
+        "nl": "RisicoType"
       }
     },
     {
-      "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
       "name": "Kleur",
-      "label": {
-        "nl": "Kleur"
-      },
+      "EA-Guid": "{D8B48467-825B-4904-B96D-99B05F82D1E7}",
       "definition": {
         "nl": "De kleur van het element"
+      },
+      "label": {
+        "nl": "Kleur"
       }
     },
     {
-      "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
       "name": "Materiaaltype",
-      "label": {
-        "nl": "MateriaalType"
-      },
+      "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
       "definition": {
         "nl": "De aard van het materiaal"
+      },
+      "label": {
+        "nl": "MateriaalType"
       }
     },
     {
-      "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
       "name": "Subthema",
-      "label": {
-        "nl": "Subthema"
-      },
+      "EA-Guid": "{008FE2E5-ABC0-4b88-B7D4-6661D8EFFBE2}",
       "definition": {
         "nl": "Classificatie van een kabel, leiding, of leidingelementen volgens het thematisch domein waar deze toe behoren."
+      },
+      "label": {
+        "nl": "Subthema"
       }
     },
     {
-      "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
       "name": "Nutsvoorzieningnetwerktype",
-      "label": {
-        "nl": "Nutsvoorzieningnetwerktype"
-      },
+      "EA-Guid": "{216EAE99-067D-42f0-896F-0497F500AF65}",
       "definition": {
         "nl": "Classificatie van typen nutsvoorzieningnetwerken."
+      },
+      "label": {
+        "nl": "Nutsvoorzieningnetwerktype"
       }
     },
     {
-      "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
       "name": "Faciliteitstatus",
-      "label": {
-        "nl": "Faciliteitstatus"
-      },
+      "EA-Guid": "{AD6B4EE2-398B-4a03-BDA1-AF15D5EC8843}",
       "definition": {
         "nl": "De hoedanigheid van het faciliteitsonderdeel."
+      },
+      "label": {
+        "nl": "Faciliteitstatus"
       }
     },
     {
-      "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
       "name": "VerticalePositietype",
+      "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
+      "definition": {
+        "nl": "TO DO"
+      },
       "label": {
         "nl": "Verticale Positietype"
-      },
-      "definition": {
-        "nl": "TO DO"
       }
     },
     {
-      "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
       "name": "Nutsvoorzieningleveringstype",
-      "label": {
-        "nl": "Nutsvoorzieningleveringstype"
-      },
+      "EA-Guid": "{3A4EAFCB-FAEE-4c4a-AB9E-D69A16D16EF2}",
       "definition": {
         "nl": "Classificatie van typen nutsvoorzieningsleveringen."
+      },
+      "label": {
+        "nl": "Nutsvoorzieningleveringstype"
       }
     },
     {
-      "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
       "name": "Waarschuwingstype",
-      "label": {
-        "nl": "Waarschuwingstype"
-      },
+      "EA-Guid": "{9D3B762F-D306-436c-AF88-A6BB81CDA763}",
       "definition": {
         "nl": "Classificatie van soorten waarschuwingen."
+      },
+      "label": {
+        "nl": "Waarschuwingstype"
       }
     },
     {
-      "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
       "name": "Telecommunicatiekabelmateriaaltype",
-      "label": {
-        "nl": "Telecommunicatiekabelmateriaaltype"
-      },
+      "EA-Guid": "{4993E731-18FC-455f-8679-DC8F668B04E2}",
       "definition": {
         "nl": "Aard van het materiaal waarvan de Telecommunicatiekabel gemaakt is."
+      },
+      "label": {
+        "nl": "Telecommunicatiekabelmateriaaltype"
       }
     },
     {
-      "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
       "name": "Oliegaschemicalientype",
-      "label": {
-        "nl": "OlieGasChemicalientype"
-      },
+      "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
       "definition": {
         "nl": "Classificatie van de olie, gas of chemicaliën."
+      },
+      "label": {
+        "nl": "OlieGasChemicalientype"
       }
     },
     {
-      "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
       "name": "Rioolwatertype",
-      "label": {
-        "nl": "Rioolwatertype"
-      },
+      "EA-Guid": "{6E79C43A-E2A6-40ce-8B1B-731472FC1FCB}",
       "definition": {
         "nl": "Aard van het rioolwater."
+      },
+      "label": {
+        "nl": "Rioolwatertype"
       }
     },
     {
-      "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
       "name": "Watertype",
-      "label": {
-        "nl": "Watertype"
-      },
+      "EA-Guid": "{979037AB-2661-43c1-84E1-F12623E177FE}",
       "definition": {
         "nl": "Aard van het water."
+      },
+      "label": {
+        "nl": "Watertype"
       }
     },
     {
-      "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
       "name": "ThermischProducttype",
-      "label": {
-        "nl": "Thermisch Producttype"
-      },
+      "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
       "definition": {
         "nl": "Classificatie van het termisch product."
+      },
+      "label": {
+        "nl": "Thermisch Producttype"
       }
     },
     {
-      "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
       "name": "Teken",
-      "label": {
-        "nl": "Teken"
-      },
+      "EA-Guid": "{2A82DBEC-F9F5-4c7e-BC4B-237ED13BE8B4}",
       "definition": {
         "nl": "TO DO"
+      },
+      "label": {
+        "nl": "Teken"
       }
     },
     {
-      "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
       "name": "Toebehorentype",
-      "label": {
-        "nl": "Toebehorentype"
-      },
+      "EA-Guid": "{F306D116-447C-44c7-90EE-65CD2CED0870}",
       "definition": {
         "nl": "Classificatie van de toebehoren."
+      },
+      "label": {
+        "nl": "Toebehorentype"
       }
     },
     {
-      "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
       "name": "Economischeactiviteittype",
-      "label": {
-        "nl": "EconomischeActiviteittype"
-      },
+      "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
       "definition": {
         "nl": "Classificatie van de economische activiteit."
+      },
+      "label": {
+        "nl": "EconomischeActiviteittype"
       }
     },
     {
-      "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
       "name": "Inputoutputtype",
-      "label": {
-        "nl": "Inputoutputtype"
-      },
+      "EA-Guid": "{6D0DD9F7-83BC-4aa8-93A3-14BA50E9078F}",
       "definition": {
         "nl": "De waarde van de input en output."
+      },
+      "label": {
+        "nl": "Inputoutputtype"
       }
     },
     {
-      "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
       "name": "Annotatietype",
-      "label": {
-        "nl": "Annotatietype"
-      },
+      "EA-Guid": "{923B5591-8826-4e70-8DCD-E88CB85A974E}",
       "definition": {
         "nl": "Aard van de annotatie"
+      },
+      "label": {
+        "nl": "Annotatietype"
       }
     },
     {
-      "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
       "name": "Topografischelementtype",
-      "label": {
-        "nl": "TopografischElementtype"
-      },
+      "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
       "definition": {
         "nl": "Classificatie van het topografisch element,"
+      },
+      "label": {
+        "nl": "TopografischElementtype"
       }
     },
     {
-      "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
       "name": "Documentmediumtype",
-      "label": {
-        "nl": "Documentmediumtype"
-      },
+      "EA-Guid": "{FB360146-4CE3-4542-9E1C-539528799A24}",
       "definition": {
         "nl": "Aard van het documentmedium"
+      },
+      "label": {
+        "nl": "Documentmediumtype"
       }
     },
     {
-      "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
       "name": "Documenttype",
-      "label": {
-        "nl": "Documenttype"
-      },
+      "EA-Guid": "{97C446AC-1E38-4007-A6B7-478C220DE467}",
       "definition": {
         "nl": "Aard van het document"
+      },
+      "label": {
+        "nl": "Documenttype"
       }
     },
     {
-      "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
       "name": "Referentieoppervlaktype",
-      "label": {
-        "nl": "Referentieoppervlaktype"
-      },
+      "EA-Guid": "{B5B122A0-8F29-4e1a-B898-72EB39B082AA}",
       "definition": {
         "nl": "De aard van het referentieoppervlak"
+      },
+      "label": {
+        "nl": "Referentieoppervlaktype"
       }
     },
     {
-      "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
       "name": "Opmetingsmethode",
-      "label": {
-        "nl": "Opmetingsmethode"
-      },
+      "EA-Guid": "{ADE02FBC-0783-4b47-BDD9-2143F3ADBE4F}",
       "definition": {
         "nl": "De manier waarop het meetresultaat is vastgestemd"
+      },
+      "label": {
+        "nl": "Opmetingsmethode"
       }
     },
     {
-      "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
       "name": "BeschermdGebiedtype",
-      "label": {
-        "nl": "Beschermd Gebiedtype"
-      },
+      "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
       "definition": {
         "nl": "Classificatie van de soorten beschermd gebied"
+      },
+      "label": {
+        "nl": "Beschermd Gebiedtype"
       }
     },
     {
-      "EA-Guid": "{82BFE44B-9A87-4166-BDD5-402AC1405D9F}",
       "name": "Identificator",
-      "label": {
-        "nl": "Identificator"
-      },
+      "EA-Guid": "{82BFE44B-9A87-4166-BDD5-402AC1405D9F}",
       "definition": {
         "nl": "Informatie gebruikt om een object uniek te identificeren."
+      },
+      "label": {
+        "nl": "Identificator"
       },
       "usage": {
         "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem."
       }
     },
     {
-      "EA-Guid": "{000197CE-3A4A-4354-8328-2EA003847C3C}",
       "name": "Adresvoorstelling",
-      "label": {
-        "nl": "Adresvoorstelling"
-      },
+      "EA-Guid": "{000197CE-3A4A-4354-8328-2EA003847C3C}",
       "definition": {
         "nl": "Meer leesbare voorstelling met enkel de basisgegevens van het adres,bedoeld voor het gebruik van een adres als attribuut van een ander object."
+      },
+      "label": {
+        "nl": "Adresvoorstelling"
       },
       "usage": {
         "nl": "Bv als attribuut ve persoon of gebouw. De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen)."
       }
     },
     {
-      "EA-Guid": "{372EA823-D942-4310-81CA-B95912579A06}",
       "name": "Geometrie",
-      "label": {
-        "nl": "Geometrie"
-      },
+      "EA-Guid": "{372EA823-D942-4310-81CA-B95912579A06}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object."
+      },
+      "label": {
+        "nl": "Geometrie"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten."
       }
     },
     {
-      "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
       "name": "Entiteit",
+      "EA-Guid": "{3E2316F7-8A6D-4884-BD13-6F2903D85A29}",
       "label": {
         "nl": "Entiteit"
       }
     },
     {
-      "EA-Guid": "{24D7FBAF-82F0-4ac5-86AA-A7549CB249B0}",
       "name": "Locatie",
-      "label": {
-        "nl": "Locatie"
-      },
+      "EA-Guid": "{24D7FBAF-82F0-4ac5-86AA-A7549CB249B0}",
       "definition": {
         "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een adres of een ander geografisch object."
+      },
+      "label": {
+        "nl": "Locatie"
       },
       "usage": {
         "nl": "Te substitueren door een instantie van het gewenste type, ttz Geometrie, Adresvoorstelling, Plaats, GeografischeNaam, Gebouw, Perceel etc. Zie oa <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis\">OSLO Generiek</a> voor meer info over deze klassen."
       }
     },
     {
-      "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
       "name": "Document",
-      "label": {
-        "nl": "Document"
-      },
+      "EA-Guid": "{C9A6DC2A-B883-4798-BFD6-1DAA4419A1E6}",
       "definition": {
         "nl": "Informatie vastgelegd op een gegevensdrager."
+      },
+      "label": {
+        "nl": "Document"
       }
     },
     {
-      "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "name": "Adres",
-      "label": {
-        "nl": "Adres"
-      },
+      "EA-Guid": "{8A681391-5C83-47c5-B49E-FF2050C6B770}",
       "definition": {
         "nl": "Informatie die toelaat om op een gestructureerde en unieke manier te verwijzen naar een gebouweenheid,een ligplaats,een standplaats of een perceel op basis van een gemeentenaam,een straatnaam,een huisnummer en eventueel een busnummer en een postcode."
+      },
+      "label": {
+        "nl": "Adres"
       }
     },
     {
-      "EA-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
       "name": "Activiteitencomplex",
-      "label": {
-        "nl": "Activiteitencomplex"
-      },
+      "EA-Guid": "{399F826F-996C-4894-8933-FDE2B1CEEF24}",
       "definition": {
         "nl": "Technische en economische eenheid beheerd door eenzelfde operator waar bepaalde activiteiten plaatsvinden mbt productie en dienstverlening."
+      },
+      "label": {
+        "nl": "Activiteitencomplex"
       },
       "usage": {
         "nl": "In praktijk een site, plot, faciliteit, installatie, gebouw waar de activiteit plaatsvindt. In de context van kabels en leidingen gaat het over bvb een electriciteitscentrale, een pompstation, een zuiveringsinstallatie etc. Omvat de infrastructuur, uitrusting en het materieel die daar voor nodig is. Kan meerdere locaties omvatten voor zover deze deel uitmaken van hetzelfde complex. De activiteit wordt bij voorkeur aangeduid dmv NACE codes."
       }
     },
     {
-      "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
       "name": "Directepositie",
-      "label": {
-        "nl": "DirectePositie"
-      },
+      "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
       "definition": {
         "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
+      },
+      "label": {
+        "nl": "DirectePositie"
       },
       "usage": {
         "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
       }
     },
     {
-      "EA-Guid": "{AE548CAC-0093-4236-9116-7B5DDD565129}",
       "name": "Functie",
-      "label": {
-        "nl": "Functie"
-      },
+      "EA-Guid": "{AE548CAC-0093-4236-9116-7B5DDD565129}",
       "definition": {
         "nl": "De functie van iets uitgedrukt als een activiteit en optionele input en/of output."
+      },
+      "label": {
+        "nl": "Functie"
       }
     },
     {
-      "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
       "name": "Opmeting",
-      "label": {
-        "nl": "Opmeting"
-      },
+      "EA-Guid": "{F3D7A5E3-73B4-466d-A3F3-E0259CBD68A4}",
       "definition": {
         "nl": "Het bepalen van de precieze omvang van iets door het te meten."
+      },
+      "label": {
+        "nl": "Opmeting"
       }
     },
     {
-      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "name": "Generiekelink",
-      "label": {
-        "nl": "GeneriekeLink"
-      },
+      "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "definition": {
         "nl": "Lineair Netwerkelement."
+      },
+      "label": {
+        "nl": "GeneriekeLink"
       }
     },
     {
-      "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "name": "GerichteLink",
-      "label": {
-        "nl": "Gerichte link"
-      },
+      "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
         "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting."
+      },
+      "label": {
+        "nl": "Gerichte link"
       }
     },
     {
-      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "name": "Knoop",
-      "label": {
-        "nl": "Knoop"
-      },
+      "EA-Guid": "{D522C5D0-B005-49b3-9353-5B4CFEEFE03E}",
       "definition": {
         "nl": "Significante positie in het Netwerk die steeds samenvalt met het begin of het einde van een Link."
+      },
+      "label": {
+        "nl": "Knoop"
       }
     },
     {
-      "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}",
       "name": "Link",
-      "label": {
-        "nl": "Link"
-      },
+      "EA-Guid": "{8F85F084-8291-4781-AD0D-57AD8517284F}",
       "definition": {
         "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen."
+      },
+      "label": {
+        "nl": "Link"
       }
     },
     {
-      "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}",
       "name": "Linksequentie",
-      "label": {
-        "nl": "Linksequentie"
-      },
+      "EA-Guid": "{99B8D562-8B03-4b77-9B30-2B5F70753408}",
       "definition": {
         "nl": "Onvertakt doorlopend pad in een Netwerk."
+      },
+      "label": {
+        "nl": "Linksequentie"
       },
       "usage": {
         "nl": "Bv een route in het Netwerk."
       }
     },
     {
-      "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
       "name": "Linkset",
-      "label": {
-        "nl": "Linkset"
-      },
+      "EA-Guid": "{9719DE79-C9BD-4042-8FD9-DCAC00BE5FEF}",
       "definition": {
         "nl": "Collectie Linksequenties en/of Links met een specifieke functie of belang in het Netwerk."
+      },
+      "label": {
+        "nl": "Linkset"
       }
     },
     {
-      "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
       "name": "Netwerk",
-      "label": {
-        "nl": "Netwerk"
-      },
+      "EA-Guid": "{2C7672D2-90F7-42ff-9B60-9B92997DEF26}",
       "definition": {
         "nl": "Verzameling van Netwerkelementen."
+      },
+      "label": {
+        "nl": "Netwerk"
       },
       "usage": {
         "nl": "De reden waarom de Netwerkelementen bij elkaar gebracht worden in een Netwerk kan verschillen, bv omdat ze geschikt zijn voor een bepaald type vervoermiddel."
       }
     },
     {
-      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
       "name": "Getal",
-      "label": {
-        "nl": "Getal"
-      },
+      "EA-Guid": "{9DBB6B63-8DD3-4f03-92B6-B007C437B2FC}",
       "definition": {
         "nl": "Aanduiding van een hoeveelheid."
+      },
+      "label": {
+        "nl": "Getal"
       },
       "usage": {
         "nl": "OPMERKING: Te substitueren door de primitieve datatypes waarmee een hoeveelheid kan worden aangeduid. Zie <a href=\"https://www.w3.org/TR/xmlschema-2/\">xsd datatypes</a> Integer, Float, Decimal, Double etc."
@@ -1733,793 +1733,793 @@
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
       "name": "hoogte",
-      "label": {
-        "nl": "hoogte"
-      },
+      "EA-Guid": "{A21B5024-1552-4895-80E4-DB1BEFAD674E}",
       "definition": {
         "nl": "De hoogte van het Toebehoren."
-      }
-    },
-    {
-      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
-      "name": "hoogte",
+      },
       "label": {
         "nl": "hoogte"
-      },
+      }
+    },
+    {
+      "name": "hoogte",
+      "EA-Guid": "{E97B2968-7F15-48c0-8276-A6C61999CD96}",
       "definition": {
         "nl": "Afstand boven het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "hoogte"
       }
     },
     {
-      "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
       "name": "op",
-      "label": {
-        "nl": "op"
-      },
+      "EA-Guid": "{428991B5-29D1-449e-A0BB-978881E2EDEE}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerkelement dat behoort tot het complex."
+      },
+      "label": {
+        "nl": "op"
       }
     },
     {
-      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
       "name": "richting",
-      "label": {
-        "nl": "richting"
-      },
+      "EA-Guid": "{D151A60B-B465-41c6-A78A-9DF5C1029B34}",
       "definition": {
         "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld)."
+      },
+      "label": {
+        "nl": "richting"
       }
     },
     {
-      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "name": "eindlink",
-      "label": {
-        "nl": "eindlink"
-      },
+      "EA-Guid": "{10E1A285-9082-4718-B3A3-386B678452BE}",
       "definition": {
         "nl": "Link waarvan de Knoop de eindKnoop is."
+      },
+      "label": {
+        "nl": "eindlink"
       }
     },
     {
-      "EA-Guid": "{FA832228-665E-4467-A9FF-B970B7EE6B03}",
       "name": "eindknoop",
-      "label": {
-        "nl": "eindknoop"
-      },
+      "EA-Guid": "{FA832228-665E-4467-A9FF-B970B7EE6B03}",
       "definition": {
         "nl": "Knoop waarmee de Link begint."
+      },
+      "label": {
+        "nl": "eindknoop"
       }
     },
     {
-      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
       "name": "beginlink",
-      "label": {
-        "nl": "beginlink"
-      },
+      "EA-Guid": "{4921CB25-F170-4d90-9248-AADD602F0B11}",
       "definition": {
         "nl": "Link waarvan de Knoop de beginKnoop is."
+      },
+      "label": {
+        "nl": "beginlink"
       }
     },
     {
-      "EA-Guid": "{6087554F-C158-4fb6-934F-F94321A053D8}",
       "name": "startknoop",
-      "label": {
-        "nl": "startknoop"
-      },
+      "EA-Guid": "{6087554F-C158-4fb6-934F-F94321A053D8}",
       "definition": {
         "nl": "Knoop waarmee de Link eindigt."
+      },
+      "label": {
+        "nl": "startknoop"
       }
     },
     {
-      "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
       "name": "link",
-      "label": {
-        "nl": "link"
-      },
+      "EA-Guid": "{811CE60F-2092-42db-9375-9FEFD31E1E2F}",
       "definition": {
         "nl": "Nutsvoorzieninglinksequentie of Nutsvoorzieninglink die deel uitmaakt van de Linkset."
+      },
+      "label": {
+        "nl": "link"
       }
     },
     {
-      "EA-Guid": "{B4090BF4-12B5-44cd-9FDC-6E5347DDBB6A}",
       "name": "link",
-      "label": {
-        "nl": "link"
-      },
+      "EA-Guid": "{B4090BF4-12B5-44cd-9FDC-6E5347DDBB6A}",
       "definition": {
         "nl": "GerichteLink die deel uitmaakt van de Linksequentie."
-      }
-    },
-    {
-      "EA-Guid": "{43D2E535-52C3-4008-990F-57D9080C843E}",
-      "name": "middelijngeometrie",
-      "label": {
-        "nl": "middelijngeometrie"
       },
-      "definition": {
-        "nl": "De geometrie van de middellijn van de link."
-      }
-    },
-    {
-      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
-      "name": "geometrie",
-      "label": {
-        "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Geometrie van de Knoop."
-      }
-    },
-    {
-      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
-      "name": "geometrie",
-      "label": {
-        "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Geometrie van de container"
-      }
-    },
-    {
-      "EA-Guid": "{DFA56CED-AF76-4077-AA73-25EAF7B3BF3E}",
-      "name": "link",
       "label": {
         "nl": "link"
+      }
+    },
+    {
+      "name": "middelijngeometrie",
+      "EA-Guid": "{43D2E535-52C3-4008-990F-57D9080C843E}",
+      "definition": {
+        "nl": "De geometrie van de middellijn van de link."
       },
+      "label": {
+        "nl": "middelijngeometrie"
+      }
+    },
+    {
+      "name": "geometrie",
+      "EA-Guid": "{80EA3257-30BF-41e8-B3C6-96F5FE669127}",
+      "definition": {
+        "nl": "Geometrie van de Knoop."
+      },
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "name": "geometrie",
+      "EA-Guid": "{86D08930-7F9F-4aaf-BC4E-3243443CCA84}",
+      "definition": {
+        "nl": "Geometrie van de container"
+      },
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "name": "link",
+      "EA-Guid": "{DFA56CED-AF76-4077-AA73-25EAF7B3BF3E}",
       "definition": {
         "nl": "Verwijzing naar de Link."
+      },
+      "label": {
+        "nl": "link"
       }
     },
     {
-      "EA-Guid": "{A85FB6B8-4B1E-44b2-8F83-3154C27A3D7F}",
       "name": "opmeting",
-      "label": {
-        "nl": "opmeting"
-      },
+      "EA-Guid": "{A85FB6B8-4B1E-44b2-8F83-3154C27A3D7F}",
       "definition": {
         "nl": "De manier waarop de geometrie werd bepaald."
-      }
-    },
-    {
-      "EA-Guid": "{BAD41103-19C8-4665-9B51-882FED3485BA}",
-      "name": "opmeting",
+      },
       "label": {
         "nl": "opmeting"
-      },
-      "definition": {
-        "nl": "De manier waarop de positie werd bepaald."
       }
     },
     {
-      "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
-      "name": "verwijstNaar",
-      "label": {
-        "nl": "verwijst Naar"
+      "name": "opmeting",
+      "EA-Guid": "{BAD41103-19C8-4665-9B51-882FED3485BA}",
+      "definition": {
+        "nl": "De manier waarop de positie werd bepaald."
       },
+      "label": {
+        "nl": "opmeting"
+      }
+    },
+    {
+      "name": "verwijstNaar",
+      "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
       "definition": {
         "nl": "Adres waarvan de adresvoorstelling is afgeleid."
+      },
+      "label": {
+        "nl": "verwijst Naar"
       },
       "usage": {
         "nl": "Dit kan enkel voor Belgische adressen aangezien onder adres een Belgisch adres wordt verstaan."
       }
     },
     {
-      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
       "name": "land",
-      "label": {
-        "nl": "land"
-      },
+      "EA-Guid": "{96668ECF-2007-4db6-8AA6-1FE42CFD79DC}",
       "definition": {
         "nl": "Land waarin het adres gelegen is."
+      },
+      "label": {
+        "nl": "land"
       }
     },
     {
-      "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "name": "gemeentenaam",
-      "label": {
-        "nl": "gemeentenaam"
-      },
+      "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
         "nl": "Gemeentenaam van het adres."
+      },
+      "label": {
+        "nl": "gemeentenaam"
       }
     },
     {
-      "EA-Guid": "{C2D96375-F4C9-4843-8BB8-720BDFB01C6F}",
       "name": "busnummer",
-      "label": {
-        "nl": "busnummer"
-      },
+      "EA-Guid": "{C2D96375-F4C9-4843-8BB8-720BDFB01C6F}",
       "definition": {
         "nl": "Officieel toegekende alfanumerieke code die wordt toegevoegd aan het huisnummer om meerdere gebouweenheden, standplaatsen, ligplaatsen of percelen te onderscheiden die eenzelfde huisnummer hebben."
+      },
+      "label": {
+        "nl": "busnummer"
       },
       "usage": {
         "nl": "Specialisatie van Adresvoorstelling.locatieaanduiding tbv Belgische adressen."
       }
     },
     {
-      "EA-Guid": "{8D4E1B8A-E644-40ae-934D-AB99591AA272}",
       "name": "huisnummer",
-      "label": {
-        "nl": "huisnummer"
-      },
+      "EA-Guid": "{8D4E1B8A-E644-40ae-934D-AB99591AA272}",
       "definition": {
         "nl": "Alfanumerieke code officieel toegekend aan gebouweenheden, ligplaatsen, standplaatsen of percelen."
+      },
+      "label": {
+        "nl": "huisnummer"
       },
       "usage": {
         "nl": "Specialisatie van Adresvoorstelling:locatieaanduiding tbv Belgische adressen."
       }
     },
     {
-      "EA-Guid": "{319584C1-3AA8-49fb-AA76-6E86040D3F31}",
       "name": "ligging",
-      "label": {
-        "nl": "ligging"
-      },
+      "EA-Guid": "{319584C1-3AA8-49fb-AA76-6E86040D3F31}",
       "definition": {
         "nl": "Locatie van het BeschermdGebied."
+      },
+      "label": {
+        "nl": "ligging"
       }
     },
     {
-      "EA-Guid": "{CF7A8796-A603-40bd-BEB3-0A061B4D12D2}",
       "name": "straatnaam",
-      "label": {
-        "nl": "straatnaam"
-      },
+      "EA-Guid": "{CF7A8796-A603-40bd-BEB3-0A061B4D12D2}",
       "definition": {
         "nl": "Straatnaam van het adres."
+      },
+      "label": {
+        "nl": "straatnaam"
       }
     },
     {
-      "EA-Guid": "{0C3DC406-E0CB-4dad-830C-552FECE0607D}",
       "name": "postnaam",
-      "label": {
-        "nl": "postnaam"
-      },
+      "EA-Guid": "{0C3DC406-E0CB-4dad-830C-552FECE0607D}",
       "definition": {
         "nl": "Naam waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+      },
+      "label": {
+        "nl": "postnaam"
       }
     },
     {
-      "EA-Guid": "{79059549-95C0-406d-A855-3AB01E5D9374}",
       "name": "postcode",
-      "label": {
-        "nl": "postcode"
-      },
+      "EA-Guid": "{79059549-95C0-406d-A855-3AB01E5D9374}",
       "definition": {
         "nl": "Code waarmee het geografisch gebied dat adressen voor postale doeleinden groepeert wordt aangeduid."
+      },
+      "label": {
+        "nl": "postcode"
       }
     },
     {
-      "EA-Guid": "{B0415347-2C6D-4b21-9C85-D880A76C823D}",
       "name": "postbus",
-      "label": {
-        "nl": "postbus"
-      },
+      "EA-Guid": "{B0415347-2C6D-4b21-9C85-D880A76C823D}",
       "definition": {
         "nl": "Postbusnummer in een postkantoor."
+      },
+      "label": {
+        "nl": "postbus"
       }
     },
     {
-      "EA-Guid": "{961B165A-2D89-419f-842D-09B23DFB1C7B}",
       "name": "locatienaam",
-      "label": {
-        "nl": "locatienaam"
-      },
+      "EA-Guid": "{961B165A-2D89-419f-842D-09B23DFB1C7B}",
       "definition": {
         "nl": "Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
+      },
+      "label": {
+        "nl": "locatienaam"
       }
     },
     {
-      "EA-Guid": "{3D6659FE-98C9-4e40-BC96-D4F2A5098925}",
       "name": "locatieaanduiding",
-      "label": {
-        "nl": "locatieaanduiding"
-      },
+      "EA-Guid": "{3D6659FE-98C9-4e40-BC96-D4F2A5098925}",
       "definition": {
         "nl": "Alfanumerieke code die de adreslocator uniek identificeert binnen de straat, administratieve eenheid etc."
+      },
+      "label": {
+        "nl": "locatieaanduiding"
       }
     },
     {
-      "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
       "name": "locatie",
-      "label": {
-        "nl": "locatie"
-      },
+      "EA-Guid": "{285B6C5C-1FB8-4d04-A3B9-5A880226BC2C}",
       "definition": {
         "nl": "Geometrie van de Annotatie."
+      },
+      "label": {
+        "nl": "locatie"
       }
     },
     {
-      "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
       "name": "locatie",
-      "label": {
-        "nl": "locatie"
-      },
+      "EA-Guid": "{EB66BB3E-599B-4e06-9BFA-041434772A53}",
       "definition": {
         "nl": "Geometrie van het TopografiscElement."
-      }
-    },
-    {
-      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
-      "name": "locatie",
+      },
       "label": {
         "nl": "locatie"
-      },
+      }
+    },
+    {
+      "name": "locatie",
+      "EA-Guid": "{F0F160B9-7ACB-4698-8EC7-6F57B2E4CF77}",
       "definition": {
         "nl": "Geometrie van de locatie waarop het Plan betrekking heeft."
+      },
+      "label": {
+        "nl": "locatie"
       }
     },
     {
-      "EA-Guid": "{B180BBBC-C7FF-47b1-B8A3-9FB429C38692}",
       "name": "ligging",
-      "label": {
-        "nl": "ligging"
-      },
+      "EA-Guid": "{B180BBBC-C7FF-47b1-B8A3-9FB429C38692}",
       "definition": {
         "nl": "Locatie waarvoor de VerticalePositie geldt."
-      }
-    },
-    {
-      "EA-Guid": "{C0CAAE0B-80A5-40c1-B32F-188074D5A190}",
-      "name": "ligging",
+      },
       "label": {
         "nl": "ligging"
-      },
+      }
+    },
+    {
+      "name": "ligging",
+      "EA-Guid": "{C0CAAE0B-80A5-40c1-B32F-188074D5A190}",
       "definition": {
         "nl": "Locatie van het Referentieoppervlak."
+      },
+      "label": {
+        "nl": "ligging"
       }
     },
     {
-      "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
       "name": "geometrie",
-      "label": {
-        "nl": "geometrie"
-      },
+      "EA-Guid": "{D3EDDD4A-1F53-4c15-B099-7879E7D2121F}",
       "definition": {
         "nl": "Geometrie van het complex om de ligging en omvang ervan te beschrijven."
-      }
-    },
-    {
-      "EA-Guid": "{086D84C0-C685-48ff-8360-D5104AEC0B66}",
-      "name": "geometrie",
+      },
       "label": {
         "nl": "geometrie"
-      },
-      "definition": {
-        "nl": "Geometrie van het BeschermdGebied."
       }
     },
     {
-      "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
-      "name": "volledigAdres",
-      "label": {
-        "nl": "volledig Adres"
+      "name": "geometrie",
+      "EA-Guid": "{086D84C0-C685-48ff-8360-D5104AEC0B66}",
+      "definition": {
+        "nl": "Geometrie van het BeschermdGebied."
       },
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "name": "volledigAdres",
+      "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
       "definition": {
         "nl": "Het complete adres in één string, al dan niet geformatteerd."
+      },
+      "label": {
+        "nl": "volledig Adres"
       },
       "usage": {
         "nl": "Vermijdt fouten tgv het opsplitsen ve adres in zijn onderdelen. Geeft de voorgeschreven volgorde vd verschillende onderdelen weer."
       }
     },
     {
-      "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
       "name": "administratieveEenheidNiveau2",
-      "label": {
-        "nl": "administratieve eenheid niveau 2"
-      },
+      "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
       "definition": {
         "nl": "De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
+      },
+      "label": {
+        "nl": "administratieve eenheid niveau 2"
       }
     },
     {
-      "EA-Guid": "{8DC1493A-7FA0-47cc-85D4-A2CFCAFFCEC6}",
       "name": "administratieveEenheidNiveau1",
-      "label": {
-        "nl": "administratieve eenheid niveau 1"
-      },
+      "EA-Guid": "{8DC1493A-7FA0-47cc-85D4-A2CFCAFFCEC6}",
       "definition": {
         "nl": "Hoogste Administratieve eenheid van het adres, doorgaans een land."
+      },
+      "label": {
+        "nl": "administratieve eenheid niveau 1"
       }
     },
     {
-      "EA-Guid": "{060EBDC2-5490-4b36-8887-9C681BEE4C98}",
       "name": "adresgebied",
-      "label": {
-        "nl": "adresgebied"
-      },
+      "EA-Guid": "{060EBDC2-5490-4b36-8887-9C681BEE4C98}",
       "definition": {
         "nl": "Naam ve geografisch gebied of plaats die een aantal adresseerbare objecten groepeert om deze te adresseren zonder dat het gebied of de plaats een administratieve eenheid is"
+      },
+      "label": {
+        "nl": "adresgebied"
       },
       "usage": {
         "nl": "Bvb de naam van het gehucht waarin het adres ligt."
       }
     },
     {
-      "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
       "name": "documentlocatie",
-      "label": {
-        "nl": "documentlocatie"
-      },
+      "EA-Guid": "{F9CF816D-8C32-4c37-ACF4-164ABDFA26A7}",
       "definition": {
         "nl": "De plaats waar het Document is opgeslagen of raadpleegbaar is."
+      },
+      "label": {
+        "nl": "documentlocatie"
       }
     },
     {
-      "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
       "name": "toegekendDoor(string)",
-      "label": {
-        "nl": "toegekend door (String)"
-      },
+      "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
       "definition": {
         "nl": "Naam vd agent die de identificator heeft toegekend."
+      },
+      "label": {
+        "nl": "toegekend door (String)"
       }
     },
     {
-      "EA-Guid": "{CCB506D5-DE86-4a26-9E83-8DD33411D059}",
       "name": "identificator",
-      "label": {
-        "nl": "identificator"
-      },
+      "EA-Guid": "{CCB506D5-DE86-4a26-9E83-8DD33411D059}",
       "definition": {
         "nl": "Externe Identificator van het complex."
-      }
-    },
-    {
-      "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
-      "name": "documentidentificator",
-      "label": {
-        "nl": "documentidentificator"
       },
-      "definition": {
-        "nl": "Identificator van het Document."
-      }
-    },
-    {
-      "EA-Guid": "{283FF600-0E03-430b-AD12-3959852FCECE}",
-      "name": "identificator",
       "label": {
         "nl": "identificator"
+      }
+    },
+    {
+      "name": "documentidentificator",
+      "EA-Guid": "{9360E849-B3F3-473f-8FA3-E280E57CD0E9}",
+      "definition": {
+        "nl": "Identificator van het Document."
       },
+      "label": {
+        "nl": "documentidentificator"
+      }
+    },
+    {
+      "name": "identificator",
+      "EA-Guid": "{283FF600-0E03-430b-AD12-3959852FCECE}",
       "definition": {
         "nl": "String gebruikt om het object uniek te identificeren."
+      },
+      "label": {
+        "nl": "identificator"
       },
       "usage": {
         "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator."
       }
     },
     {
-      "EA-Guid": "{C6EFD7E3-420E-4e78-8EDB-7DF71919616D}",
       "name": "wkt",
-      "label": {
-        "nl": "wkt"
-      },
+      "EA-Guid": "{C6EFD7E3-420E-4e78-8EDB-7DF71919616D}",
       "definition": {
         "nl": "Directe positie uitgedrukt in wkt-formaat."
+      },
+      "label": {
+        "nl": "wkt"
       }
     },
     {
-      "EA-Guid": "{51FC18F5-A6A3-4869-A42E-DB57B5020058}",
       "name": "alsWkt",
-      "label": {
-        "nl": "als WKT"
-      },
+      "EA-Guid": "{51FC18F5-A6A3-4869-A42E-DB57B5020058}",
       "definition": {
         "nl": "Geometrie uitgedrukt in wkt-formaat."
+      },
+      "label": {
+        "nl": "als WKT"
       },
       "usage": {
         "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype."
       }
     },
     {
-      "EA-Guid": "{885CCC32-8976-4960-9770-83DBA03AC131}",
       "name": "gml",
-      "label": {
-        "nl": "gml"
-      },
+      "EA-Guid": "{885CCC32-8976-4960-9770-83DBA03AC131}",
       "definition": {
         "nl": "Directe positie uitgedrukt in gml-formaat."
+      },
+      "label": {
+        "nl": "gml"
       }
     },
     {
-      "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "name": "alsGml",
-      "label": {
-        "nl": "als GML"
-      },
+      "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "definition": {
         "nl": "Geometrie uitgedrukt in gml-formaat."
+      },
+      "label": {
+        "nl": "als GML"
       },
       "usage": {
         "nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
       }
     },
     {
-      "EA-Guid": "{81C9EC16-88BB-4de5-A325-2B0E48E4AB0C}",
       "name": "containertype",
-      "label": {
-        "nl": "containertype"
-      },
+      "EA-Guid": "{81C9EC16-88BB-4de5-A325-2B0E48E4AB0C}",
       "definition": {
         "nl": "Aard van de Pijp als container."
-      }
-    },
-    {
-      "EA-Guid": "{56A89955-9113-4d56-8A78-1A6416729AFA}",
-      "name": "containertype",
+      },
       "label": {
         "nl": "containertype"
-      },
+      }
+    },
+    {
+      "name": "containertype",
+      "EA-Guid": "{56A89955-9113-4d56-8A78-1A6416729AFA}",
       "definition": {
         "nl": "Aard van het Kanaal als container."
+      },
+      "label": {
+        "nl": "containertype"
       }
     },
     {
-      "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
       "name": "naam",
-      "label": {
-        "nl": "naam"
-      },
+      "EA-Guid": "{8AC95801-716E-4f15-8F59-4EC2A2E8A534}",
       "definition": {
         "nl": "Naam waaronder het complex gekend is."
-      }
-    },
-    {
-      "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
-      "name": "toegekendOp",
-      "label": {
-        "nl": "toegekend op"
       },
-      "definition": {
-        "nl": "Tijdstip waarop de identificator werd uitgegeven."
-      }
-    },
-    {
-      "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
-      "name": "toegekendDoor",
-      "label": {
-        "nl": "toegekend door"
-      },
-      "definition": {
-        "nl": "Link naar de agent die de identificator heeft uitgegeven."
-      }
-    },
-    {
-      "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
-      "name": "type",
-      "label": {
-        "nl": "type"
-      },
-      "definition": {
-        "nl": "Type referentieoppervlak."
-      }
-    },
-    {
-      "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
-      "name": "type",
-      "label": {
-        "nl": "type"
-      },
-      "definition": {
-        "nl": "Aard van het BeschermdGebied."
-      }
-    },
-    {
-      "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
-      "name": "topografischElementtype",
-      "label": {
-        "nl": "topografisch elementtype"
-      },
-      "definition": {
-        "nl": "Aard van het TopografischElement."
-      }
-    },
-    {
-      "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
-      "name": "toebehorentype",
-      "label": {
-        "nl": "toebehorentype"
-      },
-      "definition": {
-        "nl": "Type van Toebehoren."
-      }
-    },
-    {
-      "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
-      "name": "nutsvoorzieningnetwerktype",
-      "label": {
-        "nl": "nutsvoorzieningnetwerktype"
-      },
-      "definition": {
-        "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
-      }
-    },
-    {
-      "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
-      "name": "documenttype",
-      "label": {
-        "nl": "documentType"
-      },
-      "definition": {
-        "nl": "Classificatie van het Document."
-      }
-    },
-    {
-      "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
-      "name": "annotatietype",
-      "label": {
-        "nl": "annotatietype"
-      },
-      "definition": {
-        "nl": "Aard van de Annotatie."
-      }
-    },
-    {
-      "EA-Guid": "{1BD28B6D-5215-4811-B9A0-5282FB8641B1}",
-      "name": "naam",
       "label": {
         "nl": "naam"
+      }
+    },
+    {
+      "name": "toegekendOp",
+      "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
+      "definition": {
+        "nl": "Tijdstip waarop de identificator werd uitgegeven."
       },
+      "label": {
+        "nl": "toegekend op"
+      }
+    },
+    {
+      "name": "toegekendDoor",
+      "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
+      "definition": {
+        "nl": "Link naar de agent die de identificator heeft uitgegeven."
+      },
+      "label": {
+        "nl": "toegekend door"
+      }
+    },
+    {
+      "name": "type",
+      "EA-Guid": "{3CFB2E82-225C-4884-9E31-E482A0748F97}",
+      "definition": {
+        "nl": "Type referentieoppervlak."
+      },
+      "label": {
+        "nl": "type"
+      }
+    },
+    {
+      "name": "type",
+      "EA-Guid": "{97C241A0-58A7-4a76-945C-7A50E18BE147}",
+      "definition": {
+        "nl": "Aard van het BeschermdGebied."
+      },
+      "label": {
+        "nl": "type"
+      }
+    },
+    {
+      "name": "topografischElementtype",
+      "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
+      "definition": {
+        "nl": "Aard van het TopografischElement."
+      },
+      "label": {
+        "nl": "topografisch elementtype"
+      }
+    },
+    {
+      "name": "toebehorentype",
+      "EA-Guid": "{588CFC97-081D-4a31-965F-F8FD557D0C55}",
+      "definition": {
+        "nl": "Type van Toebehoren."
+      },
+      "label": {
+        "nl": "toebehorentype"
+      }
+    },
+    {
+      "name": "nutsvoorzieningnetwerktype",
+      "EA-Guid": "{B560020E-E50C-441a-9BC3-8CA309CA04DB}",
+      "definition": {
+        "nl": "Het type nutsvoorzieningnetwerk of het thema van het nutsvoorzieningnetwerk."
+      },
+      "label": {
+        "nl": "nutsvoorzieningnetwerktype"
+      }
+    },
+    {
+      "name": "documenttype",
+      "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
+      "definition": {
+        "nl": "Classificatie van het Document."
+      },
+      "label": {
+        "nl": "documentType"
+      }
+    },
+    {
+      "name": "annotatietype",
+      "EA-Guid": "{F76FE708-2CA4-40c4-B99E-0599432A2960}",
+      "definition": {
+        "nl": "Aard van de Annotatie."
+      },
+      "label": {
+        "nl": "annotatietype"
+      }
+    },
+    {
+      "name": "naam",
+      "EA-Guid": "{1BD28B6D-5215-4811-B9A0-5282FB8641B1}",
       "definition": {
         "nl": "Naam van het BeschermdGebied."
+      },
+      "label": {
+        "nl": "naam"
       }
     },
     {
-      "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
       "name": "verwijstnaar",
-      "label": {
-        "nl": "verwijstNaar"
-      },
+      "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
       "definition": {
         "nl": "Het Object waar het Document betrekking op heeft."
+      },
+      "label": {
+        "nl": "verwijstNaar"
       }
     },
     {
-      "EA-Guid": "{8A6073D6-54F4-4273-8D01-3A5C9AE86471}",
       "name": "documentatie",
-      "label": {
-        "nl": "documentatie"
-      },
+      "EA-Guid": "{8A6073D6-54F4-4273-8D01-3A5C9AE86471}",
       "definition": {
         "nl": "Verwijzing naar een Document met extra informatie over het element."
-      }
-    },
-    {
-      "EA-Guid": "{AB4880EF-C725-4006-8448-5C5B2C1F126E}",
-      "name": "documentatie",
+      },
       "label": {
         "nl": "documentatie"
-      },
+      }
+    },
+    {
+      "name": "documentatie",
+      "EA-Guid": "{AB4880EF-C725-4006-8448-5C5B2C1F126E}",
       "definition": {
         "nl": "Verwijzing naar een Document met extra informatie over het Netwerk."
+      },
+      "label": {
+        "nl": "documentatie"
       }
     },
     {
-      "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
       "name": "documentmediumtype",
-      "label": {
-        "nl": "documentmediumtype"
-      },
+      "EA-Guid": "{9AB54949-14EF-4e8d-91DD-42CFF169623D}",
       "definition": {
         "nl": "Aard van de gegevensdrager waarop het Document is opgeslagen."
+      },
+      "label": {
+        "nl": "documentmediumtype"
       }
     },
     {
-      "EA-Guid": "{72FF6C37-B881-412b-BCDA-6C7841BB57C3}",
       "name": "beschrijving",
-      "label": {
-        "nl": "beschrijving"
-      },
+      "EA-Guid": "{72FF6C37-B881-412b-BCDA-6C7841BB57C3}",
       "definition": {
         "nl": "Beschrijving van het Document."
+      },
+      "label": {
+        "nl": "beschrijving"
       }
     },
     {
-      "EA-Guid": "{AB1E6036-8E1E-4240-A610-2FF6B3833D52}",
       "name": "beschrijving",
-      "label": {
-        "nl": "beschrijving"
-      },
+      "EA-Guid": "{AB1E6036-8E1E-4240-A610-2FF6B3833D52}",
       "definition": {
         "nl": "Een meer gedtailleerde beschrijving van de functie."
-      }
-    },
-    {
-      "EA-Guid": "{767E63D8-08FC-45e3-8FD0-CA01DA4E5F0B}",
-      "name": "beschrijving",
+      },
       "label": {
         "nl": "beschrijving"
-      },
+      }
+    },
+    {
+      "name": "beschrijving",
+      "EA-Guid": "{767E63D8-08FC-45e3-8FD0-CA01DA4E5F0B}",
       "definition": {
         "nl": "Beschrijving van het BeschermdGebied."
+      },
+      "label": {
+        "nl": "beschrijving"
       }
     },
     {
-      "EA-Guid": "{A46FB68D-F943-48ac-B943-B63B769B47CF}",
       "name": "datum",
-      "label": {
-        "nl": "datum"
-      },
+      "EA-Guid": "{A46FB68D-F943-48ac-B943-B63B769B47CF}",
       "definition": {
         "nl": "Het moment waarop de Opmeting heeft plaatsgevonden"
+      },
+      "label": {
+        "nl": "datum"
       }
     },
     {
-      "EA-Guid": "{19868C0F-5DAB-45f8-A997-72B8BC4358E7}",
       "name": "output",
-      "label": {
-        "nl": "output"
-      },
+      "EA-Guid": "{19868C0F-5DAB-45f8-A997-72B8BC4358E7}",
       "definition": {
         "nl": "Uitvoer van het resultaat van de activiteit in de functie."
+      },
+      "label": {
+        "nl": "output"
       }
     },
     {
-      "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
       "name": "input",
-      "label": {
-        "nl": "input"
-      },
+      "EA-Guid": "{D0FE6894-3FD4-4ff3-8475-7AD33E5FBBDC}",
       "definition": {
         "nl": "Invoer voor de activiteit in de functie"
+      },
+      "label": {
+        "nl": "input"
       }
     },
     {
-      "EA-Guid": "{F70F22E8-22A0-4c24-BBB2-3ECBC29AABCD}",
       "name": "activiteit",
-      "label": {
-        "nl": "activiteit"
-      },
+      "EA-Guid": "{F70F22E8-22A0-4c24-BBB2-3ECBC29AABCD}",
       "definition": {
         "nl": "Classificatie van de activiteit."
+      },
+      "label": {
+        "nl": "activiteit"
       },
       "usage": {
         "nl": "Gebruik bij voorkeur de NACE codes."
       }
     },
     {
-      "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
       "name": "eenheidsidentificator",
-      "label": {
-        "nl": "eenheidsidentificator"
-      },
+      "EA-Guid": "{78DF0C03-5EAC-41f4-A56E-11ED5D0D0BC7}",
       "definition": {
         "nl": "Identificator van de eenheid."
+      },
+      "label": {
+        "nl": "eenheidsidentificator"
       },
       "usage": {
         "nl": "Bvb m voor meter."
       }
     },
     {
-      "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
       "name": "waarde",
-      "label": {
-        "nl": "waarde"
-      },
+      "EA-Guid": "{C278F0FF-9F4B-496b-8F25-3927000B9D57}",
       "definition": {
         "nl": "De hoeveelheid."
+      },
+      "label": {
+        "nl": "waarde"
       }
     },
     {
-      "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
       "name": "eenheid",
-      "label": {
-        "nl": "eenheid"
-      },
+      "EA-Guid": "{AAF767DB-84B7-480f-83C2-6CB587891CBF}",
       "definition": {
         "nl": "Eenheid waarin de hoeveelheid wordt uitgedrukt."
+      },
+      "label": {
+        "nl": "eenheid"
       }
     },
     {
-      "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
       "name": "eenheid",
-      "label": {
-        "nl": "eenheid"
-      },
+      "EA-Guid": "{E939E0AB-12A4-4f2f-9CE6-CF61104B43E7}",
       "definition": {
         "nl": "Eenheid waarin de Lengte wordt uitegdrukt."
+      },
+      "label": {
+        "nl": "eenheid"
       },
       "usage": {
         "nl": "Bvb meter, centimeter."
