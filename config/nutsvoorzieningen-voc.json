@@ -25,8 +25,8 @@
         "language": "nl",
         "template": "nutsvoorzieningen-voc.j2",
         "title": "OSLO Nutsvoorzieningen",
-        "translationjson": "nutsvoorieningen_nl.json",
-        "mergefile": "nutsvoorieningen_nl_merged.json"
+        "translationjson": "nutsvoorzieningen_nl.json",
+        "mergefile": "nutsvoorzieningen_nl_merged.json"
       },
       {
         "language": "fr",

@@ -25,7 +25,7 @@
       }
     },
     {
-      "name": "Beschermd Gebied",
+      "name": "BeschermdGebied",
       "EA-Guid": "{94606EC6-9E73-4830-9AB5-458B9A324CE3}",
       "definition": {
         "nl": "Gebied waar niet gegraven mag worden."
@@ -75,7 +75,7 @@
       }
     },
     {
-      "name": "KabelEnLeidingContainer",
+      "name": "Kabelenleidingcontainer",
       "EA-Guid": "{F073D2F0-F857-490f-9A92-1E0414A423BD}",
       "definition": {
         "nl": "Object dat potentieel kabels of leidingen kan omvatten."
@@ -84,7 +84,7 @@
         "nl": "KabelEnLeidingContainer"
       },
       "usage": {
-        "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen vh type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
+        "nl": "Bvb als het object een Pijp is: een Pijp kan Kabels omvatten of andere Pijpen. Analoog voor leidingen van het type Kanaal. Kabels zijn geen KabelEnLeidingContainers. OPMERKING: of de KabelOfLeidingContainer uiteindelijk andere elementen bevat wordt weergegeven door de uitgaande relaties naar die andere relaties (bvb Kanaal.pijp, Pijp.kabel, Kanaal.kabel, Pijp.pijp etc)."
       }
     },
     {
@@ -225,7 +225,7 @@
       }
     },
     {
-      "name": "OlieGasChemicaliënPijp",
+      "name": "Oliegaschemicaliënpijp",
       "EA-Guid": "{A84AA37B-025C-4295-A044-10EC940E1992}",
       "definition": {
         "nl": "Een pijp die wordt gebruikt om olie, gas of chemicaliën van de ene locatie naar de andere te transporteren."
@@ -304,7 +304,7 @@
       }
     },
     {
-      "name": "ThermischePijp",
+      "name": "Thermischepijp",
       "EA-Guid": "{AD57C5F6-C854-4731-833A-5DB7939AE18C}",
       "definition": {
         "nl": "Een Pijp die wordt gebruikt om verwarming of koeling van de ene locatie naar de andere te transporteren."
@@ -327,7 +327,7 @@
       }
     },
     {
-      "name": "Topografisch Element",
+      "name": "TopografischElement",
       "EA-Guid": "{9BC87224-76A4-4cea-B4A1-AF8CEB78894E}",
       "definition": {
         "nl": "Onderdeel van de beschrijving van vorm en kenmerken van het aardoppervlak."
@@ -336,7 +336,7 @@
         "nl": "Topografisch Element"
       },
       "usage": {
-        "nl": "Typische elementen zijn o.a. relief landvormen, waterlichamen en vegetatie."
+        "nl": "Typische elementen zijn relief, landvormen, waterlichamen en vegetatie."
       }
     },
     {
@@ -363,7 +363,7 @@
       }
     },
     {
-      "name": "VerticalePositie",
+      "name": "Verticalepositie",
       "EA-Guid": "{40E4039D-D47D-43cc-A456-E9BB6DC89632}",
       "definition": {
         "nl": "Positie in verticale richting tov een Referentieoppervlak."
@@ -414,11 +414,11 @@
         "nl": "waarschuwingstype"
       },
       "usage": {
-        "nl": "Bvb een bovengronds signalisatiebord om een ondergrondse gasleiding aan te duiden."
+        "nl": "Bijvoorbeeld een ondergrondse beschermplaat of net."
       }
     },
     {
-      "name": "verticalePositiedetail",
+      "name": "verticalepositiedetail",
       "EA-Guid": "{3E2BEB3C-ED0C-45eb-8A4D-26B592DC703C}",
       "definition": {
         "nl": "Detail van de VerticalePositie van het element."
@@ -441,7 +441,7 @@
       }
     },
     {
-      "name": "thermischProducttype",
+      "name": "thermischproducttype",
       "EA-Guid": "{A40FF424-FB83-49cf-B879-64D434DBF054}",
       "definition": {
         "nl": "Het type thermisch product dat door de ThermischePijp wordt getransporteerd."
@@ -484,7 +484,7 @@
       }
     },
     {
-      "name": "technischeSpecificatie",
+      "name": "technischespecificatie",
       "EA-Guid": "{D1F1C4B4-DC83-4a67-81CB-BC1EDBCC6C0E}",
       "definition": {
         "nl": "Nadere bepaling van de linkset."
@@ -493,11 +493,11 @@
         "nl": "technischeSpecificatie"
       },
       "usage": {
-        "nl": "Bv diameter, materiaal etc. Bvb PE200 om polyethyleenbuis van 200mm diameter te specifiëren."
+        "nl": "Bijvoorbeeld 4g10 om 4-aderige kabel van 10mm doorsnee te specifiëren."
       }
     },
     {
-      "name": "standaardVerticalePositiedetail",
+      "name": "standaardverticalepositiedetail",
       "EA-Guid": "{B9EA9A8D-4691-4abf-B386-E4AAD3C43262}",
       "definition": {
         "nl": "Standaard VerticalePositie van elementen in het netwerk."
@@ -533,7 +533,7 @@
       }
     },
     {
-      "name": "referentieOppervlak",
+      "name": "referentieoppervlak",
       "EA-Guid": "{D93D22C8-1B5E-474f-95B6-C0E911F903C3}",
       "definition": {
         "nl": "Verwijzing naar het Referentieoppervlak."
@@ -566,13 +566,10 @@
       },
       "label": {
         "nl": "paalhoogte"
-      },
-      "usage": {
-        "nl": "De hoogte is de verticale afstand gemeten ten opzichte van het object - in dit geval de paal, loodrecht op de lengte."
       }
     },
     {
-      "name": "olieGasChemicaliënProducttype",
+      "name": "oliegaschemicaliënproducttype",
       "EA-Guid": "{3D899D97-F9FB-4713-AF79-B35E4B6E73FF}",
       "definition": {
         "nl": "Het type olie-, gas- of chemisch product dat door de olie-, gas- of chemische pijp wordt getransporteerd."
@@ -595,7 +592,7 @@
       }
     },
     {
-      "name": "nominale Spanning",
+      "name": "nominaleSpanning",
       "EA-Guid": "{D80FB65E-9810-4c90-B645-6A15AA20DE7E}",
       "definition": {
         "nl": "Spanning zonder belasting."
@@ -678,7 +675,7 @@
       }
     },
     {
-      "name": "huidigeStatus",
+      "name": "huidigestatus",
       "EA-Guid": "{620BDA84-47A6-4539-A478-BD9784B7D738}",
       "definition": {
         "nl": "De status van het element met betrekking tot de voltooiing en het gebruik ervan."
@@ -688,7 +685,7 @@
       }
     },
     {
-      "name": "geldigVan",
+      "name": "geldigvan",
       "EA-Guid": "{08E6867D-A670-47e6-9893-7E03DDD46AAD}",
       "definition": {
         "nl": "Tijdstip vanaf wanneer het element in de werkelijkheid bestond."
@@ -698,7 +695,7 @@
       }
     },
     {
-      "name": "geldigTot",
+      "name": "geldigtot",
       "EA-Guid": "{A4140A3E-53BA-4c9f-ADCD-FB3F99086F43}",
       "definition": {
         "nl": "Tijdstip tot wanneer het element in de werkelijkheid bestond."
@@ -721,7 +718,7 @@
       }
     },
     {
-      "name": "geassocieerd met",
+      "name": "geassocieerdMet",
       "EA-Guid": "{F7F51210-A7F4-4437-9BDF-7C629E2F219C}",
       "definition": {
         "nl": "Object waar de Annotatie betrekking op heeft"
@@ -813,17 +810,7 @@
       }
     },
     {
-      "name": "complex",
-      "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
-      "definition": {
-        "nl": "Activiteitencomplex dat tot het netwerk behoort."
-      },
-      "label": {
-        "nl": "complex"
-      }
-    },
-    {
-      "name": "bevoegdePartij",
+      "name": "bevoegdepartij",
       "EA-Guid": "{460A170A-99A8-49f8-9331-EA274380EA6F}",
       "definition": {
         "nl": "Partijen die bevoegd zijn om het Nutsvoorzieningnetwerk te beheren, exploiteren of er eigenaar van is."
@@ -857,9 +844,9 @@
     },
     {
       "name": "activiteitencomplexreferentie",
-      "EA-Guid": "{672ABBB0-EA81-4967-ADF7-DBC7785AF25C}",
+      "EA-Guid": "{703DE74E-31B6-4e66-8119-0C1E4A9DA973}",
       "definition": {
-        "nl": "Verwijzing naar een facilitair Activiteitencomplex dat is gekoppeld aan (bijvoorbeeld een deel van) dit nutsnetwerk."
+        "nl": "Activiteitencomplex dat tot het netwerk behoort."
       },
       "label": {
         "nl": "activiteitencomplexreferentie"
@@ -876,7 +863,7 @@
       }
     },
     {
-      "name": "geografischeNaam",
+      "name": "geografischenaam",
       "EA-Guid": "{B6C22904-47E0-426d-A9AD-C97A0E064632}",
       "definition": {
         "nl": "Naam waaronder het netwerk bekend staat."
@@ -886,7 +873,7 @@
       }
     },
     {
-      "name": "verticalePositie",
+      "name": "verticalepositie",
       "EA-Guid": "{64B8CC6E-38B7-4a3f-AA9E-79F6B9E95868}",
       "definition": {
         "nl": "De VerticalePositie als positie in een verticaal coördinaatsysteem."
@@ -899,7 +886,7 @@
       }
     },
     {
-      "name": "verticalePositie",
+      "name": "verticalepositie",
       "EA-Guid": "{D0CCE6E4-1ACB-424b-A647-35AB3C9294FE}",
       "definition": {
         "nl": "De VerticalePositie van het Referentieoppervlak als positie in een verticaal coördinaatsysteem."
@@ -942,7 +929,7 @@
       }
     },
     {
-      "name": "uitgevoerdDoor",
+      "name": "uitgevoerddoor",
       "EA-Guid": "{BEBD754F-44EA-46ce-96B8-6AE3DF508400}",
       "definition": {
         "nl": "Agent die de Opmeting heeft uitgevoerd."
@@ -962,7 +949,7 @@
       }
     },
     {
-      "name": "verticalePositie",
+      "name": "verticalepositie",
       "EA-Guid": "{C7E00557-C167-4ec9-9AE4-E1B312D0DF12}",
       "definition": {
         "nl": "Algemene aanduiding van de VerticalePositie van het element."
@@ -975,7 +962,7 @@
       }
     },
     {
-      "name": "inNetwerk",
+      "name": "innetwerk",
       "EA-Guid": "{25ECF8B0-9A86-46e7-AFDD-CF9500DD25E3}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het element behoort."
@@ -988,7 +975,7 @@
       "name": "zichtbaarheid",
       "EA-Guid": "{C121EB7C-3DD7-4bc3-A3F8-DABD7055BF89}",
       "definition": {
-        "nl": "Mate waarin de container waarneembaar is."
+        "nl": "Mate waarin de linkset waarneembaar is."
       },
       "label": {
         "nl": "zichtbaarheid"
@@ -1150,13 +1137,13 @@
       }
     },
     {
-      "name": "inNetwork",
+      "name": "innetwerk",
       "EA-Guid": "{622A4782-F304-42fe-A5D9-EF31D38D0479}",
       "definition": {
         "nl": "Nutsvoorzieningnetwerk waartoe het complex behoort."
       },
       "label": {
-        "nl": "inNetwork"
+        "nl": "inNetwerk"
       }
     },
     {
@@ -1184,7 +1171,7 @@
         "nl": "Lengte"
       },
       "usage": {
-        "nl": "Typisch gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren. OPMERKING: de kromme kan een Curve zijn, maar ook een Lijnstring of zelfs een rechte (Linstring met enkel begin- en eindpunt)."
+        "nl": "Hier gebruikt om de afmeting van iets te beschrijven, bvb de hoogte van een toren."
       }
     },
     {
@@ -1221,7 +1208,7 @@
       }
     },
     {
-      "name": "PositioneleNauwkeurigheid",
+      "name": "Positionelenauwkeurigheid",
       "EA-Guid": "{51A7F2F8-BF72-48d9-8744-8AAE8893AF88}",
       "definition": {
         "nl": "Mate waarin een opgegeven positie de werkelijke positie vertegenwoordigt."
@@ -1290,7 +1277,7 @@
       }
     },
     {
-      "name": "RisicoType",
+      "name": "Risicotype",
       "EA-Guid": "{DAA69E92-355C-4f0a-A8C8-EC9EFAA7C509}",
       "definition": {
         "nl": "De aard van het risico"
@@ -1310,7 +1297,7 @@
       }
     },
     {
-      "name": "MateriaalType",
+      "name": "Materiaaltype",
       "EA-Guid": "{11E84A6A-4ECA-497e-92DE-595261982FAB}",
       "definition": {
         "nl": "De aard van het gebruikte materiaal"
@@ -1350,7 +1337,7 @@
       }
     },
     {
-      "name": "Verticale Positietype",
+      "name": "VerticalePositietype",
       "EA-Guid": "{75E41100-4B17-4450-A30D-9B65EF8E95C9}",
       "definition": {
         "nl": "TO DO"
@@ -1390,7 +1377,7 @@
       }
     },
     {
-      "name": "OlieGasChemicalientype",
+      "name": "Oliegaschemicalientype",
       "EA-Guid": "{A11F8830-B1BA-434e-855D-7905B5F2F0B9}",
       "definition": {
         "nl": "Classificatie van de olie, gas of chemicaliën."
@@ -1420,7 +1407,7 @@
       }
     },
     {
-      "name": "Thermisch Producttype",
+      "name": "ThermischProducttype",
       "EA-Guid": "{F2D48811-960A-4059-BB29-0FE2E787B3AA}",
       "definition": {
         "nl": "Classificatie van het termisch product."
@@ -1450,7 +1437,7 @@
       }
     },
     {
-      "name": "EconomischeActiviteittype",
+      "name": "Economischeactiviteittype",
       "EA-Guid": "{FC07E928-D5AF-4649-BAEC-B4B110C3DD8B}",
       "definition": {
         "nl": "Classificatie van de economische activiteit."
@@ -1480,7 +1467,7 @@
       }
     },
     {
-      "name": "TopografischElementtype",
+      "name": "Topografischelementtype",
       "EA-Guid": "{1BA73C20-E4A8-4819-B850-70A653BB3CCC}",
       "definition": {
         "nl": "Classificatie van het topografisch element."
@@ -1530,7 +1517,7 @@
       }
     },
     {
-      "name": "Beschermd Gebiedtype",
+      "name": "BeschermdGebiedtype",
       "EA-Guid": "{28603502-2A1C-4eb1-853A-3D296460F944}",
       "definition": {
         "nl": "Classificatie van de soorten beschermd gebied"
@@ -1562,7 +1549,7 @@
         "nl": "Adresvoorstelling"
       },
       "usage": {
-        "nl": "Bv als attribuut ve persoon of gebouw... De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen)."
+        "nl": "Bv als attribuut ve persoon of gebouw. De adresvoorstelling heeft niet enkel betrekking op Belgische adressen, ze kan gebruikt worden om buitenlandse adressen weer te geven (waar mogelijk andere adresaanduidingen dan huisnummer of busnummer worden gebruikt of waar adrescomponenten zoals adresgebieden voorkomen)."
       }
     },
     {
@@ -1621,7 +1608,7 @@
         "nl": "Adres"
       },
       "usage": {
-        "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding...) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
+        "nl": "De definitie heeft betrekking op Belgische adressen. In andere landen kan een adres eventueel verwijzen naar andere geografisch objecten (niet gebouweenheid of perceel) of bestaan uit andere aanduidingen (verschillend van huisnummer en busnummer) of uit andere componenten dan straatnaam, gemeentenaam of postcode. Alternatieve adresaanduidingen dan huisnummer of busnummer (bv ingangaanduiding, trapaanduiding, verdiepaanduiding) of een gebouwnaam of kamernaam ed zijn mogelijk dmv een associatie met adresuitbreiding. Uitwisseling van buitenlandse adressen moet gebeuren mbv het object adresvoorstelling."
       }
     },
     {
@@ -1638,7 +1625,7 @@
       }
     },
     {
-      "name": "DirectePositie",
+      "name": "Directepositie",
       "EA-Guid": "{E1C752A5-926C-4002-90AB-71AFE74813C7}",
       "definition": {
         "nl": "Houder van de coördinaten van een positie in een coördinaatreferentiesysteem."
@@ -1647,7 +1634,7 @@
         "nl": "DirectePositie"
       },
       "usage": {
-        "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak...) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
+        "nl": "Typisch gebruikt om de geometrie van een ruimtelijk object te beschrijven of de geometrische primitieven (bv punt, Lijn, Vlak) waaruit dat object is samengesteld. Een DirectePositie kan echter ook op zichzelf staan om een positie in de ruimte te beschrijven. De positie wordt gegeven in een coördinaatreferentiesysteem. Dat referentiesysteem wordt expliciet bij de DirectePositie opgegeven, tenzij deze deel uitmaakt van een ruimtelijk object (bv een geometrische primitieve) waar al een referentiesysteem wordt vermeld. Ter info: Een coördinaatreferentiesysteem verschilt van een indirect ruimtelijk referentiesysteem in die zin dat posities direct dmv coördinaten worden opgegeven ipv indirect door een adres of plaatsnaam."
       }
     },
     {
@@ -1671,7 +1658,7 @@
       }
     },
     {
-      "name": "GeneriekeLink",
+      "name": "Generiekelink",
       "EA-Guid": "{52D7A324-E792-41ac-83A2-90779B2FDA85}",
       "definition": {
         "nl": "Lineair Netwerkelement."
@@ -1681,7 +1668,7 @@
       }
     },
     {
-      "name": "Gerichte link",
+      "name": "GerichteLink",
       "EA-Guid": "{06A0BCCE-8BA9-43ab-81DB-8E585F2A3D0A}",
       "definition": {
         "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting."
@@ -1922,7 +1909,7 @@
       }
     },
     {
-      "name": "verwijst Naar",
+      "name": "verwijstNaar",
       "EA-Guid": "{B50209E4-649A-4254-91F5-EC1CE741AC30}",
       "definition": {
         "nl": "Adres waarvan de adresvoorstelling is afgeleid."
@@ -1944,20 +1931,20 @@
         "nl": "land"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
       "name": "gemeentenaam",
       "EA-Guid": "{3EF41ECC-1798-4618-9628-42C246A49358}",
       "definition": {
-        "nl": "Gemeentenaam vh adres."
+        "nl": "Gemeentenaam van het adres."
       },
       "label": {
         "nl": "gemeentenaam"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2000,13 +1987,13 @@
       "name": "straatnaam",
       "EA-Guid": "{CF7A8796-A603-40bd-BEB3-0A061B4D12D2}",
       "definition": {
-        "nl": "Straatnaam vh adres."
+        "nl": "Straatnaam van het adres."
       },
       "label": {
         "nl": "straatnaam"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2019,7 +2006,7 @@
         "nl": "postnaam"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2032,7 +2019,7 @@
         "nl": "postcode"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2045,20 +2032,20 @@
         "nl": "postbus"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
       "name": "locatienaam",
       "EA-Guid": "{961B165A-2D89-419f-842D-09B23DFB1C7B}",
       "definition": {
-        "nl": "Naam of omschrijving vh het geografisch object dat de adreslocator aanduidt."
+        "nl": "Naam of omschrijving van het het geografisch object dat de adreslocator aanduidt."
       },
       "label": {
         "nl": "locatienaam"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2071,7 +2058,7 @@
         "nl": "locatieaanduiding"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2154,7 +2141,7 @@
       }
     },
     {
-      "name": "volledig Adres",
+      "name": "volledigAdres",
       "EA-Guid": "{A5B9B891-7D0A-4216-85B1-4E0705CE15F1}",
       "definition": {
         "nl": "Het complete adres in één string, al dan niet geformatteerd."
@@ -2167,29 +2154,29 @@
       }
     },
     {
-      "name": "administratieve eenheid niveau 2",
+      "name": "administratieveEenheidNiveau2",
       "EA-Guid": "{E33A216E-2CA4-4c37-8857-D2D37262F35B}",
       "definition": {
-        "nl": "De regio vh adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
+        "nl": "De regio van het adres, doorgaans een provincie of deelstaat of gelijkaardig gebied dat typisch meerdere plaatsen omvat."
       },
       "label": {
         "nl": "administratieve eenheid niveau 2"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
-      "name": "administratieve eenheid niveau 1",
+      "name": "administratieveEenheidNiveau1",
       "EA-Guid": "{8DC1493A-7FA0-47cc-85D4-A2CFCAFFCEC6}",
       "definition": {
-        "nl": "Hoogste Administratieve eenheid vh adres, doorgaans een land."
+        "nl": "Hoogste Administratieve eenheid van het adres, doorgaans een land."
       },
       "label": {
         "nl": "administratieve eenheid niveau 1"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2202,7 +2189,7 @@
         "nl": "adresgebied"
       },
       "usage": {
-        "nl": "Bvb de naam vh gehucht waarin het adres ligt."
+        "nl": "Bvb de naam van het gehucht waarin het adres ligt."
       }
     },
     {
@@ -2216,7 +2203,7 @@
       }
     },
     {
-      "name": "toegekend door (String)",
+      "name": "toegekendDoor(string)",
       "EA-Guid": "{CAB540CE-2448-4f13-8C42-36FC9E80F055}",
       "definition": {
         "nl": "Naam vd agent die de identificator heeft toegekend."
@@ -2225,7 +2212,7 @@
         "nl": "toegekend door (String)"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2275,7 +2262,7 @@
       }
     },
     {
-      "name": "als WKT",
+      "name": "alsWkt",
       "EA-Guid": "{51FC18F5-A6A3-4869-A42E-DB57B5020058}",
       "definition": {
         "nl": "Geometrie uitgedrukt in wkt-formaat."
@@ -2284,7 +2271,7 @@
         "nl": "als WKT"
       },
       "usage": {
-        "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype."
+        "nl": "Gebruik <a href=\\\"http://www.opengis.net/ont/geosparql#wktLiteral\\\">wktliteral</a> als datatype."
       }
     },
     {
@@ -2301,7 +2288,7 @@
       }
     },
     {
-      "name": "als GML",
+      "name": "alsGml",
       "EA-Guid": "{A6A5C173-385B-4359-9734-D190E74E58CF}",
       "definition": {
         "nl": "Geometrie uitgedrukt in gml-formaat."
@@ -2310,7 +2297,7 @@
         "nl": "als GML"
       },
       "usage": {
-        "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype."
+        "nl": "Use <a href=\\\"http://www.opengis.net/ont/geosparql#gmlLiteral\\\">gmlliteral</a> as datatype."
       }
     },
     {
@@ -2344,7 +2331,7 @@
       }
     },
     {
-      "name": "toegekend op",
+      "name": "toegekendOp",
       "EA-Guid": "{78315B70-7A7F-431b-BE60-F3B46EE2F912}",
       "definition": {
         "nl": "Tijdstip waarop de identificator werd uitgegeven."
@@ -2353,11 +2340,11 @@
         "nl": "toegekend op"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
-      "name": "toegekend door",
+      "name": "toegekendDoor",
       "EA-Guid": "{1E54387C-CF55-4a50-A953-506127298048}",
       "definition": {
         "nl": "Link naar de agent die de identificator heeft uitgegeven."
@@ -2366,7 +2353,7 @@
         "nl": "toegekend door"
       },
       "usage": {
-        "nl": " "
+        "nl": ""
       }
     },
     {
@@ -2393,7 +2380,7 @@
       }
     },
     {
-      "name": "topografisch elementtype",
+      "name": "topografischElementtype",
       "EA-Guid": "{CEBE3DCE-6574-4e46-9CBB-AA03B3C7C332}",
       "definition": {
         "nl": "Aard van het TopografischElement."
@@ -2426,7 +2413,7 @@
       }
     },
     {
-      "name": "documentType",
+      "name": "documenttype",
       "EA-Guid": "{852F1401-6D53-42bf-88B1-DEDEA6125EED}",
       "definition": {
         "nl": "Classificatie van het Document."
@@ -2456,7 +2443,7 @@
       }
     },
     {
-      "name": "verwijstNaar",
+      "name": "verwijstnaar",
       "EA-Guid": "{BC48E71B-AEBB-42a9-BA41-5AB847E8CA9E}",
       "definition": {
         "nl": "Het Object waar het Document betrekking op heeft."
