@@ -13,7 +13,7 @@
         "contributors-column": "MijnKolom",
         "site": "site-skeleton/kabels-en-leidingen-ap",
         "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
-        "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/applicatieprofiel-kabels-en-leidingen.html",
+        "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-kabels-en-leidingen/",
         "translation": [
             {
                 "language": "en",

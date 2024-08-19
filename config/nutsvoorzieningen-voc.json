@@ -12,7 +12,7 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/standaard-in-ontwikkeling/vocabularium-nutsvoorzieningen.html",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-nutsvoorzieningen/",
     "translation": [
       {
         "language": "en",
