@@ -2,7 +2,7 @@
     "title": "Vocabularium Nutsvoorzieningen",
     "category": "Vocabularium",
     "usage": "Aanbevolen",
-    "status": "standaard-in-ontwikkeling",
+    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "descriptionFileName": "kabels-en-leidingen-description.md",
     "responsibleOrganisation": [
       {
