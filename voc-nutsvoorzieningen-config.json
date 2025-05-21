@@ -1,7 +1,7 @@
 {
     "title": "Vocabularium Nutsvoorzieningen",
-    "category": "Vocabularium",
-    "usage": "Aanbevolen",
+    "category": "https://data.vlaanderen.be/id/concept/StandaardType/Vocabularium",
+    "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
     "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
     "descriptionFileName": "kabels-en-leidingen-description.md",
     "responsibleOrganisation": [
