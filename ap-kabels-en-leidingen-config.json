@@ -1,99 +1,99 @@
 {
-    "title": "Applicatieprofiel Kabels en Leidingen",
-    "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
-    "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
-    "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
-    "descriptionFileName": "kabels-en-leidingen-description.md",
-    "responsibleOrganisation": [
-      {
-        "name": "Agentschap Digitaal Vlaanderen",
-        "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
-      }
-    ],
-    "publicationDate": "2023-02-17",
-    "specificationDocuments": [
-      {
-        "name": "Kabels en Leidingen Applicatieprofiel",
-        "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen"
-      },
-      {
-        "name": "Cables and Pipes Application profile",
-        "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_en.html"
-      },
-      {
-        "name": "Câbles et Conduites Profil d'application",
-        "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_fr.html"
-      }
-    ],
-    "documentation": [],
-    "reports": [
-      {
-        "name": "Verslag business werkgroep - 24 april 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Business Workshop IMKL.pdf"
-      },
-      {
-        "name": "Verslag thematische werkgroep 1 - 25 mei 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 1 IMKL.pdf"
-      },
-      {
-        "name": "Verslag thematische werkgroep 2 - 29 juni 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 2 IMKL.pdf"
-      },
-      {
-        "name": "Verslag thematische werkgroep 3 - 7 september 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 3 IMKL.pdf"
-      },
-      {
-        "name": "Verslag thematische werkgroep 4 - 5 oktober 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 4 IMKL.pdf"
-      },
-      {
-        "name": "Verslag Webinar Publieke Review IMKL - 28 november 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Webinar IMKL 28.11.2023.pdf"
-      },
-      {
-        "name": "Technisch Rapport NL",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Technisch rapport OSLO IMKL - NL (3).pdf"
-      },
-      {
-        "name": "Technisch Rapport FR",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Technisch rapport OSLO IMKL - FR.pdf"
-      }
-    ],
-    "charter": {
-      "name": "Charter",
-      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/charter/Charter OSLO IMKL.docx"
+  "title": "Applicatieprofiel Kabels en Leidingen",
+  "category": "https://data.vlaanderen.be/id/concept/StandaardType/Applicatieprofiel",
+  "usage": "https://data.vlaanderen.be/id/concept/StandaardGebruik/Aanbevolen",
+  "status": "https://data.vlaanderen.be/id/concept/StandaardStatus/ErkendeStandaard",
+  "descriptionFileName": "kabels-en-leidingen-description.md",
+  "responsibleOrganisation": [
+    {
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
+    }
+  ],
+  "publicationDate": "",
+  "specificationDocuments": [
+    {
+      "name": "Kabels en Leidingen Applicatieprofiel",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen"
     },
-    "presentations": [
-      {
-        "name": "Presentatie business werkgroep - 24 april 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Business Werkgroep presentatie IMKL - 24 april 2023.pdf"
-      },
-      {
-        "name": "Presentatie thematische werkgroep 1 - 25 mei 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie eerste thematische werkgroep - IMKL -  25 mei 2023.pdf"
-      },
-      {
-        "name": "Presentatie thematische werkgroep 2 - 29 juni 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie tweede thematische werkgroep - IMKL -  29 juni 2023.pdf"
-      },
-      {
-        "name": "Presentatie thematische werkgroep 3 - 7 september 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie derde thematische werkgroep - IMKL - 7 september  2023.pdf"
-      },
-      {
-        "name": "Presentatie thematische werkgroep 4 - 5 oktober 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie vierde thematische werkgroep - IMKL - 5 oktober 2023.pdf"
-      },
-      {
-        "name": "Presentatie Webinar Publieke Review IMKL - 28 november 2023",
-        "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie Webinar Publieke Review.pdf"
-      }
-    ],
-    "dateOfRegistration": "2023-02-17",
-    "dateOfAcknowledgementByWorkingGroup": "TBD",
-    "dateOfAcknowledgementBySteeringCommittee": "TBD",
-    "repository": "OSLOthema-imkl",
-    "datePublicReviewStart": "",
-    "endOfPublicationDate": ""
-  }
+    {
+      "name": "Cables and Pipes Application profile",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_en.html"
+    },
+    {
+      "name": "Câbles et Conduites Profil d'application",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/kabels-en-leidingen/index_fr.html"
+    }
+  ],
+  "documentation": [],
+  "reports": [
+    {
+      "name": "Verslag business werkgroep - 24 april 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Business Workshop IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 1 - 25 mei 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 1 IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 2 - 29 juni 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 2 IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 3 - 7 september 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 3 IMKL.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - 5 oktober 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Thematische Werkgroep 4 IMKL.pdf"
+    },
+    {
+      "name": "Verslag Webinar Publieke Review IMKL - 28 november 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Verslag Webinar IMKL 28.11.2023.pdf"
+    },
+    {
+      "name": "Technisch Rapport NL",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Technisch rapport OSLO IMKL - NL (3).pdf"
+    },
+    {
+      "name": "Technisch Rapport FR",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/reports/Technisch rapport OSLO IMKL - FR.pdf"
+    }
+  ],
+  "charter": {
+    "name": "Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/charter/Charter OSLO IMKL.docx"
+  },
+  "presentations": [
+    {
+      "name": "Presentatie business werkgroep - 24 april 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Business Werkgroep presentatie IMKL - 24 april 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 1 - 25 mei 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie eerste thematische werkgroep - IMKL -  25 mei 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 2 - 29 juni 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie tweede thematische werkgroep - IMKL -  29 juni 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 3 - 7 september 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie derde thematische werkgroep - IMKL - 7 september  2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 4 - 5 oktober 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie vierde thematische werkgroep - IMKL - 5 oktober 2023.pdf"
+    },
+    {
+      "name": "Presentatie Webinar Publieke Review IMKL - 28 november 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-imkl/standaardenregister/presentations/Presentatie Webinar Publieke Review.pdf"
+    }
+  ],
+  "dateOfRegistration": "2023-02-17",
+  "dateOfAcknowledgementByWorkingGroup": "TBD",
+  "dateOfAcknowledgementBySteeringCommittee": "TBD",
+  "repository": "OSLOthema-imkl",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
+}
