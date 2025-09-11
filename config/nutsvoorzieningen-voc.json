@@ -12,29 +12,6 @@
     "contributors-file": "stakeholders.csv",
     "contributors-column": "MijnKolom",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-nutsvoorzieningen/",
-    "translation": [
-      {
-        "language": "en",
-        "template": "nutsvoorzieningen-voc_en.j2",
-        "title": "OSLO Utility Services",
-        "translationjson": "nutsvoorzieningen_en.json",
-        "mergefile": "nutsvoorzieningen_en_merged.json"
-      },
-      {
-        "language": "nl",
-        "template": "nutsvoorzieningen-voc.j2",
-        "title": "OSLO Nutsvoorzieningen",
-        "translationjson": "nutsvoorzieningen_nl.json",
-        "mergefile": "nutsvoorzieningen_nl_merged.json"
-      },
-      {
-        "language": "fr",
-        "template": "nutsvoorzieningen-voc_fr.j2",
-        "title": "OSLO Services",
-        "translationjson": "nutsvoorzieningen_fr.json",
-        "mergefile": "nutsvoorzieningen_fr_merged.json"
-      }
-    ]
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/vocabularium-nutsvoorzieningen/"
   }
 ]
