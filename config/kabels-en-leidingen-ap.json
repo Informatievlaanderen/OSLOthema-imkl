@@ -13,6 +13,29 @@
     "contributors-column": "MijnKolom",
     "site": "site-skeleton/kabels-en-leidingen-ap",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-imkl/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-kabels-en-leidingen/"
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-kabels-en-leidingen/",
+    "translation": [
+      {
+        "language": "en",
+        "template": "kabels-en-leidingen-ap_en.j2",
+        "title": "OSLO Cables and Pipes (Application profile)",
+        "translationjson": "kabels-en-leidingen-ap_en.json",
+        "mergefile": "kabels-en-leidingen-ap_en_merged.json"
+      },
+      {
+        "language": "nl",
+        "template": "kabels-en-leidingen-ap.j2",
+        "title": "OSLO Kabels en Leidingen (Applicatieprofiel)",
+        "translationjson": "kabels-en-leidingen-ap_nl.json",
+        "mergefile": "kabels-en-leidingen-ap_nl_merged.json"
+      },
+      {
+        "language": "fr",
+        "template": "kabels-en-leidingen-ap_fr.j2",
+        "title": "OSLO Câbles et Conduites (Profil d'application)",
+        "translationjson": "kabels-en-leidingen-ap_fr.json",
+        "mergefile": "kabels-en-leidingen-ap_fr_merged.json"
+      }
+    ]
   }
 ]
